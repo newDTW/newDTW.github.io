@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+<style type="text/css">
+body {
+  background-image: url("./back.png");
+}
+div{
+	width : 700px;
+	background-color : #ffffff;
+	margin: 20px auto;
+	padding: 15px;
+}
+div#title{
+	text-align: center;
+}
+div.code{
+	width : 500px;
+	background-color : #cccccc;
+	border-width: thick;
+	border-color: #000000;
+}
+</style>
+</head>
+<body>
+<div id="title">
+	<h2>ディアボロの大冒険 0.13 敵キャラ追加方法解説書</h2>
+</div>
+<div id="pre">
+	<h4>前置き</h4>
+	<ul>
+	  <li>この解説書は0.13を対象としています。0.12以前や0.14以降のバージョンに対してはこの解説書通りでは改造できません</li>
+	  <li>Windowsが前提です。Windows以外では出来ないと思ってください</li>
+	  <li>この解説書を読めばどんな改造でも出来るというわけではありません。しっかりした改造には十分な知識が必要です</li>
+	  <li>この解説書に従って改造しても、うまく動作しない事があるかもしれません。責任は負えません</li>
+	  <li>この解説書により発生した損害、不利益等の一切の責任は負いません</li>
+  	<li>この解説書は、ディアボロの大冒険スレの住人に、プログラミングについて興味を持ってもらうためのものです。もともと著作権的にグレーなものを改造するという超グレーゾーンな行為を助長するためのものではありません</li>
+  </ul>
+</div>
+<div id="container">
+まず練習として、第7部の第1〜2話に出てきた「ただのスリ」を追加してみます<br/><br/>
+<img src="suri1.png" width="700px"/>
+<img src="suri2.png" width="700px"/>
+<h1>ホテルの外の1Fに敵キャラを追加しよう</h1>
+<h3>画像の準備</h3>
+ソースコードといっしょにimg_enemy4a.gif、img_enemy4b.gifという画像をGETしたはずです<br/>
+お母さんヤギと警備員の西古の間にただのスリの画像を追加しましょう<br/>
+やり方は任せます<br/><br/>
+
+<img src="img_enemy4a.png" width="300px"/>
+<img src="img_enemy4b.png" width="300px"/>
+<h3>キャラ情報の追加</h3>
+
+キャラクターの設定は「*label_626」と書いてある行と「*label_627」と書いてある行の間にあります(104156行目から106613行目あたり)</br>
+「*label_627」と書いてある行の上に、以下のようにコードを追加してください</br>
+<b><font color="red">文字が赤くなっている部分が、追加して欲しいコードです</font></b>
+<div class="code">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_972 = 4<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1619 = 341<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1655 = "・地面に砂DIOを作ってくれるぞ"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1656 = ""<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1657 = ""<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1658 = ""<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/><b><font color="red">
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_437 == 167 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_891 = "ただのスリ"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_967 = 5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_968 = 5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_954 = 5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_438 = 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1637 = 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1654 = 10<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_972 = 1<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1619 = 701<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1655 = "・小銭を盗むぞ"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1656 = "・銃を撃つぞ"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1657 = ""<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1658 = ""<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/></font></b>
+&nbsp;&nbsp;&nbsp;&nbsp;return<br/>
+*label_627<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;dim var_977, 20<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_62 == 1 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gosub *label_628<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_62 == 2 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gosub *label_629<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+</div>
+「var_437 == XXX」とありますが、XXX はキャラクターのIDを表しています<br/>
+お母さんヤギと西古の間に画像を入れたので、167 と設定しています<br/>
+カタツムリと虫食いでないの間に画像を入れたなら 171です<br/>
+「var_891 = "ただのスリ"」という行でキャラの名前が設定されます<br/>
+同じ要領で名前、攻撃、防御、経験値、体力、不明な値、ドロップ率、属性(人間、スタンド等)、番号(百の位は部数)、キャラの説明、を設定します<br/>
+ここには好きな数値を設定してかまいません
+
+<h3>キャラのモーション設定</h3>
+
+なんと、今の段階では不要です<br/>
+もうすこし詳しい情報はオマケとして下に書きました
+
+<h3>キャラの出没箇所設定</h3>
+
+キャラクターが出現するようにしましょう<br/>
+キャラクターの出没箇所は「*label_627」と書いてある行から「*label_635」と書いてある行の間に書いてあります(106667行目以降)<br/>
+とくに「*label_628」と書いてある行以降が「ホテルの外に出現するキャラ」を設定するコードです<br/>
+同様にlabel_629以降が「レクイエムの大迷宮」、label_630が「ディアボロの試練」といった感じです<br/>
+「*label_628」と書いてある行の下に、以下のようにコードを追加してください</br>
+<div>
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_94 == 7 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_977 = 90, 90, 90, 90, 88, 88, 27<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_2917 = rnd(7)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_953 = var_977(var_2917)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;return<br/>
+*label_628<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_91 == 1 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_977 = 1, 5<b><font color="red">, 167</font></b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_2917 = rnd(<b><font color="red">3</font></b>)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_953 = var_977(var_2917)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_91 == 2 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_977 = 147, 1, 5<b><font color="red">, 167</font></b><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_2917 = rnd(<b><font color="red">4</font></b>)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_953 = var_977(var_2917)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_91 == 3 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_977 = 93, 2, 147, 5<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_2917 = rnd(4)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_953 = var_977(var_2917)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+</div>
+var_91は階数を表していています<br/>
+var_977 = XX, YYにキャラクターのIDを追加し、その個数にあわせてrnd(ZZ)の中の数値を変えるだけで、ダンジョンの何階にどの敵が出てくるかを設定できます<br/>
+つまり上のように書き換えることで、ホテルの外の1Fと2Fにただのスリが出現するようになったということです<br/>
+ちなみに、rndは「ランダム」の略です。設定したIDから、ランダムにひとつ選ぶということです<br/><br/><br/>
+
+<h3>コンパイルしましょう</h3>
+ここまでを実装するだけで、敵キャラが追加されるはずです<br/>
+とは言っても、殴るしかしてきません。銃を持ってるのに撃ってきません<br/>
+次回は銃を撃たせる処理を追加します<br/><br/><br/>
+
+
+<h3>オマケ (ちょっと難易度が高めの話)</h3>
+察しの良い方なら気づいているとおもいますが、img_enemy4a.gifには追加できるキャラに限りが有ります<br/>
+27キャラぶん追加すれば、そこでオシマイのように見えます。<br/>
+安直にimg_enemy5a.gifという画像を作っただけではそもそも読み込んでもらえません<br/>
+まず画像を読みこませるために1100行目あたりに下のコードを追加してください<br/>
+順序はさほど問題ではないので、それらしい所に好きに入れてください
+<div class="code"><b><font color="red">
+&nbsp;&nbsp;&nbsp;&nbsp;buffer 32<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;picload "img_enemy5a.gif"<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;buffer 33<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;picload "img_enemy5b.gif"<br/></font></b>
+</div>
+このコードを追加したところで、img_enemy5a.gifという画像が読み込まれただけではキャラが増えません<br/>
+キャラクターのIDにあわせて画像をチョイスする処理を追加しなければならないです。<br/>
+その処理がどこに書いてあるかというと、*label_567のあたりです(85701行目のあたり)<br/>
+以下のようなコードを「*label_567」の後に追加してください
+<div class="code">
+&nbsp;&nbsp;&nbsp;&nbsp;var_2592 = var_83(var_1641, 2) - 2<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_2592 < 0 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_2592 = 0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;var_1642 = 1<br/>
+*label_567<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;if ( var_1642 == 1 ) {<br/><b><font color="red">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( var_83(var_1641, 0) >= 200 & var_83(var_1641, 0) < 350 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_965 = 32<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1826 = 33<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_966 = var_83(var_1641, 0) - 200<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/></font></b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if ( var_83(var_1641, 0) < 50 ) {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_965 = 6<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_1826 = 15<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var_966 = var_83(var_1641, 0)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+</div>
+var_83は既に出現しているキャラクターのデータが入った二重配列です<br/>
+var_83(var_1641, 0)は、キャラクターのIDです<br/>
+これで、img_enemy5a.gifを追加したうえでIDが200以上の敵を追加することが可能になります
+<br/><br/><br/><br/>
+<a href="add0.html">戻る</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="add2.html">次はただのスリに銃を実装します</a><br/>
+</div>
+</body>
+</html>
