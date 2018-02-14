@@ -5,8 +5,8 @@ function makepal(){
 		var_2 = i * 32;
 		for(var j=0; j<120; j++){
 			var_3 = limit(j % 5 * 64 + var_2, 0, 255);
-			var_4 = limit(j / 5 % 5 * 64 + var_2, 0, 255);
-			var_5 = limit(j / 25 % 5 * 64 + var_2, 0, 255);
+			var_4 = limit(Math.floor(j / 5) % 5 * 64 + var_2, 0, 255);
+			var_5 = limit(Math.floor(j / 25) % 5 * 64 + var_2, 0, 255);
 			if ( (var_3 == var_4 && var_4 == var_5 && var_5 == var_3) == 0 ) {
 				palette(var_1, var_3, var_4, var_5);
 				var_1++;
@@ -2547,7 +2547,7 @@ function func019_4(){
 function func019_5(){
 	if ( var_151 == 0 ) {
 		if ( var_350 > 0 && var_211 >= 1 && var_134 == 0 && var_218 < 30 ) {
-			var_351 = var_352 * 10 / 150;
+			var_351 = Math.floor(var_352 * 10 / 150);
 			var_353 = var_351 + var_354;
 			if ( var_130 == 1 || var_182 == 1 ) {
 				var_353 = var_353 * 2;
@@ -4095,7 +4095,7 @@ function func020_5(){
 				var_416 = var_415;
 			}
 			if ( var_415 > 500 ) {
-				var_416 = var_415 / 2;
+				var_416 = Math.floor(var_415 / 2);
 			}
 			var_415 = var_415 - var_416;
 			var_83[var_412][26] = 1;
@@ -4342,7 +4342,7 @@ function func020_10(){
 			var_437 = var_83[var_421][0];
 			func626();
 			if ( var_83[var_421][39] >= 2 ) {
-				var_438 = var_438 * (var_83[var_421][39] + 10) / 10;
+				var_438 = Math.floor(var_438 * (var_83[var_421][39] + 10) / 10);
 				if ( var_438 >= 999 ) {
 					var_438 = 999;
 				}
@@ -8711,8 +8711,8 @@ function func076(){						// ステージ名の表示
 		gcopy(34, 640, 920, 340, 40);
 	}
 	if ( var_62 != 0 && var_62 != 99 && var_94 == 0 ) {
-		var_596 = var_91 / 100;
-		var_597 = (var_91 - var_596 * 100) / 10;
+		var_596 = Math.floor(var_91 / 100);
+		var_597 = Math.floor((var_91 - var_596 * 100) / 10);
 		var_598 = var_91 - var_596 * 100 - var_597 * 10;
 		var_596 = var_596 * 20 + 640;
 		var_597 = var_597 * 20 + 640;
@@ -8858,8 +8858,8 @@ function func077(){
 		gcopy(34, 640, 920, 340, 40);
 	}
 	if ( var_62 != 0 && var_62 != 99 && var_94 == 0 ) {
-		var_596 = var_91 / 100;
-		var_597 = (var_91 - var_596 * 100) / 10;
+		var_596 = Math.floor(var_91 / 100);
+		var_597 = Math.floor((var_91 - var_596 * 100) / 10);
 		var_598 = var_91 - var_596 * 100 - var_597 * 10;
 		var_596 = var_596 * 20 + 640;
 		var_597 = var_597 * 20 + 640;
@@ -10025,8 +10025,8 @@ function func080(func){							// キー入力の管理
 				var_10 = 0;
 			}
 			var_637 = 1;
-			var_641 = (var_638 - 340) / 2;
-			var_642 = (var_639 - 340) / 2;
+			var_641 = Math.floor((var_638 - 340) / 2);
+			var_642 = Math.floor((var_639 - 340) / 2);
 			bgscr(0, 680, 680, 2, var_641, var_642, 340, 340);
 			gsel(0, 2);
 			while(true){
@@ -10054,8 +10054,8 @@ function func080(func){							// キー入力の管理
 			bgscr(37, var_638, var_639, 1, 0, 0);
 			title_("");
 			cls(4);
-			var_641 = (var_638 - var_643) / 2;
-			var_642 = (var_639 - var_644) / 2;
+			var_641 = Math.floor((var_638 - var_643) / 2);
+			var_642 = Math.floor((var_639 - var_644) / 2);
 			bgscr(0, var_643, var_644, 2, var_641, var_642);
 			gsel(0, 2);
 			while(true){
@@ -10082,13 +10082,13 @@ function func080(func){							// キー入力の管理
 			var_644 = var_639;
 			var_645 = var_643;
 			var_646 = var_644;
-			var_641 = (var_638 - var_643) / 2;
-			var_642 = (var_639 - var_644) / 2;
+			var_641 = Math.floor((var_638 - var_643) / 2);
+			var_642 = Math.floor((var_639 - var_644) / 2);
 			bgscr(37, var_638, var_639, 1, 0, 0);
 			title_("");
 			cls(4);
-			var_641 = (var_638 - var_643) / 2;
-			var_642 = (var_639 - var_644) / 2;
+			var_641 = Math.floor((var_638 - var_643) / 2);
+			var_642 = Math.floor((var_639 - var_644) / 2);
 			bgscr(0, var_643, var_644, 2, var_641, var_642);
 			gsel(0, 2);
 			while(true){

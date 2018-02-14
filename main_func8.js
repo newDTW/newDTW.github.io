@@ -3785,8 +3785,8 @@ function func850(){
 }
 function func851(){
 	if ( mousex > 10 && mousex < 330 && mousey > 10 && mousey < 330 ) {
-		var_3264 = (mousex - 10) / 40;
-		var_3265 = (mousey - 10) / 40;
+		var_3264 = Math.floor((mousex - 10) / 40);
+		var_3265 = Math.floor((mousey - 10) / 40);
 	}
 	else {
 		var_3264 = 20;
@@ -3794,7 +3794,7 @@ function func851(){
 	}
 	var_3279 = var_66 + var_3264 + 1;
 	var_3280 = var_67 + var_3265 + 1;
-	var_3281 = (ginfo(10) - ginfo(12)) / 2;
+	var_3281 = Math.floor((ginfo(10) - ginfo(12)) / 2);
 	var_3282 = var_3281;
 	var_3283 = ginfo(11) - 340 - var_3282;
 	var_3284 = ginfo(4) + var_3281 + 10;
@@ -4838,7 +4838,7 @@ function func862(){
 			var_437 = var_83[var_3140][0];
 			var_3317 = "p" + var_437 + "e";
 			var_3318 = instr(var_3319, 0, var_3317);
-			var_3320 = var_3318 / 12;
+			var_3320 = Math.floor(var_3318 / 12);
 			var_3246 = var_3320;
 			var_3247 = var_3246;
 			clrobj(2, 2);
@@ -4864,7 +4864,7 @@ function func862(){
 			var_3321 = var_78[var_3140][0];
 			var_3317 = "p" + var_3321 + "e";
 			var_3318 = instr(var_3322, 0, var_3317);
-			var_3320 = var_3318 / 12;
+			var_3320 = Math.floor(var_3318 / 12);
 			var_873 = var_3320;
 			var_3248 = var_873;
 			clrobj(3, 3);
@@ -4916,7 +4916,7 @@ function func862(){
 			var_3323 = var_81[var_3140][0];
 			var_3317 = "p" + var_3323 + "e";
 			var_3318 = instr(var_3324, 0, var_3317);
-			var_3320 = var_3318 / 12;
+			var_3320 = Math.floor(var_3318 / 12);
 			var_3249 = var_3320;
 			var_3250 = var_3249;
 			clrobj(4, 4);
@@ -5027,8 +5027,8 @@ function func863(){
 		return func851();
 	}
 	if ( mousex >= 362 && mousex <= 517 && mousey >= 206 && mousey <= 304 ) {
-		var_3325 = (mousex - 362) / 3;
-		var_3326 = (mousey - 206) / 3;
+		var_3325 = Math.floor((mousex - 362) / 3);
+		var_3326 = Math.floor((mousey - 206) / 3);
 		var_66 = var_3325;
 		var_67 = var_3326;
 		if ( var_66 < 3 ) {
@@ -6832,7 +6832,7 @@ function func883(){
 	notesel(var_3490);
 	var_3491 = 0;
 	var_3491 = noteinfo(0);
-	var_3492 = var_3491 / 10 + 1;
+	var_3492 = Math.floor(var_3491 / 10) + 1;
 	var_3493 = dim(var_3491);
 	var_3494 = 0;
 	var_3495 = "";
@@ -9500,7 +9500,7 @@ function func899(){
 				pos(var_1631 + 5, var_1632 + 58);
 				color(255, 255, 255);
 				if ( int(var_1068(5)) > 0 ) {
-					var_3555 = int(var_1068(4)) / int(var_1068(5));
+					var_3555 = Math.floor(int(var_1068(4)) / int(var_1068(5)));
 				}
 				if ( var_3555 < 2 ) {
 					color(255, 255, 255);

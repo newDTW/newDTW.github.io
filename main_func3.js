@@ -3632,7 +3632,7 @@ function func338(){
 	if ( var_637 >= 2 ) {
 		gsel(26);
 		gmode(0, 340, 340);
-		pos(var_643 / 2, var_644 / 2);
+		pos(Math.floor(var_643 / 2), Math.floor(var_644 / 2));
 		grotate(0, 0, 0, 0, var_643, var_644);
 		gsel(0);
 		gmode(0);
@@ -3674,7 +3674,7 @@ function func338(){
 	if ( var_637 >= 2 ) {
 		gsel(26);
 		gmode(0, 340, 340);
-		pos(var_645 / 2, var_646 / 2);
+		pos(Math.floor(var_645 / 2), Math.floor(var_646 / 2));
 		grotate(0, 0, 0, 0, var_645, var_646);
 		gsel(0);
 		pos(0, 0);
@@ -4181,7 +4181,7 @@ function func342(){							// 体力等のパラメータの描画
 		pos(var_50, var_41);
 	}
 	if ( var_211 > 0 ) {
-		var_1234 = var_352 / var_211;
+		var_1234 = Math.floor(var_352 / var_211);
 	}
 	if ( var_1234 < 2 ) {
 		color(255, 255, 255);
@@ -4243,7 +4243,7 @@ function func342(){							// 体力等のパラメータの描画
 		pos(var_50 + 1, var_41);
 	}
 	if ( var_211 > 0 ) {
-		var_1234 = var_352 / var_211;
+		var_1234 = Math.floor(var_352 / var_211);
 	}
 	if ( var_1234 < 2 ) {
 		color(255, 255, 255);
@@ -8991,12 +8991,12 @@ function func354(){						// 6000行以上あるアホとしか言いようが無
 			func626();
 			var_1331 = var_438;
 			if ( var_83[var_268][39] >= 2 ) {
-				var_1331 = var_438 * (var_83[var_268][39] + 10) / 10;
+				var_1331 = Math.floor(var_438 * (var_83[var_268][39] + 10) / 10);
 				if ( var_1331 >= 999 ) {
 					var_1331 = 999;
 				}
 			}
-			var_1332 = var_83[var_268][3] * 100 / var_1331;
+			var_1332 = Math.floor(var_83[var_268][3] * 100 / var_1331);
 			color(0, 255, 0);
 			font("MS ゴシック", 12);
 			var_1333 = "" + var_1332 + " %";
@@ -9010,7 +9010,7 @@ function func354(){						// 6000行以上あるアホとしか言いようが無
 			if ( var_437 != 46 && var_437 != 30 && var_437 != 124 && var_437 != 85 && var_437 != 99 && var_437 == 153 ) {
 				func626();
 				if ( var_83[var_268][39] >= 2 ) {
-					var_967 = var_967 * (var_83[var_268][39] * 2 + 10) / 10;
+					var_967 = Math.floor(var_967 * (var_83[var_268][39] * 2 + 10) / 10);
 				}
 				if ( var_83[var_268][25] >= 1 && var_83[var_268][25] <= 50 ) {
 					var_967 = var_967 + var_83[var_268][25];
@@ -9021,41 +9021,41 @@ function func354(){						// 6000行以上あるアホとしか言いようが無
 						var_967 = 1;
 					}
 				}
-				var_949 = var_967 * (var_967 + var_967 - 8) / 16 + var_967;
+				var_949 = Math.floor(var_967 * (var_967 + var_967 - 8) / 16) + var_967;
 				for(var l=0; l<var_581; l++){
-					var_949 = var_949 * 15 / 16;
+					var_949 = Math.floor(var_949 * 15 / 16);
 				}
 				var_1334 = 111;
 				var_1335 = 143;
-				var_1336 = var_949 * var_1334 / 128;
+				var_1336 = Math.floor(var_949 * var_1334 / 128);
 				if ( var_130 != 0 ) {
 					var_1337 = var_83[var_268][0];
 					if ( var_1337 == 147 || var_1337 == 73 || var_1337 == 119 || var_1337 == 136 || var_1337 == 135 || var_1337 == 139 || var_1337 == 140 || var_1337 == 105 ) {
-						var_1336 = var_1336 * 3 / 2;
+						var_1336 = Math.floor(var_1336 * 3 / 2);
 					}
 				}
 				if ( var_182 == 1 ) {
-					var_1336 = var_1336 / 2;
+					var_1336 = Math.floor(var_1336 / 2);
 				}
 				if ( var_1336 <= 1 ) {
 					var_1336 = 1;
 				}
-				var_1338 = var_949 * var_1335 / 128;
+				var_1338 = Math.floor(var_949 * var_1335 / 128);
 				if ( var_130 != 0 ) {
 					var_1337 = var_83[var_268][0];
 					if ( var_1337 == 147 || var_1337 == 73 || var_1337 == 119 || var_1337 == 136 || var_1337 == 135 || var_1337 == 139 || var_1337 == 140 || var_1337 == 105 ) {
-						var_1338 = var_1338 * 3 / 2;
+						var_1338 = Math.floor(var_1338 * 3 / 2);
 					}
 				}
 				if ( var_182 == 1 ) {
-					var_1338 = var_1338 / 2;
+					var_1338 = Math.floor(var_1338 / 2);
 				}
 				if ( var_1338 <= 1 ) {
 					var_1338 = 1;
 				}
 				if ( var_83[var_268][0] == 14 || var_83[var_268][0] == 66 || var_83[var_268][0] == 47 || var_83[var_268][0] == 120 || var_83[var_268][0] == 160 || var_83[var_268][0] == 67 ) {
 					var_83[var_268][20] = 0;
-					var_1338 = var_1338 * 3 / 2;
+					var_1338 = Math.floor(var_1338 * 3 / 2);
 				}
 				color(0, 255, 0);
 				font("MS ゴシック", 12);
@@ -9091,12 +9091,12 @@ function func354(){						// 6000行以上あるアホとしか言いようが無
 					var_1338 = (var_83[var_268][39] - 1) * 2 + var_1338;
 				}
 				if ( var_156[205] == 1 ) {
-					var_1336 = var_1336 * 2 / 3;
-					var_1338 = var_1338 * 2 / 3;
+					var_1336 = Math.floor(var_1336 * 2 / 3);
+					var_1338 = Math.floor(var_1338 * 2 / 3);
 				}
 				if ( var_168 == 1 ) {
-					var_1336 = var_1336 * 2 / 3;
-					var_1338 = var_1338 * 2 / 3;
+					var_1336 = Math.floor(var_1336 * 2 / 3);
+					var_1338 = Math.floor(var_1338 * 2 / 3);
 				}
 				color(0, 255, 0);
 				font("MS ゴシック", 12);
@@ -11601,20 +11601,20 @@ function func354(){						// 6000行以上あるアホとしか言いようが無
 	if ( var_1465 >= 1 ) {
 		gmode(2);
 		if ( var_1465 == 1 ) {
-			var_1466 = (var_1462 + var_1467) / 5 * 1;
-			var_1468 = 160 - (var_1463 + var_1469) / 5 * 1;
+			var_1466 = Math.floor((var_1462 + var_1467) / 5) * 1;
+			var_1468 = 160 - Math.floor((var_1463 + var_1469) / 5) * 1;
 		}
 		if ( var_1465 == 2 ) {
-			var_1466 = (var_1462 + var_1467) / 5 * 2;
-			var_1468 = 160 - (var_1463 + var_1469) / 5 * 2;
+			var_1466 = Math.floor((var_1462 + var_1467) / 5) * 2;
+			var_1468 = 160 - Math.floor((var_1463 + var_1469) / 5) * 2;
 		}
 		if ( var_1465 == 3 ) {
-			var_1466 = (var_1462 + var_1467) / 5 * 3;
-			var_1468 = 160 - (var_1463 + var_1469) / 5 * 3;
+			var_1466 = Math.floor((var_1462 + var_1467) / 5) * 3;
+			var_1468 = 160 - Math.floor((var_1463 + var_1469) / 5) * 3;
 		}
 		if ( var_1465 == 4 ) {
-			var_1466 = (var_1462 + var_1467) / 5 * 4;
-			var_1468 = 160 - (var_1463 + var_1469) / 5 * 4;
+			var_1466 = Math.floor((var_1462 + var_1467) / 5) * 4;
+			var_1468 = 160 - Math.floor((var_1463 + var_1469) / 5) * 4;
 		}
 		if ( var_1465 >= 5 ) {
 			var_1466 = var_1467;
@@ -15867,7 +15867,7 @@ function func371(){
 		var_1678 = 1;
 	}
 	if ( var_833 >= 1 ) {
-		var_1678 = var_833 / 10 + 1;
+		var_1678 = Math.floor(var_833 / 10) + 1;
 	}
 	var_1679 = 1;
 	func372();	// 追加
@@ -15975,7 +15975,7 @@ function func373(){
 		}
 		var_1690++;
 	}
-	var_1692 = var_1691 * 100 / var_1689;*/
+	var_1692 = Math.floor(var_1691 * 100 / var_1689);*/
 }
 function func374(){
 	func080();
@@ -16550,7 +16550,7 @@ function func380(){
 		if ( var_71[var_1714][var_1716] == 13 ) {
 			var_1710 = var_1710 + 1;
 		}
-		var_1717 = (var_565 + 1) / 2;
+		var_1717 = Math.floor((var_565 + 1) / 2);
 		var_1718 = var_1717 * var_1710;
 		if ( var_1710 != 0 ) {
 			var_1706[var_1707][2] = "0";

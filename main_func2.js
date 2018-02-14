@@ -1782,19 +1782,19 @@ function func223(){
 	var_941 = var_948[var_933] - var_948[var_934];
 	var_840 = var_933;
 	func679();
-	var_949 = var_950 * (var_935 + var_937 - 8) / 16 + var_950;
+	var_949 = Math.floor(var_950 * (var_935 + var_937 - 8) / 16) + var_950;
 	var_951 = var_949;
 	for(var i=0; i<var_943; i++){
-		var_949 = var_949 * 15 / 16;
+		var_949 = Math.floor(var_949 * 15 / 16);
 	}
-	var_944 = var_949 * 111 / 128;
-	var_945 = var_949 * 143 / 128;
-	var_949 = var_942 * (var_942 + var_942 - 8) / 16 + var_942;
+	var_944 = Math.floor(var_949 * 111 / 128);
+	var_945 = Math.floor(var_949 * 143 / 128);
+	var_949 = Math.floor(var_942 * (var_942 + var_942 - 8) / 16) + var_942;
 	for(var i=0; i<var_936; i++){
-		var_949 = var_949 * 15 / 16;
+		var_949 = Math.floor(var_949 * 15 / 16);
 	}
-	var_946 = var_949 * 111 / 128;
-	var_947 = var_949 * 143 / 128;
+	var_946 = Math.floor(var_949 * 111 / 128);
+	var_947 = Math.floor(var_949 * 143 / 128);
 	var_91 = var_63;
 	var_939 = 0;
 	var_952 = 1;
@@ -1820,7 +1820,7 @@ function func223(){
 		func626();
 		var_939 = var_939 + var_954;
 	}
-	var_940 = var_939 / var_952;
+	var_940 = Math.floor(var_939 / var_952);
 	return;
 }
 function func224(){
@@ -1904,11 +1904,11 @@ function func225(){
 					mes("" + var_968);
 				}
 				if ( var_957 >= 2 ) {
-					var_969 = var_438 * (var_957 + 10) / 10;
-					var_970 = var_967 * (var_957 * 2 + 10) / 10;
+					var_969 = Math.floor(var_438 * (var_957 + 10) / 10);
+					var_970 = Math.floor(var_967 * (var_957 * 2 + 10) / 10);
 					var_971 = var_968;
 					if ( var_972 == 4 || var_972 == 5 ) {
-						var_971 = var_968 * (var_957 * 2 + 10) / 10;
+						var_971 = Math.floor(var_968 * (var_957 * 2 + 10) / 10);
 					}
 					pos(var_964, var_963);
 					color(255, 0, 0);

@@ -2925,10 +2925,10 @@ function func436(){
 		var_1783 = 1000 - var_1964;
 	}
 	if ( var_270 == 119 || var_270 == 123 ) {
-		var_1783 = var_1783 * 3 / 2;
+		var_1783 = Math.floor(var_1783 * 3 / 2);
 	}
 	if ( var_156[356] == 1 ) {
-		var_1783 = var_1783 / 2;
+		var_1783 = Math.floor(var_1783 / 2);
 	}
 	return;
 }
@@ -10052,7 +10052,7 @@ function func485(){
 		line(165, 331, 191, 331);
 		color(255, 0, 0);
 		font("ＭＳ ゴシック", 16, 1);
-		var_2149 = var_2131 / 10;
+		var_2149 = Math.floor(var_2131 / 10);
 		var_2150 = var_2149 * 10;
 		var_2149 = var_2131 - var_2150;
 		if ( var_2131 >= 0 && var_2131 <= 9 ) {
@@ -14884,7 +14884,7 @@ function func494(){
 	}
 	if ( var_156[204] == 1 ) {
 		var_1047 = 20;
-		var_1047 = var_352 / 10 + var_566;
+		var_1047 = Math.floor(var_352 / 10) + var_566;
 		var_2181 = var_352 + var_1047;
 		if ( var_2181 > 999 ) {
 			var_1047 = 999 - var_352;
@@ -16370,9 +16370,9 @@ function func498_18(){
 }
 function func498_19(){
 	if ( var_211 > 1 ) {
-		var_2198 = var_211 / 2;
+		var_2198 = Math.floor(var_211 / 2);
 		if ( var_156[314] == 1 ) {
-			var_2198 = var_2198 / 2;
+			var_2198 = Math.floor(var_2198 / 2);
 		}
 		var_211 = var_211 - var_2198;
 		if ( var_211 <= 0 ) {
