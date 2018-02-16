@@ -311,7 +311,7 @@ function picload(img_name, func){
 		canvases[target_window_id].width = img.width;
 		canvases[target_window_id].height = img.height;
 		contexts[target_window_id] = canvases[target_window_id].getContext('2d');
-		contexts[target_window_id].drawImage(img, 0, 1);
+		contexts[target_window_id].drawImage(img, 0, 0);
 		func();
 	};
 }
