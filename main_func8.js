@@ -4889,7 +4889,7 @@ function func862(){
 			}
 			if ( var_3321 == 1 ) {
 				var_3251 = 4;
-				var_3256 = var_78[var_3140][13] / 100;
+				var_3256 = Math.floor(var_78[var_3140][13] / 100);
 				var_3259 = var_3256;
 			}
 			if ( var_3251 == 0 ) {

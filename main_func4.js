@@ -851,7 +851,7 @@ function func410_0(){
 function func410_1(){
 	var_340 = var_233[var_225][0];
 	var_1887 = var_233[var_225][13];
-	var_1888 = var_233[var_225][13] / 10;
+	var_1888 = Math.floor(var_233[var_225][13] / 10);
 	if ( var_234 == 1 ) {
 		func479();
 		var_234 = 0;
@@ -896,7 +896,7 @@ function func411(){
 		var_1865 = var_486[var_682][var_225][29];
 		var_340 = var_486[var_682][var_225][0];
 		var_1887 = var_486[var_682][var_225][13];
-		var_1888 = var_486[var_682][var_225][13] / 10;
+		var_1888 = Math.floor(var_486[var_682][var_225][13] / 10);
 	}
 	var_1246 = 1;
 	var_1247 = var_1846;

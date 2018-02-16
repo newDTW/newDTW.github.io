@@ -21403,7 +21403,7 @@ function func678(){
 		var_78[var_866][10] = 1;
 		var_78[var_866][11] = 0;
 		var_78[var_866][12] = 0;
-		var_78[var_866][13] = var_78[var_3086][13] / 10;
+		var_78[var_866][13] = Math.floor(var_78[var_3086][13] / 10);
 		if ( var_78[var_866][13] < 0 ) {
 			var_78[var_866][13] = 1;
 		}
