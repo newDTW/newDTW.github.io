@@ -1,84 +1,35 @@
 ﻿<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
-<script type="text/javascript" src="sub_func.js"></script>
-<script type="text/javascript" src="main_func0.js"></script>
-<script type="text/javascript" src="main_func1.js"></script>
-<script type="text/javascript" src="main_func2.js"></script>
-<script type="text/javascript" src="main_func3.js"></script>
-<script type="text/javascript" src="main_func4.js"></script>
-<script type="text/javascript" src="main_func5.js"></script>
-<script type="text/javascript" src="main_func6.js"></script>
-<script type="text/javascript" src="main_func7.js"></script>
-<script type="text/javascript" src="main_func8.js"></script>
-<script type="text/javascript" src="main_func9.js"></script>
-<style type="text/css">
-canvas{
-	position : absolute;
-}
-</style>
-<script type="text/javascript">
-
-//強制初期化
-for(var i=0; i<=3603; i++){
-	eval("var_" + i + " = 0;")
-}
-var_25=[];
-var_26=[];
-var_27=[];
-var_494 = [];
-var_664 = [];
-var_691 = [];
-
-funclist = [];
-
-/*
-//1 - "img_stand1.gif"
-//2
-//3 - "img_mychara.gif"
-//4		マップ
-//5 - "img_map.gif"
-//6 - "img_enemy1a.gif"
-//7		敵キャラの位置
-//8 - "img1.gif"
-//9 - "img_item.gif"
-//10	セリフ用
-//11 - "img_stand0.gif"
-//12	イメージカラー(青)
-//13 - "img_enemy4a.gif"
-//14 - "img_wana.gif"
-//15 - "img_enemy1b.gif"
-//16 - "img_stand2.gif"
-//17 - "img3.gif"
-//18 - "img4.gif"
-//19	暗転用
-//20 - "img_enemy4b.gif"
-//21 - "img_enemy2a.gif"
-//22 - "img_enemy2b.gif"
-//23 - "img_comic.gif"
-//24	一次画面保管用
-//25	パレットモード
-//26
-//27 - "img_enemy3a.gif"
-//28 - "img_enemy3b.gif"
-//29 - "img_stand3.gif"
-//30
-//31	デバッグ用?
-//32
-//33
-//34 - "img_syageki.gif"
-//35 - "img_effect.gif"
-//36	キャンバス0のコピー?
-*/
-netinit();
-window.onload=func001;
-
-</script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<style type="text/css">
+		#pad {
+			position: absolute;
+		}
+		button {
+			width:110px;
+			height:40px;
+		}
+	</style>
 </head>
 <body>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<a href="./tutorial/add0.html" target="_blank">以前ディアボロスレに投下した物</a><br/>
-<a href="./analyze/analyze_var.html" target="_blank">変数解析（途中）</a><br/>
-<a href="./analyze/analyze_func.html" target="_blank">関数解析（途中）</a><br/>
+	<canvas id="c0"></canvas>
+	<div id="pad">
+		<button id="90">Z</button><button id="88">X</button><button id="67">C</button><br />
+		<button id="32">SP</button><button id="XH">X(Hold)</button><button id="65">A</button>
+	</div>
+	<script src="sub_func.js"></script>
+	<script src="main_func0.js"></script>
+	<script src="main_func1.js"></script>
+	<script src="main_func2.js"></script>
+	<script src="main_func3.js"></script>
+	<script src="main_func4.js"></script>
+	<script src="main_func5.js"></script>
+	<script src="main_func6.js"></script>
+	<script src="main_func7.js"></script>
+	<script src="main_func8.js"></script>
+	<script src="main_func9.js"></script>
+	<script src="main.js"></script>
 </body>
 </html>
