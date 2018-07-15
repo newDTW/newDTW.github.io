@@ -92,12 +92,29 @@ function InitInput() {
                     this.style.border = '';
                 }
             };
+            buttons[i].ontouchstart = function (e) {
+                if (pushing_key_list[88] > 0) {
+                    console.log(e);
+                    pushing_key_list[88] = 0;
+                    this["style"].border = 'inset 2px';
+                }
+                else {
+                    pushing_key_list[88] = 1;
+                    this["style"].border = '';
+                }
+            };
             continue;
         }
         buttons[i].onmousedown = function (e) {
             pushing_key_list[this.id] = 1;
         };
         buttons[i].onmouseup = function (e) {
+            pushing_key_list[this.id] = 0;
+        };
+        buttons[i].ontouchstart = function (e) {
+            pushing_key_list[this.id] = 1;
+        };
+        buttons[i].ontouchend = function (e) {
             pushing_key_list[this.id] = 0;
         };
     }
