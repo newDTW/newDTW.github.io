@@ -28,10 +28,8 @@ function makepal() {
     return;
 }
 function func001() {
-    return __awaiter(this, void 0, void 0, function* () {
-        dbgprt(1);
-        yield func004();
-    });
+    dbgprt(1);
+    func004();
 }
 function imeset(prm_2546) {
     var_6 = ImmGetContext(hwnd);
@@ -4564,26 +4562,6 @@ function func030() {
             yield func337();
         }
         return;
-        /*
-            var_293 = "";
-            var_294 = "";
-            var_295 = "";
-            var_296 = "";
-            var_297 = "";
-            var_298 = "";
-            var_299 = 0;
-            var_25_x = var_25[1];
-            var_26_x = var_26[1];
-            var_27_x = var_27[1];
-            var_293 = "急速回復状態が治った";
-            var_198 = 1;
-            var_300 = 0;
-            await func047();
-            for ( var i = 0; i < 9; ++i ) {
-                await func337();
-            }
-            return;
-        */
     });
 }
 function func031() {
@@ -5498,20 +5476,6 @@ function func050() {
         var_299 = 5;
         yield func337();
         return;
-        /*
-            var_299 = 0;
-            await func337();
-            var_299 = 1;
-            await func337();
-            var_299 = 2;
-            await func337();
-            var_299 = 3;
-            await func337();
-            var_299 = 4;
-            await func337();
-            var_299 = 5;
-            return;
-        */
     });
 }
 function func051() {
@@ -5589,10 +5553,6 @@ function func053() {
         if (var_254 == 1 && var_247 == 1) {
             yield func053();
             return;
-            /*
-                    await func053();
-                    return;
-            */
         }
         if (var_257 == 1 && var_247 == 1) {
             var_245 = 19 + 48;
@@ -5606,10 +5566,6 @@ function func053() {
         if (var_257 == 1 && var_247 == 2) {
             yield func053();
             return;
-            /*
-                    await func053();
-                    return;
-            */
         }
         if (var_247 == 1 && var_248 == 1) {
             var_497 = 1;
@@ -7089,31 +7045,6 @@ function func067() {
         }
         yield func009();
         return;
-        /*
-            var_293 = "";
-            var_294 = "";
-            var_295 = "";
-            var_296 = "";
-            var_297 = "";
-            var_298 = "";
-            var_299 = 0;
-            var_293 = "ジッパーの中に入りますか？";
-            var_198 = 1;
-            var_300 = 0;
-            var_25_x = var_25[1];
-            var_26_x = var_26[1];
-            var_27_x = var_27[1];
-            await func047();
-            await func340();
-            await func051();
-            var_245 = 19;
-            var_246 = 45;
-            var_546 = 1;
-            var_563 = 1;
-            var_548 = 1;
-            await func839();
-            return;
-        */
     });
 }
 function func068() {
@@ -10865,4 +10796,3 @@ function func099() {
         return;
     });
 }
-//# sourceMappingURL=func0.js.map

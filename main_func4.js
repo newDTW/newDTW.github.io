@@ -1197,13 +1197,6 @@ function func411() {
         var_217 = 1;
         yield func019();
         return;
-        /*
-            gmode(2);
-            pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
-            var_232 = var_340;
-            await func648();
-            return;
-        */
     });
 }
 function func412() {
@@ -4617,9 +4610,6 @@ function func456() {
         yield func331();
         yield func019();
         return;
-        /*
-            return;
-        */
     });
 }
 function func457() {
@@ -4803,10 +4793,7 @@ function func460() {
         }
         var_230 = 45;
         console.log("要調査ポイント!");
-        // デコンパイルミス? 要調査
-        //	if ( var_227 != 3 ) {
         for (var i = 0; i < 10; ++i) {
-            //  	}
             if (var_220 == 1 && var_233[var_1882][0] == 817 && var_119 == 0) {
                 break;
             }
@@ -7761,33 +7748,6 @@ function func468() {
         var_1621 = 2;
         var_1623 = 1;
         return;
-        /*
-            var_197 = 0;
-            var_1866 = 0;
-            var_293 = "";
-            var_294 = "";
-            var_295 = "";
-            var_296 = "";
-            var_297 = "";
-            var_298 = "";
-            var_299 = 0;
-            var_293 = "何も入っていないぞ";
-            var_25_x = var_25[1];
-            var_26_x = var_26[1];
-            var_27_x = var_27[1];
-            var_198 = 1;
-            var_300 = 0;
-            await func047();
-            for ( var i = 0; i < 9; ++i ) {
-                await func337();
-            }
-            var_220 = 0;
-            var_231 = 0;
-            var_234 = 0;
-            var_2040 = 0;
-            await func009();
-            return;
-        */
     });
 }
 function func469() {
@@ -9432,14 +9392,6 @@ function func481() {
             var_2120++;
         }
         return;
-        /*
-            var_2120 = 0;
-            for ( var i = 0; i < 30; ++i ) {
-                var_233[0][var_2120] = 0;
-                var_2120++;
-            }
-            return;
-        */
     });
 }
 function func482() {
@@ -9452,13 +9404,6 @@ function func482() {
         var_2123 = 0;
         yield func484();
         return;
-        /*
-            await func483();
-            var_2124 = 1;
-            var_2122 = "";
-            await func484();
-            return;
-        */
     });
 }
 function func483() {
@@ -11968,100 +11913,6 @@ function func491() {
         var_2163 = 0;
         yield func009();
         return;
-        /*
-            var_2164 = 14;
-            var_2165 = 8;
-            var_2166 = var_2164 - 1;
-            if ( var_2166 < 0 ) {
-                var_2166 = 0;
-            }
-            var_2167 = var_2164 + 1;
-            if ( var_2167 > var_33 ) {
-                var_2167 = var_33;
-            }
-            var_2168 = var_2165 + 1;
-            if ( var_2168 > var_34 ) {
-                var_2168 = var_34;
-            }
-            var_2169 = var_2165 - 1;
-            if ( var_2169 < 0 ) {
-                var_2169 = 0;
-            }
-            var_2170 = 0;
-            if ( var_2170 == 0 && var_77[var_2164][var_2168] == 0 && var_80[var_2164][var_2168] == 0 && var_73[var_2164][var_2168] == 0 && var_71[var_2164][var_2168] != 0 && var_71[var_2164][var_2168] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2164;
-                var_1513 = var_2168;
-            }
-            if ( var_2170 == 0 && var_77[var_2166][var_2165] == 0 && var_80[var_2166][var_2165] == 0 && var_73[var_2166][var_2165] == 0 && var_71[var_2166][var_2165] != 0 && var_71[var_2166][var_2165] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2166;
-                var_1513 = var_2165;
-            }
-            if ( var_2170 == 0 && var_77[var_2167][var_2165] == 0 && var_80[var_2167][var_2165] == 0 && var_73[var_2167][var_2165] == 0 && var_71[var_2167][var_2165] != 0 && var_71[var_2167][var_2165] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2167;
-                var_1513 = var_2165;
-            }
-            if ( var_2170 == 0 && var_77[var_2164][var_2169] == 0 && var_80[var_2164][var_2169] == 0 && var_73[var_2164][var_2169] == 0 && var_71[var_2164][var_2169] != 0 && var_71[var_2164][var_2169] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2164;
-                var_1513 = var_2169;
-            }
-            if ( var_2170 == 0 && var_77[var_2166][var_2168] == 0 && var_80[var_2166][var_2168] == 0 && var_73[var_2166][var_2168] == 0 && var_71[var_2166][var_2168] != 0 && var_71[var_2166][var_2168] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2166;
-                var_1513 = var_2168;
-            }
-            if ( var_2170 == 0 && var_77[var_2167][var_2168] == 0 && var_80[var_2167][var_2168] == 0 && var_73[var_2167][var_2168] == 0 && var_71[var_2167][var_2168] != 0 && var_71[var_2167][var_2168] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2167;
-                var_1513 = var_2168;
-            }
-            if ( var_2170 == 0 && var_77[var_2166][var_2169] == 0 && var_80[var_2166][var_2169] == 0 && var_73[var_2166][var_2169] == 0 && var_71[var_2166][var_2169] != 0 && var_71[var_2166][var_2169] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2166;
-                var_1513 = var_2169;
-            }
-            if ( var_2170 == 0 && var_77[var_2167][var_2169] == 0 && var_80[var_2167][var_2169] == 0 && var_73[var_2167][var_2169] == 0 && var_71[var_2167][var_2169] != 0 && var_71[var_2167][var_2169] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2167;
-                var_1513 = var_2169;
-            }
-            if ( var_2170 == 0 && var_77[var_2164][var_2165] == 0 && var_80[var_2164][var_2165] == 0 && var_73[var_2164][var_2165] == 0 && var_71[var_2164][var_2165] != 0 && var_71[var_2164][var_2165] != 13 ) {
-                var_2170 = 1;
-                var_1512 = var_2164;
-                var_1513 = var_2165;
-            }
-            if ( var_2170 == 1 ) {
-                await func724();
-                var_2171 = var_854;
-                var_1385 = var_2171;
-                var_1386 = var_2172;
-                var_271 = 1;
-                var_1510 = 1;
-                for ( var i = 0; i < 10; ++i ) {
-                    await func337();
-                    var_1510++;
-                }
-                var_1510 = 0;
-                var_271 = 0;
-                var_77[var_1512][var_1513] = var_2171;
-                var_78[var_2171][0] = var_2172;
-                var_78[var_2171][1] = var_1512;
-                var_78[var_2171][2] = var_1513;
-                var_78[var_2171][4] = 0;
-                var_78[var_2171][5] = 1;
-                var_78[var_2171][9] = var_71[var_1512][var_1513];
-                var_78[var_2171][12] = 0;
-                var_78[var_2171][14] = 1;
-                var_78[var_2171][16] = 10;
-                var_78[var_2171][19] = 1;
-                var_78[var_2171][20] = var_2172;
-                var_862[var_2171][0] = 1;
-            }
-            return;
-        */
     });
 }
 function func492() {
@@ -19948,68 +19799,10 @@ function func498() {
         if (var_232 == 993) {
             var_1950 = 20;
             return;
-            /*
-                    DSPLAY(118);
-                    for ( var i = 0; i < 12; ++i ) {
-                        await func337();
-                    }
-                    var_1252 = 3;
-                    DSPLAY(142);
-                    var_1299 = 9;
-                    var_271 = 1;
-                    var_1297 = 1;
-                    for ( var i = 0; i < 20; ++i ) {
-                        await func337();
-                        var_1297++;
-                    }
-                    var_271 = 0;
-                    var_1297 = 0;
-                    if ( var_840 >= 99 ) {
-                        var_1946 = "これ以上成長できなかった…";
-                        return;
-                    }
-                    for ( var i = 0; i < 3; ++i ) {
-                        if ( var_840 <= 98 ) {
-                            var_568 = var_948[var_840];
-                            await func681();
-                            var_2201 = 0;
-                        }
-                    }
-                    return;
-            */
         }
         if (var_232 == 994) {
             var_1950 = 20;
             return;
-            /*
-                    DSPLAY(118);
-                    for ( var i = 0; i < 12; ++i ) {
-                        await func337();
-                    }
-                    var_1252 = 3;
-                    DSPLAY(142);
-                    var_1299 = 9;
-                    var_271 = 1;
-                    var_1297 = 1;
-                    for ( var i = 0; i < 20; ++i ) {
-                        await func337();
-                        var_1297++;
-                    }
-                    var_271 = 0;
-                    var_1297 = 0;
-                    if ( var_840 >= 99 ) {
-                        var_1946 = "これ以上成長できなかった…";
-                        return;
-                    }
-                    for ( var i = 0; i < 5; ++i ) {
-                        if ( var_840 <= 98 ) {
-                            var_568 = var_948[var_840];
-                            await func681();
-                            var_2201 = 0;
-                        }
-                    }
-                    return;
-            */
         }
         if (var_232 == 995) {
             var_1252 = 0;
@@ -20225,52 +20018,6 @@ function func498() {
             return;
         }
         return;
-        /*
-            var_271 = 1;
-            var_1440 = 1;
-            if ( var_1441 == 1 ) {
-                if ( var_83[var_2194][1] > var_66 ) {
-                    var_1442 = 0;
-                }
-                if ( var_83[var_2194][1] <= var_66 ) {
-                    var_1442 = 1;
-                }
-                if ( var_1442 == 0 ) {
-                    var_1427 = (var_83[var_2194][1] - var_66 + 4) * 40 - 160;
-                    var_1428 = (var_83[var_2194][2] - var_67 + 4) * 40 - 160 - 20;
-                }
-                if ( var_1442 == 1 ) {
-                    var_1427 = (var_83[var_2194][1] - var_66 + 4) * 40 + 160 - 40;
-                    var_1428 = (var_83[var_2194][2] - var_67 + 4) * 40 - 160 - 20;
-                }
-            }
-            if ( var_1441 == 0 ) {
-                var_1442 = rnd(2);
-                if ( var_1442 == 0 ) {
-                    var_1427 = 0;
-                    var_1428 = 0;
-                }
-                if ( var_1442 == 1 ) {
-                    var_1427 = 320 - 40;
-                    var_1428 = 0;
-                }
-            }
-            for ( var i = 0; i < 7; ++i ) {
-                await func337();
-                if ( var_1442 == 0 ) {
-                    var_1427 = var_1427 + 20;
-                    var_1428 = var_1428 + 20;
-                }
-                if ( var_1442 == 1 ) {
-                    var_1427 = var_1427 - 20;
-                    var_1428 = var_1428 + 20;
-                }
-                var_1440 = var_1440 + 1;
-            }
-            var_271 = 0;
-            var_1440 = 0;
-            return;
-        */
     });
 }
 function func499() {
@@ -20426,4 +20173,3 @@ function func499() {
         return;
     });
 }
-//# sourceMappingURL=func4.js.map

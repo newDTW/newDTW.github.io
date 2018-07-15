@@ -1746,29 +1746,6 @@ function func823() {
         pos(var_245 + 2, var_246);
         mes(">");
         return;
-        /*
-            await func394();
-            var_293 = "";
-            var_294 = "";
-            var_295 = "";
-            var_296 = "";
-            var_297 = "";
-            var_298 = "";
-            var_299 = 0;
-            var_293 = "しかし何も起こらなかった";
-            if ( var_1805 == 1 ) {
-                var_293 = "エラーを修正した";
-            }
-            var_294 = "";
-            var_25_x = var_25[1];
-            var_26_x = var_26[1];
-            var_27_x = var_27[1];
-            await func047();
-            var_198 = 1;
-            var_300 = 0;
-            await func009();
-            return;
-        */
     });
 }
 function func824() {
@@ -3876,13 +3853,6 @@ function func843() {
         pos(680 - 76, var_3226 + 22);
         combox(var_3255, 100, "回数\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10");
         return;
-        /*
-            clrobj(9, 9);
-            objsize(60);
-            pos(680 - 76, var_3226 + 22);
-            combox(var_3255, 100, "回数\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10");
-            return;
-        */
     });
 }
 function func844() {
@@ -9306,44 +9276,6 @@ function func893() {
             var_891 = "猫";
         }
         return;
-        /*
-            var_874 = sdim(10000);
-            var_884 = dim(10000);
-            var_874 = "アイテム";
-            var_883 = 1;
-            var_885 = 1;
-            for ( var i = 0; i < 1000; ++i ) {
-                var_232 = var_883;
-                await func492();
-                if ( var_483 != 0 ) {
-                    var_874 = var_874 + "\n" + var_489;
-                    var_884[var_885] = var_232;
-                    var_885 = var_885 + 1;
-                }
-                var_883 = var_883 + 1;
-            }
-            return;
-            var_886 = sdim(10000);
-            var_886 = "罠";
-            var_887 = 1;
-            for ( var i = 0; i < 30; ++i ) {
-                var_888 = var_887;
-                await func554();
-                var_886 = var_886 + "\n" + var_889;
-                var_887 = var_887 + 1;
-            }
-            return;
-            var_890 = sdim(10000);
-            var_890 = "敵";
-            var_887 = 1;
-            for ( var i = 0; i < 170; ++i ) {
-                var_437 = var_887;
-                await func626();
-                var_890 = var_890 + "\n" + var_891;
-                var_887 = var_887 + 1;
-            }
-            return;
-        */
     });
 }
 function func894() {
@@ -9383,7 +9315,6 @@ function func894() {
         width(320, 200);
         SetWindowLongA(hwnd, -8, var_15);
         var_3524 = (1 && 2) * (-2) - 16;
-        //	func_1 hwnd, var_3524, func_2(hwnd, var_3524) || 524288 ^ (1 && 1) * 524288;
         gsel(ginfo(3), -1);
         gsel(ginfo(3), 1);
         title("ログイン");
@@ -9494,7 +9425,6 @@ function func895() {
         screen_(30, 320, 320, 4, var_3513, var_3514);
         SetWindowLongA(hwnd, -8, var_15);
         var_3524 = (1 && 2) * (-2) - 16;
-        //	func_1 hwnd, var_3524, func_2(hwnd, var_3524) || 524288 ^ (1 && 1) * 524288;
         gsel(ginfo(3), -1);
         gsel(ginfo(3), 1);
         title("チャットウィンドウ");
@@ -10166,4 +10096,3 @@ function func899() {
         return;
     });
 }
-//# sourceMappingURL=func8.js.map

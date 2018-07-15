@@ -2405,16 +2405,6 @@ function func934() {
         tcpput(var_3603, var_1050);
         tcpput("\n", var_1050);
         return;
-        /*
-            var_3568 = 0;
-            var_3569 = 0;
-            for ( var i = 0; i < 30; ++i ) {
-                getstr(var_1068[var_3569], var_3543, var_3568, 44);
-                var_3568 = var_3568 + strsize;
-                var_3569++;
-            }
-            return;
-        */
     });
 }
 function func935() {
@@ -2487,4 +2477,3 @@ function func935() {
         return;
     });
 }
-//# sourceMappingURL=func9.js.map

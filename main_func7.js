@@ -5796,36 +5796,6 @@ function func785() {
             var_300 = 0;
             yield func080();
         }
-        /*
-            stop();
-            await func335();
-            var_312 = 1;
-            for ( var i = 0; i < 51; ++i ) {
-                await func337();
-                var_311 = var_311 - 5;
-            }
-            var_311 = 0;
-            var_312 = 0;
-            var_3160 = 1;
-            for ( var i = 0; i < 50; ++i ) {
-                var_437 = var_3161;
-                await func626();
-                var_293 = var_296;
-                var_294 = var_297;
-                var_296 = "【" + var_891 + "】";
-                var_297 = "　…" + var_3162;
-                var_198 = 1;
-                var_300 = 0;
-                await func050();
-                for ( var j = 0; j < 50; ++j ) {
-                    await func337();
-                    var_198 = 1;
-                    var_300 = 0;
-                }
-                var_3160++;
-            }
-            stop();
-        */
     });
 }
 function func786() {
@@ -6735,4 +6705,3 @@ function func799() {
         return;
     });
 }
-//# sourceMappingURL=func7.js.map

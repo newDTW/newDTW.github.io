@@ -574,19 +574,6 @@ function func109() {
             DMPLAY(var_631, 1);
         }
         return;
-        /*
-            DMINIT();
-            var_665 = "115.mid";
-            exist(var_665);
-            var_679 = strsize;
-            var_680 = sdim(var_679);
-            var_680 = bload(var_665);
-            DMLOADMEMORY(var_680, var_679, 1);
-            if ( var_631 != 0 ) {
-                DMPLAY(var_631, 1);
-            }
-            return;
-        */
     });
 }
 function func110() {
@@ -1324,7 +1311,6 @@ function func139() {
             var_723 = var_704[93];
             var_724 = var_704[94];
         }
-        //	var_686 = bload("00.dat", null, 0);			// 調整
         var_686 = bload("00.dat", null, 0)[-1];
         var_702 = bload("00.dat", null, 100);
         var_25 = bload("00.dat", null, 200);
@@ -4805,64 +4791,6 @@ function func163() {
             gcopy(18, 960, 1040, 360, 160);
         }
         return;
-        /*
-            if ( var_409 == 0 ) {
-                var_778 = 0;
-            }
-            if ( var_409 == 1 ) {
-                var_778 = 10;
-            }
-            if ( var_409 == 2 ) {
-                var_778 = 20;
-            }
-            if ( var_409 == 3 ) {
-                var_778 = 30;
-            }
-            var_779 = (var_66 - 17) * var_35 + var_778;
-            var_780 = (var_67 - 15) * var_36 + var_778;
-            if ( var_217 == 0 ) {
-                if ( var_199 == 6 ) {
-                    var_779 = (var_66 - 17) * var_35 - var_778;
-                    var_780 = (var_67 - 15) * var_36;
-                }
-                if ( var_199 == 4 ) {
-                    var_779 = (var_66 - 17) * var_35 + var_778;
-                    var_780 = (var_67 - 15) * var_36;
-                }
-                if ( var_199 == 2 ) {
-                    var_779 = (var_66 - 17) * var_35;
-                    var_780 = (var_67 - 15) * var_36 - var_778;
-                }
-                if ( var_199 == 8 ) {
-                    var_779 = (var_66 - 17) * var_35;
-                    var_780 = (var_67 - 15) * var_36 + var_778;
-                }
-                if ( var_199 == 9 ) {
-                    var_779 = (var_66 - 17) * var_35 - var_778;
-                    var_780 = (var_67 - 15) * var_36 + var_778;
-                }
-                if ( var_199 == 7 ) {
-                    var_779 = (var_66 - 17) * var_35 + var_778;
-                    var_780 = (var_67 - 15) * var_36 + var_778;
-                }
-                if ( var_199 == 3 ) {
-                    var_779 = (var_66 - 17) * var_35 - var_778;
-                    var_780 = (var_67 - 15) * var_36 - var_778;
-                }
-                if ( var_199 == 1 ) {
-                    var_779 = (var_66 - 17) * var_35 + var_778;
-                    var_780 = (var_67 - 15) * var_36 - var_778;
-                }
-            }
-            if ( var_217 == 1 ) {
-                var_779 = (var_66 - 17) * var_35;
-                var_780 = (var_67 - 15) * var_36;
-            }
-            pos(0, 0);
-            gmode(2);
-            gcopy(20, var_779, var_780, 340, 340);
-            return;
-        */
     });
 }
 function func164() {
@@ -7171,23 +7099,6 @@ function func177() {
             var_790 = 2;
         }
         return;
-        /*
-            var_850 = 1;
-            var_851 = 1;
-            for ( var i = 0; i < 175; ++i ) {
-                var_835[var_851] = var_850;
-                var_851++;
-                var_850++;
-            }
-            var_850 = 200;
-            for ( var i = 0; i < 87; ++i ) {
-                var_835[var_851] = var_850;
-                var_851++;
-                var_850++;
-            }
-            var_833 = var_851;
-            return;
-        */
     });
 }
 function func178() {
@@ -7533,17 +7444,6 @@ function func186() {
         gsel(0, 1);
         yield func009();
         return;
-        /*
-            var_881 = 1;
-            for ( var i = 0; i < var_224; ++i ) {
-                if ( var_233[var_881][0] >= 100 && var_233[var_881][0] < 500 ) {
-                    var_882 = var_233[var_881][0];
-                    var_862[var_882][3] = 9000;
-                }
-                var_881++;
-            }
-            stop();
-        */
     });
 }
 function func187() {
@@ -8268,4 +8168,3 @@ function func199() {
         return;
     });
 }
-//# sourceMappingURL=func1.js.map

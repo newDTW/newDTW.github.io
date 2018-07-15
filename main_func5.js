@@ -2660,86 +2660,6 @@ function func511() {
             var_217 = 1;
             yield func019();
             return;
-            /*
-                    var_2288 = 0;
-                    if ( var_62 == 1 && var_91 == 12 ) {
-                        var_2288 = 1;
-                    }
-                    if ( var_62 == 2 && var_91 == 30 ) {
-                        var_2288 = 1;
-                    }
-                    if ( var_62 == 3 && var_91 == 99 ) {
-                        var_2288 = 1;
-                    }
-                    if ( var_62 == 0 || var_375 == 1 ) {
-                        var_2288 = 1;
-                    }
-                    if ( var_73[var_66][var_67] >= 1 || var_71[var_66][var_67] == 0 || var_71[var_66][var_67] == 13 || var_77[var_66][var_67] != 0 || var_72[var_66][var_67] >= 1 || var_80[var_66][var_67] != 0 ) {
-                        var_2288 = 2;
-                    }
-                    if ( var_2288 == 0 ) {
-                        await func506();
-                        var_337 = var_337 + 1;
-                        var_80[var_66][var_67] = var_337;
-                        var_81[var_337][0] = 99;
-                        var_81[var_337][1] = var_66;
-                        var_81[var_337][2] = var_67;
-                        var_81[var_337][4] = 1;
-                        var_293 = "";
-                        var_294 = "";
-                        var_295 = "";
-                        var_296 = "";
-                        var_297 = "";
-                        var_298 = "";
-                        var_299 = 0;
-                        var_293 = "床にジッパーをくっつけた！";
-                        var_198 = 1;
-                        var_300 = 0;
-                        var_25_x = var_25[1];
-                        var_26_x = var_26[1];
-                        var_27_x = var_27[1];
-                        await func047();
-                        DSPLAY(148);
-                        for ( var i = 0; i < 10; ++i ) {
-                            await func337();
-                        }
-                        if ( var_2254 == 1 ) {
-                            var_2254 = 0;
-                            await func508();
-                        }
-                        var_217 = 1;
-                        await func019();
-                        return;
-                    }
-                    if ( var_2288 >= 1 ) {
-                        var_293 = "";
-                        var_294 = "";
-                        var_295 = "";
-                        var_296 = "";
-                        var_297 = "";
-                        var_298 = "";
-                        var_299 = 0;
-                        if ( var_2288 == 1 ) {
-                            var_293 = "このフロアにジッパーはつけられない";
-                        }
-                        if ( var_2288 == 2 ) {
-                            var_293 = "ここにジッパーはつけられない";
-                        }
-                        var_198 = 1;
-                        var_300 = 0;
-                        var_25_x = var_25[1];
-                        var_26_x = var_26[1];
-                        var_27_x = var_27[1];
-                        await func047();
-                        for ( var i = 0; i < 10; ++i ) {
-                            await func337();
-                        }
-                        var_234 = 0;
-                        var_220 = 0;
-                        await func009();
-                        return;
-                    }
-            */
         }
         if (var_2258 == 104) {
             yield func506();
@@ -8340,9 +8260,6 @@ function func511() {
                 var_217 = 1;
                 yield func019();
                 return;
-                /*
-                            return;
-                */
             }
             var_1584 = 0;
             var_1585 = 0;
@@ -8697,39 +8614,6 @@ function func513() {
         var_217 = 1;
         yield func019();
         return;
-        /*
-            var_2359 = var_66;
-            var_2360 = var_67;
-            var_2361 = var_66 - 5;
-            if ( var_2361 < 0 ) {
-                var_2361 = 0;
-            }
-            var_2362 = var_66 + 5;
-            if ( var_2362 > var_33 ) {
-                var_2362 = var_33;
-            }
-            var_2363 = var_67 + 5;
-            if ( var_2363 > var_34 ) {
-                var_2363 = var_34;
-            }
-            var_2364 = var_67 - 5;
-            if ( var_2364 < 0 ) {
-                var_2364 = 0;
-            }
-            var_1396 = var_83[var_2194][1];
-            var_1397 = var_83[var_2194][2];
-            if ( var_1396 < var_2361 || var_1396 > var_2362 || var_1397 < var_2364 || var_1397 > var_2363 ) {
-                return;
-            }
-            var_271 = 1;
-            var_1551 = 1;
-            for ( var i = 0; i < 17; ++i ) {
-                await func337();
-                var_1551++;
-            }
-            var_271 = 0;
-            var_1551 = 0;
-        */
     });
 }
 function func514() {
@@ -8912,19 +8796,6 @@ function func518() {
         }
         var_1527 = 0;
         return;
-        /*
-            var_1396 = var_83[var_1992][1];
-            var_1397 = var_83[var_1992][2];
-            var_271 = 1;
-            var_1528 = 1;
-            for ( var i = 0; i < 14; ++i ) {
-                await func337();
-                var_1528++;
-            }
-            var_1528 = 0;
-            var_271 = 0;
-            return;
-        */
     });
 }
 function func519() {
@@ -10944,98 +10815,6 @@ function func533() {
         var_217 = 1;
         yield func019();
         return;
-        /*
-            var_293 = "";
-            var_294 = "";
-            var_295 = "";
-            var_296 = "";
-            var_297 = "";
-            var_298 = "";
-            var_299 = 0;
-            var_293 = "ﾑｰﾃﾞｨｰﾌﾞﾙｰｽの手はアイテムを持って";
-            var_294 = "飛び去っていった。";
-            var_198 = 1;
-            var_300 = 0;
-            await func047();
-            await func340();
-            var_198 = 0;
-            var_300 = 0;
-            if ( var_83[var_2404][1] >= var_66 && var_83[var_2404][2] >= var_67 ) {
-                var_1464 = 0;
-            }
-            if ( var_83[var_2404][1] < var_66 && var_83[var_2404][2] >= var_67 ) {
-                var_1464 = 1;
-            }
-            if ( var_83[var_2404][1] >= var_66 && var_83[var_2404][2] < var_67 ) {
-                var_1464 = 2;
-            }
-            if ( var_83[var_2404][1] < var_66 && var_83[var_2404][2] < var_67 ) {
-                var_1464 = 3;
-            }
-            var_83[var_2404][21] = 1;
-            if ( var_1464 == 0 ) {
-                var_411 = 1;
-            }
-            if ( var_1464 == 1 ) {
-                var_411 = 2;
-            }
-            if ( var_1464 == 2 ) {
-                var_411 = 3;
-            }
-            if ( var_1464 == 3 ) {
-                var_411 = 4;
-            }
-            var_1462 = (var_83[var_2404][1] - var_66 + 4) * 40;
-            var_1463 = (var_83[var_2404][2] - var_67 + 4) * 40 - 10;
-            var_1467 = 160;
-            var_1469 = 70;
-            var_1457 = var_66;
-            var_1458 = var_67;
-            var_271 = 1;
-            var_1460 = 1;
-            var_1461 = 1;
-            var_1465 = 1;
-            for ( var i = 0; i < 4; ++i ) {
-                await func337();
-                var_1460++;
-                var_1461++;
-                var_1465++;
-            }
-            for ( var i = 0; i < 20; ++i ) {
-                await func337();
-                var_1461++;
-                var_1465++;
-            }
-            var_1465 = 0;
-            var_1460 = 0;
-            var_1461 = 0;
-            var_271 = 0;
-            var_83[var_2404][21] = 0;
-            var_411 = 0;
-            var_2404 = 0;
-            if ( var_225 < var_2300 && var_2301 == 0 ) {
-                var_2300 = var_2300 - 1;
-            }
-            if ( var_225 < var_2256 && var_2301 == 1 ) {
-                var_2256 = var_2256 - 1;
-            }
-            var_225 = var_2300;
-            if ( var_2301 == 1 ) {
-                var_220 = 1;
-            }
-            if ( var_2301 == 2 ) {
-                var_234 = 1;
-            }
-            var_232 = var_2258;
-            await func506();
-            if ( var_2254 == 1 ) {
-                var_2254 = 0;
-                await func508();
-            }
-            var_217 = 1;
-            await func019();
-            return;
-        */
     });
 }
 function func534() {
@@ -28621,26 +28400,6 @@ function func577() {
             var_67 = var_2769;
         }
         return;
-        /*
-            var_83[var_673][18] = 0;
-            return;
-            if ( var_123 != 0 || var_131 != 0 || var_144 != 0 || var_218 != 0 ) {
-                return;
-            }
-            var_616 = 1;
-            for ( var i = 0; i < var_97; ++i ) {
-                if ( var_83[var_616][0] != 0 && var_83[var_616][31] != 5 && var_83[var_616][31] != 4 && var_83[var_616][30] == 0 && var_83[var_673][10] == var_83[var_616][10] && var_83[var_673][10] != 14 ) {
-                    var_2789 = var_83[var_616][1];
-                    var_2790 = var_83[var_616][2];
-                    var_2791 = var_616;
-                    var_83[var_673][18] = 1;
-                    var_83[var_616][28] = var_83[var_616][28] + 1;
-                    break;
-                }
-                var_616++;
-            }
-            return;
-        */
     });
 }
 function func578() {
@@ -29426,18 +29185,6 @@ function func582() {
         }
         if (var_83[var_673][0] == 141) {
             return;
-            /*
-                    if (var_1198 == 1) {
-                        gcopy(3, 600, 320, 40, 40);
-                    }
-                    if (var_1198 == 2) {
-                        gcopy(3, 640, 320, 40, 40);
-                    }
-                    if (var_1198 == 3) {
-                        gcopy(3, 680, 320, 40, 40);
-                    }
-                    return;
-            */
         }
         if (var_1198 == 1) {
             gcopy(3, 0, 320, 40, 40);
@@ -29636,9 +29383,6 @@ function func584() {
             var_293 = "弾丸を止めた！";
             var_198 = 1;
             var_300 = 0;
-            //		var_25_x = var_25[1];
-            //		var_26_x = var_26[1];
-            //		var_27_x = var_27[1];
             yield func047();
             for (var i = 0; i < 6; ++i) {
                 yield func337();
@@ -32131,4 +31875,3 @@ function func599() {
         return;
     });
 }
-//# sourceMappingURL=func5.js.map
