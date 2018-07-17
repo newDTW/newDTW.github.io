@@ -26,7 +26,7 @@ var pre_render_canvas = document.createElement('canvas');
 var pushing_key_list = [];
 var alpha_mode = 0;
 var alpha_color = "#ffffff";
-var files = [];
+var files = {};
 var se = [];
 var isClick = false;
 var canvasSize = 0;
@@ -47,7 +47,10 @@ function is_changed(x, y) {
 }
 function reset_input(x, y) {
     pushing_key_list[37] = pushing_key_list[38] = pushing_key_list[39] = pushing_key_list[40] = 0;
-    pushing_key_list[88] = pushing_key_list[90] = 0;
+    if (pushing_key_list[88] == 1 && pushing_key_list[90] == 1) {
+        pushing_key_list[88] = pushing_key_list[90] = 0;
+        document.getElementById("XH").style.border = '';
+    }
     if ((x <= 5) || (y <= 5) || (x >= canvasSize - 5) || (y >= canvasSize - 5)) {
         pre_pos = [0, 0];
         return;
@@ -156,17 +159,29 @@ function await_(time) {
 }
 function bgscr(data0, data1, data2, data3, data4, data5, data6 = null, data7 = null) { }
 function bload(file_name, data_size = null, offset = null) {
-    if (offset) {
-        return files[file_name][offset];
-    }
     if (file_name.split(".")[1] == "wav") {
         var audio = new Audio("se/" + file_name);
         audio.autoplay = false;
         audio.loop = false;
         return audio;
     }
-    else if (file_name.split(".")[1] == "dat") {
-        return files[file_name];
+    if (file_name.split(".")[1] != "dat") {
+        return [];
+    }
+    if (files[file_name] == undefined) {
+        var load_data = window.localStorage.getItem(file_name);
+        if (load_data != null) {
+            files[file_name] = JSON.parse(load_data);
+        }
+        else {
+            return;
+        }
+    }
+    if (offset != null) {
+        return files[file_name][offset];
+    }
+    else {
+        return files[file_name][0];
     }
 }
 function boxf(left = null, top = null, right = null, bottom = null) {
@@ -183,11 +198,13 @@ function boxf(left = null, top = null, right = null, bottom = null) {
     context.globalAlpha = ga;
 }
 function bsave(file_name, data, data_size = null, offset = null) {
-    offset = offset || -1;
+    offset = offset == null ? -1 : offset;
+    data_size = data_size == null ? 0 : data_size;
     if (!files[file_name]) {
-        files[file_name] = [];
+        files[file_name] = {};
     }
     files[file_name][offset] = data;
+    localStorage.setItem(file_name, JSON.stringify(files[file_name]));
 }
 function buffer(id, disp_width = null, disp_height = null, mode = null) {
     target_window_id = id;
@@ -253,8 +270,9 @@ function end() {
     window.close();
 }
 function exist(file_name) {
+    bload(file_name);
     if (files[file_name]) {
-        strsize = files[file_name].length;
+        strsize = Object.keys(files[file_name]).length;
     }
     else {
         strsize = -1;

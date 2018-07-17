@@ -1311,7 +1311,7 @@ function func139() {
             var_723 = var_704[93];
             var_724 = var_704[94];
         }
-        var_686 = bload("00.dat", null, 0)[-1];
+        var_686 = bload("00.dat", null, 0);
         var_702 = bload("00.dat", null, 100);
         var_25 = bload("00.dat", null, 200);
         var_26 = bload("00.dat", null, 300);
