@@ -8,6 +8,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 function dbgprt(num) {
 }
+function undef_func(str, arg = null) {
+}
 var stat = 0;
 var strsize;
 var wparam;
@@ -157,7 +159,7 @@ function await_(time) {
         setTimeout(() => resolve(), wait_time);
     });
 }
-function bgscr(data0, data1, data2, data3, data4, data5, data6 = null, data7 = null) { }
+function bgscr(data0, data1, data2, data3, data4, data5, data6 = null, data7 = null) { undef_func("bgscr", [data0, data1, data2, data3, data4, data5, data6, data7]); }
 function bload(file_name, data_size = null, offset = null) {
     if (file_name.split(".")[1] == "wav") {
         var audio = new Audio("se/" + file_name);
@@ -189,7 +191,7 @@ function boxf(left = null, top = null, right = null, bottom = null) {
     top = top || 0;
     right = right || 680;
     bottom = bottom || 680;
-    if ((target_window_id == 4 || target_window_id == 7 || target_window_id == 10) && left == 0 && top == 0) {
+    if ((target_window_id == 4 || target_window_id == 7 || target_window_id == 10 || target_window_id == 32) && left == 0 && top == 0) {
         return context.clearRect(left, top, right - left, bottom - top);
     }
     var ga = context.globalAlpha;
@@ -224,30 +226,30 @@ function buffer(id, disp_width = null, disp_height = null, mode = null) {
     contexts[id] = render_canvas.getContext('2d');
     gsel(id, target_window_id);
 }
-function button(data0, data1) { }
+function button(data0, data1) { undef_func("button", [data0, data1]); }
 function cls(id) {
     contexts[id].fillStyle = ["#fff", "#ccc", "888", "444", "#000"][id];
     contexts[id].fillRect(0, 0, 680, 680);
 }
-function chdir(data0) { }
-function chgdisp(data0 = null, data1 = null, data2 = null) { }
-function chkbox(data0, data1) { }
-function clrobj(data0 = null, data1 = null) { }
+function chdir(data0) { undef_func("chdir", [data0]); }
+function chgdisp(data0 = null, data1 = null, data2 = null) { undef_func("chgdisp", [data0, data1, data2]); }
+function chkbox(data0, data1) { undef_func("chkbox", [data0, data1]); }
+function clrobj(data0 = null, data1 = null) { undef_func("clrobj", [data0, data1]); }
 function color(red, green, blue) {
     context.strokeStyle = context.fillStyle = "rgb(" + red + ", " + green + ", " + blue + ")";
 }
-function combox(data0, data1, data2) { }
-function delete_(data0) { }
+function combox(data0, data1, data2) { undef_func("combox", [data0, data1, data2]); }
+function delete_(data0) { undef_func("delete_", [data0]); }
 function dim(length1, length2 = null, length3 = null, length4 = null) {
-    if (length4) {
+    if (length4 != null) {
         throw "4重配列なんてありませんよ";
     }
     var return_list = [];
     for (var i = 0; i < length1; i++) {
-        if (length2) {
+        if (length2 != null) {
             return_list[i] = [];
             for (var j = 0; j < length2; j++) {
-                if (length3) {
+                if (length3 != null) {
                     return_list[i][j] = [];
                     for (var k = 0; k < length3; k++) {
                         return_list[i][j][k] = 0;
@@ -264,8 +266,8 @@ function dim(length1, length2 = null, length3 = null, length4 = null) {
     }
     return return_list;
 }
-function dirinfo(info_id) { }
-function dirlist(data0, data1, data2 = null) { }
+function dirinfo(data0) { undef_func("dirinfo", [data0]); }
+function dirlist(data0, data1, data2 = null) { undef_func("dirlist", [data0, data1, data2]); }
 function end() {
     window.close();
 }
@@ -284,28 +286,15 @@ function font(font_type, font_size, font_style = null) {
     context.font = font_style_list[font_style] + " " + font_size + "px '" + font_type + "'";
     line_size = font_size;
 }
-function dialog(data0, data1, data2 = null) { }
+function dialog(data0, data1, data2 = null) { undef_func("dialog", [data0, data1]); }
 function gcopy(org_buffer_id, x, y, img_width, img_height) {
-    if (org_buffer_id == 25) {
-        var ctx = canvases[org_buffer_id].getContext('2d');
-        var imgd = ctx.getImageData(position[0], position[1], img_width, img_height);
-        var pix = imgd.data;
-        for (var i = 0, n = pix.length; i < n; i += 4) {
-            var grayscale = pix[i] * 0.3 + pix[i + 1] * 0.59 + pix[i + 2] * 0.11;
-            pix[i] = grayscale;
-            pix[i + 1] = grayscale;
-            pix[i + 2] = grayscale;
-        }
-        context.putImageData(imgd, 0, 0);
-        return;
-    }
-    context.drawImage(canvases[org_buffer_id], x, y, img_width, img_height, position[0], position[1], img_width, img_height);
+    gzoom(img_width, img_height, org_buffer_id, x, y, img_width, img_height, null);
 }
 function getkey(key_id) {
     return pushing_key_list[key_id] || 0;
 }
-function getstr(data0, data1, data2, data3) { }
-function gettime(data0) { }
+function getstr(data0, data1, data2, data3) { undef_func("getstr", [data0, data1, data2, data3]); }
+function gettime(data0) { undef_func("gettime", [data0]); }
 function ginfo(data_id) {
     switch (data_id) {
         case 2:
@@ -318,8 +307,12 @@ function ginfo(data_id) {
             return 340;
         case 21:
             return 340;
+        case 22:
+            return position[0];
+        case 23:
+            return position[1];
         default:
-            throw "未実装だ!";
+            throw "未実装だ! - " + data_id;
     }
 }
 function gmode(mode, data2 = null, data3 = null, alpha = null) {
@@ -336,7 +329,14 @@ function gmode(mode, data2 = null, data3 = null, alpha = null) {
             context.globalAlpha = alpha / 255;
     }
 }
-function grotate(data0, data1, data2, data3, data4, data5) { }
+function grotate(org_buffer_id, x, y, radian, img_width, img_height) {
+    context.save();
+    context.translate(x, y);
+    context.rotate(radian);
+    context.translate(-x, -y);
+    gcopy(org_buffer_id, x, y, img_width, img_height);
+    context.restore();
+}
 function gsel(window_id, window_mode = null) {
     if (window_mode == 1) {
         canvases[window_id].style.display = "block";
@@ -347,9 +347,27 @@ function gsel(window_id, window_mode = null) {
     context = contexts[window_id];
     target_window_id = window_id;
 }
-function gzoom(data0, data1, data2, data3, data4, data5, data6, data7) { }
-function input(data0, data1, data2, data3) { }
-function instr(data0, data1, data2) { return 0; }
+function gzoom(dst_size_x, dst_size_y, org_buffer_id, x, y, img_width, img_height, mode) {
+    if (org_buffer_id == 25) {
+        var ctx = canvases[org_buffer_id].getContext('2d');
+        var imgd = ctx.getImageData(position[0], position[1], img_width, img_height);
+        var pix = imgd.data;
+        for (var i = 0, n = pix.length; i < n; i += 4) {
+            var grayscale = pix[i] * 0.3 + pix[i + 1] * 0.59 + pix[i + 2] * 0.11;
+            pix[i] = grayscale;
+            pix[i + 1] = grayscale;
+            pix[i + 2] = grayscale;
+        }
+        context.putImageData(imgd, 0, 0);
+        return;
+    }
+    context.drawImage(canvases[org_buffer_id], x, y, img_width, img_height, position[0], position[1], dst_size_x, dst_size_y);
+}
+function input(data0, data1, data2, data3) { undef_func("input", [data0, data1, data2, data3]); }
+function instr(data0, data1, data2) { undef_func("instr", [data0, data1, data2]); return 0; }
+function int(data0) {
+    return parseInt(data0);
+}
 function limit(val, min_val, max_val) {
     return Math.max(min_val, Math.min(val, max_val));
 }
@@ -359,7 +377,7 @@ function line(start_x, start_y, end_x, end_y) {
     context.lineTo(end_x, end_y);
     context.stroke();
 }
-function listbox(data0, data1, data2) { }
+function listbox(data0, data1, data2) { undef_func("listbox", [data0, data1, data2]); }
 function mes(text) {
     var ga = context.globalAlpha;
     context.globalAlpha = 1;
@@ -367,27 +385,27 @@ function mes(text) {
     context.globalAlpha = ga;
     position[1] += line_size;
 }
-function mesbox(data0, data1, data2, data3) { }
-function mkdir(data0) { }
-function noteadd(data0, data1, data2) { }
-function notedel(data0) { }
-function noteget(data0, data1) { }
-function noteinfo(data0) { return 0; }
-function noteload(data0) { }
-function notesave(data0) { }
-function notesel(data0) { }
-function objinfo(data0, data1, data2 = null) { }
-function objmode(data0, data1) { }
-function objprm(data0, data1) { }
-function objsel(data0) { }
-function objsize(data0, data1 = null) { }
-function oncmd_gosub(func, event_id) { }
+function mesbox(data0, data1, data2, data3) { undef_func("mesbox", [data0, data1, data2, data3]); }
+function mkdir(data0) { undef_func("mkdir", [data0]); }
+function noteadd(data0, data1, data2) { undef_func("noteadd", [data0, data1, data2]); }
+function notedel(data0) { undef_func("notedel", [data0]); }
+function noteget(data0, data1) { undef_func("noteget", [data0, data1]); }
+function noteinfo(data0) { undef_func("noteinfo", [data0]); return 0; }
+function noteload(data0) { undef_func("noteload", [data0]); }
+function notesave(data0) { undef_func("notesave", [data0]); }
+function notesel(data0) { undef_func("notesel", [data0]); }
+function objinfo(data0, data1, data2 = null) { undef_func("objinfo", [data0, data1, data2]); }
+function objmode(data0, data1) { undef_func("objmode", [data0, data1]); }
+function objprm(data0, data1) { undef_func("objprm", [data0, data1]); }
+function objsel(data0) { undef_func("objsel", [data0]); }
+function objsize(data0, data1 = null) { undef_func("objsize", [data0, data1]); }
+function oncmd_gosub(func, event_id) { undef_func("oncmd_gosub", [func, event_id]); }
 function onexit_goto(func) {
     window.onbeforeunload = func;
 }
-function onexit(data0) { }
-function onkey(data0) { }
-function palette(data1, data2, data3, data4 = null, data5 = null) { }
+function onexit(data0) { undef_func("onexit", [data0]); }
+function onkey(data0) { undef_func("onkey", [data0]); }
+function palette(data0, data1, data2, data3 = null, data4 = null) { undef_func("palette", [data0, data1, data2, data3, data4]); }
 function peek(string_data, index) {
     switch (string_data.split("")[index]) {
         case "1":
@@ -447,7 +465,8 @@ function peek(string_data, index) {
         case "l":
             return 108;
         default:
-            var data = string_data.split("")[index];
+            undef_func("peek", [string_data, index]);
+            undef_func("peek", [string_data.split("")[index]]);
             return index;
     }
 }
@@ -468,7 +487,7 @@ function picload(img_name) {
         });
     });
 }
-function poke(data0, data1, data2) { }
+function poke(data0, data1, data2) { undef_func("poke", [data0, data1, data2]); }
 function pos(x, y) {
     position = [x, y];
 }
@@ -477,7 +496,7 @@ function pset(pos_x, pos_y) {
     context.arc(pos_x, pos_y, 1, 0, 6.28, false);
     context.fill();
 }
-function randomize() { }
+function randomize() { undef_func("randomize"); }
 function redraw(mode) {
     mode = 1;
     if (mode == 1 && pre_render_canvas) {
@@ -508,14 +527,27 @@ function screen_(id, display_width, display_height, init_mode, pos_x = null, pos
     document.body.appendChild(canvases[id]);
     canvases[id].style.display = "none";
 }
-function sendmsg(data0, data1, data2, data3) { }
-function sdim(length1, length2 = null, length3 = null, length4 = null) {
-    return dim(length1, length2, length3, length4);
+function sendmsg(data0, data1, data2, data3) { undef_func("sendmsg", [data0, data1, data2, data3]); }
+function sdim(length1, length2 = null, length3 = null) {
+    if (length2 == null) {
+        return "";
+    }
+    var return_list = [];
+    for (var i = 0; i < length2; i++) {
+        if (length3 != null) {
+            return_list[i] = [];
+            for (var j = 0; j < length3; j++) {
+                return_list[i][j] = "";
+            }
+        }
+        else {
+            return_list[i] = "";
+        }
+    }
+    return return_list;
 }
-function stick(data0, data1) {
-    return 0;
-}
-function strmid(data0, data1, data2) { }
+function stick(data0, data1) { undef_func("stick", [data0, data1]); return 0; }
+function strmid(data0, data1, data2) { undef_func("strmid", [data0, data1, data2]); }
 function title(window_name) {
     if (target_window_id == 0) {
         document.title = window_name;
@@ -524,7 +556,7 @@ function title(window_name) {
 function wait(time) {
     return new Promise((resolve, reject) => { setTimeout(() => resolve(), 10 * time); });
 }
-function width(width, height) { }
+function width(data0, data1) { undef_func("width", [data0, data1]); }
 function HMMINIT(data0) {
     stat = 1;
 }

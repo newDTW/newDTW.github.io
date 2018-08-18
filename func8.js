@@ -53,23 +53,23 @@ function func801() {
         dbgprt(801);
         DSPLAY(211);
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 4;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 3;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 2;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 1;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 0;
@@ -82,39 +82,39 @@ function func802() {
         var_243 = 0;
         DSPLAY(210);
         var_783 = 1;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 2;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 3;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 4;
-        for (var i = 0; i < 5; ++i) {
+        for (var cnt1 = 0; cnt1 < 5; ++cnt1) {
             yield func337();
         }
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 6;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 7;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 8;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 9;
@@ -203,11 +203,11 @@ function func802() {
         var_26_x = var_26[1];
         var_27_x = var_27[1];
         yield func047();
-        for (var i = 0; i < 5; ++i) {
+        for (var cnt1 = 0; cnt1 < 5; ++cnt1) {
             yield func337();
         }
         if (var_1013 == 0) {
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func337();
             }
             yield func801();
@@ -317,7 +317,7 @@ function func804() {
         pset(331, 331);
         var_1620 = 1;
         var_230 = 45;
-        for (var i = 0; i < var_1013; ++i) {
+        for (var cnt1 = 0; cnt1 < var_1013; ++cnt1) {
             var_2010 = var_991[0][var_1620][0];
             var_2011 = var_991[0][var_1620][3];
             var_2012 = var_991[0][var_1620][4];
@@ -518,24 +518,24 @@ function func807() {
         yield func492();
         var_3188 = var_489;
         var_1037 = var_1037 + 1;
-        for (var i = 0; i < 30; ++i) {
-            var_991[1][var_1037][i] = var_991[0][var_225][i];
+        for (var cnt1 = 0; cnt1 < 30; ++cnt1) {
+            var_991[1][var_1037][cnt1] = var_991[0][var_225][cnt1];
         }
         var_991[1][var_1037][11] = 0;
         var_991[0][var_225][0] = 0;
         var_1957 = 0;
         var_447 = 1;
         var_449 = 2;
-        for (var i = 0; i < var_1013; ++i) {
+        for (var cnt1 = 0; cnt1 < var_1013; ++cnt1) {
             if (var_991[0][var_447][0] == 0) {
-                for (var j = 0; j < 30; ++j) {
-                    var_991[0][var_447][j] = var_991[0][var_449][j];
+                for (var cnt3 = 0; cnt3 < 30; ++cnt3) {
+                    var_991[0][var_447][cnt3] = var_991[0][var_449][cnt3];
                 }
                 var_1957 = 1;
             }
             if (var_1957 == 1) {
-                for (var j = 0; j < 30; ++j) {
-                    var_991[0][var_447][j] = var_991[0][var_449][j];
+                for (var cnt3 = 0; cnt3 < 30; ++cnt3) {
+                    var_991[0][var_447][cnt3] = var_991[0][var_449][cnt3];
                 }
             }
             var_447 = var_447 + 1;
@@ -559,7 +559,7 @@ function func807() {
         var_26_x = var_26[1];
         var_27_x = var_27[1];
         yield func047();
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         yield func801();
@@ -602,9 +602,9 @@ function func808() {
         var_1036 = rnd(3);
         var_1036 = var_1036 + 2;
         var_683 = 1;
-        for (var i = 0; i < 10; ++i) {
-            for (var j = 0; j < 30; ++j) {
-                var_991[0][var_683][j] = 0;
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
+            for (var cnt2 = 0; cnt2 < 30; ++cnt2) {
+                var_991[0][var_683][cnt2] = 0;
             }
             var_866 = 0;
             var_1736 = rnd(100);
@@ -633,8 +633,8 @@ function func808() {
             if (var_262 == 1) {
                 var_62 = 0;
             }
-            for (var j = 0; j < 30; ++j) {
-                var_991[0][var_683][j] = var_78[var_866][j];
+            for (var cnt2 = 0; cnt2 < 30; ++cnt2) {
+                var_991[0][var_683][cnt2] = var_78[var_866][cnt2];
             }
             var_991[0][var_683][11] = 1;
             var_991[0][var_683][12] = 0;
@@ -650,39 +650,39 @@ function func809() {
         dbgprt(809);
         DSPLAY(210);
         var_783 = 1;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 2;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 3;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 4;
-        for (var i = 0; i < 5; ++i) {
+        for (var cnt1 = 0; cnt1 < 5; ++cnt1) {
             yield func337();
         }
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 6;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 7;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 12;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 13;
@@ -932,23 +932,23 @@ function func812() {
         var_198 = 0;
         DSPLAY(211);
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 4;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 3;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 2;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 1;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 0;
@@ -961,39 +961,39 @@ function func813() {
         dbgprt(813);
         DSPLAY(210);
         var_783 = 1;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 2;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 3;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 4;
-        for (var i = 0; i < 5; ++i) {
+        for (var cnt1 = 0; cnt1 < 5; ++cnt1) {
             yield func337();
         }
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 6;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 7;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 14;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 15;
@@ -1159,10 +1159,10 @@ function func816() {
         dbgprt(816);
         var_2233 = var_1038 + 1;
         var_2234 = 0;
-        for (var i = 0; i < var_2233; ++i) {
-            if (var_989[i] == var_830) {
+        for (var cnt1 = 0; cnt1 < var_2233; ++cnt1) {
+            if (var_989[cnt1] == var_830) {
                 var_2234 = 1;
-                var_1610 = i;
+                var_1610 = cnt1;
                 break;
             }
         }
@@ -1187,23 +1187,23 @@ function func817() {
         var_198 = 0;
         DSPLAY(211);
         var_783 = 5;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 4;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 3;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 2;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 1;
-        for (var i = 0; i < 1; ++i) {
+        for (var cnt1 = 0; cnt1 < 1; ++cnt1) {
             yield func337();
         }
         var_783 = 0;
@@ -1629,19 +1629,19 @@ function func821() {
         gsel(0);
         var_311 = 0;
         var_312 = 1;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
             var_311 = var_311 + 25;
             if (var_311 >= 255) {
                 var_311 = 255;
             }
         }
-        for (var i = 0; i < 4; ++i) {
+        for (var cnt1 = 0; cnt1 < 4; ++cnt1) {
             yield func337();
         }
         var_311 = 255;
         var_312 = 0;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             redraw(0);
             yield func168();
             color(0, 0, 0);
@@ -1669,7 +1669,7 @@ function func822() {
         boxf(0, 0, 340, 340);
         gsel(0);
         var_311 = 0;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             redraw(0);
             yield func168();
             color(0, 0, 0);
@@ -1688,10 +1688,10 @@ function func822() {
         }
         var_311 = 255;
         var_312 = 1;
-        for (var i = 0; i < 4; ++i) {
+        for (var cnt1 = 0; cnt1 < 4; ++cnt1) {
             yield func337();
         }
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
             var_311 = var_311 - 25;
             if (var_311 <= 0) {
@@ -1809,23 +1809,23 @@ function func825() {
         yield func504();
         yield func505();
         var_373 = 5;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 4;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 3;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 2;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 1;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         var_373 = 0;
@@ -1837,7 +1837,7 @@ function func825() {
             yield func933();
         }
         yield func076();
-        for (var i = 0; i < 80; ++i) {
+        for (var cnt1 = 0; cnt1 < 80; ++cnt1) {
             yield func339();
         }
         DSPLAY(101);
@@ -1898,23 +1898,23 @@ function func827() {
         var_405 = 0;
         var_344 = 0;
         var_373 = 5;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 4;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 3;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 2;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 1;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         var_373 = 0;
@@ -1934,7 +1934,7 @@ function func827() {
             yield func933();
         }
         yield func076();
-        for (var i = 0; i < 80; ++i) {
+        for (var cnt1 = 0; cnt1 < 80; ++cnt1) {
             yield func339();
         }
         DSPLAY(101);
@@ -1995,23 +1995,23 @@ function func829() {
         var_405 = 0;
         var_344 = 0;
         var_373 = 5;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 4;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 3;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 2;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 1;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         var_373 = 0;
@@ -2043,7 +2043,7 @@ function func829() {
         var_205 = 1;
         yield func231();
         yield func076();
-        for (var i = 0; i < 80; ++i) {
+        for (var cnt1 = 0; cnt1 < 80; ++cnt1) {
             yield func339();
         }
         DSPLAY(101);
@@ -2055,23 +2055,23 @@ function func830() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(830);
         var_373 = 5;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 4;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 3;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 2;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 1;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         var_373 = 0;
@@ -2110,7 +2110,7 @@ function func830() {
         yield func504();
         yield func505();
         yield func076();
-        for (var i = 0; i < 80; ++i) {
+        for (var cnt1 = 0; cnt1 < 80; ++cnt1) {
             yield func339();
         }
         DSPLAY(101);
@@ -2135,7 +2135,7 @@ function func831() {
         yield func047();
         var_198 = 1;
         var_300 = 0;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         yield func009();
@@ -2237,14 +2237,14 @@ function func833() {
         if (var_523 == 0) {
             var_3202 = 0;
             var_480 = 1;
-            for (var i = 0; i < var_224; ++i) {
+            for (var cnt2 = 0; cnt2 < var_224; ++cnt2) {
                 if (var_233[var_480][0] == 396) {
                     var_3202 = 1;
                 }
                 if (var_233[var_480][0] >= 800 && var_233[var_480][0] < 900) {
                     var_484 = 1;
                     var_485 = var_233[var_480][6];
-                    for (var j = 0; j < 10; ++j) {
+                    for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         if (var_486[var_485][var_484][0] == 396) {
                             var_3202 = 1;
                         }
@@ -2388,23 +2388,23 @@ function func834() {
         var_405 = 0;
         var_344 = 0;
         var_373 = 5;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 4;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 3;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 2;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 1;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         var_373 = 0;
@@ -2423,7 +2423,7 @@ function func834() {
             yield func933();
         }
         yield func076();
-        for (var i = 0; i < 80; ++i) {
+        for (var cnt1 = 0; cnt1 < 80; ++cnt1) {
             yield func339();
         }
         DSPLAY(101);
@@ -2664,23 +2664,23 @@ function func836() {
         var_405 = 0;
         var_344 = 0;
         var_373 = 5;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 4;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 3;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 2;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_373 = 1;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         var_373 = 0;
@@ -2711,7 +2711,7 @@ function func836() {
         var_205 = 1;
         yield func231();
         yield func076();
-        for (var i = 0; i < 80; ++i) {
+        for (var cnt1 = 0; cnt1 < 80; ++cnt1) {
             yield func339();
         }
         DSPLAY(101);
@@ -2724,11 +2724,11 @@ function func837() {
         dbgprt(837);
         var_3204 = 0;
         var_1056 = 1;
-        for (var i = 0; i < 20; ++i) {
+        for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
             if (var_233[var_1056][0] >= 800 && var_233[var_1056][0] < 900) {
                 var_484 = 1;
                 var_485 = var_233[var_1056][6];
-                for (var j = 0; j < 10; ++j) {
+                for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     if (var_486[var_485][var_484][11] == 1 && var_486[var_485][var_484][0] != 0) {
                         var_3205 = var_484;
                         var_220 = 1;
@@ -2738,7 +2738,7 @@ function func837() {
                         var_3204 = 1;
                         var_220 = 0;
                         var_484 = 1;
-                        j = 0;
+                        cnt3 = -1;
                         continue;
                     }
                     var_484 = var_484 + 1;
@@ -2750,7 +2750,7 @@ function func837() {
                 var_3204 = 1;
                 var_1056 = 1;
                 var_3206 = 1;
-                i = 0;
+                cnt1 = -1;
                 continue;
             }
             var_1056 = var_1056 + 1;
@@ -2773,7 +2773,7 @@ function func837() {
             var_1470 = 5;
             yield func337();
             var_1470 = 6;
-            for (var i = 0; i < 2; ++i) {
+            for (var cnt2 = 0; cnt2 < 2; ++cnt2) {
                 yield func337();
             }
             var_198 = 0;
@@ -2808,12 +2808,12 @@ function func838() {
         }
         yield func433();
         if (var_3204 == 0) {
-            for (var i = 0; i < 20; ++i) {
+            for (var cnt2 = 0; cnt2 < 20; ++cnt2) {
                 yield func337();
             }
         }
         if (var_3204 == 1) {
-            for (var i = 0; i < 5; ++i) {
+            for (var cnt2 = 0; cnt2 < 5; ++cnt2) {
                 yield func337();
             }
         }
@@ -2838,7 +2838,7 @@ function func838() {
         var_26_x = var_26[2];
         var_27_x = var_27[2];
         yield func047();
-        for (var i = 0; i < 15; ++i) {
+        for (var cnt1 = 0; cnt1 < 15; ++cnt1) {
             yield func337();
         }
         yield func094();
@@ -2856,17 +2856,17 @@ function func838() {
         var_389 = 2;
         var_199 = 6;
         var_1470 = 2;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_747 = 1;
         var_1470 = 3;
-        for (var i = 0; i < 15; ++i) {
+        for (var cnt1 = 0; cnt1 < 15; ++cnt1) {
             yield func337();
         }
         var_389 = 0;
         var_1470 = 4;
-        for (var i = 0; i < 2; ++i) {
+        for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
             yield func337();
         }
         var_1470 = 1;
@@ -2881,7 +2881,7 @@ function func838() {
         var_27_x = var_27[2];
         yield func047();
         yield func050();
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             yield func337();
         }
         return;
@@ -4085,7 +4085,7 @@ function func851() {
             var_199 = 4;
             var_66 = var_66 - 1;
             var_3279 = var_66 + var_3264 + 1;
-            for (var i = 0; i < 2; ++i) {
+            for (var cnt2 = 0; cnt2 < 2; ++cnt2) {
                 yield func852();
             }
         }
@@ -4093,7 +4093,7 @@ function func851() {
             var_199 = 6;
             var_66 = var_66 + 1;
             var_3279 = var_66 + var_3264 + 1;
-            for (var i = 0; i < 2; ++i) {
+            for (var cnt2 = 0; cnt2 < 2; ++cnt2) {
                 yield func852();
             }
         }
@@ -4101,7 +4101,7 @@ function func851() {
             var_199 = 8;
             var_67 = var_67 - 1;
             var_3280 = var_67 + var_3265 + 1;
-            for (var i = 0; i < 2; ++i) {
+            for (var cnt2 = 0; cnt2 < 2; ++cnt2) {
                 yield func852();
             }
         }
@@ -4109,7 +4109,7 @@ function func851() {
             var_199 = 2;
             var_67 = var_67 + 1;
             var_3280 = var_67 + var_3265 + 1;
-            for (var i = 0; i < 2; ++i) {
+            for (var cnt2 = 0; cnt2 < 2; ++cnt2) {
                 yield func852();
             }
         }
@@ -4118,7 +4118,7 @@ function func851() {
                 var_199 = 4;
                 var_66 = var_66 - 1;
                 var_3279 = var_66 + var_3264 + 1;
-                for (var i = 0; i < 2; ++i) {
+                for (var cnt3 = 0; cnt3 < 2; ++cnt3) {
                     yield func852();
                 }
             }
@@ -4126,7 +4126,7 @@ function func851() {
                 var_199 = 6;
                 var_66 = var_66 + 1;
                 var_3279 = var_66 + var_3264 + 1;
-                for (var i = 0; i < 2; ++i) {
+                for (var cnt3 = 0; cnt3 < 2; ++cnt3) {
                     yield func852();
                 }
             }
@@ -4134,7 +4134,7 @@ function func851() {
                 var_199 = 8;
                 var_67 = var_67 - 1;
                 var_3280 = var_67 + var_3265 + 1;
-                for (var i = 0; i < 2; ++i) {
+                for (var cnt3 = 0; cnt3 < 2; ++cnt3) {
                     yield func852();
                 }
             }
@@ -4142,7 +4142,7 @@ function func851() {
                 var_199 = 2;
                 var_67 = var_67 + 1;
                 var_3280 = var_67 + var_3265 + 1;
-                for (var i = 0; i < 2; ++i) {
+                for (var cnt3 = 0; cnt3 < 2; ++cnt3) {
                     yield func852();
                 }
             }
@@ -4165,7 +4165,7 @@ function func851() {
             var_3247 = var_3246;
             var_3266 = 7;
             objsel(0);
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
         }
@@ -4173,7 +4173,7 @@ function func851() {
             var_3293 = var_3275;
             var_3266 = 7;
             objsel(0);
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
         }
@@ -4212,7 +4212,7 @@ function func851() {
                 var_3266 = 8;
             }
             objsel(0);
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
         }
@@ -4220,7 +4220,7 @@ function func851() {
             var_3257 = var_3254;
             var_3266 = 8;
             objsel(0);
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
         }
@@ -4228,7 +4228,7 @@ function func851() {
             var_3258 = var_3255;
             var_3266 = 8;
             objsel(0);
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
         }
@@ -4236,7 +4236,7 @@ function func851() {
             var_3259 = var_3256;
             var_3266 = 8;
             objsel(0);
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
         }
@@ -4244,7 +4244,7 @@ function func851() {
             var_3250 = var_3249;
             var_3266 = 9;
             objsel(0);
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
         }
@@ -4253,7 +4253,7 @@ function func851() {
             var_3270 = var_3245;
             var_3266 = 0;
             objsel(0);
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             if (var_3270 == 0) {
@@ -4517,11 +4517,11 @@ function func854() {
         var_1149 = 4;
         var_449 = 2;
         var_3302 = 1;
-        for (var i = 0; i < var_3238; ++i) {
+        for (var cnt1 = 0; cnt1 < var_3238; ++cnt1) {
             var_3303 = 4;
             var_447 = 2;
             var_3304 = 1;
-            for (var j = 0; j < var_3237; ++j) {
+            for (var cnt2 = 0; cnt2 < var_3237; ++cnt2) {
                 if (var_71[var_3303][var_1149] == 0) {
                     color(0, 0, 0);
                     boxf(var_447 * var_3233 + var_3231, var_449 * var_3233 + var_3232, var_447 * var_3233 + var_3231 + var_3233, var_449 * var_3233 + var_3232 + var_3233);
@@ -4589,13 +4589,13 @@ function func855() {
         if (var_449 < 0) {
             var_449 = 0;
         }
-        for (var i = 0; i < 11; ++i) {
+        for (var cnt1 = 0; cnt1 < 11; ++cnt1) {
             var_447 = var_66;
             var_764 = -1;
             if (var_447 < 0) {
                 var_447 = 0;
             }
-            for (var j = 0; j < 11; ++j) {
+            for (var cnt2 = 0; cnt2 < 11; ++cnt2) {
                 if (var_447 < 5 || var_447 > 56 || var_449 < 5 || var_449 > 37) {
                     var_92 = 6;
                 }
@@ -4983,9 +4983,9 @@ function func859() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(859);
         var_449 = var_67;
-        for (var i = 0; i < 11; ++i) {
+        for (var cnt1 = 0; cnt1 < 11; ++cnt1) {
             var_447 = var_66;
-            for (var j = 0; j < 11; ++j) {
+            for (var cnt2 = 0; cnt2 < 11; ++cnt2) {
                 pos((var_447 - var_66 - 1) * 40 + 10, (var_449 - var_67 - 1) * 40 + 10);
                 gmode(2);
                 if (var_73[var_447][var_449] == 1) {
@@ -5029,7 +5029,7 @@ function func860() {
         var_3309 = 340;
         var_3310 = 10;
         var_3311 = 10;
-        for (var i = 0; i < 9; ++i) {
+        for (var cnt1 = 0; cnt1 < 9; ++cnt1) {
             line(var_3308, var_3310, var_3309, var_3311);
             var_3310 = var_3310 + 40;
             var_3311 = var_3311 + 40;
@@ -5038,7 +5038,7 @@ function func860() {
         var_3309 = 10;
         var_3310 = 0;
         var_3311 = 340;
-        for (var i = 0; i < 9; ++i) {
+        for (var cnt1 = 0; cnt1 < 9; ++cnt1) {
             line(var_3308, var_3310, var_3309, var_3311);
             var_3308 = var_3308 + 40;
             var_3309 = var_3309 + 40;
@@ -5280,7 +5280,7 @@ function func863() {
         dbgprt(863);
         if (mousex >= var_3211 && mousex <= var_3211 + 40 && mousey >= var_3212 && mousey <= var_3212 + 40) {
             var_3266 = 0;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5288,7 +5288,7 @@ function func863() {
         }
         if (mousex >= var_3213 && mousex <= var_3213 + 40 && mousey >= var_3214 && mousey <= var_3214 + 40) {
             var_3266 = 1;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5296,7 +5296,7 @@ function func863() {
         }
         if (mousex >= var_3215 && mousex <= var_3215 + 40 && mousey >= var_3216 && mousey <= var_3216 + 40) {
             var_3266 = 2;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5304,7 +5304,7 @@ function func863() {
         }
         if (mousex >= var_3217 && mousex <= var_3217 + 40 && mousey >= var_3218 && mousey <= var_3218 + 40) {
             var_3266 = 3;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5312,7 +5312,7 @@ function func863() {
         }
         if (mousex >= var_3219 && mousex <= var_3219 + 40 && mousey >= var_3220 && mousey <= var_3220 + 40) {
             var_3266 = 4;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5320,7 +5320,7 @@ function func863() {
         }
         if (mousex >= var_3221 && mousex <= var_3221 + 40 && mousey >= var_3222 && mousey <= var_3222 + 40) {
             var_3266 = 5;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5328,7 +5328,7 @@ function func863() {
         }
         if (mousex >= var_3223 && mousex <= var_3223 + 40 && mousey >= var_3224 && mousey <= var_3224 + 40) {
             var_3266 = 6;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5336,7 +5336,7 @@ function func863() {
         }
         if (mousex >= var_3229 && mousex <= var_3229 + 40 && mousey >= var_3230 && mousey <= var_3230 + 40) {
             var_3266 = 7;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5344,7 +5344,7 @@ function func863() {
         }
         if (mousex >= var_3225 && mousex <= var_3225 + 40 && mousey >= var_3226 && mousey <= var_3226 + 40) {
             var_3266 = 8;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5352,7 +5352,7 @@ function func863() {
         }
         if (mousex >= var_3227 && mousex <= var_3227 + 40 && mousey >= var_3228 && mousey <= var_3228 + 40) {
             var_3266 = 9;
-            for (var i = 0; i < 10; ++i) {
+            for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 yield func852();
             }
             yield func851();
@@ -5416,7 +5416,7 @@ function func863() {
             if (var_3266 >= 5) {
                 if (var_71[var_3315][var_3316] == 0 || var_71[var_3315][var_3316] == 13) {
                     var_3294 = 2;
-                    for (var i = 0; i < 10; ++i) {
+                    for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         yield func852();
                     }
                     var_3294 = 0;
@@ -5451,7 +5451,7 @@ function func863() {
                 yield func866();
                 var_3333 = 1;
                 var_3334 = 0;
-                for (var i = 0; i < 20; ++i) {
+                for (var cnt3 = 0; cnt3 < 20; ++cnt3) {
                     if (var_83[var_3333][0] == 0) {
                         var_3334 = 1;
                         break;
@@ -5460,7 +5460,7 @@ function func863() {
                 }
                 if (var_3334 == 0 && var_82[var_3315][var_3316] == 0) {
                     var_3294 = 1;
-                    for (var i = 0; i < 10; ++i) {
+                    for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         yield func852();
                     }
                     var_3294 = 0;
@@ -5483,7 +5483,7 @@ function func863() {
                 yield func866();
                 var_3333 = 1;
                 var_3334 = 0;
-                for (var i = 0; i < 20; ++i) {
+                for (var cnt3 = 0; cnt3 < 20; ++cnt3) {
                     if (var_78[var_3333][0] == 0) {
                         var_3334 = 1;
                         break;
@@ -5492,7 +5492,7 @@ function func863() {
                 }
                 if (var_3334 == 0 && var_77[var_3315][var_3316] == 0) {
                     var_3294 = 1;
-                    for (var i = 0; i < 10; ++i) {
+                    for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         yield func852();
                     }
                     var_3294 = 0;
@@ -5534,7 +5534,7 @@ function func863() {
                 yield func866();
                 var_3333 = 1;
                 var_3334 = 0;
-                for (var i = 0; i < 10; ++i) {
+                for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     if (var_81[var_3333][0] == 0) {
                         var_3334 = 1;
                         break;
@@ -5543,7 +5543,7 @@ function func863() {
                 }
                 if (var_3334 == 0 && var_80[var_3315][var_3316] == 0) {
                     var_3294 = 1;
-                    for (var i = 0; i < 10; ++i) {
+                    for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         yield func852();
                     }
                     var_3294 = 0;
@@ -5567,9 +5567,9 @@ function func864() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(864);
         var_1075 = 0;
-        for (var i = 0; i < var_32; ++i) {
+        for (var cnt1 = 0; cnt1 < var_32; ++cnt1) {
             var_1076 = 0;
-            for (var j = 0; j < 57; ++j) {
+            for (var cnt2 = 0; cnt2 < 57; ++cnt2) {
                 if (var_71[var_1076][var_1075] == 14 || var_71[var_1076][var_1075] == 21 || var_71[var_1076][var_1075] == 22 || var_71[var_1076][var_1075] == 23 || var_71[var_1076][var_1075] == 24) {
                     var_71[var_1076][var_1075] = 14;
                     var_1077 = var_1076;
@@ -5755,9 +5755,9 @@ function func870() {
         var_337 = 0;
         var_764 = 0;
         var_1075 = 0;
-        for (var i = 0; i < var_32; ++i) {
+        for (var cnt1 = 0; cnt1 < var_32; ++cnt1) {
             var_1076 = 0;
-            for (var j = 0; j < 57; ++j) {
+            for (var cnt2 = 0; cnt2 < 57; ++cnt2) {
                 if (peek(var_983, var_764) == 35) {
                     var_71[var_1076][var_1075] = 0;
                 }
@@ -6003,9 +6003,9 @@ function func870() {
         var_1729 = 1;
         var_97 = 0;
         var_1075 = 0;
-        for (var i = 0; i < var_32; ++i) {
+        for (var cnt1 = 0; cnt1 < var_32; ++cnt1) {
             var_1076 = 0;
-            for (var j = 0; j < 57; ++j) {
+            for (var cnt2 = 0; cnt2 < 57; ++cnt2) {
                 if (peek(var_983, var_764) == 64) {
                     var_65[var_1076][var_1075] = 1;
                     var_71[var_1076][var_1075] = var_201;
@@ -6122,9 +6122,9 @@ function func870() {
         var_1729 = 0;
         var_764 = 0;
         var_1075 = 0;
-        for (var i = 0; i < var_32; ++i) {
+        for (var cnt1 = 0; cnt1 < var_32; ++cnt1) {
             var_1076 = 0;
-            for (var j = 0; j < 57; ++j) {
+            for (var cnt2 = 0; cnt2 < 57; ++cnt2) {
                 if (peek(var_983, var_764) == 87) {
                     var_1077 = var_1076;
                     var_1078 = var_1075 + 1;
@@ -6229,10 +6229,10 @@ function func873() {
         var_3463 = "";
         var_3463 = var_3463 + "" + var_3253 + "\n";
         var_3464 = 0;
-        for (var i = 0; i < 38; ++i) {
+        for (var cnt1 = 0; cnt1 < 38; ++cnt1) {
             var_3465 = 0;
-            for (var j = 0; j < 59; ++j) {
-                if (j == 57) {
+            for (var cnt2 = 0; cnt2 < 59; ++cnt2) {
+                if (cnt2 == 57) {
                     var_3463 = var_3463 + "\n";
                     break;
                 }
@@ -6330,7 +6330,7 @@ function func873() {
                     var_3466 = "%";
                 }
                 if (var_77[var_3465][var_3464] == 20) {
-                    var_3466 = "||";
+                    var_3466 = "|";
                 }
                 if (var_80[var_3465][var_3464] == 1) {
                     var_3466 = "k";
@@ -6368,10 +6368,10 @@ function func873() {
             var_3464++;
         }
         var_3464 = 0;
-        for (var i = 0; i < 38; ++i) {
+        for (var cnt1 = 0; cnt1 < 38; ++cnt1) {
             var_3465 = 0;
-            for (var j = 0; j < 59; ++j) {
-                if (j == 57) {
+            for (var cnt2 = 0; cnt2 < 59; ++cnt2) {
+                if (cnt2 == 57) {
                     var_3463 = var_3463 + "\n";
                     break;
                 }
@@ -6505,7 +6505,7 @@ function func873() {
         }
         var_3463 = var_3463 + "" + var_3467 + "\n";
         var_3468 = 1;
-        for (var i = 0; i < 20; ++i) {
+        for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
             var_3463 = var_3463 + "" + var_83[var_3468][0] + "\n";
             var_3467 = 0;
             var_3467 = var_83[var_3468][16];
@@ -6513,7 +6513,7 @@ function func873() {
             var_3468++;
         }
         var_3468 = 1;
-        for (var i = 0; i < 20; ++i) {
+        for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
             var_3463 = var_3463 + "" + var_78[var_3468][0] + "\n";
             var_3469 = var_78[var_3468][1];
             var_3470 = var_78[var_3468][2];
@@ -6539,7 +6539,7 @@ function func873() {
             var_3468++;
         }
         var_3468 = 1;
-        for (var i = 0; i < 10; ++i) {
+        for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             var_3463 = var_3463 + "" + var_81[var_3468][0] + "\n";
             var_3469 = var_81[var_3468][1];
             var_3470 = var_81[var_3468][2];
@@ -6550,8 +6550,8 @@ function func873() {
         var_3463 = var_3463 + "" + var_3260 + "\n";
         notesel(var_3463);
         var_3472 = sdim(10000);
-        for (var i = 0; i < 200; ++i) {
-            noteget(var_3473, i);
+        for (var cnt1 = 0; cnt1 < 200; ++cnt1) {
+            noteget(var_3473, cnt1);
             var_3472 = var_3472 + var_3473 + "\n";
         }
         yield func887();
@@ -6624,9 +6624,9 @@ function func875() {
         var_983 = var_983 + "#########################################################";
         var_764 = 0;
         var_1075 = 0;
-        for (var i = 0; i < var_32; ++i) {
+        for (var cnt1 = 0; cnt1 < var_32; ++cnt1) {
             var_1076 = 0;
-            for (var j = 0; j < 57; ++j) {
+            for (var cnt2 = 0; cnt2 < 57; ++cnt2) {
                 if (peek(var_983, var_764) == 35) {
                     var_71[var_1076][var_1075] = 0;
                 }
@@ -6674,7 +6674,7 @@ function func876() {
         var_626 = 0;
         yield func111();
         yield func076();
-        for (var i = 0; i < 80; ++i) {
+        for (var cnt1 = 0; cnt1 < 80; ++cnt1) {
             yield func339();
         }
         var_68 = 1;
@@ -6705,7 +6705,7 @@ function func877() {
         yield func870();
         yield func878();
         var_3474 = 1;
-        for (var i = 0; i < var_97; ++i) {
+        for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
             if (var_83[var_3474][10] == var_201) {
                 if (var_83[var_3474][0] != 101 && var_83[var_3474][0] != 102 && var_83[var_3474][0] != 103 && var_83[var_3474][0] != 104) {
                     var_83[var_3474][12] = 0;
@@ -6721,9 +6721,9 @@ function func878() {
         dbgprt(878);
         var_764 = 0;
         var_1075 = 0;
-        for (var i = 0; i < var_32; ++i) {
+        for (var cnt1 = 0; cnt1 < var_32; ++cnt1) {
             var_1076 = 0;
-            for (var j = 0; j < 57; ++j) {
+            for (var cnt2 = 0; cnt2 < 57; ++cnt2) {
                 if (var_71[var_1076][var_1075] == 21 || var_71[var_1076][var_1075] == 22 || var_71[var_1076][var_1075] == 23 || var_71[var_1076][var_1075] == 24) {
                     var_71[var_1076][var_1075] = 14;
                 }
@@ -6817,12 +6817,12 @@ function func881() {
         noteadd(var_3472, 0, 1);
         var_983 = "";
         var_3478 = 1;
-        for (var i = 0; i < 38; ++i) {
+        for (var cnt1 = 0; cnt1 < 38; ++cnt1) {
             noteget(var_3479, var_3478);
             var_983 = var_983 + var_3479;
             var_3478 = var_3478 + 1;
         }
-        for (var i = 0; i < 38; ++i) {
+        for (var cnt1 = 0; cnt1 < 38; ++cnt1) {
             noteget(var_3479, var_3478);
             var_983 = var_983 + var_3479;
             var_3478 = var_3478 + 1;
@@ -7075,130 +7075,130 @@ function func881() {
         var_3480++;
         noteget(var_3260, var_3480);
         var_3480++;
-        var_3253 = parseInt(var_3253);
-        var_201 = parseInt(var_201);
-        var_3339 = parseInt(var_3339);
-        var_3422 = parseInt(var_3422);
-        var_3421 = parseInt(var_3421);
-        var_3424 = parseInt(var_3424);
-        var_3423 = parseInt(var_3423);
-        var_3426 = parseInt(var_3426);
-        var_3425 = parseInt(var_3425);
-        var_3428 = parseInt(var_3428);
-        var_3427 = parseInt(var_3427);
-        var_3430 = parseInt(var_3430);
-        var_3429 = parseInt(var_3429);
-        var_3432 = parseInt(var_3432);
-        var_3431 = parseInt(var_3431);
-        var_3434 = parseInt(var_3434);
-        var_3433 = parseInt(var_3433);
-        var_3436 = parseInt(var_3436);
-        var_3435 = parseInt(var_3435);
-        var_3438 = parseInt(var_3438);
-        var_3437 = parseInt(var_3437);
-        var_3440 = parseInt(var_3440);
-        var_3439 = parseInt(var_3439);
-        var_3442 = parseInt(var_3442);
-        var_3441 = parseInt(var_3441);
-        var_3444 = parseInt(var_3444);
-        var_3443 = parseInt(var_3443);
-        var_3446 = parseInt(var_3446);
-        var_3445 = parseInt(var_3445);
-        var_3448 = parseInt(var_3448);
-        var_3447 = parseInt(var_3447);
-        var_3450 = parseInt(var_3450);
-        var_3449 = parseInt(var_3449);
-        var_3452 = parseInt(var_3452);
-        var_3451 = parseInt(var_3451);
-        var_3454 = parseInt(var_3454);
-        var_3453 = parseInt(var_3453);
-        var_3456 = parseInt(var_3456);
-        var_3455 = parseInt(var_3455);
-        var_3458 = parseInt(var_3458);
-        var_3457 = parseInt(var_3457);
-        var_3460 = parseInt(var_3460);
-        var_3459 = parseInt(var_3459);
-        var_3341 = parseInt(var_3341);
-        var_3340 = parseInt(var_3340);
-        var_3343 = parseInt(var_3343);
-        var_3345 = parseInt(var_3345);
-        var_3344 = parseInt(var_3344);
-        var_3346 = parseInt(var_3346);
-        var_3348 = parseInt(var_3348);
-        var_3347 = parseInt(var_3347);
-        var_3349 = parseInt(var_3349);
-        var_3351 = parseInt(var_3351);
-        var_3350 = parseInt(var_3350);
-        var_3352 = parseInt(var_3352);
-        var_3354 = parseInt(var_3354);
-        var_3353 = parseInt(var_3353);
-        var_3355 = parseInt(var_3355);
-        var_3357 = parseInt(var_3357);
-        var_3356 = parseInt(var_3356);
-        var_3358 = parseInt(var_3358);
-        var_3360 = parseInt(var_3360);
-        var_3359 = parseInt(var_3359);
-        var_3361 = parseInt(var_3361);
-        var_3363 = parseInt(var_3363);
-        var_3362 = parseInt(var_3362);
-        var_3364 = parseInt(var_3364);
-        var_3366 = parseInt(var_3366);
-        var_3365 = parseInt(var_3365);
-        var_3367 = parseInt(var_3367);
-        var_3369 = parseInt(var_3369);
-        var_3368 = parseInt(var_3368);
-        var_3370 = parseInt(var_3370);
-        var_3372 = parseInt(var_3372);
-        var_3371 = parseInt(var_3371);
-        var_3373 = parseInt(var_3373);
-        var_3375 = parseInt(var_3375);
-        var_3374 = parseInt(var_3374);
-        var_3376 = parseInt(var_3376);
-        var_3378 = parseInt(var_3378);
-        var_3377 = parseInt(var_3377);
-        var_3379 = parseInt(var_3379);
-        var_3381 = parseInt(var_3381);
-        var_3380 = parseInt(var_3380);
-        var_3382 = parseInt(var_3382);
-        var_3384 = parseInt(var_3384);
-        var_3383 = parseInt(var_3383);
-        var_3385 = parseInt(var_3385);
-        var_3387 = parseInt(var_3387);
-        var_3386 = parseInt(var_3386);
-        var_3388 = parseInt(var_3388);
-        var_3390 = parseInt(var_3390);
-        var_3389 = parseInt(var_3389);
-        var_3391 = parseInt(var_3391);
-        var_3393 = parseInt(var_3393);
-        var_3392 = parseInt(var_3392);
-        var_3394 = parseInt(var_3394);
-        var_3396 = parseInt(var_3396);
-        var_3395 = parseInt(var_3395);
-        var_3397 = parseInt(var_3397);
-        var_3399 = parseInt(var_3399);
-        var_3398 = parseInt(var_3398);
-        var_3400 = parseInt(var_3400);
-        var_3402 = parseInt(var_3402);
-        var_3401 = parseInt(var_3401);
-        var_3404 = parseInt(var_3404);
-        var_3403 = parseInt(var_3403);
-        var_3406 = parseInt(var_3406);
-        var_3405 = parseInt(var_3405);
-        var_3408 = parseInt(var_3408);
-        var_3407 = parseInt(var_3407);
-        var_3410 = parseInt(var_3410);
-        var_3409 = parseInt(var_3409);
-        var_3412 = parseInt(var_3412);
-        var_3411 = parseInt(var_3411);
-        var_3414 = parseInt(var_3414);
-        var_3413 = parseInt(var_3413);
-        var_3416 = parseInt(var_3416);
-        var_3415 = parseInt(var_3415);
-        var_3418 = parseInt(var_3418);
-        var_3417 = parseInt(var_3417);
-        var_3420 = parseInt(var_3420);
-        var_3419 = parseInt(var_3419);
-        var_3260 = parseInt(var_3260);
+        var_3253 = int(var_3253);
+        var_201 = int(var_201);
+        var_3339 = int(var_3339);
+        var_3422 = int(var_3422);
+        var_3421 = int(var_3421);
+        var_3424 = int(var_3424);
+        var_3423 = int(var_3423);
+        var_3426 = int(var_3426);
+        var_3425 = int(var_3425);
+        var_3428 = int(var_3428);
+        var_3427 = int(var_3427);
+        var_3430 = int(var_3430);
+        var_3429 = int(var_3429);
+        var_3432 = int(var_3432);
+        var_3431 = int(var_3431);
+        var_3434 = int(var_3434);
+        var_3433 = int(var_3433);
+        var_3436 = int(var_3436);
+        var_3435 = int(var_3435);
+        var_3438 = int(var_3438);
+        var_3437 = int(var_3437);
+        var_3440 = int(var_3440);
+        var_3439 = int(var_3439);
+        var_3442 = int(var_3442);
+        var_3441 = int(var_3441);
+        var_3444 = int(var_3444);
+        var_3443 = int(var_3443);
+        var_3446 = int(var_3446);
+        var_3445 = int(var_3445);
+        var_3448 = int(var_3448);
+        var_3447 = int(var_3447);
+        var_3450 = int(var_3450);
+        var_3449 = int(var_3449);
+        var_3452 = int(var_3452);
+        var_3451 = int(var_3451);
+        var_3454 = int(var_3454);
+        var_3453 = int(var_3453);
+        var_3456 = int(var_3456);
+        var_3455 = int(var_3455);
+        var_3458 = int(var_3458);
+        var_3457 = int(var_3457);
+        var_3460 = int(var_3460);
+        var_3459 = int(var_3459);
+        var_3341 = int(var_3341);
+        var_3340 = int(var_3340);
+        var_3343 = int(var_3343);
+        var_3345 = int(var_3345);
+        var_3344 = int(var_3344);
+        var_3346 = int(var_3346);
+        var_3348 = int(var_3348);
+        var_3347 = int(var_3347);
+        var_3349 = int(var_3349);
+        var_3351 = int(var_3351);
+        var_3350 = int(var_3350);
+        var_3352 = int(var_3352);
+        var_3354 = int(var_3354);
+        var_3353 = int(var_3353);
+        var_3355 = int(var_3355);
+        var_3357 = int(var_3357);
+        var_3356 = int(var_3356);
+        var_3358 = int(var_3358);
+        var_3360 = int(var_3360);
+        var_3359 = int(var_3359);
+        var_3361 = int(var_3361);
+        var_3363 = int(var_3363);
+        var_3362 = int(var_3362);
+        var_3364 = int(var_3364);
+        var_3366 = int(var_3366);
+        var_3365 = int(var_3365);
+        var_3367 = int(var_3367);
+        var_3369 = int(var_3369);
+        var_3368 = int(var_3368);
+        var_3370 = int(var_3370);
+        var_3372 = int(var_3372);
+        var_3371 = int(var_3371);
+        var_3373 = int(var_3373);
+        var_3375 = int(var_3375);
+        var_3374 = int(var_3374);
+        var_3376 = int(var_3376);
+        var_3378 = int(var_3378);
+        var_3377 = int(var_3377);
+        var_3379 = int(var_3379);
+        var_3381 = int(var_3381);
+        var_3380 = int(var_3380);
+        var_3382 = int(var_3382);
+        var_3384 = int(var_3384);
+        var_3383 = int(var_3383);
+        var_3385 = int(var_3385);
+        var_3387 = int(var_3387);
+        var_3386 = int(var_3386);
+        var_3388 = int(var_3388);
+        var_3390 = int(var_3390);
+        var_3389 = int(var_3389);
+        var_3391 = int(var_3391);
+        var_3393 = int(var_3393);
+        var_3392 = int(var_3392);
+        var_3394 = int(var_3394);
+        var_3396 = int(var_3396);
+        var_3395 = int(var_3395);
+        var_3397 = int(var_3397);
+        var_3399 = int(var_3399);
+        var_3398 = int(var_3398);
+        var_3400 = int(var_3400);
+        var_3402 = int(var_3402);
+        var_3401 = int(var_3401);
+        var_3404 = int(var_3404);
+        var_3403 = int(var_3403);
+        var_3406 = int(var_3406);
+        var_3405 = int(var_3405);
+        var_3408 = int(var_3408);
+        var_3407 = int(var_3407);
+        var_3410 = int(var_3410);
+        var_3409 = int(var_3409);
+        var_3412 = int(var_3412);
+        var_3411 = int(var_3411);
+        var_3414 = int(var_3414);
+        var_3413 = int(var_3413);
+        var_3416 = int(var_3416);
+        var_3415 = int(var_3415);
+        var_3418 = int(var_3418);
+        var_3417 = int(var_3417);
+        var_3420 = int(var_3420);
+        var_3419 = int(var_3419);
+        var_3260 = int(var_3260);
         var_3262 = var_3260;
         return;
     });
@@ -7246,7 +7246,7 @@ function func883() {
         var_3493 = dim(var_3491);
         var_3494 = 0;
         var_3495 = "";
-        for (var i = 0; i < var_3491; ++i) {
+        for (var cnt1 = 0; cnt1 < var_3491; ++cnt1) {
             noteget(var_3496, var_3494);
             var_3495 = bload(var_3496, 1);
             if (var_3495 == "0" || var_3495 == "1") {
@@ -7519,7 +7519,7 @@ function func885() {
         if (var_3501 >= 10) {
             var_3501 = 10;
         }
-        for (var i = 0; i < var_3501; ++i) {
+        for (var cnt1 = 0; cnt1 < var_3501; ++cnt1) {
             noteget(var_3502, var_3494);
             getstr(var_3503, var_3502, 0, 46);
             pos(var_3484, var_3500);
@@ -7576,7 +7576,7 @@ function func886() {
         var_3505 = strsize;
         var_254 = "lナ2";
         var_3506 = 1;
-        for (var i = 0; i < var_3505 - 1; ++i) {
+        for (var cnt1 = 0; cnt1 < var_3505 - 1; ++cnt1) {
             var_3507 = peek(var_3472, var_3506);
             var_235 = peek(var_254, var_3506 % 4);
             var_3508 = var_3507 ^ var_235;
@@ -7599,7 +7599,7 @@ function func887() {
         }
         var_254 = "lナ2";
         var_3506 = 1;
-        for (var i = 0; i < var_3505 - 1; ++i) {
+        for (var cnt1 = 0; cnt1 < var_3505 - 1; ++cnt1) {
             var_3507 = peek(var_3472, var_3506);
             var_235 = peek(var_254, var_3506 % 4);
             var_3508 = var_3507 ^ var_235;
@@ -7620,7 +7620,7 @@ function func888() {
         var_874 = "アイテム";
         var_3322 = "eeeeeeeeee";
         var_883 = 1;
-        for (var i = 0; i < 150; ++i) {
+        for (var cnt1 = 0; cnt1 < 150; ++cnt1) {
             yield func889();
             var_874 = var_874 + "\n" + var_489;
             if (var_232 < 10) {
@@ -8464,7 +8464,7 @@ function func890() {
         var_886 = "罠";
         var_3324 = "eeeeeeeeee";
         var_883 = 1;
-        for (var i = 0; i < 32; ++i) {
+        for (var cnt1 = 0; cnt1 < 32; ++cnt1) {
             yield func891();
             var_886 = var_886 + "\n" + var_889;
             if (var_888 < 10) {
@@ -8637,7 +8637,7 @@ function func892() {
         var_890 = "敵";
         var_3319 = "eeeeeeeeee";
         var_883 = 1;
-        for (var i = 0; i < 126; ++i) {
+        for (var cnt1 = 0; cnt1 < 126; ++cnt1) {
             yield func893();
             var_890 = var_890 + "\n" + var_891;
             if (var_437 < 10) {
@@ -9380,13 +9380,13 @@ function func895() {
             var_198 = 1;
             var_300 = 0;
             yield func047();
-            for (var i = 0; i < 5; ++i) {
+            for (var cnt2 = 0; cnt2 < 5; ++cnt2) {
                 yield func337();
             }
             yield func009();
             return;
         }
-        for (var i = 0; true; ++i) {
+        for (var cnt1 = 0; true; ++cnt1) {
             tcpiscon(var_1050);
             if (stat) {
                 break;
@@ -9408,7 +9408,7 @@ function func895() {
             var_198 = 1;
             var_300 = 0;
             yield func047();
-            for (var i = 0; i < 5; ++i) {
+            for (var cnt2 = 0; cnt2 < 5; ++cnt2) {
                 yield func337();
             }
             yield func009();
@@ -9458,7 +9458,7 @@ function func895() {
             var_198 = 1;
             var_300 = 0;
             yield func047();
-            for (var i = 0; i < 5; ++i) {
+            for (var cnt2 = 0; cnt2 < 5; ++cnt2) {
                 yield func337();
             }
             yield func009();
@@ -9470,7 +9470,7 @@ function func895() {
             var_3532 = sdim(300, 30);
             var_3533 = sdim(300, 30);
             var_3534 = sdim(300, 30);
-            onkey(func901());
+            onkey(func901);
             gsel(33, 1);
             title("みんなの情報");
             gsel(0, 1);
@@ -9482,7 +9482,7 @@ function func895() {
             return;
         }
         var_407 = 1;
-        onkey(func901());
+        onkey(func901);
         gsel(33, 1);
         gsel(0, 1);
         yield func331();
@@ -9531,7 +9531,7 @@ function func898() {
         tcpput("\n", var_1050);
         var_3530 = 0;
         var_3531 = 0;
-        for (var i = 0; true; ++i) {
+        for (var cnt1 = 0; true; ++cnt1) {
             var_3537 = sdim(1024);
             tcpgetl(var_3537, 1024, var_1050);
             if (stat != 0 && var_3537 == "o2") {
@@ -9574,7 +9574,7 @@ function func899() {
             var_198 = 1;
             var_300 = 0;
             yield func047();
-            for (var i = 0; i < 5; ++i) {
+            for (var cnt2 = 0; cnt2 < 5; ++cnt2) {
                 yield func337();
             }
             return;
@@ -9769,9 +9769,9 @@ function func899() {
                     line(var_3231 - 1, 9 * var_3233 + var_3232 + 1, 9 * var_3233 + var_3231 + 1, 9 * var_3233 + var_3232 + 1);
                     var_3551 = 0;
                     var_449 = 0;
-                    for (var i = 0; i < 9; ++i) {
+                    for (var cnt4 = 0; cnt4 < 9; ++cnt4) {
                         var_447 = 0;
-                        for (var j = 0; j < 9; ++j) {
+                        for (var cnt5 = 0; cnt5 < 9; ++cnt5) {
                             if (peek(var_1068[25], var_3551) == 48) {
                                 color(0, 0, 0);
                                 boxf(var_449 * var_3233 + var_3231, var_447 * var_3233 + var_3232, var_449 * var_3233 + var_3231 + var_3233, var_447 * var_3233 + var_3232 + var_3233);
@@ -9827,7 +9827,7 @@ function func899() {
                         }
                         var_449++;
                     }
-                    if (var_62 == parseInt(var_1068[12]) && var_62 != 0) {
+                    if (var_62 == int(var_1068[12]) && var_62 != 0) {
                         var_536 = 1;
                     }
                     else {
@@ -9859,7 +9859,7 @@ function func899() {
                     gcopy(3, 40, 0, 40, 40);
                     var_2607 = var_1631 + 7 + 30;
                     var_2608 = var_1631 + 7 + 24;
-                    if (parseInt(var_1068[3]) >= 10) {
+                    if (int(var_1068[3]) >= 10) {
                         var_2607 = var_2607 - 5;
                     }
                     font("MS ゴシック", 16, 1);
@@ -9879,32 +9879,32 @@ function func899() {
                     pos(var_1631 + 55, var_1632 + 7);
                     color(255, 255, 255);
                     mes("");
-                    if (parseInt(var_1068[12]) == 0) {
+                    if (int(var_1068[12]) == 0) {
                         mes("地上");
                     }
-                    if (parseInt(var_1068[12]) == 1) {
+                    if (int(var_1068[12]) == 1) {
                         mes("ホテル外 " + var_1068[10] + "階");
                     }
-                    if (parseInt(var_1068[12]) == 2) {
+                    if (int(var_1068[12]) == 2) {
                         mes("大迷宮 " + var_1068[10] + "階");
                     }
-                    if (parseInt(var_1068[12]) == 3) {
+                    if (int(var_1068[12]) == 3) {
                         mes("試練　" + var_1068[10] + "階");
                     }
-                    if (parseInt(var_1068[12]) == 4) {
+                    if (int(var_1068[12]) == 4) {
                         mes("一巡後 " + var_1068[10] + "階");
                     }
-                    if (parseInt(var_1068[12]) >= 5) {
+                    if (int(var_1068[12]) >= 5) {
                         mes("");
                     }
                     var_3552 = 0;
-                    var_3553 = parseInt(var_1068[10]);
+                    var_3553 = int(var_1068[10]);
                     var_3552 = var_91 - var_3553;
-                    if (var_62 != parseInt(var_1068[12])) {
+                    if (var_62 != int(var_1068[12])) {
                         color(150, 150, 150);
                         mes("（別の場所）");
                     }
-                    if (var_62 == parseInt(var_1068[12])) {
+                    if (var_62 == int(var_1068[12])) {
                         if (var_3552 < (-2)) {
                             color(255, 0, 0);
                             var_3554 = -var_3552;
@@ -9937,16 +9937,16 @@ function func899() {
                     }
                     pos(var_1631 + 5, var_1632 + 58);
                     color(255, 255, 255);
-                    if (parseInt(var_1068[5]) > 0) {
-                        var_3555 = Math.floor(parseInt(var_1068[4]) / parseInt(var_1068[5]));
+                    if (int(var_1068[5]) > 0) {
+                        var_3555 = Math.floor(int(var_1068[4]) / int(var_1068[5]));
                     }
                     if (var_3555 < 2) {
                         color(255, 255, 255);
                     }
-                    if (var_3555 >= 2 || parseInt(var_1068[5]) < 1) {
+                    if (var_3555 >= 2 || int(var_1068[5]) < 1) {
                         color(220, 0, 0);
                     }
-                    if (parseInt(var_1068[5]) == 0) {
+                    if (int(var_1068[5]) == 0) {
                         color(255, 255, 255);
                     }
                     mes("ＨＰ　　" + var_1068[5] + "/" + var_1068[4]);
@@ -9976,7 +9976,7 @@ function func899() {
                     var_1635 = 0;
                     var_1636 = 0;
                     var_3556 = var_1631;
-                    for (var i = 0; i < 3; ++i) {
+                    for (var cnt4 = 0; cnt4 < 3; ++cnt4) {
                         color(255, 255, 255);
                         line(var_1631 - var_1635, var_1632 - var_1636 - 1, var_1631 + var_1633 + var_1635, var_1632 - var_1636 - 1);
                         line(var_1631 - var_1635, var_1632 + var_1634 + var_1636, var_1631 + var_1633 + var_1635, var_1632 + var_1634 + var_1636);
@@ -9990,7 +9990,7 @@ function func899() {
                     }
                     var_3557 = 1;
                     pos(var_3556 + 5, var_1632 + 5);
-                    var_575 = parseInt(var_1068[13]);
+                    var_575 = int(var_1068[13]);
                     yield func070();
                     if (var_575 != 0) {
                         gcopy(var_576, var_577, var_578, 40, 40);
@@ -10008,7 +10008,7 @@ function func899() {
                     pos(var_3556 + 5 + 32, var_1632 + 5 + 30);
                     mes("" + var_1068[15]);
                     pos(var_3556 + 60, var_1632 + 5);
-                    var_575 = parseInt(var_1068[16]);
+                    var_575 = int(var_1068[16]);
                     yield func070();
                     if (var_575 != 0) {
                         gcopy(var_576, var_577, var_578, 40, 40);
@@ -10026,7 +10026,7 @@ function func899() {
                     pos(var_3556 + 60 + 32, var_1632 + 5 + 30);
                     mes("" + var_1068[18]);
                     pos(var_3556 + 115, var_1632 + 5);
-                    var_575 = parseInt(var_1068[19]);
+                    var_575 = int(var_1068[19]);
                     yield func070();
                     if (var_575 != 0) {
                         gcopy(var_576, var_577, var_578, 40, 40);
@@ -10034,58 +10034,58 @@ function func899() {
                     var_3557 = 0;
                     pos(var_3556 - 10, var_1632 + 5 + 50);
                     color(255, 255, 0);
-                    var_3558 = parseInt(var_1068[13]);
+                    var_3558 = int(var_1068[13]);
                     yield func924();
-                    if (parseInt(var_1068[13]) == 0) {
+                    if (int(var_1068[13]) == 0) {
                         mes("[攻] なし");
                     }
-                    if (parseInt(var_1068[13]) != 0) {
-                        if (parseInt(var_1068[14]) == 0) {
+                    if (int(var_1068[13]) != 0) {
+                        if (int(var_1068[14]) == 0) {
                             mes("[攻] " + var_3559);
                         }
-                        if (parseInt(var_1068[14]) != 0) {
+                        if (int(var_1068[14]) != 0) {
                             mes("[攻] " + var_3559 + "+" + var_1068[14]);
                         }
                     }
                     color(255, 180, 90);
-                    var_3558 = parseInt(var_1068[16]);
+                    var_3558 = int(var_1068[16]);
                     yield func924();
-                    if (parseInt(var_1068[16]) == 0) {
+                    if (int(var_1068[16]) == 0) {
                         mes("[防] なし");
                     }
-                    if (parseInt(var_1068[16]) != 0) {
-                        if (parseInt(var_1068[17]) == 0) {
+                    if (int(var_1068[16]) != 0) {
+                        if (int(var_1068[17]) == 0) {
                             mes("[防] " + var_3559);
                         }
-                        if (parseInt(var_1068[17]) != 0) {
+                        if (int(var_1068[17]) != 0) {
                             mes("[防] " + var_3559 + "+" + var_1068[17]);
                         }
                     }
                     color(240, 0, 240);
-                    var_3558 = parseInt(var_1068[19]);
+                    var_3558 = int(var_1068[19]);
                     yield func924();
-                    if (parseInt(var_1068[19]) == 0) {
+                    if (int(var_1068[19]) == 0) {
                         mes("[能] なし");
                     }
-                    if (parseInt(var_1068[19]) != 0) {
-                        if (parseInt(var_1068[20]) == 0) {
+                    if (int(var_1068[19]) != 0) {
+                        if (int(var_1068[20]) == 0) {
                             mes("[能] " + var_3559);
                         }
-                        if (parseInt(var_1068[20]) != 0) {
+                        if (int(var_1068[20]) != 0) {
                             mes("[能] " + var_3559 + "+" + var_1068[20]);
                         }
                     }
                     color(225, 195, 145);
-                    var_3558 = parseInt(var_1068[2]);
+                    var_3558 = int(var_1068[2]);
                     yield func924();
-                    if (parseInt(var_1068[2]) == 0) {
+                    if (int(var_1068[2]) == 0) {
                         mes("[射] なし");
                     }
-                    if (parseInt(var_1068[2]) != 0) {
-                        if (parseInt(var_1068[21]) == 0) {
+                    if (int(var_1068[2]) != 0) {
+                        if (int(var_1068[21]) == 0) {
                             mes("[射] " + var_3559);
                         }
-                        if (parseInt(var_1068[21]) != 0) {
+                        if (int(var_1068[21]) != 0) {
                             mes("[射] " + var_3559 + "(" + var_1068[21] + ")");
                         }
                     }
