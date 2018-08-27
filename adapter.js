@@ -361,7 +361,14 @@ function gzoom(dst_size_x, dst_size_y, org_buffer_id, x, y, img_width, img_heigh
         context.putImageData(imgd, 0, 0);
         return;
     }
-    context.drawImage(canvases[org_buffer_id], x, y, img_width, img_height, position[0], position[1], dst_size_x, dst_size_y);
+    else if (org_buffer_id == 8 && (x == 760 && y == 920 || x > 400 && y < 350)) {
+        context.globalCompositeOperation = "destination-out";
+        context.drawImage(canvases[org_buffer_id], x, y, img_width, img_height, position[0], position[1], dst_size_x, dst_size_y);
+        context.globalCompositeOperation = "source-over";
+    }
+    else {
+        context.drawImage(canvases[org_buffer_id], x, y, img_width, img_height, position[0], position[1], dst_size_x, dst_size_y);
+    }
 }
 function input(data0, data1, data2, data3) { undef_func("input", [data0, data1, data2, data3]); }
 function instr(data0, data1, data2) { undef_func("instr", [data0, data1, data2]); return 0; }
@@ -568,8 +575,7 @@ function DSPLAY(audio_id = null) {
     se[audio_id].play();
 }
 function DSSETVOLUME(se_id, volume) {
-    volume = 0;
-    se[se_id].volume = volume / 100;
+    se[se_id].volume = volume / 1000;
 }
 function DSGETMASTERVOLUME() { }
 function DSSETMASTERVOLUME(data0) { }
