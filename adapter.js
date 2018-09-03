@@ -167,6 +167,9 @@ function bload(file_name, data_size = null, offset = null) {
         audio.loop = false;
         return audio;
     }
+    if (file_name.split(".")[1] == "mid") {
+        return file_name;
+    }
     if (file_name.split(".")[1] != "dat") {
         return [];
     }
@@ -200,7 +203,7 @@ function boxf(left = null, top = null, right = null, bottom = null) {
     context.globalAlpha = ga;
 }
 function bsave(file_name, data, data_size = null, offset = null) {
-    offset = offset == null ? -1 : offset;
+    offset = offset == null ? 0 : offset;
     data_size = data_size == null ? 0 : data_size;
     if (!files[file_name]) {
         files[file_name] = {};
@@ -394,13 +397,44 @@ function mes(text) {
 }
 function mesbox(data0, data1, data2, data3) { undef_func("mesbox", [data0, data1, data2, data3]); }
 function mkdir(data0) { undef_func("mkdir", [data0]); }
-function noteadd(data0, data1, data2) { undef_func("noteadd", [data0, data1, data2]); }
-function notedel(data0) { undef_func("notedel", [data0]); }
-function noteget(data0, data1) { undef_func("noteget", [data0, data1]); }
-function noteinfo(data0) { undef_func("noteinfo", [data0]); return 0; }
-function noteload(data0) { undef_func("noteload", [data0]); }
-function notesave(data0) { undef_func("notesave", [data0]); }
-function notesel(data0) { undef_func("notesel", [data0]); }
+var selected_note = 0;
+var note_data = [];
+function noteadd(data, line_num, add_type) {
+    if (add_type != 1) {
+        throw "ERROR @ noteadd";
+    }
+    note_data[selected_note][line_num] = data;
+}
+function notedel(line_num) {
+    note_data[selected_note].splice(line_num, 1);
+}
+function noteget(line_num) {
+    return note_data[selected_note][line_num];
+}
+function noteinfo(info_type) {
+    if (info_type == 0) {
+        return note_data[selected_note].length;
+    }
+    else if (info_type == 1) {
+        var sum = 0;
+        for (var i in note_data[selected_note]) {
+            sum += note_data[selected_note][i].length + 1;
+        }
+        return sum;
+    }
+}
+function noteload(file_name) {
+    note_data[selected_note] = bload(file_name);
+}
+function notesave(data0) {
+    bsave(data0, note_data[selected_note]);
+}
+function notesel(note_id) {
+    if (note_id == 0) {
+        throw "ERROR @ notesel";
+    }
+    selected_note = note_id;
+}
 function objinfo(data0, data1, data2 = null) { undef_func("objinfo", [data0, data1, data2]); }
 function objmode(data0, data1) { undef_func("objmode", [data0, data1]); }
 function objprm(data0, data1) { undef_func("objprm", [data0, data1]); }
@@ -580,7 +614,107 @@ function DSSETVOLUME(se_id, volume) {
 function DSGETMASTERVOLUME() { }
 function DSSETMASTERVOLUME(data0) { }
 function DMINIT() { }
-function DMLOADMEMORY(data0, data1, data2) { }
+function DMLOADMEMORY(music_id, data0, data1) {
+    var music_list = {
+        "0": "YLCIfDqgDIk",
+        "102": "gvCmtHDDuu0",
+        "315": "AuA0HQ4Zobc",
+        "099": "X_pDwv3tpug",
+        "302": "l482T0yNkeo",
+        "312": "pL4uESRCnv8",
+        "998": "JtmpcQ-hbxI",
+        "987": "fCULDFsbA9Y",
+        "104": "v3JaosE-gZE",
+        "992": "mdt0SOqPJcg",
+        "991": "2s4slliAtQU",
+        "116": "p6gKe9Fr2ok",
+        "201": "vOJRILBRS5o",
+        "107": "bSfqNEvykv0",
+        "202": "D-dONCnY_Yg",
+        "997": "pHa4pvspCqc",
+        "412": "rnKbImRPhTE",
+        "319": "zDKO6XYXioc",
+        "117": "0aU57V6VBW0",
+        "122": "-Ro8-ngA8gs",
+        "311": "MjMCaw4qzjg",
+        "414": "I8JULmUlGDA",
+        "305": "6j7E7pvLxmI",
+        "113": "bJ9r8LMU9bQ",
+        "123": "PE9HvSdcaL4",
+        "200": "-cmo6MRYf5g",
+        "313": "UAKCR7kQMTQ",
+        "985": "9sGy_-p_sVE",
+        "308": "56u6g0POvo0",
+        "111": "OXqnHLXZugA",
+        "120": "Ixrje2rXLMA",
+        "411": "iDNtqy0zjJA",
+        "988": "EqPtz5qN7HM",
+        "986": "kZ8KK8u9dN8",
+        "401": "eBG7P-K-r1Y",
+        "207": "QV-2EJnfzjY",
+        "402": "AYUdldNzLNA",
+        "995": "usfiAsWR4qU",
+        "203": "hLhN__oEHaw",
+        "121": "fjwWjx7Cw8I",
+        "317": "iZq3i94mSsQ",
+        "205": "KFq2pU21cNU",
+        "303": "ZunGXrbS0hQ",
+        "994": "ZDwotNLyz10",
+        "396": "D9ioyEvdggk",
+        "999": "CWzrABouyeE",
+        "981": "s__rX_WL100",
+        "306": "5ZF6m659-z0",
+        "320": "Mrhg66cVPGw",
+        "408": "PivWY9wn5ps",
+        "101": "1dmt5o0DjaU",
+        "124": "cjImFYf2Vzc",
+        "301": "pO8kTRv4l3o",
+        "310": "La4Dcd1aUcE",
+        "206": "bx1Bh8ZvH84",
+        "109": "0pyxKqdtrH8",
+        "300": "qM0zINtulhM",
+        "404": "p3j2NYZ8FKs",
+        "978": "UnVBS0ZkARw",
+        "103": "HuBqE9xGtiQ",
+        "106": "cWGE9Gi0bB0",
+        "980": "N3oCS85HvpY",
+        "405": "3T1c7GkzRQQ",
+        "996": "rblt2EtFfC4",
+        "115": "7IQE62Vn4_U",
+        "395": "rY0WxgSXdEE",
+        "990": "fJ9rUzIMcZQ",
+        "112": "2ZBtPf7FOoM",
+        "204": "rkHF_JMnB8o",
+        "993": "wJzNZ1c5C9c",
+        "105": "Mr_uHJPUlO8",
+        "108": "Fmfi3UbDPnQ",
+        "318": "XCMrXC8D05Q",
+        "403": "cBojbjoMttI",
+        "309": "WSv2gLT0jkU",
+        "119": "gJLIiF15wjQ",
+        "409": "pAuPMJlK92s",
+        "400": "d27gTrPPAyk",
+        "407": "ZuI61cTNbAk",
+        "314": "mbAyj1h9vI0",
+        "316": "btPJPFnesV4",
+        "989": "JB6WZu8IAZg",
+        "118": "uZ4PZOfVnP8",
+        "304": "Ae0nwSv6cTU",
+        "114": "unHzLEA6gvI",
+    };
+    var link_id = music_list[music_id.split(".")[0]];
+    if (link_id) {
+        var a_tug = (document.getElementById("bgmlink"));
+        a_tug.href = "https://www.youtube.com/watch?v=" + link_id;
+        var iframe = document.getElementById("bgm");
+        iframe.src = "https://www.youtube.com/embed/" + link_id;
+    } else {
+        var a_tug = (document.getElementById("bgmlink"));
+        a_tug.href = "";
+        var iframe = document.getElementById("bgm");
+        iframe.src = "";
+    }
+}
 function DMPLAY(data0, data1) { }
 function DMSTOP() { }
 function ck_joystick(data0, data1 = null) {

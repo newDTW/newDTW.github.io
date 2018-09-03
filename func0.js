@@ -60,6 +60,9 @@ function func004() {
             var_9 = bload("00.dat", null, 60);
             var_11 = bload("00.dat", null, 80);
         }
+        if (var_11 != 1) {
+            var_11 = 0;
+        }
         var_12 = 0;
         var_13 = "0.13TS";
         var_14 = "ディアボロの大冒険 ver0.13TS";

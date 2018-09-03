@@ -1,6 +1,8 @@
 for (var i = 0; i < 3600; ++i) {
     eval("var var_" + i + " = 0;");
 }
+var_754 = 1;
+var_2156 = 2;
 var_25 = [];
 var_26 = [];
 var_27 = [];

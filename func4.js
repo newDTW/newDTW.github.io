@@ -10132,7 +10132,7 @@ function func484() {
                     var_2143 = var_2140 + 110;
                 }
                 notesel(var_754);
-                noteget(var_2144, var_2143);
+                var_2144 = noteget(var_2143);
                 if (var_2121 == 800 && var_862[800][0] == 1 && var_220 == 0) {
                     yield func489();
                     return;
@@ -10261,7 +10261,7 @@ function func485() {
                 if (var_2141 == 2) {
                     var_2143 = var_2145 + 110;
                 }
-                noteget(var_2144, var_2143);
+                var_2144 = noteget(var_2143);
                 pos(30, var_2146);
                 mes("" + var_2144);
                 var_2145++;
@@ -11798,7 +11798,7 @@ function func488() {
                 var_2157 = 118;
                 var_2158 = 119;
                 for (var cnt3 = 0; cnt3 < 19; ++cnt3) {
-                    noteget(var_2159, var_2157);
+                    var_2159 = noteget(var_2157);
                     noteadd(var_2159, var_2158, 1);
                     var_2157--;
                     var_2158--;
@@ -11809,7 +11809,7 @@ function func488() {
                 var_2158 = var_2143;
                 var_2160 = var_2143 - 100;
                 for (var cnt3 = 0; cnt3 < var_2160; ++cnt3) {
-                    noteget(var_2159, var_2157);
+                    var_2159 = noteget(var_2157);
                     noteadd(var_2159, var_2158, 1);
                     var_2157--;
                     var_2158--;
@@ -11864,7 +11864,7 @@ function func489() {
                 var_2157 = 118;
                 var_2158 = 119;
                 for (var cnt3 = 0; cnt3 < 19; ++cnt3) {
-                    noteget(var_2159, var_2157);
+                    var_2159 = noteget(var_2157);
                     noteadd(var_2159, var_2158, 1);
                     var_2157--;
                     var_2158--;
@@ -11875,7 +11875,7 @@ function func489() {
                 var_2158 = var_2143;
                 var_2160 = var_2143 - 100;
                 for (var cnt3 = 0; cnt3 < var_2160; ++cnt3) {
-                    noteget(var_2159, var_2157);
+                    var_2159 = noteget(var_2157);
                     noteadd(var_2159, var_2158, 1);
                     var_2157--;
                     var_2158--;
@@ -11895,7 +11895,7 @@ function func490() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(490);
         notesel(var_754);
-        noteget(var_2162, var_1923);
+        var_2162 = noteget(var_1923);
         var_1924 = "" + var_2162 + "";
         return;
     });

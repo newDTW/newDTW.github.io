@@ -545,7 +545,7 @@ function func504() {
         var_2251 = var_2251 + "s5" + "\n";
         var_2251 = var_2251 + "s6" + "\n";
         var_2251 = var_2251 + "s7" + "\n";
-        bsave(var_735, var_2251);
+        bsave(var_735, var_2251.split("\n"));
         return;
     });
 }
@@ -570,7 +570,7 @@ function func505() {
         noteload(var_735);
         var_2252 = 0;
         for (var cnt1 = 0; cnt1 < 145; ++cnt1) {
-            noteget(var_2253, var_2252);
+            var_2253 = noteget(var_2252);
             var_1066[var_2252] = var_2253;
             var_2252++;
         }

@@ -264,7 +264,7 @@ function func101() {
         }
         if (var_675 == 396) {
             var_665 = "396.mid";
-            var_676 = "Red Zepplin [Stairway To Heaven]";
+            var_676 = "Led Zeppelin [Stairway To Heaven]";
         }
         if (var_675 == 397) {
             var_665 = "304.mid";

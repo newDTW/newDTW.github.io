@@ -406,6 +406,7 @@ function func206() {
                 width(680, 680);
             }
             bsave("00.dat", var_10, null, 20);
+            bsave("00.dat", var_11, null, 80);
             var_904 = 0;
             yield func193();
             return;

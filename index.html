@@ -7,13 +7,15 @@
 	<style type="text/css">
 		body {
 			background-color: orchid;
+			margin: 0;
 		}
 		#pad {
 			position: absolute;
 		}
+
 		button {
 			width: 110px;
-			height: 40px;
+			height: 35px;
 		}
 		canvas {
 			max-width: 100%;
@@ -24,9 +26,12 @@
 <body>
 	<canvas id="c0"></canvas>
 	<div id="pad">
-		<button id="83">S</button><button id="90">Z</button><button id="88">X</button><br />
-		<button id="32">SP</button><button id="65">A</button><button id="67">C</button>
-		<button id="XH" hidden>X(Hold)</button>
+		<button id="83">S/射撃</button><button id="67">C/方向</button><button id="88">X/ｷｬﾝｾﾙ</button>
+		<br />
+		<button id="32">Sp/地図</button><button id="65">A/メニュー</button><button id="90">Z/攻撃/選択</button>
+		<button id="XH" hidden>X(Hold)</button><br /><br />
+		<font size="1">BGMのYoutubeリンク(広告と音量に注意) : <iframe id="bgm" width="48" height="27" src="" frameborder="0"></iframe>
+		<a id="bgmlink" href="" target="_blank">Youtube</a></font>
 	</div>
 	<script src="adapter.js"></script>
 	<script src="func0.js"></script>
