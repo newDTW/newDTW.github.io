@@ -4225,6 +4225,18 @@ function func160() {
             var_83[var_97][10] = 1;
             var_83[var_97][31] = 4;
             var_83[var_97][32] = rnd(6);
+            var_97 = var_97 + 1;
+            var_761 = var_97;
+            var_82[18][10] = var_97;
+            var_83[var_97][0] = 173;
+            var_83[var_97][1] = 18;
+            var_83[var_97][2] = 10;
+            var_83[var_97][3] = 20;
+            var_83[var_97][4] = 0;
+            var_83[var_97][5] = 2;
+            var_83[var_97][10] = 1;
+            var_83[var_97][31] = 4;
+            var_83[var_97][32] = rnd(6);
         }
         return;
     });

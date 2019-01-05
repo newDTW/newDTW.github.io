@@ -21,6 +21,16 @@
 			max-width: 100%;
 			user-select: none;
 		}
+		#reset_data {
+			font-size: 8px;
+			width: 110px;
+			height: 18px;
+		}
+		#debug_data {
+			font-size: 8px;
+			width: 150px;
+			height: 18px;
+		}
 	</style>
 </head>
 <body>
@@ -30,8 +40,13 @@
 		<br />
 		<button id="32">Sp/地図</button><button id="65">A/メニュー</button><button id="90">Z/攻撃/選択</button>
 		<button id="XH" hidden>X(Hold)</button><br /><br />
-		<font size="1">BGMのYoutubeリンク(広告と音量に注意) : <iframe id="bgm" width="48" height="27" src="" frameborder="0"></iframe>
-		<a id="bgmlink" href="" target="_blank">Youtube</a></font>
+		<font size="1">
+			BGMのYoutubeリンク(広告と音量に注意) : <iframe id="bgm" width="48" height="27" src="" frameborder="0"></iframe>
+			<a id="bgmlink" href="" target="_blank">Youtube</a>
+		</font>
+		<br />
+		<button id="reset_data">データ消去</button>
+		<button id="debug_data">デバッグ:攻略済みにする</button>
 	</div>
 	<script src="adapter.js"></script>
 	<script src="func0.js"></script>

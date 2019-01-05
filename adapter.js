@@ -10,6 +10,20 @@ function dbgprt(num) {
 }
 function undef_func(str, arg = null) {
 }
+function data_update_for_debug(e) {
+    var_404 = 1;
+    var_704[88] = 1;
+    var_704[34] = 1;
+    var_704[93] = 2;
+    var_526 = 2;
+    var_993 = 1;
+    var_704[218] = 1;
+    var_704[235] = 1;
+    var_704[221] = 2;
+    var_523 = 1;
+    var_524 = 1;
+    var_759 = 2;
+}
 var stat = 0;
 var strsize;
 var wparam;
@@ -76,16 +90,32 @@ function reset_input(x, y) {
     }
     pre_pos = [x, y];
 }
+function ResetDataAndReload(e) {
+    localStorage.clear();
+    location.reload();
+}
 function InitInput() {
     var canv = document.getElementById("c0");
     document.onkeydown = function (e) {
         pushing_key_list[e.keyCode] = 1;
+        e.preventDefault();
     };
     document.onkeyup = function (e) {
         pushing_key_list[e.keyCode] = 0;
+        e.preventDefault();
     };
     var buttons = document.getElementsByTagName("button");
     for (var i = 0; i < buttons.length; ++i) {
+        if (buttons[i].id == "reset_data") {
+            buttons[i].onmouseup = ResetDataAndReload;
+            buttons[i].ontouchend = ResetDataAndReload;
+            continue;
+        }
+        if (buttons[i].id == "debug_data") {
+            buttons[i].onmouseup = data_update_for_debug;
+            buttons[i].ontouchend = data_update_for_debug;
+            continue;
+        }
         if (buttons[i].id == "XH") {
             buttons[i].onmousedown = function (e) {
                 if (pushing_key_list[88] > 0) {
@@ -295,6 +325,9 @@ function gcopy(org_buffer_id, x, y, img_width, img_height) {
 }
 function getkey(key_id) {
     return pushing_key_list[key_id] || 0;
+}
+function ResetKey(key_id) {
+    pushing_key_list[key_id] = 0;
 }
 function getstr(data0, data1, data2, data3) { undef_func("getstr", [data0, data1, data2, data3]); }
 function gettime(data0) { undef_func("gettime", [data0]); }

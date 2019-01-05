@@ -64,8 +64,8 @@ function func004() {
             var_11 = 0;
         }
         var_12 = 0;
-        var_13 = "0.13TS";
-        var_14 = "ディアボロの大冒険 ver0.13TS";
+        var_13 = "0.13.01TS";
+        var_14 = "ディアボロの大冒険 ver0.13.01TS";
         buffer(17);
         yield picload("img3.gif");
         buffer(26, 680, 680);
@@ -930,7 +930,7 @@ function func009() {
             yield func079();
             return;
         }
-        yield func080();
+        yield func080(false);
         if (var_238 == 1) {
             yield func013();
             return;
@@ -1911,7 +1911,7 @@ function func015() {
                 yield func009();
                 return;
             }
-            yield func080();
+            yield func080(false);
             if (var_71[var_66][var_67] == 0 && var_159 == 0) {
                 var_66 = var_236;
                 var_67 = var_237;
@@ -9174,7 +9174,7 @@ function func079() {
         return;
     });
 }
-function func080() {
+function func080(is_key_reset = true) {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(80);
         var_235 = 0;
@@ -9524,6 +9524,12 @@ function func080() {
         var_257 = getkey(var_648);
         var_255 = getkey(var_649);
         var_259 = getkey(var_650);
+        if (is_key_reset) {
+            ResetKey(var_647);
+            ResetKey(var_648);
+            ResetKey(var_649);
+            ResetKey(var_650);
+        }
         var_253 = getkey(var_651);
         var_256 = getkey(var_652);
         var_258 = getkey(var_653);
