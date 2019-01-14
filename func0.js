@@ -64,8 +64,8 @@ function func004() {
             var_11 = 0;
         }
         var_12 = 0;
-        var_13 = "0.13.01TS";
-        var_14 = "ディアボロの大冒険 ver0.13.01TS";
+        var_13 = "0.13.02TS";
+        var_14 = "ディアボロの大冒険 ver0.13.02TS";
         buffer(17);
         yield picload("img3.gif");
         buffer(26, 680, 680);
@@ -1465,7 +1465,7 @@ function func012() {
 function func013() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(13);
-        yield func080();
+        yield func080(false);
         if (var_253 == 1) {
             var_66 = var_66 - 1;
             var_67 = var_67 - 1;
@@ -1534,7 +1534,7 @@ function func013() {
 function func014() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(14);
-        yield func080();
+        yield func080(false);
         var_274 = var_66 - 1;
         if (var_274 < 0) {
             var_274 = 0;
