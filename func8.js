@@ -634,7 +634,7 @@ function func808() {
                 var_62 = 0;
             }
             for (var cnt2 = 0; cnt2 < 30; ++cnt2) {
-                var_991[0][var_683][cnt2] = var_78[var_866][cnt2];
+                var_991[0][var_683][cnt2] = var_78[var_866]["Var" + cnt2];
             }
             var_991[0][var_683][11] = 1;
             var_991[0][var_683][12] = 0;
@@ -2238,12 +2238,12 @@ function func833() {
             var_3202 = 0;
             var_480 = 1;
             for (var cnt2 = 0; cnt2 < var_224; ++cnt2) {
-                if (var_233[var_480][0] == 396) {
+                if (var_233[var_480].Var0 == 396) {
                     var_3202 = 1;
                 }
-                if (var_233[var_480][0] >= 800 && var_233[var_480][0] < 900) {
+                if (var_233[var_480].Var0 >= 800 && var_233[var_480].Var0 < 900) {
                     var_484 = 1;
-                    var_485 = var_233[var_480][6];
+                    var_485 = var_233[var_480].Var6;
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         if (var_486[var_485][var_484][0] == 396) {
                             var_3202 = 1;
@@ -2725,9 +2725,9 @@ function func837() {
         var_3204 = 0;
         var_1056 = 1;
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
-            if (var_233[var_1056][0] >= 800 && var_233[var_1056][0] < 900) {
+            if (var_233[var_1056].Var0 >= 800 && var_233[var_1056].Var0 < 900) {
                 var_484 = 1;
-                var_485 = var_233[var_1056][6];
+                var_485 = var_233[var_1056].Var6;
                 for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     if (var_486[var_485][var_484][11] == 1 && var_486[var_485][var_484][0] != 0) {
                         var_3205 = var_484;
@@ -2744,7 +2744,7 @@ function func837() {
                     var_484 = var_484 + 1;
                 }
             }
-            if (var_233[var_1056][11] == 1 && var_233[var_1056][0] != 0) {
+            if (var_233[var_1056].Var11 == 1 && var_233[var_1056].Var0 != 0) {
                 var_3205 = var_1056;
                 yield func838();
                 var_3204 = 1;
@@ -2789,10 +2789,10 @@ function func838() {
         var_271 = 1;
         var_1470 = 1;
         if (var_220 == 0) {
-            var_232 = var_233[var_1056][0];
-            var_1471 = var_233[var_1056][0];
-            var_487 = var_233[var_1056][13];
-            var_1249 = var_233[var_1056][13];
+            var_232 = var_233[var_1056].Var0;
+            var_1471 = var_233[var_1056].Var0;
+            var_487 = var_233[var_1056].Var13;
+            var_1249 = var_233[var_1056].Var13;
         }
         if (var_220 == 1) {
             var_232 = var_486[var_485][var_484][0];
@@ -4300,7 +4300,7 @@ function func853() {
             var_3272 = "";
             if (var_82[var_3279][var_3280] >= 1) {
                 var_2501 = var_82[var_3279][var_3280];
-                var_437 = var_83[var_2501][0];
+                var_437 = var_83[var_2501].Var0;
                 yield func626();
                 var_3299 = var_891;
                 var_3272 = var_3272 + "  " + var_3299;
@@ -4310,25 +4310,25 @@ function func853() {
             }
             if (var_77[var_3279][var_3280] >= 1) {
                 var_2501 = var_77[var_3279][var_3280];
-                var_232 = var_78[var_2501][0];
+                var_232 = var_78[var_2501].Var0;
                 var_2176 = 1;
                 yield func492();
                 var_2176 = 0;
                 var_3299 = var_489;
-                if (var_78[var_2501][4] >= 1 && var_78[var_2501][4] <= 10) {
-                    var_3299 = var_3299 + "" + "+" + var_78[var_2501][4];
+                if (var_78[var_2501].Var4 >= 1 && var_78[var_2501].Var4 <= 10) {
+                    var_3299 = var_3299 + "" + "+" + var_78[var_2501].Var4;
                 }
-                if (var_78[var_2501][4] == 11 || var_78[var_2501][12] == 1) {
+                if (var_78[var_2501].Var4 == 11 || var_78[var_2501].Var12 == 1) {
                     var_3299 = var_3299 + "" + "[呪]";
                 }
-                if (var_78[var_2501][3] >= 1) {
-                    var_3299 = var_3299 + "" + "(" + var_78[var_2501][3] + ")";
+                if (var_78[var_2501].Var3 >= 1) {
+                    var_3299 = var_3299 + "" + "(" + var_78[var_2501].Var3 + ")";
                 }
-                if (var_78[var_2501][7] >= 1) {
-                    var_3299 = var_3299 + "" + "(" + var_78[var_2501][7] + ")";
+                if (var_78[var_2501].Var7 >= 1) {
+                    var_3299 = var_3299 + "" + "(" + var_78[var_2501].Var7 + ")";
                 }
-                if (var_78[var_2501][13] >= 1) {
-                    var_3299 = var_3299 + " " + var_78[var_2501][13] + "G";
+                if (var_78[var_2501].Var13 >= 1) {
+                    var_3299 = var_3299 + " " + var_78[var_2501].Var13 + "G";
                 }
                 var_3272 = var_3272 + "  " + var_3299;
             }
@@ -4382,16 +4382,16 @@ function func853() {
         gcopy(3, 40, 0, 40, 40);
         pos(var_3229, var_3230);
         var_1642 = 1;
-        var_83[0][0] = var_3292[var_3246];
-        var_83[0][5] = 2;
+        var_83[0].Var0 = var_3292[var_3246];
+        var_83[0].Var5 = 2;
         var_1641 = 0;
         var_1640 = 2;
         yield func567();
         var_1642 = 0;
         gmode(2);
         pos(var_3225, var_3226);
-        var_78[0][0] = var_884[var_873];
-        var_232 = var_78[0][0];
+        var_78[0].Var0 = var_884[var_873];
+        var_232 = var_78[0].Var0;
         yield func397();
         gmode(2);
         pos(var_3227, var_3228);
@@ -4993,7 +4993,7 @@ function func859() {
                 }
                 if (var_77[var_447][var_449] != 0) {
                     var_3305 = var_77[var_447][var_449];
-                    var_232 = var_78[var_3305][0];
+                    var_232 = var_78[var_3305].Var0;
                     yield func397();
                 }
                 if (var_80[var_447][var_449] != 0) {
@@ -5007,9 +5007,9 @@ function func859() {
                 if (var_82[var_447][var_449] != 0) {
                     var_1642 = 1;
                     var_3307 = var_82[var_447][var_449];
-                    var_83[0][0] = var_83[var_3307][0];
+                    var_83[0].Var0 = var_83[var_3307].Var0;
                     var_1641 = 0;
-                    var_83[0][5] = 2;
+                    var_83[0].Var5 = 2;
                     var_1640 = 2;
                     yield func567();
                     var_1642 = 0;
@@ -5076,8 +5076,8 @@ function func861() {
         }
         if (var_3266 == 7) {
             var_1642 = 1;
-            var_83[0][0] = var_3292[var_3246];
-            var_83[0][5] = 2;
+            var_83[0].Var0 = var_3292[var_3246];
+            var_83[0].Var5 = 2;
             var_1641 = 0;
             var_3312 = var_3292[var_3246];
             var_1640 = 2;
@@ -5085,8 +5085,8 @@ function func861() {
             var_1642 = 0;
         }
         if (var_3266 == 8) {
-            var_78[0][0] = var_884[var_873];
-            var_232 = var_78[0][0];
+            var_78[0].Var0 = var_884[var_873];
+            var_232 = var_78[0].Var0;
             var_3313 = var_232;
             yield func397();
         }
@@ -5144,7 +5144,7 @@ function func862() {
             if (var_82[var_3315][var_3316] != 0) {
                 var_3266 = 7;
                 var_3140 = var_82[var_3315][var_3316];
-                var_437 = var_83[var_3140][0];
+                var_437 = var_83[var_3140].Var0;
                 var_3317 = "p" + var_437 + "e";
                 var_3318 = instr(var_3319, 0, var_3317);
                 var_3320 = Math.floor(var_3318 / 12);
@@ -5154,7 +5154,7 @@ function func862() {
                 objsize(135);
                 pos(var_3229 + 44, var_3230);
                 combox(var_3246, 100, var_890);
-                var_3275 = var_83[var_3140][16];
+                var_3275 = var_83[var_3140].Var16;
                 var_3293 = var_3275;
                 var_3278 = var_3292[var_3246];
                 yield func848();
@@ -5172,7 +5172,7 @@ function func862() {
             if (var_77[var_3315][var_3316] != 0) {
                 var_3266 = 8;
                 var_3140 = var_77[var_3315][var_3316];
-                var_3321 = var_78[var_3140][0];
+                var_3321 = var_78[var_3140].Var0;
                 var_3317 = "p" + var_3321 + "e";
                 var_3318 = instr(var_3322, 0, var_3317);
                 var_3320 = Math.floor(var_3318 / 12);
@@ -5185,22 +5185,22 @@ function func862() {
                 var_3251 = 0;
                 if (var_3321 >= 100 && var_3321 < 400) {
                     var_3251 = 1;
-                    var_3254 = var_78[var_3140][4];
+                    var_3254 = var_78[var_3140].Var4;
                     var_3257 = var_3254;
                 }
                 if (var_3321 >= 400 && var_3321 < 500) {
                     var_3251 = 2;
-                    var_3255 = var_78[var_3140][3];
+                    var_3255 = var_78[var_3140].Var3;
                     var_3258 = var_3255;
                 }
                 if (var_3321 >= 800 && var_3321 < 900) {
                     var_3251 = 3;
-                    var_3255 = var_78[var_3140][7];
+                    var_3255 = var_78[var_3140].Var7;
                     var_3258 = var_3255;
                 }
                 if (var_3321 == 1) {
                     var_3251 = 4;
-                    var_3256 = Math.floor(var_78[var_3140][13] / 100);
+                    var_3256 = Math.floor(var_78[var_3140].Var13 / 100);
                     var_3259 = var_3256;
                 }
                 if (var_3251 == 0) {
@@ -5446,13 +5446,13 @@ function func863() {
                 var_3331 = 0;
                 if (var_82[var_3315][var_3316] != 0) {
                     var_3332 = var_82[var_3315][var_3316];
-                    var_3331 = var_83[var_3332][0];
+                    var_3331 = var_83[var_3332].Var0;
                 }
                 yield func866();
                 var_3333 = 1;
                 var_3334 = 0;
                 for (var cnt3 = 0; cnt3 < 20; ++cnt3) {
-                    if (var_83[var_3333][0] == 0) {
+                    if (var_83[var_3333].Var0 == 0) {
                         var_3334 = 1;
                         break;
                     }
@@ -5469,22 +5469,22 @@ function func863() {
                 }
                 var_97 = var_3333;
                 var_82[var_3315][var_3316] = var_97;
-                var_83[var_97][0] = var_3312;
-                var_83[var_97][1] = var_3315;
-                var_83[var_97][2] = var_3316;
-                var_83[var_97][16] = var_3275;
+                var_83[var_97].Var0 = var_3312;
+                var_83[var_97].Var1 = var_3315;
+                var_83[var_97].Var2 = var_3316;
+                var_83[var_97].Var16 = var_3275;
             }
             if (var_3266 == 8 && var_884[var_873] != 0) {
                 var_3331 = 0;
                 if (var_77[var_3315][var_3316] != 0) {
                     var_3332 = var_77[var_3315][var_3316];
-                    var_3331 = var_78[var_3332][0];
+                    var_3331 = var_78[var_3332].Var0;
                 }
                 yield func866();
                 var_3333 = 1;
                 var_3334 = 0;
                 for (var cnt3 = 0; cnt3 < 20; ++cnt3) {
-                    if (var_78[var_3333][0] == 0) {
+                    if (var_78[var_3333].Var0 == 0) {
                         var_3334 = 1;
                         break;
                     }
@@ -5501,27 +5501,27 @@ function func863() {
                 }
                 var_336 = var_3333;
                 var_77[var_3315][var_3316] = var_336;
-                var_78[var_336][0] = var_3313;
-                var_78[var_336][1] = var_3315;
-                var_78[var_336][2] = var_3316;
-                if (var_78[var_336][0] >= 100 && var_78[var_336][0] < 400) {
-                    var_78[var_336][4] = var_3254;
+                var_78[var_336].Var0 = var_3313;
+                var_78[var_336].Var1 = var_3315;
+                var_78[var_336].Var2 = var_3316;
+                if (var_78[var_336].Var0 >= 100 && var_78[var_336].Var0 < 400) {
+                    var_78[var_336].Var4 = var_3254;
                 }
-                if (var_78[var_336][0] >= 400 && var_78[var_336][0] < 500) {
-                    var_78[var_336][3] = var_3255;
-                    if (var_78[var_336][3] == 0) {
-                        var_78[var_336][3] = 1;
+                if (var_78[var_336].Var0 >= 400 && var_78[var_336].Var0 < 500) {
+                    var_78[var_336].Var3 = var_3255;
+                    if (var_78[var_336].Var3 == 0) {
+                        var_78[var_336].Var3 = 1;
                     }
                 }
-                if (var_78[var_336][0] >= 800 && var_78[var_336][0] < 900) {
-                    var_78[var_336][7] = var_3255;
+                if (var_78[var_336].Var0 >= 800 && var_78[var_336].Var0 < 900) {
+                    var_78[var_336].Var7 = var_3255;
                 }
-                if (var_78[var_336][0] == 1) {
+                if (var_78[var_336].Var0 == 1) {
                     if (var_3256 == 0) {
-                        var_78[var_336][13] = 1;
+                        var_78[var_336].Var13 = 1;
                     }
                     if (var_3256 >= 1) {
-                        var_78[var_336][13] = var_3256 * 100;
+                        var_78[var_336].Var13 = var_3256 * 100;
                     }
                 }
             }
@@ -5624,8 +5624,8 @@ function func865() {
         var_76 = dim(100, 5, 3);
         var_74 = dim(70, 70);
         var_75 = dim(20);
-        var_83 = dim(300, 40);
-        var_78 = dim(300, 30);
+        var_83 = CharactorInfo.dim(300);
+        var_78 = ItemInfo.dim(300);
         var_81 = dim(300, 7);
         yield func875();
         var_199 = 2;
@@ -5647,8 +5647,8 @@ function func866() {
             }
             if (var_82[var_3315][var_3316] != 0) {
                 var_3335 = var_82[var_3315][var_3316];
-                var_83[var_3335][0] = 0;
-                var_83[var_3335][16] = 0;
+                var_83[var_3335].Var0 = 0;
+                var_83[var_3335].Var16 = 0;
                 var_82[var_3315][var_3316] = 0;
             }
         }
@@ -5658,10 +5658,10 @@ function func866() {
             }
             if (var_77[var_3315][var_3316] != 0) {
                 var_3335 = var_77[var_3315][var_3316];
-                var_78[var_3335][0] = 0;
-                var_78[var_3335][1] = 0;
-                var_78[var_3335][2] = 0;
-                var_78[var_3335][3] = 0;
+                var_78[var_3335].Var0 = 0;
+                var_78[var_3335].Var1 = 0;
+                var_78[var_3335].Var2 = 0;
+                var_78[var_3335].Var3 = 0;
                 var_77[var_3315][var_3316] = 0;
             }
             if (var_80[var_3315][var_3316] != 0) {
@@ -5724,8 +5724,8 @@ function func869() {
         var_76 = dim(100, 5, 3);
         var_74 = dim(70, 70);
         var_75 = dim(20);
-        var_83 = dim(300, 40);
-        var_78 = dim(300, 30);
+        var_83 = CharactorInfo.dim(300);
+        var_78 = ItemInfo.dim(300);
         var_81 = dim(300, 7);
         yield func881();
         yield func870();
@@ -6506,34 +6506,34 @@ function func873() {
         var_3463 = var_3463 + "" + var_3467 + "\n";
         var_3468 = 1;
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
-            var_3463 = var_3463 + "" + var_83[var_3468][0] + "\n";
+            var_3463 = var_3463 + "" + var_83[var_3468].Var0 + "\n";
             var_3467 = 0;
-            var_3467 = var_83[var_3468][16];
+            var_3467 = var_83[var_3468].Var16;
             var_3463 = var_3463 + "" + var_3467 + "\n";
             var_3468++;
         }
         var_3468 = 1;
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
-            var_3463 = var_3463 + "" + var_78[var_3468][0] + "\n";
-            var_3469 = var_78[var_3468][1];
-            var_3470 = var_78[var_3468][2];
+            var_3463 = var_3463 + "" + var_78[var_3468].Var0 + "\n";
+            var_3469 = var_78[var_3468].Var1;
+            var_3470 = var_78[var_3468].Var2;
             yield func874();
             var_3463 = var_3463 + "" + var_3467 + "\n";
             var_3471 = 0;
-            if (var_78[var_3468][0] >= 100 && var_78[var_3468][0] < 400) {
-                var_3471 = var_78[var_3468][4];
-                if (var_78[var_3468][12] == 1) {
+            if (var_78[var_3468].Var0 >= 100 && var_78[var_3468].Var0 < 400) {
+                var_3471 = var_78[var_3468].Var4;
+                if (var_78[var_3468].Var12 == 1) {
                     var_3471 = 11;
                 }
             }
-            if (var_78[var_3468][0] >= 400 && var_78[var_3468][0] < 500) {
-                var_3471 = var_78[var_3468][3];
+            if (var_78[var_3468].Var0 >= 400 && var_78[var_3468].Var0 < 500) {
+                var_3471 = var_78[var_3468].Var3;
             }
-            if (var_78[var_3468][0] >= 800 && var_78[var_3468][0] < 900) {
-                var_3471 = var_78[var_3468][7];
+            if (var_78[var_3468].Var0 >= 800 && var_78[var_3468].Var0 < 900) {
+                var_3471 = var_78[var_3468].Var7;
             }
-            if (var_78[var_3468][0] == 1) {
-                var_3471 = var_78[var_3468][13];
+            if (var_78[var_3468].Var0 == 1) {
+                var_3471 = var_78[var_3468].Var13;
             }
             var_3463 = var_3463 + "" + var_3471 + "\n";
             var_3468++;
@@ -6698,17 +6698,17 @@ function func877() {
         var_76 = dim(100, 5, 3);
         var_74 = dim(70, 70);
         var_75 = dim(20);
-        var_83 = dim(300, 40);
-        var_78 = dim(300, 30);
+        var_83 = CharactorInfo.dim(300);
+        var_78 = ItemInfo.dim(300);
         var_81 = dim(300, 7);
         yield func881();
         yield func870();
         yield func878();
         var_3474 = 1;
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
-            if (var_83[var_3474][10] == var_201) {
-                if (var_83[var_3474][0] != 101 && var_83[var_3474][0] != 102 && var_83[var_3474][0] != 103 && var_83[var_3474][0] != 104) {
-                    var_83[var_3474][12] = 0;
+            if (var_83[var_3474].Var10 == var_201) {
+                if (var_83[var_3474].Var0 != 101 && var_83[var_3474].Var0 != 102 && var_83[var_3474].Var0 != 103 && var_83[var_3474].Var0 != 104) {
+                    var_83[var_3474].Var12 = 0;
                 }
             }
             var_3474++;
@@ -6741,32 +6741,32 @@ function func879() {
         var_336++;
         var_866 = var_336;
         var_77[var_1076][var_1075] = var_866;
-        var_78[var_866][0] = var_1770;
-        var_78[var_866][1] = var_1076;
-        var_78[var_866][2] = var_1075;
-        var_78[var_866][9] = var_71[var_1076][var_1075];
+        var_78[var_866].Var0 = var_1770;
+        var_78[var_866].Var1 = var_1076;
+        var_78[var_866].Var2 = var_1075;
+        var_78[var_866].Var9 = var_71[var_1076][var_1075];
         if (var_1770 == 1) {
-            var_78[var_866][13] = var_3342;
+            var_78[var_866].Var13 = var_3342;
         }
         if (var_1770 >= 100 && var_1770 < 400) {
-            var_78[var_866][19] = 1;
-            var_78[var_866][20] = var_78[var_866][0];
-            var_78[var_866][5] = 8;
-            var_78[var_866][4] = var_3342;
-            var_78[var_866][14] = 1;
+            var_78[var_866].Var19 = 1;
+            var_78[var_866].Var20 = var_78[var_866].Var0;
+            var_78[var_866].Var5 = 8;
+            var_78[var_866].Var4 = var_3342;
+            var_78[var_866].Var14 = 1;
             if (var_3342 == 11) {
-                var_78[var_866][4] = 0;
-                var_78[var_866][12] = 1;
+                var_78[var_866].Var4 = 0;
+                var_78[var_866].Var12 = 1;
             }
         }
         if (var_1770 >= 400 && var_1770 < 500) {
-            var_78[var_866][3] = var_3342;
+            var_78[var_866].Var3 = var_3342;
         }
         if (var_1770 >= 800 && var_1770 < 900) {
             yield func395();
-            var_78[var_866][6] = var_858;
-            var_78[var_866][7] = var_3342;
-            var_78[var_866][8] = 0;
+            var_78[var_866].Var6 = var_858;
+            var_78[var_866].Var7 = var_3342;
+            var_78[var_866].Var8 = 0;
             var_486[var_858][1][0] = 0;
             var_486[var_858][2][0] = 0;
             var_486[var_858][3][0] = 0;
@@ -6778,7 +6778,7 @@ function func879() {
             var_486[var_858][9][0] = 0;
             var_486[var_858][10][0] = 0;
         }
-        var_1771 = var_78[var_866][0];
+        var_1771 = var_78[var_866].Var0;
         var_862[var_1771][0] = 1;
         return;
     });

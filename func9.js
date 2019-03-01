@@ -217,14 +217,14 @@ function func907() {
         var_3516[9] = var_415;
         var_3516[10] = var_62;
         var_3516[11] = var_357;
-        var_3516[12] = var_233[var_553][4];
+        var_3516[12] = var_233[var_553].Var4;
         var_3516[13] = var_580;
         var_3516[14] = var_358;
-        var_3516[15] = var_233[var_554][4];
+        var_3516[15] = var_233[var_554].Var4;
         var_3516[16] = var_581;
         var_3516[17] = var_215;
-        var_3516[18] = var_233[var_555][4];
-        var_3516[19] = var_233[var_556][3];
+        var_3516[18] = var_233[var_555].Var4;
+        var_3516[19] = var_233[var_556].Var3;
         var_3566 = 0;
         var_3567 = "捨送";
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
@@ -463,14 +463,14 @@ function func909() {
                 var_78[var_2171][var_731] = var_3518[1][var_731];
                 var_731++;
             }
-            var_78[var_2171][1] = var_1512;
-            var_78[var_2171][2] = var_1513;
-            var_78[var_2171][9] = var_71[var_1512][var_1513];
-            var_78[var_2171][10] = 1;
-            var_78[var_2171][14] = 0;
-            if (var_78[var_2171][0] >= 800 && var_78[var_2171][0] < 900) {
+            var_78[var_2171].Var1 = var_1512;
+            var_78[var_2171].Var2 = var_1513;
+            var_78[var_2171].Var9 = var_71[var_1512][var_1513];
+            var_78[var_2171].Var10 = 1;
+            var_78[var_2171].Var14 = 0;
+            if (var_78[var_2171].Var0 >= 800 && var_78[var_2171].Var0 < 900) {
                 yield func395();
-                var_78[var_2171][6] = var_858;
+                var_78[var_2171].Var6 = var_858;
                 var_486[var_858][1][0] = 0;
                 var_486[var_858][2][0] = 0;
                 var_486[var_858][3][0] = 0;
@@ -513,7 +513,7 @@ function func911() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(911);
         var_3519 = dim(30);
-        var_3519[0] = var_233[var_225][0];
+        var_3519[0] = var_233[var_225].Var0;
         if (var_62 == 3 && var_3519[0] == 112) {
             if (var_91 >= 60 && var_91 <= 66) {
                 var_3519[0] = 394;
@@ -521,35 +521,35 @@ function func911() {
         }
         var_3519[1] = 0;
         var_3519[2] = 0;
-        var_3519[3] = var_233[var_225][3];
-        var_3519[4] = var_233[var_225][4];
-        var_3519[5] = var_233[var_225][5];
-        var_3519[6] = var_233[var_225][6];
-        var_3519[7] = var_233[var_225][7];
+        var_3519[3] = var_233[var_225].Var3;
+        var_3519[4] = var_233[var_225].Var4;
+        var_3519[5] = var_233[var_225].Var5;
+        var_3519[6] = var_233[var_225].Var6;
+        var_3519[7] = var_233[var_225].Var7;
         var_3519[8] = 0;
-        var_3519[9] = var_233[var_225][9];
-        var_3519[10] = var_233[var_225][10];
+        var_3519[9] = var_233[var_225].Var9;
+        var_3519[10] = var_233[var_225].Var10;
         var_3519[11] = 0;
-        var_3519[12] = var_233[var_225][12];
-        var_3519[13] = var_233[var_225][13];
-        var_3519[14] = var_233[var_225][14];
-        var_3519[15] = var_233[var_225][15];
-        var_3519[16] = var_233[var_225][16];
-        var_3519[17] = var_233[var_225][17];
-        var_3519[18] = var_233[var_225][18];
-        var_3519[19] = var_233[var_225][19];
-        var_3519[20] = var_233[var_225][20];
-        var_3519[21] = var_233[var_225][21];
-        var_3519[22] = var_233[var_225][22];
-        var_3519[23] = var_233[var_225][23];
-        var_3519[24] = var_233[var_225][24];
-        var_3519[25] = var_233[var_225][25];
-        var_3519[26] = var_233[var_225][26];
-        var_3519[27] = var_233[var_225][27];
-        var_3519[28] = var_233[var_225][28];
-        var_3519[29] = var_233[var_225][29];
-        var_1459 = var_233[var_225][0];
-        var_1249 = var_233[var_225][13];
+        var_3519[12] = var_233[var_225].Var12;
+        var_3519[13] = var_233[var_225].Var13;
+        var_3519[14] = var_233[var_225].Var14;
+        var_3519[15] = var_233[var_225].Var15;
+        var_3519[16] = var_233[var_225].Var16;
+        var_3519[17] = var_233[var_225].Var17;
+        var_3519[18] = var_233[var_225].Var18;
+        var_3519[19] = var_233[var_225].Var19;
+        var_3519[20] = var_233[var_225].Var20;
+        var_3519[21] = var_233[var_225].Var21;
+        var_3519[22] = var_233[var_225].Var22;
+        var_3519[23] = var_233[var_225].Var23;
+        var_3519[24] = var_233[var_225].Var24;
+        var_3519[25] = var_233[var_225].Var25;
+        var_3519[26] = var_233[var_225].Var26;
+        var_3519[27] = var_233[var_225].Var27;
+        var_3519[28] = var_233[var_225].Var28;
+        var_3519[29] = var_233[var_225].Var29;
+        var_1459 = var_233[var_225].Var0;
+        var_1249 = var_233[var_225].Var13;
         var_3566 = 0;
         var_3579 = "送具";
         if (var_407 == 2) {
@@ -582,18 +582,18 @@ function func911() {
             var_3579 = "" + var_3579 + "," + var_3519[var_3566];
             var_3566++;
         }
-        var_232 = var_233[var_225][0];
-        var_487 = var_233[var_225][13];
+        var_232 = var_233[var_225].Var0;
+        var_487 = var_233[var_225].Var13;
         yield func492();
         var_3580 = var_489;
-        if (var_233[var_225][11] == 1) {
+        if (var_233[var_225].Var11 == 1) {
             var_106 = 1;
-            var_232 = var_233[var_225][0];
+            var_232 = var_233[var_225].Var0;
             yield func492();
             var_482 = 0;
-            var_482 = (var_233[var_225][3] + var_233[var_225][4]) * 50;
-            if (var_233[var_225][19] > 1) {
-                var_482 = var_233[var_225][19] * 500 + var_482;
+            var_482 = (var_233[var_225].Var3 + var_233[var_225].Var4) * 50;
+            if (var_233[var_225].Var19 > 1) {
+                var_482 = var_233[var_225].Var19 * 500 + var_482;
             }
             var_483 = var_483 + var_482;
             var_107 = var_107 + var_483;
@@ -628,7 +628,7 @@ function func911() {
             var_1977 = 1;
         }
         if (var_1977 == 1) {
-            var_232 = var_233[var_225][0];
+            var_232 = var_233[var_225].Var0;
             yield func106();
         }
         yield func430();
@@ -687,38 +687,38 @@ function func912() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(912);
         var_3519 = dim(30);
-        var_3519[0] = var_233[var_225][0];
+        var_3519[0] = var_233[var_225].Var0;
         var_3519[1] = 0;
         var_3519[2] = 0;
-        var_3519[3] = var_233[var_225][3];
-        var_3519[4] = var_233[var_225][4];
-        var_3519[5] = var_233[var_225][5];
-        var_3519[6] = var_233[var_225][6];
-        var_3519[7] = var_233[var_225][7];
+        var_3519[3] = var_233[var_225].Var3;
+        var_3519[4] = var_233[var_225].Var4;
+        var_3519[5] = var_233[var_225].Var5;
+        var_3519[6] = var_233[var_225].Var6;
+        var_3519[7] = var_233[var_225].Var7;
         var_3519[8] = 0;
-        var_3519[9] = var_233[var_225][9];
-        var_3519[10] = var_233[var_225][10];
+        var_3519[9] = var_233[var_225].Var9;
+        var_3519[10] = var_233[var_225].Var10;
         var_3519[11] = 0;
-        var_3519[12] = var_233[var_225][12];
-        var_3519[13] = var_233[var_225][13];
-        var_3519[14] = var_233[var_225][14];
-        var_3519[15] = var_233[var_225][15];
-        var_3519[16] = var_233[var_225][16];
-        var_3519[17] = var_233[var_225][17];
-        var_3519[18] = var_233[var_225][18];
-        var_3519[19] = var_233[var_225][19];
-        var_3519[20] = var_233[var_225][20];
-        var_3519[21] = var_233[var_225][21];
-        var_3519[22] = var_233[var_225][22];
-        var_3519[23] = var_233[var_225][23];
-        var_3519[24] = var_233[var_225][24];
-        var_3519[25] = var_233[var_225][25];
-        var_3519[26] = var_233[var_225][26];
-        var_3519[27] = var_233[var_225][27];
-        var_3519[28] = var_233[var_225][28];
-        var_3519[29] = var_233[var_225][29];
-        var_1459 = var_233[var_225][0];
-        var_1249 = var_233[var_225][13];
+        var_3519[12] = var_233[var_225].Var12;
+        var_3519[13] = var_233[var_225].Var13;
+        var_3519[14] = var_233[var_225].Var14;
+        var_3519[15] = var_233[var_225].Var15;
+        var_3519[16] = var_233[var_225].Var16;
+        var_3519[17] = var_233[var_225].Var17;
+        var_3519[18] = var_233[var_225].Var18;
+        var_3519[19] = var_233[var_225].Var19;
+        var_3519[20] = var_233[var_225].Var20;
+        var_3519[21] = var_233[var_225].Var21;
+        var_3519[22] = var_233[var_225].Var22;
+        var_3519[23] = var_233[var_225].Var23;
+        var_3519[24] = var_233[var_225].Var24;
+        var_3519[25] = var_233[var_225].Var25;
+        var_3519[26] = var_233[var_225].Var26;
+        var_3519[27] = var_233[var_225].Var27;
+        var_3519[28] = var_233[var_225].Var28;
+        var_3519[29] = var_233[var_225].Var29;
+        var_1459 = var_233[var_225].Var0;
+        var_1249 = var_233[var_225].Var13;
         var_3566 = 0;
         var_3579 = "送具";
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
@@ -934,7 +934,7 @@ function func919() {
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
             var_2220 = 0;
             if (var_2194 != var_124) {
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                     yield func920();
                 }
                 if (var_2220 == 0) {
@@ -954,60 +954,60 @@ function func919() {
                     if (var_1996 < 0) {
                         var_1996 = 0;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                         yield func920();
                     }
                 }
                 if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                    var_2221 = var_83[var_2194][1];
-                    var_2222 = var_83[var_2194][2];
-                    var_2223 = var_83[var_2194][1] - 1;
+                    var_2221 = var_83[var_2194].Var1;
+                    var_2222 = var_83[var_2194].Var2;
+                    var_2223 = var_83[var_2194].Var1 - 1;
                     if (var_2223 < 0) {
                         var_2223 = 0;
                     }
-                    var_2224 = var_83[var_2194][1] + 1;
+                    var_2224 = var_83[var_2194].Var1 + 1;
                     if (var_2224 > var_33) {
                         var_2224 = var_33;
                     }
-                    var_2225 = var_83[var_2194][2] + 1;
+                    var_2225 = var_83[var_2194].Var2 + 1;
                     if (var_2225 > var_34) {
                         var_2225 = var_34;
                     }
-                    var_2226 = var_83[var_2194][2] - 1;
+                    var_2226 = var_83[var_2194].Var2 - 1;
                     if (var_2226 < 0) {
                         var_2226 = 0;
                     }
-                    if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                    if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                    if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                    if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                         yield func920();
                     }
-                    if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                    if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                         yield func920();
                     }
                 }
@@ -1055,22 +1055,22 @@ function func919() {
 function func920() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(920);
-        if (var_83[var_2194][31] == 4 || var_83[var_2194][31] == 5 || var_83[var_2194][13] != 0 || var_151 != 0 || var_163 != 0) {
+        if (var_83[var_2194].Var31 == 4 || var_83[var_2194].Var31 == 5 || var_83[var_2194].Var13 != 0 || var_151 != 0 || var_163 != 0) {
             return;
         }
-        if (var_83[var_2194][0] == 20 || var_83[var_2194][0] == 132 || var_83[var_2194][0] == 143 || var_83[var_2194][0] == 90 || var_83[var_2194][0] == 96 || var_83[var_2194][0] == 91 || var_83[var_2194][0] == 92) {
+        if (var_83[var_2194].Var0 == 20 || var_83[var_2194].Var0 == 132 || var_83[var_2194].Var0 == 143 || var_83[var_2194].Var0 == 90 || var_83[var_2194].Var0 == 96 || var_83[var_2194].Var0 == 91 || var_83[var_2194].Var0 == 92) {
             return;
         }
-        var_3585 = "" + var_83[var_2194][0] + "," + var_83[var_2194][39] + "," + var_83[var_2194][3] + "," + var_83[var_2194][14] + "," + var_83[var_2194][15] + "," + var_83[var_2194][17] + "," + var_83[var_2194][19] + "," + var_83[var_2194][20] + "," + var_83[var_2194][23] + "," + var_83[var_2194][24] + "," + var_83[var_2194][30];
+        var_3585 = "" + var_83[var_2194].Var0 + "," + var_83[var_2194].Var39 + "," + var_83[var_2194].Var3 + "," + var_83[var_2194].Var14 + "," + var_83[var_2194].Var15 + "," + var_83[var_2194].Var17 + "," + var_83[var_2194].Var19 + "," + var_83[var_2194].Var20 + "," + var_83[var_2194].Var23 + "," + var_83[var_2194].Var24 + "," + var_83[var_2194].Var30;
         var_3561 = "倒敵" + var_3585;
         tcpput(var_3561, var_1050);
         tcpput("\n", var_1050);
-        var_3586 = var_83[var_2194][1];
-        var_3587 = var_83[var_2194][2];
+        var_3586 = var_83[var_2194].Var1;
+        var_3587 = var_83[var_2194].Var2;
         var_82[var_3586][var_3587] = 0;
-        var_83[var_2194][0] = 0;
-        var_83[var_2194][1] = 0;
-        var_83[var_2194][2] = 0;
+        var_83[var_2194].Var0 = 0;
+        var_83[var_2194].Var1 = 0;
+        var_83[var_2194].Var2 = 0;
         var_3584 = 1;
         return;
     });
@@ -2216,21 +2216,21 @@ function func929() {
         var_3516[9] = var_415;
         var_3516[10] = var_62;
         var_3516[11] = var_357;
-        var_3516[12] = var_233[var_553][4];
+        var_3516[12] = var_233[var_553].Var4;
         var_3516[13] = var_580;
         var_3516[14] = var_358;
-        var_3516[15] = var_233[var_554][4];
+        var_3516[15] = var_233[var_554].Var4;
         var_3516[16] = var_581;
         var_3516[17] = var_215;
-        var_3516[18] = var_233[var_555][4];
+        var_3516[18] = var_233[var_555].Var4;
         var_3516[19] = var_410;
-        var_3516[20] = var_233[var_556][3];
-        var_3516[21] = var_233[var_553][19];
-        var_3516[22] = var_233[var_553][13];
-        var_3516[23] = var_233[var_554][19];
-        var_3516[24] = var_233[var_554][13];
-        var_3516[25] = var_233[var_555][19];
-        var_3516[26] = var_233[var_555][13];
+        var_3516[20] = var_233[var_556].Var3;
+        var_3516[21] = var_233[var_553].Var19;
+        var_3516[22] = var_233[var_553].Var13;
+        var_3516[23] = var_233[var_554].Var19;
+        var_3516[24] = var_233[var_554].Var13;
+        var_3516[25] = var_233[var_555].Var19;
+        var_3516[26] = var_233[var_555].Var13;
         var_3566 = 0;
         var_3567 = "捨送";
         for (var cnt1 = 0; cnt1 < 27; ++cnt1) {

@@ -51,25 +51,25 @@ function func500() {
                 }
                 if (var_82[var_2241][var_2242] != 0) {
                     var_2243 = var_82[var_2241][var_2242];
-                    if (var_83[var_2243][5] == var_2240) {
+                    if (var_83[var_2243].Var5 == var_2240) {
                         var_2239 = 1;
                     }
-                    if (var_83[var_2243][31] == 4 || var_83[var_2243][31] == 5) {
+                    if (var_83[var_2243].Var31 == 4 || var_83[var_2243].Var31 == 5) {
                         var_2239 = 0;
                     }
-                    if (var_83[var_2243][0] == 23) {
+                    if (var_83[var_2243].Var0 == 23) {
                         var_2239 = 0;
                     }
-                    if (var_83[var_2243][0] == 50) {
+                    if (var_83[var_2243].Var0 == 50) {
                         var_2239 = 0;
                     }
-                    if (var_83[var_2243][0] == 19) {
+                    if (var_83[var_2243].Var0 == 19) {
                         var_2239 = 0;
                     }
-                    if (var_83[var_2243][0] == 90) {
+                    if (var_83[var_2243].Var0 == 90) {
                         var_2239 = 0;
                     }
-                    if (var_83[var_2243][0] == 79) {
+                    if (var_83[var_2243].Var0 == 79) {
                         var_2239 = 0;
                     }
                     if (var_2239 == 1) {
@@ -583,13 +583,13 @@ function func506() {
         var_2254 = 0;
         if (var_232 >= 100 && var_232 < 400) {
             if (var_220 == 0 && var_234 == 0) {
-                var_570 = var_233[var_225][13];
-                var_232 = var_233[var_225][0];
+                var_570 = var_233[var_225].Var13;
+                var_232 = var_233[var_225].Var0;
                 yield func492();
                 var_2255 = var_489;
-                if (var_233[var_225][4] == 0 || var_233[var_225][14] == 0) {
-                    if (var_233[var_225][11] == 1) {
-                        var_232 = var_233[var_225][0];
+                if (var_233[var_225].Var4 == 0 || var_233[var_225].Var14 == 0) {
+                    if (var_233[var_225].Var11 == 1) {
+                        var_232 = var_233[var_225].Var0;
                         yield func492();
                         var_106 = 1;
                         var_107 = var_107 + var_483;
@@ -599,9 +599,9 @@ function func506() {
                     var_2254 = 1;
                     return;
                 }
-                if (var_233[var_225][4] >= 1) {
-                    var_233[var_225][4] = var_233[var_225][4] - 1;
-                    if (var_233[var_225][11] == 1) {
+                if (var_233[var_225].Var4 >= 1) {
+                    var_233[var_225].Var4 = var_233[var_225].Var4 - 1;
+                    if (var_233[var_225].Var11 == 1) {
                         var_106 = 1;
                         var_107 = var_107 + 50;
                     }
@@ -647,13 +647,13 @@ function func506() {
                 }
             }
             if (var_234 == 1) {
-                var_570 = var_78[var_321][13];
-                var_232 = var_78[var_321][0];
+                var_570 = var_78[var_321].Var13;
+                var_232 = var_78[var_321].Var0;
                 yield func492();
                 var_2255 = var_489;
-                if (var_78[var_321][4] == 0 || var_78[var_321][14] == 0) {
-                    if (var_78[var_321][11] == 1) {
-                        var_232 = var_78[var_321][0];
+                if (var_78[var_321].Var4 == 0 || var_78[var_321].Var14 == 0) {
+                    if (var_78[var_321].Var11 == 1) {
+                        var_232 = var_78[var_321].Var0;
                         yield func492();
                         var_106 = 1;
                         var_107 = var_107 + var_483;
@@ -663,9 +663,9 @@ function func506() {
                     var_234 = 0;
                     return;
                 }
-                if (var_78[var_321][4] >= 1) {
-                    var_78[var_321][4] = var_78[var_321][4] - 1;
-                    if (var_78[var_321][11] == 1) {
+                if (var_78[var_321].Var4 >= 1) {
+                    var_78[var_321].Var4 = var_78[var_321].Var4 - 1;
+                    if (var_78[var_321].Var11 == 1) {
                         var_106 = 1;
                         var_107 = var_107 + 50;
                     }
@@ -676,11 +676,11 @@ function func506() {
         }
         if (var_232 >= 400 && var_232 < 500) {
             if (var_220 == 0 && var_234 == 0) {
-                if (var_233[var_225][3] <= 1) {
-                    var_232 = var_233[var_225][0];
+                if (var_233[var_225].Var3 <= 1) {
+                    var_232 = var_233[var_225].Var0;
                     yield func492();
                     var_2255 = var_489;
-                    if (var_233[var_225][11] == 1) {
+                    if (var_233[var_225].Var11 == 1) {
                         var_106 = 1;
                         var_107 = var_107 + var_483;
                     }
@@ -689,9 +689,9 @@ function func506() {
                     yield func507();
                     return;
                 }
-                if (var_233[var_225][3] >= 2) {
-                    var_233[var_225][3] = var_233[var_225][3] - 1;
-                    if (var_233[var_225][11] == 1) {
+                if (var_233[var_225].Var3 >= 2) {
+                    var_233[var_225].Var3 = var_233[var_225].Var3 - 1;
+                    if (var_233[var_225].Var11 == 1) {
                         var_106 = 1;
                         var_107 = var_107 + 50;
                     }
@@ -724,11 +724,11 @@ function func506() {
                 }
             }
             if (var_234 == 1) {
-                if (var_78[var_321][3] <= 1) {
-                    var_232 = var_78[var_321][0];
+                if (var_78[var_321].Var3 <= 1) {
+                    var_232 = var_78[var_321].Var0;
                     yield func492();
                     var_2255 = var_489;
-                    if (var_78[var_321][11] == 1) {
+                    if (var_78[var_321].Var11 == 1) {
                         var_106 = 1;
                         var_107 = var_107 + var_483;
                     }
@@ -737,9 +737,9 @@ function func506() {
                     var_234 = 0;
                     return;
                 }
-                if (var_78[var_321][3] >= 2) {
-                    var_78[var_321][3] = var_78[var_321][3] - 1;
-                    if (var_78[var_321][11] == 1) {
+                if (var_78[var_321].Var3 >= 2) {
+                    var_78[var_321].Var3 = var_78[var_321].Var3 - 1;
+                    if (var_78[var_321].Var11 == 1) {
                         var_106 = 1;
                         var_107 = var_107 + 50;
                     }
@@ -874,8 +874,8 @@ function func511() {
         dbgprt(511);
         var_2257 = 0;
         if (var_220 == 0 && var_234 == 0) {
-            var_2258 = var_233[var_225][0];
-            if (var_862[var_2258][0] == 1 && var_233[var_225][12] == 1 && var_233[var_225][14] == 1) {
+            var_2258 = var_233[var_225].Var0;
+            if (var_862[var_2258][0] == 1 && var_233[var_225].Var12 == 1 && var_233[var_225].Var14 == 1) {
                 var_2257 = 1;
             }
         }
@@ -887,8 +887,8 @@ function func511() {
             }
         }
         if (var_234 == 1) {
-            var_2258 = var_78[var_321][0];
-            if (var_862[var_2258][0] == 1 && var_78[var_321][12] == 1 && var_78[var_321][14] == 1) {
+            var_2258 = var_78[var_321].Var0;
+            if (var_862[var_2258][0] == 1 && var_78[var_321].Var12 == 1 && var_78[var_321].Var14 == 1) {
                 var_2257 = 1;
             }
         }
@@ -1034,18 +1034,18 @@ function func511() {
             }
             if (var_82[var_347][var_348] != 0) {
                 var_2231 = var_82[var_347][var_348];
-                if (var_83[var_2231][0] != 50) {
-                    if (var_83[var_2231][12] == 99) {
-                        var_83[var_2231][12] = 0;
+                if (var_83[var_2231].Var0 != 50) {
+                    if (var_83[var_2231].Var12 == 99) {
+                        var_83[var_2231].Var12 = 0;
                     }
-                    var_83[var_2231][13] = 0;
-                    if (var_83[var_2231][15] == 0) {
-                        var_83[var_2231][14] = 1;
+                    var_83[var_2231].Var13 = 0;
+                    if (var_83[var_2231].Var15 == 0) {
+                        var_83[var_2231].Var14 = 1;
                         DSPLAY(162);
                     }
-                    if (var_83[var_2231][15] != 0) {
-                        var_83[var_2231][14] = 0;
-                        var_83[var_2231][15] = 0;
+                    if (var_83[var_2231].Var15 != 0) {
+                        var_83[var_2231].Var14 = 0;
+                        var_83[var_2231].Var15 = 0;
                     }
                     var_747 = 1;
                 }
@@ -1129,9 +1129,9 @@ function func511() {
             }
             if (var_82[var_347][var_348] != 0) {
                 var_2231 = var_82[var_347][var_348];
-                if (var_83[var_2231][0] != 50 && var_83[var_2231][0] != 33 && var_83[var_2231][0] != 34 && var_83[var_2231][0] != 132 && var_83[var_2231][0] != 143) {
+                if (var_83[var_2231].Var0 != 50 && var_83[var_2231].Var0 != 33 && var_83[var_2231].Var0 != 34 && var_83[var_2231].Var0 != 132 && var_83[var_2231].Var0 != 143) {
                     var_747 = 1;
-                    var_83[var_2231][12] = 99;
+                    var_83[var_2231].Var12 = 99;
                 }
             }
             for (var cnt2 = 0; cnt2 < 30; ++cnt2) {
@@ -1150,7 +1150,7 @@ function func511() {
             if (var_82[var_347][var_348] != 0) {
                 DSPLAY(123);
                 var_2231 = var_82[var_347][var_348];
-                if (var_83[var_2231][0] != 50 && var_83[var_2231][0] != 33 && var_83[var_2231][0] != 34 && var_83[var_2231][0] != 132 && var_83[var_2231][0] != 143) {
+                if (var_83[var_2231].Var0 != 50 && var_83[var_2231].Var0 != 33 && var_83[var_2231].Var0 != 34 && var_83[var_2231].Var0 != 132 && var_83[var_2231].Var0 != 143) {
                     var_402 = var_2231;
                     var_209 = 999;
                     var_2195 = 1;
@@ -1244,12 +1244,12 @@ function func511() {
             if (var_82[var_347][var_348] != 0) {
                 DSPLAY(123);
                 var_2231 = var_82[var_347][var_348];
-                if (var_83[var_2231][0] != 50 && var_83[var_2231][0] != 33 && var_83[var_2231][0] != 34 && var_83[var_2231][0] != 132 && var_83[var_2231][0] != 143) {
+                if (var_83[var_2231].Var0 != 50 && var_83[var_2231].Var0 != 33 && var_83[var_2231].Var0 != 34 && var_83[var_2231].Var0 != 132 && var_83[var_2231].Var0 != 143) {
                     var_402 = var_2231;
                     var_209 = 999;
                     var_2195 = 1;
                     var_2196 = 2;
-                    var_2263 = var_83[var_2231][0];
+                    var_2263 = var_83[var_2231].Var0;
                     yield func705();
                     var_2263 = 0;
                     var_2196 = 0;
@@ -1331,7 +1331,7 @@ function func511() {
             var_2194 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
                 var_2266 = 0;
-                if (var_83[var_2194][0] != 0) {
+                if (var_83[var_2194].Var0 != 0) {
                     var_1993 = var_66 - 1;
                     if (var_1993 < 0) {
                         var_1993 = 0;
@@ -1348,74 +1348,74 @@ function func511() {
                     if (var_1996 < 0) {
                         var_1996 = 0;
                     }
-                    if (var_2266 == 0 && var_2194 != var_124 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                    if (var_2266 == 0 && var_2194 != var_124 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                         yield func519();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                         yield func519();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                         yield func519();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                         yield func519();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                         yield func519();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                         yield func519();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                         yield func519();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                         yield func519();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                         yield func519();
                         var_2266 = 1;
                     }
                     if (var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_2266 == 0 && var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_2266 == 0 && var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             yield func519();
                             var_2266 = 1;
                         }
-                        if (var_2266 == 0 && var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_2266 == 0 && var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             yield func519();
                             var_2266 = 1;
                         }
-                        if (var_2266 == 0 && var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_2266 == 0 && var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             yield func519();
                             var_2266 = 1;
                         }
-                        if (var_2266 == 0 && var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_2266 == 0 && var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             yield func519();
                             var_2266 = 1;
                         }
@@ -1562,7 +1562,7 @@ function func511() {
             DSPLAY(104);
             if (var_82[var_347][var_348] != 0) {
                 var_314 = var_82[var_347][var_348];
-                if (var_83[var_314][0] != 50) {
+                if (var_83[var_314].Var0 != 50) {
                     var_747 = 1;
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         yield func337();
@@ -1615,7 +1615,7 @@ function func511() {
             var_121 = 1;
             var_2194 = 1;
             for (var cnt2 = 0; cnt2 < var_336; ++cnt2) {
-                if (var_78[var_2194][0] != 0) {
+                if (var_78[var_2194].Var0 != 0) {
                     var_1993 = var_66 - 1;
                     if (var_1993 < 0) {
                         var_1993 = 0;
@@ -1632,62 +1632,62 @@ function func511() {
                     if (var_1996 < 0) {
                         var_1996 = 0;
                     }
-                    if (var_78[var_2194][9] == var_201 && var_201 > 0 && var_201 <= 12) {
+                    if (var_78[var_2194].Var9 == var_201 && var_201 > 0 && var_201 <= 12) {
                         yield func512();
                     }
-                    if (var_78[var_2194][1] == var_66 && var_78[var_2194][2] == var_1995) {
+                    if (var_78[var_2194].Var1 == var_66 && var_78[var_2194].Var2 == var_1995) {
                         yield func512();
                     }
-                    if (var_78[var_2194][1] == var_66 && var_78[var_2194][2] == var_1996) {
+                    if (var_78[var_2194].Var1 == var_66 && var_78[var_2194].Var2 == var_1996) {
                         yield func512();
                     }
-                    if (var_78[var_2194][1] == var_1993 && var_78[var_2194][2] == var_67) {
+                    if (var_78[var_2194].Var1 == var_1993 && var_78[var_2194].Var2 == var_67) {
                         yield func512();
                     }
-                    if (var_78[var_2194][1] == var_1994 && var_78[var_2194][2] == var_67) {
+                    if (var_78[var_2194].Var1 == var_1994 && var_78[var_2194].Var2 == var_67) {
                         yield func512();
                     }
-                    if (var_78[var_2194][1] == var_1993 && var_78[var_2194][2] == var_1995) {
+                    if (var_78[var_2194].Var1 == var_1993 && var_78[var_2194].Var2 == var_1995) {
                         yield func512();
                     }
-                    if (var_78[var_2194][1] == var_1994 && var_78[var_2194][2] == var_1995) {
+                    if (var_78[var_2194].Var1 == var_1994 && var_78[var_2194].Var2 == var_1995) {
                         yield func512();
                     }
-                    if (var_78[var_2194][1] == var_1993 && var_78[var_2194][2] == var_1996) {
+                    if (var_78[var_2194].Var1 == var_1993 && var_78[var_2194].Var2 == var_1996) {
                         yield func512();
                     }
-                    if (var_78[var_2194][1] == var_1994 && var_78[var_2194][2] == var_1996) {
+                    if (var_78[var_2194].Var1 == var_1994 && var_78[var_2194].Var2 == var_1996) {
                         yield func512();
                     }
                     if (var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_78[var_2194][1];
-                        var_2222 = var_78[var_2194][2];
-                        var_2223 = var_78[var_2194][1] - 1;
+                        var_2221 = var_78[var_2194].Var1;
+                        var_2222 = var_78[var_2194].Var2;
+                        var_2223 = var_78[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_78[var_2194][1] + 1;
+                        var_2224 = var_78[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_78[var_2194][2] + 1;
+                        var_2225 = var_78[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_78[var_2194][2] - 1;
+                        var_2226 = var_78[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_78[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_78[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             yield func512();
                         }
-                        if (var_78[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_78[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             yield func512();
                         }
-                        if (var_78[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_78[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             yield func512();
                         }
-                        if (var_78[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_78[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             yield func512();
                         }
                     }
@@ -1696,7 +1696,7 @@ function func511() {
             }
             var_2194 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_2194][0] != 0) {
+                if (var_83[var_2194].Var0 != 0) {
                     var_1993 = var_66 - 1;
                     if (var_1993 < 0) {
                         var_1993 = 0;
@@ -1713,101 +1713,101 @@ function func511() {
                     if (var_1996 < 0) {
                         var_1996 = 0;
                     }
-                    if (var_2194 != var_124 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_2194 != var_124 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
-                    if (var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
-                    if (var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
-                        var_83[var_2194][23] = 1;
-                        if (var_83[var_2194][0] == 97) {
-                            var_83[var_2194][31] = 0;
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
+                        var_83[var_2194].Var23 = 1;
+                        if (var_83[var_2194].Var0 == 97) {
+                            var_83[var_2194].Var31 = 0;
                         }
                     }
                     if (var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
-                            var_83[var_2194][23] = 1;
-                            if (var_83[var_2194][0] == 97) {
-                                var_83[var_2194][31] = 0;
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
+                            var_83[var_2194].Var23 = 1;
+                            if (var_83[var_2194].Var0 == 97) {
+                                var_83[var_2194].Var31 = 0;
                             }
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
-                            var_83[var_2194][23] = 1;
-                            if (var_83[var_2194][0] == 97) {
-                                var_83[var_2194][31] = 0;
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
+                            var_83[var_2194].Var23 = 1;
+                            if (var_83[var_2194].Var0 == 97) {
+                                var_83[var_2194].Var31 = 0;
                             }
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
-                            var_83[var_2194][23] = 1;
-                            if (var_83[var_2194][0] == 97) {
-                                var_83[var_2194][31] = 0;
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
+                            var_83[var_2194].Var23 = 1;
+                            if (var_83[var_2194].Var0 == 97) {
+                                var_83[var_2194].Var31 = 0;
                             }
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
-                            var_83[var_2194][23] = 1;
-                            if (var_83[var_2194][0] == 97) {
-                                var_83[var_2194][31] = 0;
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
+                            var_83[var_2194].Var23 = 1;
+                            if (var_83[var_2194].Var0 == 97) {
+                                var_83[var_2194].Var31 = 0;
                             }
                         }
                     }
@@ -1845,14 +1845,14 @@ function func511() {
             var_2269 = 0;
             var_2270 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_2270][0] == 113) {
+                if (var_83[var_2270].Var0 == 113) {
                     var_2271 = rnd(20);
                     if (var_2271 >= 10) {
                         var_2269 = var_2270;
                         break;
                     }
                 }
-                if (var_83[var_2270][0] == 115) {
+                if (var_83[var_2270].Var0 == 115) {
                     var_2271 = rnd(20);
                     if (var_2271 >= 10) {
                         var_2268 = var_2270;
@@ -1994,7 +1994,7 @@ function func511() {
             var_2194 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
                 var_2266 = 0;
-                if (var_83[var_2194][0] != 0) {
+                if (var_83[var_2194].Var0 != 0) {
                     var_1993 = var_66 - 1;
                     if (var_1993 < 0) {
                         var_1993 = 0;
@@ -2011,74 +2011,74 @@ function func511() {
                     if (var_1996 < 0) {
                         var_1996 = 0;
                     }
-                    if (var_2266 == 0 && var_2194 != var_124 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12 && var_172 == 1) {
+                    if (var_2266 == 0 && var_2194 != var_124 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12 && var_172 == 1) {
                         yield func520();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                         yield func520();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                         yield func520();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                         yield func520();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                         yield func520();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                         yield func520();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                         yield func520();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                         yield func520();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                         yield func520();
                         var_2266 = 1;
                     }
                     if (var_201 <= 12 && var_201 != 0 && var_172 == 1) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_2266 == 0 && var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_2266 == 0 && var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             yield func520();
                             var_2266 = 1;
                         }
-                        if (var_2266 == 0 && var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_2266 == 0 && var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             yield func520();
                             var_2266 = 1;
                         }
-                        if (var_2266 == 0 && var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_2266 == 0 && var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             yield func520();
                             var_2266 = 1;
                         }
-                        if (var_2266 == 0 && var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_2266 == 0 && var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             yield func520();
                             var_2266 = 1;
                         }
@@ -2134,7 +2134,7 @@ function func511() {
                 var_1845 = 0;
                 if (var_2110 != 0) {
                     var_2273 = var_97;
-                    var_83[var_2273][21] = 1;
+                    var_83[var_2273].Var21 = 1;
                     var_411 = 1;
                     for (var cnt4 = 0; cnt4 < 3; ++cnt4) {
                         var_300 = 0;
@@ -2156,8 +2156,8 @@ function func511() {
                         yield func337();
                     }
                     var_411 = 0;
-                    var_83[var_2273][21] = 0;
-                    var_83[var_2273][5] = 2;
+                    var_83[var_2273].Var21 = 0;
+                    var_83[var_2273].Var5 = 2;
                 }
             }
             if (var_2254 == 1) {
@@ -2252,7 +2252,7 @@ function func511() {
                         }
                         var_1549 = 0;
                         var_403 = "クロスファイヤーハリケーンスペシャル！";
-                        var_437 = var_83[var_421][0];
+                        var_437 = var_83[var_421].Var0;
                         yield func626();
                         var_402 = var_421;
                         var_314 = var_421;
@@ -2356,9 +2356,9 @@ function func511() {
             var_2280 = 1;
             for (var cnt2 = 0; cnt2 < var_336; ++cnt2) {
                 var_2281 = 0;
-                if (var_78[var_2280][0] != 0 && var_78[var_2280][11] == 0) {
-                    var_2282 = var_78[var_2280][1];
-                    var_2283 = var_78[var_2280][2];
+                if (var_78[var_2280].Var0 != 0 && var_78[var_2280].Var11 == 0) {
+                    var_2282 = var_78[var_2280].Var1;
+                    var_2283 = var_78[var_2280].Var2;
                     if (var_2281 == 0 && var_77[var_347][var_348] == 0 && var_80[var_347][var_348] == 0 && var_71[var_347][var_348] != 0 && var_71[var_347][var_348] != 13 && var_73[var_347][var_348] == 0) {
                         var_2284 = var_347;
                         var_2285 = var_348;
@@ -2406,10 +2406,10 @@ function func511() {
                     }
                     if (var_2281 == 1) {
                         var_77[var_2284][var_2285] = var_77[var_2282][var_2283];
-                        var_78[var_2280][1] = var_2284;
-                        var_78[var_2280][2] = var_2285;
-                        var_78[var_2280][9] = var_71[var_2284][var_2285];
-                        var_78[var_2280][10] = 1;
+                        var_78[var_2280].Var1 = var_2284;
+                        var_78[var_2280].Var2 = var_2285;
+                        var_78[var_2280].Var9 = var_71[var_2284][var_2285];
+                        var_78[var_2280].Var10 = 1;
                         var_77[var_2282][var_2283] = 0;
                         var_2279++;
                     }
@@ -2463,13 +2463,13 @@ function func511() {
         }
         if (var_2258 == 106) {
             if (var_220 == 0 && var_234 == 0) {
-                var_570 = var_233[var_225][13];
+                var_570 = var_233[var_225].Var13;
             }
             if (var_220 == 1) {
                 var_570 = var_486[var_682][var_225][13];
             }
             if (var_234 == 1) {
-                var_570 = var_78[var_321][13];
+                var_570 = var_78[var_321].Var13;
             }
             var_293 = "";
             var_294 = "";
@@ -2848,8 +2848,8 @@ function func511() {
                                 var_2298 = 1;
                             }
                         }
-                        var_83[var_2293][1] = var_2289;
-                        var_83[var_2293][2] = var_2290;
+                        var_83[var_2293].Var1 = var_2289;
+                        var_83[var_2293].Var2 = var_2290;
                         var_82[var_2289][var_2290] = var_2293;
                     }
                     if (var_77[var_455][var_456] > 0) {
@@ -2885,8 +2885,8 @@ function func511() {
                         }
                         var_2293 = var_77[var_455][var_456];
                         var_77[var_455][var_456] = 0;
-                        var_78[var_2293][1] = var_2291;
-                        var_78[var_2293][2] = var_2292;
+                        var_78[var_2293].Var1 = var_2291;
+                        var_78[var_2293].Var2 = var_2292;
                         var_77[var_2291][var_2292] = var_2293;
                     }
                     var_198 = 0;
@@ -2937,7 +2937,7 @@ function func511() {
             var_2299 = 1;
             var_1845 = 1;
             yield func556();
-            var_83[var_673][11] = 1;
+            var_83[var_673].Var11 = 1;
             var_2299 = 0;
             var_1845 = 0;
             if (var_2110 == 0) {
@@ -2969,7 +2969,7 @@ function func511() {
                 var_2299 = 1;
                 var_1845 = 1;
                 yield func556();
-                var_83[var_673][11] = 1;
+                var_83[var_673].Var11 = 1;
                 var_2299 = 0;
                 var_1845 = 0;
             }
@@ -3193,7 +3193,7 @@ function func511() {
             var_271 = 0;
             var_1310 = 0;
             if (var_114 != 0) {
-                if (var_83[var_114][0] == 78) {
+                if (var_83[var_114].Var0 == 78) {
                     var_114 = 0;
                 }
             }
@@ -3447,84 +3447,84 @@ function func511() {
             var_1995 = var_67 + 1;
             var_1996 = var_67 - 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_1992][1] == var_66 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 99;
+                if (var_83[var_1992].Var1 == var_66 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 99;
                     var_2302 = 1;
                 }
-                if (var_83[var_1992][1] == var_66 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 99;
+                if (var_83[var_1992].Var1 == var_66 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 99;
                     var_2302 = 1;
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_67) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 99;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_67) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 99;
                     var_2302 = 1;
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_67) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 99;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_67) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 99;
                     var_2302 = 1;
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 99;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 99;
                     var_2302 = 1;
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 99;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 99;
                     var_2302 = 1;
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 99;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 99;
                     var_2302 = 1;
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 99;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 99;
                     var_2302 = 1;
                 }
                 if (var_172 >= 1) {
-                    if (var_83[var_1992][10] == var_201 && var_201 != 14) {
-                        var_83[var_1992][13] = 99;
+                    if (var_83[var_1992].Var10 == var_201 && var_201 != 14) {
+                        var_83[var_1992].Var13 = 99;
                         var_2302 = 1;
                     }
                     if (var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_1992][1];
-                        var_2222 = var_83[var_1992][2];
-                        var_2223 = var_83[var_1992][1] - 1;
+                        var_2221 = var_83[var_1992].Var1;
+                        var_2222 = var_83[var_1992].Var2;
+                        var_2223 = var_83[var_1992].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_1992][1] + 1;
+                        var_2224 = var_83[var_1992].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_1992][2] + 1;
+                        var_2225 = var_83[var_1992].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_1992][2] - 1;
+                        var_2226 = var_83[var_1992].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_1992][0] != 0 && var_71[var_2223][var_2222] == var_201) {
-                            var_83[var_1992][13] = 99;
+                        if (var_83[var_1992].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
+                            var_83[var_1992].Var13 = 99;
                             var_2302 = 1;
                         }
-                        if (var_83[var_1992][0] != 0 && var_71[var_2224][var_2222] == var_201) {
-                            var_83[var_1992][13] = 99;
+                        if (var_83[var_1992].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
+                            var_83[var_1992].Var13 = 99;
                             var_2302 = 1;
                         }
-                        if (var_83[var_1992][0] != 0 && var_71[var_2221][var_2225] == var_201) {
-                            var_83[var_1992][13] = 99;
+                        if (var_83[var_1992].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
+                            var_83[var_1992].Var13 = 99;
                             var_2302 = 1;
                         }
-                        if (var_83[var_1992][0] != 0 && var_71[var_2221][var_2226] == var_201) {
-                            var_83[var_1992][13] = 99;
+                        if (var_83[var_1992].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
+                            var_83[var_1992].Var13 = 99;
                             var_2302 = 1;
                         }
                     }
@@ -3758,7 +3758,7 @@ function func511() {
                 }
                 if (var_2194 != var_124) {
                     var_2220 = 0;
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                         var_402 = var_2194;
                         var_209 = var_2218;
                         yield func518();
@@ -3785,7 +3785,7 @@ function func511() {
                         if (var_1996 < 0) {
                             var_1996 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3795,7 +3795,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3805,7 +3805,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3815,7 +3815,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3825,7 +3825,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3835,7 +3835,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3845,7 +3845,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3855,7 +3855,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3867,25 +3867,25 @@ function func511() {
                         }
                     }
                     if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3895,7 +3895,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3905,7 +3905,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3915,7 +3915,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func518();
@@ -3976,36 +3976,36 @@ function func511() {
             var_2305 = 0;
             var_2205 = 1;
             for (var cnt2 = 0; cnt2 < var_336; ++cnt2) {
-                if (var_78[var_2205][0] == 651) {
-                    var_78[var_2205][0] = 653;
+                if (var_78[var_2205].Var0 == 651) {
+                    var_78[var_2205].Var0 = 653;
                     var_2303 = 1;
                 }
-                if (var_78[var_2205][0] == 650) {
-                    var_78[var_2205][0] = 651;
+                if (var_78[var_2205].Var0 == 650) {
+                    var_78[var_2205].Var0 = 651;
                     var_2303 = 1;
                 }
                 var_2205++;
             }
             var_2205 = 1;
             for (var cnt2 = 0; cnt2 < var_224; ++cnt2) {
-                if (var_233[var_2205][0] == 401) {
+                if (var_233[var_2205].Var0 == 401) {
                     var_2304 = 1;
                 }
                 var_2205++;
             }
             var_2205 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_2205][0] == 115 || var_83[var_2205][0] == 27 || var_83[var_2205][0] == 21) {
+                if (var_83[var_2205].Var0 == 115 || var_83[var_2205].Var0 == 27 || var_83[var_2205].Var0 == 21) {
                     var_2305 = 1;
-                    var_83[var_2205][39] = var_83[var_2205][39] + 1;
-                    if (var_83[var_2205][39] == 1) {
-                        var_83[var_2205][39] = 2;
+                    var_83[var_2205].Var39 = var_83[var_2205].Var39 + 1;
+                    if (var_83[var_2205].Var39 == 1) {
+                        var_83[var_2205].Var39 = 2;
                     }
-                    var_437 = var_83[var_2205][0];
+                    var_437 = var_83[var_2205].Var0;
                     yield func626();
-                    var_83[var_2205][3] = Math.floor(var_438 * (var_83[var_2205][39] + 10) / 10);
-                    if (var_83[var_2205][3] >= 999) {
-                        var_83[var_2205][3] = 999;
+                    var_83[var_2205].Var3 = Math.floor(var_438 * (var_83[var_2205].Var39 + 10) / 10);
+                    if (var_83[var_2205].Var3 >= 999) {
+                        var_83[var_2205].Var3 = 999;
                     }
                 }
                 var_2205++;
@@ -4153,7 +4153,7 @@ function func511() {
                 }
                 if (var_2194 != var_124) {
                     var_2220 = 0;
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                         var_402 = var_2194;
                         var_209 = var_2218;
                         yield func516();
@@ -4180,7 +4180,7 @@ function func511() {
                         if (var_1996 < 0) {
                             var_1996 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4190,7 +4190,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4200,7 +4200,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4210,7 +4210,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4220,7 +4220,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4230,7 +4230,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4240,7 +4240,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4250,7 +4250,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4262,25 +4262,25 @@ function func511() {
                         }
                     }
                     if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4290,7 +4290,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4300,7 +4300,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4310,7 +4310,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func516();
@@ -4374,7 +4374,7 @@ function func511() {
                 }
                 if (var_2194 != var_124) {
                     var_2220 = 0;
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                         var_402 = var_2194;
                         var_209 = var_2218;
                         yield func517();
@@ -4401,7 +4401,7 @@ function func511() {
                         if (var_1996 < 0) {
                             var_1996 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4411,7 +4411,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4421,7 +4421,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4431,7 +4431,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4441,7 +4441,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4451,7 +4451,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4461,7 +4461,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4471,7 +4471,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4483,25 +4483,25 @@ function func511() {
                         }
                     }
                     if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4511,7 +4511,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4521,7 +4521,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4531,7 +4531,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2218;
                             yield func517();
@@ -4596,7 +4596,7 @@ function func511() {
                 }
                 if (var_2194 != var_124) {
                     var_2220 = 0;
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -4624,7 +4624,7 @@ function func511() {
                         if (var_1996 < 0) {
                             var_1996 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4635,7 +4635,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4646,7 +4646,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4657,7 +4657,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4668,7 +4668,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4679,7 +4679,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4690,7 +4690,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4701,7 +4701,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4714,25 +4714,25 @@ function func511() {
                         }
                     }
                     if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4743,7 +4743,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4754,7 +4754,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4765,7 +4765,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4859,7 +4859,7 @@ function func511() {
                 }
                 if (var_2194 != var_124) {
                     var_2220 = 0;
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -4887,7 +4887,7 @@ function func511() {
                         if (var_1996 < 0) {
                             var_1996 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4898,7 +4898,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4909,7 +4909,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4920,7 +4920,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4931,7 +4931,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4942,7 +4942,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4953,7 +4953,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4964,7 +4964,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -4977,25 +4977,25 @@ function func511() {
                         }
                     }
                     if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -5006,7 +5006,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -5017,7 +5017,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -5028,7 +5028,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -5163,8 +5163,8 @@ function func511() {
             yield func556();
             var_2309 = 0;
             var_1845 = 0;
-            var_1584 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1585 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1584 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1585 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_271 = 1;
             var_1583 = 1;
             DSPLAY(168);
@@ -5299,7 +5299,7 @@ function func511() {
             var_2194 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
                 var_2266 = 0;
-                if (var_83[var_2194][0] != 0) {
+                if (var_83[var_2194].Var0 != 0) {
                     var_1993 = var_66 - 1;
                     if (var_1993 < 0) {
                         var_1993 = 0;
@@ -5316,35 +5316,35 @@ function func511() {
                     if (var_1996 < 0) {
                         var_1996 = 0;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                         yield func521();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                         yield func521();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                         yield func521();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                         yield func521();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                         yield func521();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                         yield func521();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                         yield func521();
                         var_2266 = 1;
                     }
-                    if (var_2266 == 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                    if (var_2266 == 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                         yield func521();
                         var_2266 = 1;
                     }
@@ -5447,8 +5447,8 @@ function func511() {
             yield func556();
             var_2310 = 0;
             var_1845 = 0;
-            var_1584 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1585 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1584 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1585 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_271 = 1;
             var_1583 = 1;
             DSPLAY(168);
@@ -5633,28 +5633,28 @@ function func511() {
             var_2195 = 1;
             var_2196 = 2;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1389 && var_83[var_2194][2] == var_1995) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1389 && var_83[var_2194].Var2 == var_1995) {
                     yield func700();
                 }
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1389 && var_83[var_2194][2] == var_1996) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1389 && var_83[var_2194].Var2 == var_1996) {
                     yield func700();
                 }
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1390) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1390) {
                     yield func700();
                 }
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1390) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1390) {
                     yield func700();
                 }
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                     yield func700();
                 }
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                     yield func700();
                 }
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                     yield func700();
                 }
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                     yield func700();
                 }
                 var_209 = 0;
@@ -5683,7 +5683,7 @@ function func511() {
             var_389 = 0;
             var_2199 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_2199][0] == 17 && var_83[var_2199][29] == 1) {
+                if (var_83[var_2199].Var0 == 17 && var_83[var_2199].Var29 == 1) {
                     yield func699();
                     var_2199 = 1;
                     cnt2 = -1;
@@ -5748,7 +5748,7 @@ function func511() {
             var_2313 = 0;
             for (var cnt2 = 0; cnt2 < 200; ++cnt2) {
                 var_2194 = rnd(var_2312);
-                if (var_2194 != var_124 && var_83[var_2194][0] != 0 && var_2311[var_2194] == 0) {
+                if (var_2194 != var_124 && var_83[var_2194].Var0 != 0 && var_2311[var_2194] == 0) {
                     var_2308 = var_565 * 5;
                     var_2219 = rnd(3);
                     var_2308 = var_2308 + var_2219;
@@ -5849,81 +5849,81 @@ function func511() {
             var_1995 = var_67 + 1;
             var_1996 = var_67 - 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_1992][10] == var_201 && var_201 != 14) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var10 == var_201 && var_201 != 14) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
                 if (var_201 <= 12 && var_201 != 0) {
-                    var_2221 = var_83[var_1992][1];
-                    var_2222 = var_83[var_1992][2];
-                    var_2223 = var_83[var_1992][1] - 1;
+                    var_2221 = var_83[var_1992].Var1;
+                    var_2222 = var_83[var_1992].Var2;
+                    var_2223 = var_83[var_1992].Var1 - 1;
                     if (var_2223 < 0) {
                         var_2223 = 0;
                     }
-                    var_2224 = var_83[var_1992][1] + 1;
+                    var_2224 = var_83[var_1992].Var1 + 1;
                     if (var_2224 > var_33) {
                         var_2224 = var_33;
                     }
-                    var_2225 = var_83[var_1992][2] + 1;
+                    var_2225 = var_83[var_1992].Var2 + 1;
                     if (var_2225 > var_34) {
                         var_2225 = var_34;
                     }
-                    var_2226 = var_83[var_1992][2] - 1;
+                    var_2226 = var_83[var_1992].Var2 - 1;
                     if (var_2226 < 0) {
                         var_2226 = 0;
                     }
-                    if (var_83[var_1992][0] != 0 && var_71[var_2223][var_2222] == var_201) {
-                        var_83[var_1992][12] = 0;
-                        var_83[var_1992][17] = 1;
+                    if (var_83[var_1992].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
+                        var_83[var_1992].Var12 = 0;
+                        var_83[var_1992].Var17 = 1;
                     }
-                    if (var_83[var_1992][0] != 0 && var_71[var_2224][var_2222] == var_201) {
-                        var_83[var_1992][12] = 0;
-                        var_83[var_1992][17] = 1;
+                    if (var_83[var_1992].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
+                        var_83[var_1992].Var12 = 0;
+                        var_83[var_1992].Var17 = 1;
                     }
-                    if (var_83[var_1992][0] != 0 && var_71[var_2221][var_2225] == var_201) {
-                        var_83[var_1992][12] = 0;
-                        var_83[var_1992][17] = 1;
+                    if (var_83[var_1992].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
+                        var_83[var_1992].Var12 = 0;
+                        var_83[var_1992].Var17 = 1;
                     }
-                    if (var_83[var_1992][0] != 0 && var_71[var_2221][var_2226] == var_201) {
-                        var_83[var_1992][12] = 0;
-                        var_83[var_1992][17] = 1;
+                    if (var_83[var_1992].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
+                        var_83[var_1992].Var12 = 0;
+                        var_83[var_1992].Var17 = 1;
                     }
                 }
-                if (var_83[var_1992][1] == var_66 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var1 == var_66 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
-                if (var_83[var_1992][1] == var_66 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var1 == var_66 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_67) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_67) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_67) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_67) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
                 if (var_172 == 1 || var_174 == 1) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][17] = 1;
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var17 = 1;
                 }
                 var_1992 = var_1992 + 1;
             }
@@ -6005,120 +6005,120 @@ function func511() {
             var_1995 = var_67 + 1;
             var_1996 = var_67 - 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_1992][10] == var_201 && var_201 != 14) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var10 == var_201 && var_201 != 14) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
-                if (var_83[var_1992][1] == var_66 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var1 == var_66 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
-                if (var_83[var_1992][1] == var_66 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var1 == var_66 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_67) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_67) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_67) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_67) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_1995) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_1995) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
-                if (var_83[var_1992][1] == var_1993 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var1 == var_1993 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
-                if (var_83[var_1992][1] == var_1994 && var_83[var_1992][2] == var_1996) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                if (var_83[var_1992].Var1 == var_1994 && var_83[var_1992].Var2 == var_1996) {
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     if (var_114 == var_1992) {
                         var_114 = 0;
                     }
                 }
                 if (var_201 <= 12 && var_201 != 0) {
-                    var_2221 = var_83[var_1992][1];
-                    var_2222 = var_83[var_1992][2];
-                    var_2223 = var_83[var_1992][1] - 1;
+                    var_2221 = var_83[var_1992].Var1;
+                    var_2222 = var_83[var_1992].Var2;
+                    var_2223 = var_83[var_1992].Var1 - 1;
                     if (var_2223 < 0) {
                         var_2223 = 0;
                     }
-                    var_2224 = var_83[var_1992][1] + 1;
+                    var_2224 = var_83[var_1992].Var1 + 1;
                     if (var_2224 > var_33) {
                         var_2224 = var_33;
                     }
-                    var_2225 = var_83[var_1992][2] + 1;
+                    var_2225 = var_83[var_1992].Var2 + 1;
                     if (var_2225 > var_34) {
                         var_2225 = var_34;
                     }
-                    var_2226 = var_83[var_1992][2] - 1;
+                    var_2226 = var_83[var_1992].Var2 - 1;
                     if (var_2226 < 0) {
                         var_2226 = 0;
                     }
-                    if (var_83[var_1992][0] != 0 && var_71[var_2223][var_2222] == var_201) {
-                        var_83[var_1992][12] = 0;
-                        var_83[var_1992][13] = 1;
+                    if (var_83[var_1992].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
+                        var_83[var_1992].Var12 = 0;
+                        var_83[var_1992].Var13 = 1;
                         if (var_114 == var_1992) {
                             var_114 = 0;
                         }
                     }
-                    if (var_83[var_1992][0] != 0 && var_71[var_2224][var_2222] == var_201) {
-                        var_83[var_1992][12] = 0;
-                        var_83[var_1992][13] = 1;
+                    if (var_83[var_1992].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
+                        var_83[var_1992].Var12 = 0;
+                        var_83[var_1992].Var13 = 1;
                         if (var_114 == var_1992) {
                             var_114 = 0;
                         }
                     }
-                    if (var_83[var_1992][0] != 0 && var_71[var_2221][var_2225] == var_201) {
-                        var_83[var_1992][12] = 0;
-                        var_83[var_1992][13] = 1;
+                    if (var_83[var_1992].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
+                        var_83[var_1992].Var12 = 0;
+                        var_83[var_1992].Var13 = 1;
                         if (var_114 == var_1992) {
                             var_114 = 0;
                         }
                     }
-                    if (var_83[var_1992][0] != 0 && var_71[var_2221][var_2226] == var_201) {
-                        var_83[var_1992][12] = 0;
-                        var_83[var_1992][13] = 1;
+                    if (var_83[var_1992].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
+                        var_83[var_1992].Var12 = 0;
+                        var_83[var_1992].Var13 = 1;
                         if (var_114 == var_1992) {
                             var_114 = 0;
                         }
                     }
                 }
                 if (var_172 >= 1) {
-                    var_83[var_1992][12] = 0;
-                    var_83[var_1992][13] = 1;
+                    var_83[var_1992].Var12 = 0;
+                    var_83[var_1992].Var13 = 1;
                     var_114 = 0;
                 }
                 var_1992 = var_1992 + 1;
@@ -6162,11 +6162,11 @@ function func511() {
             var_2314 = 0;
             var_2194 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_2194 != var_124 && var_83[var_2194][0] != 132 && var_83[var_2194][0] != 143 && var_83[var_2194][0] != 34 && var_83[var_2194][31] != 4 && var_83[var_2194][31] != 5) {
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
-                        var_83[var_2194][12] = 0;
-                        var_83[var_2194][13] = 0;
-                        var_83[var_2194][24] = 3;
+                if (var_2194 != var_124 && var_83[var_2194].Var0 != 132 && var_83[var_2194].Var0 != 143 && var_83[var_2194].Var0 != 34 && var_83[var_2194].Var31 != 4 && var_83[var_2194].Var31 != 5) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
+                        var_83[var_2194].Var12 = 0;
+                        var_83[var_2194].Var13 = 0;
+                        var_83[var_2194].Var24 = 3;
                         var_2314 = 1;
                     }
                     if (var_2220 == 0) {
@@ -6186,96 +6186,96 @@ function func511() {
                         if (var_1996 < 0) {
                             var_1996 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
                     }
                     if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
-                            var_83[var_2194][12] = 0;
-                            var_83[var_2194][13] = 0;
-                            var_83[var_2194][24] = 3;
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
+                            var_83[var_2194].Var12 = 0;
+                            var_83[var_2194].Var13 = 0;
+                            var_83[var_2194].Var24 = 3;
                             var_2314 = 1;
                         }
                     }
@@ -6406,7 +6406,7 @@ function func511() {
                 }
                 if (var_2194 != var_124) {
                     var_2220 = 0;
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -6433,7 +6433,7 @@ function func511() {
                         if (var_1996 < 0) {
                             var_1996 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6443,7 +6443,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6453,7 +6453,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6463,7 +6463,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6473,7 +6473,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6483,7 +6483,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6493,7 +6493,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6503,7 +6503,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                        if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6515,25 +6515,25 @@ function func511() {
                         }
                     }
                     if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                        var_2221 = var_83[var_2194][1];
-                        var_2222 = var_83[var_2194][2];
-                        var_2223 = var_83[var_2194][1] - 1;
+                        var_2221 = var_83[var_2194].Var1;
+                        var_2222 = var_83[var_2194].Var2;
+                        var_2223 = var_83[var_2194].Var1 - 1;
                         if (var_2223 < 0) {
                             var_2223 = 0;
                         }
-                        var_2224 = var_83[var_2194][1] + 1;
+                        var_2224 = var_83[var_2194].Var1 + 1;
                         if (var_2224 > var_33) {
                             var_2224 = var_33;
                         }
-                        var_2225 = var_83[var_2194][2] + 1;
+                        var_2225 = var_83[var_2194].Var2 + 1;
                         if (var_2225 > var_34) {
                             var_2225 = var_34;
                         }
-                        var_2226 = var_83[var_2194][2] - 1;
+                        var_2226 = var_83[var_2194].Var2 - 1;
                         if (var_2226 < 0) {
                             var_2226 = 0;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6543,7 +6543,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6553,7 +6553,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6563,7 +6563,7 @@ function func511() {
                             }
                             var_2220 = 1;
                         }
-                        if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                        if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                             var_402 = var_2194;
                             var_209 = var_2308;
                             var_2307 = var_2307 + var_2308;
@@ -6661,8 +6661,8 @@ function func511() {
             }
             yield func506();
             var_439 = var_673;
-            var_83[var_439][11] = 1;
-            var_83[var_439][5] = 2;
+            var_83[var_439].Var11 = 1;
+            var_83[var_439].Var5 = 2;
             var_271 = 1;
             var_444 = 1;
             for (var cnt2 = 0; cnt2 < 25; ++cnt2) {
@@ -6671,7 +6671,7 @@ function func511() {
             }
             var_271 = 0;
             var_444 = 0;
-            var_83[var_439][11] = 0;
+            var_83[var_439].Var11 = 0;
             var_217 = 1;
             yield func019();
             return;
@@ -6853,7 +6853,7 @@ function func511() {
                 var_1416 = 280;
             }
             var_2315 = 10;
-            var_232 = var_233[var_225][0];
+            var_232 = var_233[var_225].Var0;
             yield func492();
             var_1218 = 3;
             var_1195 = 1;
@@ -7981,29 +7981,29 @@ function func511() {
             if (var_82[var_347][var_348] != 0) {
                 var_2231 = var_82[var_347][var_348];
                 var_2232 = 0;
-                if (var_83[var_2231][23] == 0) {
+                if (var_83[var_2231].Var23 == 0) {
                     var_2232 = 1;
                 }
-                if (var_83[var_2231][23] != 0) {
+                if (var_83[var_2231].Var23 != 0) {
                     var_2232 = 2;
                 }
-                if (var_83[var_2231][0] == 50) {
+                if (var_83[var_2231].Var0 == 50) {
                     var_2232 = 0;
                 }
-                if (var_83[var_2231][0] == 118) {
+                if (var_83[var_2231].Var0 == 118) {
                     var_2232 = 1;
                 }
                 if (var_2232 == 1) {
                     DSPLAY(161);
-                    var_1324 = (var_83[var_2231][1] - var_66 + 4) * 40;
-                    var_1325 = (var_83[var_2231][2] - var_67 + 4) * 40 - 10;
+                    var_1324 = (var_83[var_2231].Var1 - var_66 + 4) * 40;
+                    var_1325 = (var_83[var_2231].Var2 - var_67 + 4) * 40 - 10;
                     var_271 = 1;
                     var_1323 = 1;
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         yield func337();
                         var_1323++;
                     }
-                    var_83[var_2231][8] = 1;
+                    var_83[var_2231].Var8 = 1;
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         yield func337();
                         var_1323++;
@@ -8013,7 +8013,7 @@ function func511() {
                     var_2233 = var_1038 + 1;
                     var_2234 = 0;
                     for (var cnt4 = 0; cnt4 < var_2233; ++cnt4) {
-                        if (var_989[cnt4] == var_83[var_2231][0]) {
+                        if (var_989[cnt4] == var_83[var_2231].Var0) {
                             var_2234 = 1;
                             var_1610 = cnt4;
                             break;
@@ -8021,7 +8021,7 @@ function func511() {
                     }
                     if (var_2234 == 0) {
                         var_1038 = var_1038 + 1;
-                        var_989[var_1038] = var_83[var_2231][0];
+                        var_989[var_1038] = var_83[var_2231].Var0;
                         var_1610 = var_1038;
                     }
                     var_198 = 0;
@@ -8033,8 +8033,8 @@ function func511() {
                     return;
                 }
                 if (var_2232 == 2) {
-                    var_1324 = (var_83[var_2231][1] - var_66 + 4) * 40;
-                    var_1325 = (var_83[var_2231][2] - var_67 + 4) * 40 - 10;
+                    var_1324 = (var_83[var_2231].Var1 - var_66 + 4) * 40;
+                    var_1325 = (var_83[var_2231].Var2 - var_67 + 4) * 40 - 10;
                     var_271 = 1;
                     var_1323 = 1;
                     for (var cnt4 = 0; cnt4 < 20; ++cnt4) {
@@ -8284,8 +8284,8 @@ function func511() {
             var_2353 = var_673;
             yield func556();
             var_2354 = 0;
-            var_1584 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1585 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1584 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1585 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_673 = var_2353;
             var_1845 = 0;
             if (var_2110 == 0) {
@@ -8318,8 +8318,8 @@ function func511() {
             var_2353 = var_673;
             yield func556();
             var_2354 = 0;
-            var_1587 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1588 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1587 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1588 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_673 = var_2353;
             var_1845 = 0;
             yield func625();
@@ -8327,8 +8327,8 @@ function func511() {
             var_2353 = var_673;
             yield func556();
             var_2354 = 0;
-            var_1589 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1590 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1589 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1590 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_673 = var_2353;
             var_1845 = 0;
             DSPLAY(168);
@@ -8491,9 +8491,9 @@ function func512() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(512);
         var_320 = var_2194;
-        if (var_78[var_320][15] == 1) {
-            var_1842 = var_78[var_320][1];
-            var_1843 = var_78[var_320][2];
+        if (var_78[var_320].Var15 == 1) {
+            var_1842 = var_78[var_320].Var1;
+            var_1843 = var_78[var_320].Var2;
             if (var_91 < 19) {
                 var_1844 = 1;
             }
@@ -8501,13 +8501,13 @@ function func512() {
                 var_1844 = 2;
             }
             var_1845 = 3;
-            var_1914 = var_78[var_320][1];
-            var_1915 = var_78[var_320][2];
+            var_1914 = var_78[var_320].Var1;
+            var_1915 = var_78[var_320].Var2;
             yield func556();
             var_1844 = 0;
             var_1845 = 0;
             if (var_2110 == 1) {
-                var_78[var_320][15] = 0;
+                var_78[var_320].Var15 = 0;
             }
             if (var_2110 != 0) {
                 var_77[var_1842][var_1843] = 0;
@@ -8515,7 +8515,7 @@ function func512() {
                 for (var cnt3 = 0; cnt3 < 30; ++cnt3) {
                     var_78[var_320][var_2356] = 0;
                 }
-                var_83[var_673][21] = 1;
+                var_83[var_673].Var21 = 1;
                 if (var_91 < 19) {
                     for (var cnt4 = 0; cnt4 < 6; ++cnt4) {
                         if (cnt4 == 1) {
@@ -8568,7 +8568,7 @@ function func512() {
                         yield func337();
                     }
                 }
-                var_83[var_673][21] = 0;
+                var_83[var_673].Var21 = 0;
             }
         }
         return;
@@ -8623,7 +8623,7 @@ function func513() {
         var_27_x = var_27[1];
         yield func047();
         yield func340();
-        var_83[var_2231][8] = 0;
+        var_83[var_2231].Var8 = 0;
         var_1949 = 0;
         var_217 = 1;
         yield func019();
@@ -8651,8 +8651,8 @@ function func514() {
         if (var_2364 < 0) {
             var_2364 = 0;
         }
-        var_1396 = var_83[var_2194][1];
-        var_1397 = var_83[var_2194][2];
+        var_1396 = var_83[var_2194].Var1;
+        var_1397 = var_83[var_2194].Var2;
         if (var_1396 < var_2361 || var_1396 > var_2362 || var_1397 < var_2364 || var_1397 > var_2363) {
             return;
         }
@@ -8689,8 +8689,8 @@ function func515() {
         if (var_2364 < 0) {
             var_2364 = 0;
         }
-        var_1396 = var_83[var_2194][1];
-        var_1397 = var_83[var_2194][2];
+        var_1396 = var_83[var_2194].Var1;
+        var_1397 = var_83[var_2194].Var2;
         if (var_1396 < var_2361 || var_1396 > var_2362 || var_1397 < var_2364 || var_1397 > var_2363) {
             return;
         }
@@ -8727,8 +8727,8 @@ function func516() {
         if (var_2364 < 0) {
             var_2364 = 0;
         }
-        var_1396 = var_83[var_2194][1];
-        var_1397 = var_83[var_2194][2];
+        var_1396 = var_83[var_2194].Var1;
+        var_1397 = var_83[var_2194].Var2;
         if (var_1396 < var_2361 || var_1396 > var_2362 || var_1397 < var_2364 || var_1397 > var_2363) {
             return;
         }
@@ -8764,8 +8764,8 @@ function func517() {
         if (var_2364 < 0) {
             var_2364 = 0;
         }
-        var_1396 = var_83[var_2194][1];
-        var_1397 = var_83[var_2194][2];
+        var_1396 = var_83[var_2194].Var1;
+        var_1397 = var_83[var_2194].Var2;
         if (var_1396 < var_2361 || var_1396 > var_2362 || var_1397 < var_2364 || var_1397 > var_2363) {
             return;
         }
@@ -8801,8 +8801,8 @@ function func518() {
         if (var_2364 < 0) {
             var_2364 = 0;
         }
-        var_1396 = var_83[var_2194][1];
-        var_1397 = var_83[var_2194][2];
+        var_1396 = var_83[var_2194].Var1;
+        var_1397 = var_83[var_2194].Var2;
         DSPLAY(187);
         if (var_1396 < var_2361 || var_1396 > var_2362 || var_1397 < var_2364 || var_1397 > var_2363) {
             return;
@@ -8820,32 +8820,32 @@ function func518() {
 function func519() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(519);
-        if (var_83[var_2194][31] == 5) {
+        if (var_83[var_2194].Var31 == 5) {
             return;
         }
-        if (var_83[var_2194][25] <= 50) {
-            var_83[var_2194][25] = 50;
+        if (var_83[var_2194].Var25 <= 50) {
+            var_83[var_2194].Var25 = 50;
         }
-        var_83[var_2194][25] = var_83[var_2194][25] + 5;
-        if (var_83[var_2194][25] >= 99) {
-            var_83[var_2194][25] = 99;
+        var_83[var_2194].Var25 = var_83[var_2194].Var25 + 5;
+        if (var_83[var_2194].Var25 >= 99) {
+            var_83[var_2194].Var25 = 99;
         }
-        if (var_83[var_2194][0] == 119) {
-            var_83[var_2194][0] = 147;
-            var_83[var_2194][14] = 1;
+        if (var_83[var_2194].Var0 == 119) {
+            var_83[var_2194].Var0 = 147;
+            var_83[var_2194].Var14 = 1;
             if (var_114 == var_2194) {
                 var_114 = 0;
             }
             var_437 = 147;
             yield func626();
-            var_83[var_2194][3] = var_438;
+            var_83[var_2194].Var3 = var_438;
             var_2264 = 1;
         }
-        if (var_83[var_2194][0] == 135) {
-            var_83[var_2194][0] = 119;
+        if (var_83[var_2194].Var0 == 135) {
+            var_83[var_2194].Var0 = 119;
             var_437 = 119;
             yield func626();
-            var_83[var_2194][3] = var_438;
+            var_83[var_2194].Var3 = var_438;
             var_2264 = 1;
         }
         return;
@@ -8854,10 +8854,10 @@ function func519() {
 function func520() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(520);
-        if (var_83[var_2194][0] == 50) {
+        if (var_83[var_2194].Var0 == 50) {
             return;
         }
-        var_83[var_2194][12] = 6;
+        var_83[var_2194].Var12 = 6;
         if (var_114 == var_2194) {
             var_114 = 0;
             var_463 = 0;
@@ -8871,10 +8871,10 @@ function func520() {
 function func521() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(521);
-        if (var_83[var_2194][0] == 50) {
+        if (var_83[var_2194].Var0 == 50) {
             return;
         }
-        var_83[var_2194][23] = 1;
+        var_83[var_2194].Var23 = 1;
         if (var_114 == var_2194) {
             var_114 = 0;
             var_463 = 0;
@@ -8942,7 +8942,7 @@ function func522() {
             yield func461();
             return;
         }
-        if (var_233[var_225][0] < 100 || var_233[var_225][0] >= 400) {
+        if (var_233[var_225].Var0 < 100 || var_233[var_225].Var0 >= 400) {
             var_293 = "";
             var_294 = "";
             var_295 = "";
@@ -9080,7 +9080,7 @@ function func523() {
             yield func461();
             return;
         }
-        if (var_233[var_225][0] < 100 || var_233[var_225][0] >= 400) {
+        if (var_233[var_225].Var0 < 100 || var_233[var_225].Var0 >= 400) {
             var_293 = "";
             var_294 = "";
             var_295 = "";
@@ -9105,7 +9105,7 @@ function func523() {
             yield func461();
             return;
         }
-        if (var_233[var_225][0] == 100 || var_233[var_225][0] == 398 || var_233[var_225][0] == 108 || var_233[var_225][0] == 110 || var_233[var_225][0] == 113 || var_233[var_225][0] == 118 || var_233[var_225][0] == 123) {
+        if (var_233[var_225].Var0 == 100 || var_233[var_225].Var0 == 398 || var_233[var_225].Var0 == 108 || var_233[var_225].Var0 == 110 || var_233[var_225].Var0 == 113 || var_233[var_225].Var0 == 118 || var_233[var_225].Var0 == 123) {
             var_293 = "";
             var_294 = "";
             var_295 = "";
@@ -9133,73 +9133,73 @@ function func523() {
         var_2091 = var_225;
         var_197 = 0;
         var_1240 = 3;
-        var_1444 = var_233[var_2090][0];
-        var_1445 = var_233[var_2091][0];
-        var_232 = var_233[var_2090][0];
+        var_1444 = var_233[var_2090].Var0;
+        var_1445 = var_233[var_2091].Var0;
+        var_232 = var_233[var_2090].Var0;
         yield func492();
-        var_2092 = var_233[var_2091][19];
+        var_2092 = var_233[var_2091].Var19;
         var_2093 = 20;
-        if (var_233[var_2090][5] != 0) {
+        if (var_233[var_2090].Var5 != 0) {
             for (var cnt2 = 0; cnt2 < var_2092; ++cnt2) {
                 var_2094 = 20;
                 for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     var_2095 = 0;
-                    if (var_233[var_2090][var_2094] == var_233[var_2091][var_2093]) {
+                    if (var_233[var_2090]["Var" + var_2094] == var_233[var_2091]["Var" + var_2093]) {
                         var_2095 = 1;
                         break;
                     }
-                    if (var_233[var_2090][var_2094] == 0) {
+                    if (var_233[var_2090]["Var" + var_2094] == 0) {
                         var_2096 = var_2094;
                         break;
                     }
                     var_2094 = var_2094 + 1;
                 }
                 if (var_2095 == 0) {
-                    var_233[var_2090][var_2096] = var_233[var_2091][var_2093];
-                    var_233[var_2090][19] = var_233[var_2090][19] + 1;
-                    var_233[var_2090][5] = var_233[var_2090][5] - 1;
+                    var_233[var_2090]["Var" + var_2096] = var_233[var_2091]["Var" + var_2093];
+                    var_233[var_2090].Var19 = var_233[var_2090].Var19 + 1;
+                    var_233[var_2090].Var5 = var_233[var_2090].Var5 - 1;
                 }
-                if (var_233[var_2090][5] == 0) {
+                if (var_233[var_2090].Var5 == 0) {
                     break;
                 }
                 var_2093 = var_2093 + 1;
             }
         }
         if (var_62 != 5) {
-            var_233[var_2090][4] = var_233[var_2090][4] + var_233[var_2091][4];
-            if (var_233[var_2090][4] >= 99) {
-                var_233[var_2090][4] = 99;
+            var_233[var_2090].Var4 = var_233[var_2090].Var4 + var_233[var_2091].Var4;
+            if (var_233[var_2090].Var4 >= 99) {
+                var_233[var_2090].Var4 = 99;
             }
         }
-        if (var_233[var_2091][12] == 1 || var_233[var_2090][12] == 1) {
-            var_233[var_2090][12] = 1;
+        if (var_233[var_2091].Var12 == 1 || var_233[var_2090].Var12 == 1) {
+            var_233[var_2090].Var12 = 1;
         }
-        if (var_233[var_2091][12] == 2 || var_233[var_2090][12] == 2) {
-            var_233[var_2090][12] = 2;
+        if (var_233[var_2091].Var12 == 2 || var_233[var_2090].Var12 == 2) {
+            var_233[var_2090].Var12 = 2;
         }
-        if (var_233[var_2091][11] == 1) {
-            var_232 = var_233[var_2091][0];
+        if (var_233[var_2091].Var11 == 1) {
+            var_232 = var_233[var_2091].Var0;
             yield func492();
             var_106 = 1;
             var_482 = 0;
-            var_482 = (var_233[var_2091][3] + var_233[var_2091][4]) * 50;
-            if (var_233[var_2091][19] > 1) {
-                var_482 = var_233[var_2091][19] * 500 + var_482;
+            var_482 = (var_233[var_2091].Var3 + var_233[var_2091].Var4) * 50;
+            if (var_233[var_2091].Var19 > 1) {
+                var_482 = var_233[var_2091].Var19 * 500 + var_482;
             }
             var_483 = var_483 + var_482;
             var_107 = var_107 + var_483;
         }
-        var_233[var_2090][14] = 1;
-        var_232 = var_233[var_2090][0];
-        var_487 = var_233[var_2090][13];
+        var_233[var_2090].Var14 = 1;
+        var_232 = var_233[var_2090].Var0;
+        var_487 = var_233[var_2090].Var13;
         var_2365 = 0;
         if (var_487 >= 1) {
             var_2365 = 1;
         }
         yield func492();
         var_2366 = var_489;
-        var_232 = var_233[var_2091][0];
-        var_487 = var_233[var_2091][13];
+        var_232 = var_233[var_2091].Var0;
+        var_487 = var_233[var_2091].Var13;
         yield func492();
         var_2367 = var_489;
         if (var_2368 == 1) {
@@ -9214,20 +9214,20 @@ function func523() {
         var_2097 = 0;
         if (var_1444 == 100 && var_1445 == 111) {
             var_2097 = 1;
-            var_233[var_2090][0] = 398;
+            var_233[var_2090].Var0 = 398;
             var_862[398][0] = 1;
         }
         if (var_1444 == 112 && var_1445 == 204) {
             var_2097 = 2;
-            var_233[var_2090][0] = 395;
+            var_233[var_2090].Var0 = 395;
             var_862[395][0] = 1;
-            var_233[var_2090][20] = 395;
+            var_233[var_2090].Var20 = 395;
         }
         if (var_1444 == 304 && var_1445 == 114) {
             var_2097 = 4;
-            var_233[var_2090][0] = 397;
+            var_233[var_2090].Var0 = 397;
             var_862[397][0] = 1;
-            var_233[var_2090][20] = 397;
+            var_233[var_2090].Var20 = 397;
         }
         var_225 = var_2091;
         yield func430();
@@ -9376,14 +9376,14 @@ function func523() {
             if (var_2286 > var_2091) {
                 var_2286 = var_2286 - 1;
             }
-            if (var_233[var_2286][11] == 1) {
+            if (var_233[var_2286].Var11 == 1) {
                 var_106 = 1;
-                var_232 = var_233[var_2286][0];
+                var_232 = var_233[var_2286].Var0;
                 yield func492();
                 var_482 = 0;
-                var_482 = (var_233[var_2286][3] + var_233[var_2286][4]) * 50;
-                if (var_233[var_2286][19] > 1) {
-                    var_482 = var_233[var_2286][19] * 500 + var_482;
+                var_482 = (var_233[var_2286].Var3 + var_233[var_2286].Var4) * 50;
+                if (var_233[var_2286].Var19 > 1) {
+                    var_482 = var_233[var_2286].Var19 * 500 + var_482;
                 }
                 var_483 = var_483 + var_482;
                 var_107 = var_107 + var_483;
@@ -9416,24 +9416,24 @@ function func523() {
             var_2287 = 0;
         }
         if (var_234 == 1) {
-            if (var_233[0][11] == 1) {
+            if (var_233[0].Var11 == 1) {
                 var_106 = 1;
-                var_232 = var_233[0][0];
+                var_232 = var_233[0].Var0;
                 yield func492();
                 var_482 = 0;
-                var_482 = (var_233[0][3] + var_233[0][4]) * 50;
-                if (var_233[0][19] > 1) {
-                    var_482 = var_233[0][19] * 500 + var_482;
+                var_482 = (var_233[0].Var3 + var_233[0].Var4) * 50;
+                if (var_233[0].Var19 > 1) {
+                    var_482 = var_233[0].Var19 * 500 + var_482;
                 }
                 var_483 = var_483 + var_482;
                 var_107 = var_107 + var_483;
             }
-            var_2369 = var_78[var_321][1];
-            var_2370 = var_78[var_321][2];
+            var_2369 = var_78[var_321].Var1;
+            var_2370 = var_78[var_321].Var2;
             var_77[var_2369][var_2370] = 0;
-            var_78[var_321][0] = 0;
-            var_78[var_321][1] = 0;
-            var_78[var_321][2] = 0;
+            var_78[var_321].Var0 = 0;
+            var_78[var_321].Var1 = 0;
+            var_78[var_321].Var2 = 0;
             var_234 = 0;
         }
         yield func494();
@@ -9449,7 +9449,7 @@ function func524() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(524);
         var_197 = 0;
-        if (var_233[var_225][0] != 600 && var_233[var_225][0] != 602 && var_233[var_225][0] != 604 && var_233[var_225][0] != 630 && var_233[var_225][0] != 631 && var_233[var_225][0] != 632 && var_233[var_225][0] != 633 && var_233[var_225][0] != 634 && var_233[var_225][0] != 636 && var_233[var_225][0] != 639) {
+        if (var_233[var_225].Var0 != 600 && var_233[var_225].Var0 != 602 && var_233[var_225].Var0 != 604 && var_233[var_225].Var0 != 630 && var_233[var_225].Var0 != 631 && var_233[var_225].Var0 != 632 && var_233[var_225].Var0 != 633 && var_233[var_225].Var0 != 634 && var_233[var_225].Var0 != 636 && var_233[var_225].Var0 != 639) {
             yield func094();
             var_293 = "";
             var_294 = "";
@@ -9479,49 +9479,49 @@ function func524() {
         if (var_225 < var_2256 && var_2301 == 1) {
             var_2256 = var_2256 - 1;
         }
-        var_232 = var_233[var_225][0];
-        var_1289 = var_233[var_225][0];
+        var_232 = var_233[var_225].Var0;
+        var_1289 = var_233[var_225].Var0;
         yield func492();
         var_1982 = var_489;
-        if (var_233[var_225][0] == 600) {
+        if (var_233[var_225].Var0 == 600) {
             var_2371 = 4;
         }
-        if (var_233[var_225][0] == 602) {
+        if (var_233[var_225].Var0 == 602) {
             var_2371 = 6;
         }
-        if (var_233[var_225][0] == 604) {
+        if (var_233[var_225].Var0 == 604) {
             var_2371 = 8;
         }
-        if (var_233[var_225][0] == 630) {
+        if (var_233[var_225].Var0 == 630) {
             var_2371 = 4;
         }
-        if (var_233[var_225][0] == 631) {
+        if (var_233[var_225].Var0 == 631) {
             var_2371 = 3;
         }
-        if (var_233[var_225][0] == 632) {
+        if (var_233[var_225].Var0 == 632) {
             var_2371 = 3;
         }
-        if (var_233[var_225][0] == 633) {
+        if (var_233[var_225].Var0 == 633) {
             var_2371 = 6;
         }
-        if (var_233[var_225][0] == 634) {
+        if (var_233[var_225].Var0 == 634) {
             var_2371 = 3;
         }
-        if (var_233[var_225][0] == 636) {
+        if (var_233[var_225].Var0 == 636) {
             var_2371 = 6;
         }
-        if (var_233[var_225][0] == 639) {
+        if (var_233[var_225].Var0 == 639) {
             var_2371 = 3;
         }
-        var_1571 = var_233[var_225][0];
-        if (var_233[var_225][11] == 1) {
+        var_1571 = var_233[var_225].Var0;
+        if (var_233[var_225].Var11 == 1) {
             var_106 = 1;
-            var_232 = var_233[var_225][0];
+            var_232 = var_233[var_225].Var0;
             yield func492();
             var_482 = 0;
-            var_482 = (var_233[var_225][3] + var_233[var_225][4]) * 50;
-            if (var_233[var_225][19] > 1) {
-                var_482 = var_233[var_225][19] * 500 + var_482;
+            var_482 = (var_233[var_225].Var3 + var_233[var_225].Var4) * 50;
+            if (var_233[var_225].Var19 > 1) {
+                var_482 = var_233[var_225].Var19 * 500 + var_482;
             }
             var_483 = var_483 + var_482;
             var_107 = var_107 + var_483;
@@ -9545,9 +9545,9 @@ function func524() {
         var_27_x = var_27[1];
         yield func047();
         if (var_2301 == 0) {
-            var_233[var_2300][3] = var_233[var_2300][3] + var_2371;
-            if (var_233[var_2300][3] >= 99) {
-                var_233[var_2300][3] = 99;
+            var_233[var_2300].Var3 = var_233[var_2300].Var3 + var_2371;
+            if (var_233[var_2300].Var3 >= 99) {
+                var_233[var_2300].Var3 = 99;
             }
         }
         if (var_2301 == 1) {
@@ -9558,9 +9558,9 @@ function func524() {
         }
         if (var_2301 == 2) {
             var_2372 = var_77[var_66][var_67];
-            var_78[var_2372][3] = var_78[var_2372][3] + var_2371;
-            if (var_78[var_2372][3] >= 99) {
-                var_78[var_2372][3] = 99;
+            var_78[var_2372].Var3 = var_78[var_2372].Var3 + var_2371;
+            if (var_78[var_2372].Var3 >= 99) {
+                var_78[var_2372].Var3 = 99;
             }
         }
         var_271 = 1;
@@ -9579,10 +9579,10 @@ function func524() {
         yield func340();
         var_293 = var_296;
         var_294 = var_297;
-        if (var_233[var_2300][3] < 99) {
+        if (var_233[var_2300].Var3 < 99) {
             var_296 = "エネルギーが " + var_2371 + "増えた！";
         }
-        if (var_233[var_2300][3] >= 99) {
+        if (var_233[var_2300].Var3 >= 99) {
             var_296 = "エネルギーが満タンになった！";
         }
         var_297 = "";
@@ -9605,7 +9605,7 @@ function func525() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(525);
         var_197 = 0;
-        if (var_233[var_225][0] < 100 || var_233[var_225][0] >= 400) {
+        if (var_233[var_225].Var0 < 100 || var_233[var_225].Var0 >= 400) {
             var_293 = "";
             var_294 = "";
             var_295 = "";
@@ -9627,7 +9627,7 @@ function func525() {
             yield func461();
             return;
         }
-        if (var_233[var_225][19] <= 1) {
+        if (var_233[var_225].Var19 <= 1) {
             var_293 = "";
             var_294 = "";
             var_295 = "";
@@ -9696,7 +9696,7 @@ function func525() {
             yield func461();
             return;
         }
-        if (var_233[var_225][13] >= 1) {
+        if (var_233[var_225].Var13 >= 1) {
             var_293 = "";
             var_294 = "";
             var_295 = "";
@@ -9719,8 +9719,8 @@ function func525() {
             return;
         }
         var_2006 = 0;
-        var_232 = var_233[var_225][0];
-        var_1289 = var_233[var_225][0];
+        var_232 = var_233[var_225].Var0;
+        var_1289 = var_233[var_225].Var0;
         var_2373 = var_225;
         yield func492();
         var_1982 = var_489;
@@ -9729,7 +9729,7 @@ function func525() {
         var_232 = var_1289;
         var_2374 = 157;
         var_2375 = 2;
-        var_2376 = var_233[var_225][19];
+        var_2376 = var_233[var_225].Var19;
         yield func368();
         return;
     });
@@ -9738,13 +9738,13 @@ function func526() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(526);
         var_2375 = var_2375 + 19;
-        var_233[var_2373][var_2375] = 0;
+        var_233[var_2373]["Var" + var_2375] = 0;
         var_2377 = 20;
         var_2378 = 21;
         for (var cnt1 = 0; cnt1 < 9; ++cnt1) {
-            if (var_233[var_2373][var_2377] == 0 && var_233[var_2373][var_2378] != 0) {
-                var_233[var_2373][var_2377] = var_233[var_2373][var_2378];
-                var_233[var_2373][var_2378] = 0;
+            if (var_233[var_2373]["Var" + var_2377] == 0 && var_233[var_2373]["Var" + var_2378] != 0) {
+                var_233[var_2373]["Var" + var_2377] = var_233[var_2373]["Var" + var_2378];
+                var_233[var_2373]["Var" + var_2378] = 0;
                 var_2377 = 20;
                 var_2378 = 21;
                 cnt1 = -1;
@@ -9753,11 +9753,11 @@ function func526() {
             var_2377++;
             var_2378++;
         }
-        var_233[var_2373][19] = var_233[var_2373][19] - 1;
-        if (var_233[var_2373][19] <= 1) {
-            var_233[var_2373][19] = 1;
+        var_233[var_2373].Var19 = var_233[var_2373].Var19 - 1;
+        if (var_233[var_2373].Var19 <= 1) {
+            var_233[var_2373].Var19 = 1;
         }
-        var_233[var_2373][5] = var_233[var_2373][5] + 1;
+        var_233[var_2373].Var5 = var_233[var_2373].Var5 + 1;
         var_293 = "";
         var_294 = "";
         var_295 = "";
@@ -10088,28 +10088,28 @@ function func529() {
             yield func016();
             var_402 = var_82[var_2381][var_2382];
             if (var_199 == 2) {
-                var_83[var_402][5] = 2;
+                var_83[var_402].Var5 = 2;
             }
             if (var_199 == 4) {
-                var_83[var_402][5] = 4;
+                var_83[var_402].Var5 = 4;
             }
             if (var_199 == 8) {
-                var_83[var_402][5] = 8;
+                var_83[var_402].Var5 = 8;
             }
             if (var_199 == 6) {
-                var_83[var_402][5] = 6;
+                var_83[var_402].Var5 = 6;
             }
             if (var_199 == 1) {
-                var_83[var_402][5] = 1;
+                var_83[var_402].Var5 = 1;
             }
             if (var_199 == 3) {
-                var_83[var_402][5] = 3;
+                var_83[var_402].Var5 = 3;
             }
             if (var_199 == 7) {
-                var_83[var_402][5] = 7;
+                var_83[var_402].Var5 = 7;
             }
             if (var_199 == 9) {
-                var_83[var_402][5] = 9;
+                var_83[var_402].Var5 = 9;
             }
             var_403 = "ﾃﾞｨｱﾎﾞﾛは5のダメージ！";
             var_209 = 5;
@@ -10158,8 +10158,8 @@ function func529() {
         if (var_2379 != var_66 || var_2380 != var_67) {
             var_2392 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                var_83[var_2392][9] = 0;
-                var_83[var_2392][18] = 0;
+                var_83[var_2392].Var9 = 0;
+                var_83[var_2392].Var18 = 0;
                 var_2392 = var_2392 + 1;
             }
         }
@@ -10176,45 +10176,45 @@ function func530() {
         }
         if (var_357 != 0) {
             yield func426();
-            var_2394 = var_233[var_553][5] + var_233[var_553][19];
+            var_2394 = var_233[var_553].Var5 + var_233[var_553].Var19;
             if (var_2394 >= 8) {
                 var_2393++;
             }
             if (var_2394 < 8) {
-                var_232 = var_233[var_553][0];
+                var_232 = var_233[var_553].Var0;
                 yield func492();
                 var_2395 = var_489;
-                var_233[var_553][5] = var_233[var_553][5] + 1;
+                var_233[var_553].Var5 = var_233[var_553].Var5 + 1;
                 var_1946 = "装備中のDISCの空き容量が増えた！";
                 var_1947 = "";
             }
         }
         if (var_358 != 0) {
             yield func427();
-            var_2394 = var_233[var_554][5] + var_233[var_554][19];
+            var_2394 = var_233[var_554].Var5 + var_233[var_554].Var19;
             if (var_2394 >= 8) {
                 var_2393++;
             }
             if (var_2394 < 8) {
-                var_232 = var_233[var_554][0];
+                var_232 = var_233[var_554].Var0;
                 yield func492();
                 var_2395 = var_489;
-                var_233[var_554][5] = var_233[var_554][5] + 1;
+                var_233[var_554].Var5 = var_233[var_554].Var5 + 1;
                 var_1946 = "装備中のDISCの空き容量が増えた！";
                 var_1947 = "";
             }
         }
         if (var_215 != 0) {
             yield func428();
-            var_2394 = var_233[var_555][5] + var_233[var_555][19];
+            var_2394 = var_233[var_555].Var5 + var_233[var_555].Var19;
             if (var_2394 >= 8) {
                 var_2393++;
             }
             if (var_2394 < 8) {
-                var_232 = var_233[var_555][0];
+                var_232 = var_233[var_555].Var0;
                 yield func492();
                 var_2395 = var_489;
-                var_233[var_555][5] = var_233[var_555][5] + 1;
+                var_233[var_555].Var5 = var_233[var_555].Var5 + 1;
                 var_1946 = "装備中のDISCの空き容量が増えた！";
                 var_1947 = "";
             }
@@ -10284,20 +10284,20 @@ function func531() {
         }
         if (var_2397 == 0) {
             yield func426();
-            var_232 = var_233[var_553][0];
+            var_232 = var_233[var_553].Var0;
             var_475 = var_553;
         }
         if (var_2397 == 1) {
             yield func427();
-            var_232 = var_233[var_554][0];
+            var_232 = var_233[var_554].Var0;
             var_475 = var_554;
         }
         if (var_2397 == 2) {
             yield func428();
-            var_232 = var_233[var_555][0];
+            var_232 = var_233[var_555].Var0;
             var_475 = var_555;
         }
-        if (var_233[var_475][5] == 0) {
+        if (var_233[var_475].Var5 == 0) {
             var_2228 = 1;
             return;
         }
@@ -10353,20 +10353,20 @@ function func531() {
         var_2094 = 20;
         for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             var_2095 = 0;
-            if (var_233[var_475][var_2094] == var_2399) {
+            if (var_233[var_475]["Var" + var_2094] == var_2399) {
                 var_2095 = 1;
                 break;
             }
-            if (var_233[var_475][var_2094] == 0) {
+            if (var_233[var_475]["Var" + var_2094] == 0) {
                 var_2096 = var_2094;
                 break;
             }
             var_2094 = var_2094 + 1;
         }
         if (var_2095 == 0) {
-            var_233[var_475][var_2096] = var_2399;
-            var_233[var_475][19] = var_233[var_475][19] + 1;
-            var_233[var_475][5] = var_233[var_475][5] - 1;
+            var_233[var_475]["Var" + var_2096] = var_2399;
+            var_233[var_475].Var19 = var_233[var_475].Var19 + 1;
+            var_233[var_475].Var5 = var_233[var_475].Var5 - 1;
         }
         if (var_2095 == 1) {
             var_2228 = 1;
@@ -10504,7 +10504,7 @@ function func533() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(533);
         var_197 = 0;
-        if (var_233[var_225][0] >= 800 && var_233[var_225][0] < 900 && var_233[var_225][8] != 0) {
+        if (var_233[var_225].Var0 >= 800 && var_233[var_225].Var0 < 900 && var_233[var_225].Var8 != 0) {
             var_293 = "";
             var_294 = "";
             var_295 = "";
@@ -10701,49 +10701,49 @@ function func533() {
                         var_2403 = 1;
                     }
                     if (var_2403 == 0) {
-                        var_1459 = var_233[var_225][0];
-                        var_1249 = var_233[var_225][13];
+                        var_1459 = var_233[var_225].Var0;
+                        var_1249 = var_233[var_225].Var13;
                         var_864 = var_864 + 1;
                         var_863[var_447][var_449] = var_864;
                         var_866 = var_864;
-                        var_853[var_866][0] = var_233[var_225][0];
+                        var_853[var_866][0] = var_233[var_225].Var0;
                         var_853[var_866][1] = var_447;
                         var_853[var_866][2] = var_449;
-                        var_853[var_866][3] = var_233[var_225][3];
-                        var_853[var_866][4] = var_233[var_225][4];
-                        var_853[var_866][5] = var_233[var_225][5];
-                        var_853[var_866][6] = var_233[var_225][6];
-                        var_853[var_866][7] = var_233[var_225][7];
-                        var_853[var_866][8] = var_233[var_225][8];
-                        var_853[var_866][9] = var_233[var_225][9];
-                        var_853[var_866][10] = var_233[var_225][10];
+                        var_853[var_866][3] = var_233[var_225].Var3;
+                        var_853[var_866][4] = var_233[var_225].Var4;
+                        var_853[var_866][5] = var_233[var_225].Var5;
+                        var_853[var_866][6] = var_233[var_225].Var6;
+                        var_853[var_866][7] = var_233[var_225].Var7;
+                        var_853[var_866][8] = var_233[var_225].Var8;
+                        var_853[var_866][9] = var_233[var_225].Var9;
+                        var_853[var_866][10] = var_233[var_225].Var10;
                         var_853[var_866][11] = 0;
-                        var_853[var_866][12] = var_233[var_225][12];
-                        var_853[var_866][13] = var_233[var_225][13];
-                        var_853[var_866][14] = var_233[var_225][14];
-                        var_853[var_866][15] = var_233[var_225][15];
-                        var_853[var_866][16] = var_233[var_225][16];
-                        var_853[var_866][17] = var_233[var_225][17];
-                        var_853[var_866][18] = var_233[var_225][18];
-                        var_853[var_866][19] = var_233[var_225][19];
-                        var_853[var_866][20] = var_233[var_225][20];
-                        var_853[var_866][21] = var_233[var_225][21];
-                        var_853[var_866][22] = var_233[var_225][22];
-                        var_853[var_866][23] = var_233[var_225][23];
-                        var_853[var_866][24] = var_233[var_225][24];
-                        var_853[var_866][25] = var_233[var_225][25];
-                        var_853[var_866][26] = var_233[var_225][26];
-                        var_853[var_866][27] = var_233[var_225][27];
-                        var_853[var_866][28] = var_233[var_225][28];
-                        var_853[var_866][29] = var_233[var_225][29];
-                        if (var_233[var_225][11] == 1) {
+                        var_853[var_866][12] = var_233[var_225].Var12;
+                        var_853[var_866][13] = var_233[var_225].Var13;
+                        var_853[var_866][14] = var_233[var_225].Var14;
+                        var_853[var_866][15] = var_233[var_225].Var15;
+                        var_853[var_866][16] = var_233[var_225].Var16;
+                        var_853[var_866][17] = var_233[var_225].Var17;
+                        var_853[var_866][18] = var_233[var_225].Var18;
+                        var_853[var_866][19] = var_233[var_225].Var19;
+                        var_853[var_866][20] = var_233[var_225].Var20;
+                        var_853[var_866][21] = var_233[var_225].Var21;
+                        var_853[var_866][22] = var_233[var_225].Var22;
+                        var_853[var_866][23] = var_233[var_225].Var23;
+                        var_853[var_866][24] = var_233[var_225].Var24;
+                        var_853[var_866][25] = var_233[var_225].Var25;
+                        var_853[var_866][26] = var_233[var_225].Var26;
+                        var_853[var_866][27] = var_233[var_225].Var27;
+                        var_853[var_866][28] = var_233[var_225].Var28;
+                        var_853[var_866][29] = var_233[var_225].Var29;
+                        if (var_233[var_225].Var11 == 1) {
                             var_106 = 1;
-                            var_232 = var_233[var_225][0];
+                            var_232 = var_233[var_225].Var0;
                             yield func492();
                             var_482 = 0;
-                            var_482 = (var_233[var_225][3] + var_233[var_225][4]) * 50;
-                            if (var_233[var_225][19] > 1) {
-                                var_482 = var_233[var_225][19] * 500 + var_482;
+                            var_482 = (var_233[var_225].Var3 + var_233[var_225].Var4) * 50;
+                            if (var_233[var_225].Var19 > 1) {
+                                var_482 = var_233[var_225].Var19 * 500 + var_482;
                             }
                             var_483 = var_483 + var_482;
                             var_107 = var_107 + var_483;
@@ -10778,7 +10778,7 @@ function func533() {
                             var_1977 = 1;
                         }
                         if (var_1977 == 1) {
-                            var_232 = var_233[var_225][0];
+                            var_232 = var_233[var_225].Var0;
                             yield func106();
                         }
                         var_2401 = 1;
@@ -10915,7 +10915,7 @@ function func534() {
             }
             if (var_2194 != var_124) {
                 var_2220 = 0;
-                if (var_83[var_2194][0] != 0 && var_83[var_2194][10] == var_201 && var_201 > 0 && var_201 <= 12) {
+                if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var10 == var_201 && var_201 > 0 && var_201 <= 12) {
                     var_402 = var_2194;
                     var_209 = var_2308;
                     var_2307 = var_2307 + var_2308;
@@ -10942,7 +10942,7 @@ function func534() {
                     if (var_1996 < 0) {
                         var_1996 = 0;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1995) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1995) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -10952,7 +10952,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_66 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_66 && var_83[var_2194].Var2 == var_1996) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -10962,7 +10962,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_67) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_67) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -10972,7 +10972,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_67) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_67) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -10982,7 +10982,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -10992,7 +10992,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -11002,7 +11002,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -11012,7 +11012,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var0 != 0 && var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -11024,25 +11024,25 @@ function func534() {
                     }
                 }
                 if (var_2220 == 0 && var_201 <= 12 && var_201 != 0) {
-                    var_2221 = var_83[var_2194][1];
-                    var_2222 = var_83[var_2194][2];
-                    var_2223 = var_83[var_2194][1] - 1;
+                    var_2221 = var_83[var_2194].Var1;
+                    var_2222 = var_83[var_2194].Var2;
+                    var_2223 = var_83[var_2194].Var1 - 1;
                     if (var_2223 < 0) {
                         var_2223 = 0;
                     }
-                    var_2224 = var_83[var_2194][1] + 1;
+                    var_2224 = var_83[var_2194].Var1 + 1;
                     if (var_2224 > var_33) {
                         var_2224 = var_33;
                     }
-                    var_2225 = var_83[var_2194][2] + 1;
+                    var_2225 = var_83[var_2194].Var2 + 1;
                     if (var_2225 > var_34) {
                         var_2225 = var_34;
                     }
-                    var_2226 = var_83[var_2194][2] - 1;
+                    var_2226 = var_83[var_2194].Var2 - 1;
                     if (var_2226 < 0) {
                         var_2226 = 0;
                     }
-                    if (var_83[var_2194][0] != 0 && var_71[var_2223][var_2222] == var_201) {
+                    if (var_83[var_2194].Var0 != 0 && var_71[var_2223][var_2222] == var_201) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -11052,7 +11052,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_71[var_2224][var_2222] == var_201) {
+                    if (var_83[var_2194].Var0 != 0 && var_71[var_2224][var_2222] == var_201) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -11062,7 +11062,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2225] == var_201) {
+                    if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2225] == var_201) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -11072,7 +11072,7 @@ function func534() {
                         }
                         var_2220 = 1;
                     }
-                    if (var_83[var_2194][0] != 0 && var_71[var_2221][var_2226] == var_201) {
+                    if (var_83[var_2194].Var0 != 0 && var_71[var_2221][var_2226] == var_201) {
                         var_402 = var_2194;
                         var_209 = var_2308;
                         var_2307 = var_2307 + var_2308;
@@ -12632,7 +12632,7 @@ function func541() {
                 var_99 = 0;
                 var_2453 = 1;
                 for (var cnt3 = 0; cnt3 < var_336; ++cnt3) {
-                    var_78[var_2453][10] = 0;
+                    var_78[var_2453].Var10 = 0;
                     var_2453 = var_2453 + 1;
                 }
                 var_2453 = 1;
@@ -12796,8 +12796,8 @@ function func541() {
                 var_81[var_2442][0] = 0;
                 var_81[var_2442][1] = 0;
                 var_81[var_2442][2] = 0;
-                var_1584 = (var_83[var_2457][1] - var_66 + 4) * 40;
-                var_1585 = (var_83[var_2457][2] - var_67 + 4) * 40;
+                var_1584 = (var_83[var_2457].Var1 - var_66 + 4) * 40;
+                var_1585 = (var_83[var_2457].Var2 - var_67 + 4) * 40;
                 var_271 = 1;
                 var_1583 = 1;
                 DSPLAY(168);
@@ -13049,19 +13049,19 @@ function func541() {
                 }
             }
             if (var_474 == 1) {
-                var_232 = var_233[var_475][0];
-                var_487 = var_233[var_475][13];
+                var_232 = var_233[var_475].Var0;
+                var_487 = var_233[var_475].Var13;
                 var_488 = var_232;
                 yield func492();
                 var_418 = var_489;
                 if (var_156[119] == 0) {
                     var_225 = var_475;
                     var_2458 = 0;
-                    if (var_233[var_475][0] >= 800 && var_233[var_475][0] < 900) {
-                        if (var_233[var_475][0] != 806 && var_233[var_475][0] != 851 && var_233[var_475][0] != 852 && var_233[var_475][8] >= 1) {
-                            var_1905 = var_233[var_475][8];
+                    if (var_233[var_475].Var0 >= 800 && var_233[var_475].Var0 < 900) {
+                        if (var_233[var_475].Var0 != 806 && var_233[var_475].Var0 != 851 && var_233[var_475].Var0 != 852 && var_233[var_475].Var8 >= 1) {
+                            var_1905 = var_233[var_475].Var8;
                             var_1910 = 1;
-                            var_2459 = var_233[var_475][6];
+                            var_2459 = var_233[var_475].Var6;
                             for (var cnt6 = 0; cnt6 < var_1905; ++cnt6) {
                                 var_309 = var_66;
                                 var_310 = var_67;
@@ -13073,41 +13073,41 @@ function func541() {
                                 }
                                 yield func724();
                                 var_77[var_448][var_450] = var_854;
-                                var_78[var_854][0] = var_486[var_2459][var_1910][0];
-                                var_78[var_854][1] = var_448;
-                                var_78[var_854][2] = var_450;
-                                var_78[var_854][3] = var_486[var_2459][var_1910][3];
-                                var_78[var_854][4] = var_486[var_2459][var_1910][4];
-                                var_78[var_854][5] = var_486[var_2459][var_1910][5];
-                                var_78[var_854][6] = var_486[var_2459][var_1910][6];
-                                var_78[var_854][7] = var_486[var_2459][var_1910][7];
-                                var_78[var_854][8] = var_486[var_2459][var_1910][8];
-                                var_78[var_854][9] = var_71[var_448][var_450];
-                                var_78[var_854][10] = 1;
-                                var_78[var_854][11] = var_486[var_2459][var_1910][11];
-                                var_78[var_854][12] = var_486[var_2459][var_1910][12];
-                                var_78[var_854][13] = var_486[var_2459][var_1910][13];
-                                var_78[var_854][14] = var_486[var_2459][var_1910][14];
-                                var_78[var_854][15] = var_486[var_2459][var_1910][15];
-                                var_78[var_854][16] = var_486[var_2459][var_1910][16];
-                                var_78[var_854][17] = var_486[var_2459][var_1910][17];
-                                var_78[var_854][18] = var_486[var_2459][var_1910][18];
-                                var_78[var_854][19] = var_486[var_2459][var_1910][19];
-                                var_78[var_854][20] = var_486[var_2459][var_1910][20];
-                                var_78[var_854][21] = var_486[var_2459][var_1910][21];
-                                var_78[var_854][22] = var_486[var_2459][var_1910][22];
-                                var_78[var_854][23] = var_486[var_2459][var_1910][23];
-                                var_78[var_854][24] = var_486[var_2459][var_1910][24];
-                                var_78[var_854][25] = var_486[var_2459][var_1910][25];
-                                var_78[var_854][26] = var_486[var_2459][var_1910][26];
-                                var_78[var_854][27] = var_486[var_2459][var_1910][27];
-                                var_78[var_854][28] = var_486[var_2459][var_1910][28];
-                                var_78[var_854][29] = var_486[var_2459][var_1910][29];
+                                var_78[var_854].Var0 = var_486[var_2459][var_1910][0];
+                                var_78[var_854].Var1 = var_448;
+                                var_78[var_854].Var2 = var_450;
+                                var_78[var_854].Var3 = var_486[var_2459][var_1910][3];
+                                var_78[var_854].Var4 = var_486[var_2459][var_1910][4];
+                                var_78[var_854].Var5 = var_486[var_2459][var_1910][5];
+                                var_78[var_854].Var6 = var_486[var_2459][var_1910][6];
+                                var_78[var_854].Var7 = var_486[var_2459][var_1910][7];
+                                var_78[var_854].Var8 = var_486[var_2459][var_1910][8];
+                                var_78[var_854].Var9 = var_71[var_448][var_450];
+                                var_78[var_854].Var10 = 1;
+                                var_78[var_854].Var11 = var_486[var_2459][var_1910][11];
+                                var_78[var_854].Var12 = var_486[var_2459][var_1910][12];
+                                var_78[var_854].Var13 = var_486[var_2459][var_1910][13];
+                                var_78[var_854].Var14 = var_486[var_2459][var_1910][14];
+                                var_78[var_854].Var15 = var_486[var_2459][var_1910][15];
+                                var_78[var_854].Var16 = var_486[var_2459][var_1910][16];
+                                var_78[var_854].Var17 = var_486[var_2459][var_1910][17];
+                                var_78[var_854].Var18 = var_486[var_2459][var_1910][18];
+                                var_78[var_854].Var19 = var_486[var_2459][var_1910][19];
+                                var_78[var_854].Var20 = var_486[var_2459][var_1910][20];
+                                var_78[var_854].Var21 = var_486[var_2459][var_1910][21];
+                                var_78[var_854].Var22 = var_486[var_2459][var_1910][22];
+                                var_78[var_854].Var23 = var_486[var_2459][var_1910][23];
+                                var_78[var_854].Var24 = var_486[var_2459][var_1910][24];
+                                var_78[var_854].Var25 = var_486[var_2459][var_1910][25];
+                                var_78[var_854].Var26 = var_486[var_2459][var_1910][26];
+                                var_78[var_854].Var27 = var_486[var_2459][var_1910][27];
+                                var_78[var_854].Var28 = var_486[var_2459][var_1910][28];
+                                var_78[var_854].Var29 = var_486[var_2459][var_1910][29];
                                 var_1910++;
                             }
                         }
-                        if (var_233[var_475][0] == 806) {
-                            var_1911 = var_233[var_475][7] - var_233[var_475][8];
+                        if (var_233[var_475].Var0 == 806) {
+                            var_1911 = var_233[var_475].Var7 - var_233[var_475].Var8;
                             if (var_1911 >= 1) {
                                 var_1912 = var_673;
                                 var_1913 = 1;
@@ -13122,11 +13122,11 @@ function func541() {
                                 var_673 = var_1912;
                             }
                         }
-                        if (var_233[var_475][0] == 851) {
-                            var_1911 = var_233[var_475][8];
+                        if (var_233[var_475].Var0 == 851) {
+                            var_1911 = var_233[var_475].Var8;
                             if (var_1911 >= 1) {
                                 var_1912 = var_673;
-                                var_1916 = var_233[var_475][6];
+                                var_1916 = var_233[var_475].Var6;
                                 var_1845 = 3;
                                 var_1914 = var_66;
                                 var_1915 = var_67;
@@ -13144,8 +13144,8 @@ function func541() {
                                 var_673 = var_1912;
                             }
                         }
-                        if (var_233[var_475][0] == 852) {
-                            var_1911 = var_233[var_475][7] - var_233[var_475][8];
+                        if (var_233[var_475].Var0 == 852) {
+                            var_1911 = var_233[var_475].Var7 - var_233[var_475].Var8;
                             if (var_1911 >= 1) {
                                 var_1912 = var_673;
                                 var_1920 = 1;
@@ -13251,112 +13251,112 @@ function func541() {
             var_2195 = 1;
             var_2196 = 2;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_2194][31] != 5) {
-                    if (var_83[var_2194][1] == var_1389 && var_83[var_2194][2] == var_1995) {
+                if (var_83[var_2194].Var31 != 5) {
+                    if (var_83[var_2194].Var1 == var_1389 && var_83[var_2194].Var2 == var_1995) {
                         var_402 = var_2194;
                         var_209 = 999;
                         yield func705();
                     }
-                    if (var_83[var_2194][1] == var_1389 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var1 == var_1389 && var_83[var_2194].Var2 == var_1996) {
                         var_402 = var_2194;
                         var_209 = 999;
                         yield func705();
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1390) {
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1390) {
                         var_402 = var_2194;
                         var_209 = 999;
                         yield func705();
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1390) {
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1390) {
                         var_402 = var_2194;
                         var_209 = 999;
                         yield func705();
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
                         var_402 = var_2194;
                         var_209 = 999;
                         yield func705();
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
                         var_402 = var_2194;
                         var_209 = 999;
                         yield func705();
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
                         var_402 = var_2194;
                         var_209 = 999;
                         yield func705();
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
                         var_402 = var_2194;
                         var_209 = 999;
                         yield func705();
                     }
                 }
-                if (var_83[var_2194][31] == 5) {
-                    if (var_83[var_2194][1] == var_1389 && var_83[var_2194][2] == var_1995) {
-                        var_83[var_2194][3] = 1;
-                        var_83[var_2194][8] = 1;
+                if (var_83[var_2194].Var31 == 5) {
+                    if (var_83[var_2194].Var1 == var_1389 && var_83[var_2194].Var2 == var_1995) {
+                        var_83[var_2194].Var3 = 1;
+                        var_83[var_2194].Var8 = 1;
                         for (var cnt5 = 0; cnt5 < 10; ++cnt5) {
                             yield func337();
                         }
-                        var_83[var_2194][8] = 0;
+                        var_83[var_2194].Var8 = 0;
                     }
-                    if (var_83[var_2194][1] == var_1389 && var_83[var_2194][2] == var_1996) {
-                        var_83[var_2194][3] = 1;
-                        var_83[var_2194][8] = 1;
+                    if (var_83[var_2194].Var1 == var_1389 && var_83[var_2194].Var2 == var_1996) {
+                        var_83[var_2194].Var3 = 1;
+                        var_83[var_2194].Var8 = 1;
                         for (var cnt5 = 0; cnt5 < 10; ++cnt5) {
                             yield func337();
                         }
-                        var_83[var_2194][8] = 0;
+                        var_83[var_2194].Var8 = 0;
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1390) {
-                        var_83[var_2194][3] = 1;
-                        var_83[var_2194][8] = 1;
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1390) {
+                        var_83[var_2194].Var3 = 1;
+                        var_83[var_2194].Var8 = 1;
                         for (var cnt5 = 0; cnt5 < 10; ++cnt5) {
                             yield func337();
                         }
-                        var_83[var_2194][8] = 0;
+                        var_83[var_2194].Var8 = 0;
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1390) {
-                        var_83[var_2194][3] = 1;
-                        var_83[var_2194][8] = 1;
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1390) {
+                        var_83[var_2194].Var3 = 1;
+                        var_83[var_2194].Var8 = 1;
                         for (var cnt5 = 0; cnt5 < 10; ++cnt5) {
                             yield func337();
                         }
-                        var_83[var_2194][8] = 0;
+                        var_83[var_2194].Var8 = 0;
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1995) {
-                        var_83[var_2194][3] = 1;
-                        var_83[var_2194][8] = 1;
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1995) {
+                        var_83[var_2194].Var3 = 1;
+                        var_83[var_2194].Var8 = 1;
                         for (var cnt5 = 0; cnt5 < 10; ++cnt5) {
                             yield func337();
                         }
-                        var_83[var_2194][8] = 0;
+                        var_83[var_2194].Var8 = 0;
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1995) {
-                        var_83[var_2194][3] = 1;
-                        var_83[var_2194][8] = 1;
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1995) {
+                        var_83[var_2194].Var3 = 1;
+                        var_83[var_2194].Var8 = 1;
                         for (var cnt5 = 0; cnt5 < 10; ++cnt5) {
                             yield func337();
                         }
-                        var_83[var_2194][8] = 0;
+                        var_83[var_2194].Var8 = 0;
                     }
-                    if (var_83[var_2194][1] == var_1993 && var_83[var_2194][2] == var_1996) {
-                        var_83[var_2194][3] = 1;
-                        var_83[var_2194][8] = 1;
+                    if (var_83[var_2194].Var1 == var_1993 && var_83[var_2194].Var2 == var_1996) {
+                        var_83[var_2194].Var3 = 1;
+                        var_83[var_2194].Var8 = 1;
                         for (var cnt5 = 0; cnt5 < 10; ++cnt5) {
                             yield func337();
                         }
-                        var_83[var_2194][8] = 0;
+                        var_83[var_2194].Var8 = 0;
                     }
-                    if (var_83[var_2194][1] == var_1994 && var_83[var_2194][2] == var_1996) {
-                        var_83[var_2194][3] = 1;
-                        var_83[var_2194][8] = 1;
+                    if (var_83[var_2194].Var1 == var_1994 && var_83[var_2194].Var2 == var_1996) {
+                        var_83[var_2194].Var3 = 1;
+                        var_83[var_2194].Var8 = 1;
                         for (var cnt5 = 0; cnt5 < 10; ++cnt5) {
                             yield func337();
                         }
-                        var_83[var_2194][8] = 0;
+                        var_83[var_2194].Var8 = 0;
                     }
                 }
                 var_209 = 0;
@@ -13411,24 +13411,24 @@ function func541() {
             var_2460 = 0;
             var_2461 = 1;
             for (var cnt2 = 0; cnt2 < var_224; ++cnt2) {
-                if (var_233[var_2461][0] == 605 || var_233[var_2461][0] == 635 || var_233[var_2461][0] == 640) {
-                    var_233[var_2461][0] = 641;
+                if (var_233[var_2461].Var0 == 605 || var_233[var_2461].Var0 == 635 || var_233[var_2461].Var0 == 640) {
+                    var_233[var_2461].Var0 = 641;
                     var_2460 = 1;
                 }
-                if (var_233[var_2461][0] >= 600 && var_233[var_2461][0] <= 604) {
-                    var_233[var_2461][0] = 605;
+                if (var_233[var_2461].Var0 >= 600 && var_233[var_2461].Var0 <= 604) {
+                    var_233[var_2461].Var0 = 605;
                     var_2460 = 1;
                 }
-                if (var_233[var_2461][0] >= 630 && var_233[var_2461][0] <= 639) {
-                    var_233[var_2461][0] = 635;
+                if (var_233[var_2461].Var0 >= 630 && var_233[var_2461].Var0 <= 639) {
+                    var_233[var_2461].Var0 = 635;
                     var_2460 = 1;
                 }
-                if (var_233[var_2461][0] >= 642 && var_233[var_2461][0] <= 649) {
-                    var_233[var_2461][0] = 640;
+                if (var_233[var_2461].Var0 >= 642 && var_233[var_2461].Var0 <= 649) {
+                    var_233[var_2461].Var0 = 640;
                     var_2460 = 1;
                 }
-                if (var_233[var_2461][0] >= 650 && var_233[var_2461][0] <= 654) {
-                    var_233[var_2461][0] = 639;
+                if (var_233[var_2461].Var0 >= 650 && var_233[var_2461].Var0 <= 654) {
+                    var_233[var_2461].Var0 = 639;
                     var_2460 = 1;
                 }
                 var_2461 = var_2461 + 1;
@@ -14131,7 +14131,7 @@ function func541() {
             var_108 = 0;
             var_390 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                var_83[var_390][12] = 0;
+                var_83[var_390].Var12 = 0;
                 var_390 = var_390 + 1;
             }
             var_81[var_2442][3] = 0;
@@ -14170,7 +14170,7 @@ function func541() {
             var_108 = 0;
             var_390 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                var_83[var_390][12] = 0;
+                var_83[var_390].Var12 = 0;
                 var_390 = var_390 + 1;
             }
             var_81[var_2442][3] = 0;
@@ -14280,9 +14280,9 @@ function func541() {
                     }
                 }
             }
-            var_232 = var_233[var_1531][0];
-            var_487 = var_233[var_1531][13];
-            var_2459 = var_233[var_1531][6];
+            var_232 = var_233[var_1531].Var0;
+            var_487 = var_233[var_1531].Var13;
+            var_2459 = var_233[var_1531].Var6;
             yield func492();
             var_2469 = var_489;
             var_300 = 0;
@@ -14338,11 +14338,11 @@ function func541() {
                     }
                 }
             }
-            var_488 = var_233[var_1531][0];
-            if (var_233[var_1531][0] < 800 || var_233[var_1531][0] >= 900) {
+            var_488 = var_233[var_1531].Var0;
+            if (var_233[var_1531].Var0 < 800 || var_233[var_1531].Var0 >= 900) {
                 var_2458 = 0;
             }
-            if (var_233[var_1531][0] >= 800 && var_233[var_1531][0] < 900) {
+            if (var_233[var_1531].Var0 >= 800 && var_233[var_1531].Var0 < 900) {
                 var_2458 = 1;
                 if (var_156[119] == 1 && var_2458 == 1) {
                     yield func340();
@@ -14364,36 +14364,36 @@ function func541() {
                 var_450 = var_230;
                 yield func724();
                 var_77[var_448][var_450] = var_854;
-                var_78[var_854][0] = var_233[var_225][0];
-                var_78[var_854][1] = var_448;
-                var_78[var_854][2] = var_450;
-                var_78[var_854][3] = var_233[var_225][3];
-                var_78[var_854][4] = var_233[var_225][4];
-                var_78[var_854][5] = var_233[var_225][5];
-                var_78[var_854][6] = var_233[var_225][6];
-                var_78[var_854][7] = var_233[var_225][7];
-                var_78[var_854][8] = var_233[var_225][8];
-                var_78[var_854][9] = var_71[var_448][var_450];
-                var_78[var_854][10] = 0;
-                var_78[var_854][11] = var_233[var_225][11];
-                var_78[var_854][12] = var_233[var_225][12];
-                var_78[var_854][13] = var_233[var_225][13];
-                var_78[var_854][14] = var_233[var_225][14];
-                var_78[var_854][15] = var_233[var_225][15];
-                var_78[var_854][16] = var_233[var_225][16];
-                var_78[var_854][17] = var_233[var_225][17];
-                var_78[var_854][18] = var_233[var_225][18];
-                var_78[var_854][19] = var_233[var_225][19];
-                var_78[var_854][20] = var_233[var_225][20];
-                var_78[var_854][21] = var_233[var_225][21];
-                var_78[var_854][22] = var_233[var_225][22];
-                var_78[var_854][23] = var_233[var_225][23];
-                var_78[var_854][24] = var_233[var_225][24];
-                var_78[var_854][25] = var_233[var_225][25];
-                var_78[var_854][26] = var_233[var_225][26];
-                var_78[var_854][27] = var_233[var_225][27];
-                var_78[var_854][28] = var_233[var_225][28];
-                var_78[var_854][29] = var_233[var_225][29];
+                var_78[var_854].Var0 = var_233[var_225].Var0;
+                var_78[var_854].Var1 = var_448;
+                var_78[var_854].Var2 = var_450;
+                var_78[var_854].Var3 = var_233[var_225].Var3;
+                var_78[var_854].Var4 = var_233[var_225].Var4;
+                var_78[var_854].Var5 = var_233[var_225].Var5;
+                var_78[var_854].Var6 = var_233[var_225].Var6;
+                var_78[var_854].Var7 = var_233[var_225].Var7;
+                var_78[var_854].Var8 = var_233[var_225].Var8;
+                var_78[var_854].Var9 = var_71[var_448][var_450];
+                var_78[var_854].Var10 = 0;
+                var_78[var_854].Var11 = var_233[var_225].Var11;
+                var_78[var_854].Var12 = var_233[var_225].Var12;
+                var_78[var_854].Var13 = var_233[var_225].Var13;
+                var_78[var_854].Var14 = var_233[var_225].Var14;
+                var_78[var_854].Var15 = var_233[var_225].Var15;
+                var_78[var_854].Var16 = var_233[var_225].Var16;
+                var_78[var_854].Var17 = var_233[var_225].Var17;
+                var_78[var_854].Var18 = var_233[var_225].Var18;
+                var_78[var_854].Var19 = var_233[var_225].Var19;
+                var_78[var_854].Var20 = var_233[var_225].Var20;
+                var_78[var_854].Var21 = var_233[var_225].Var21;
+                var_78[var_854].Var22 = var_233[var_225].Var22;
+                var_78[var_854].Var23 = var_233[var_225].Var23;
+                var_78[var_854].Var24 = var_233[var_225].Var24;
+                var_78[var_854].Var25 = var_233[var_225].Var25;
+                var_78[var_854].Var26 = var_233[var_225].Var26;
+                var_78[var_854].Var27 = var_233[var_225].Var27;
+                var_78[var_854].Var28 = var_233[var_225].Var28;
+                var_78[var_854].Var29 = var_233[var_225].Var29;
                 var_232 = var_1846;
                 var_321 = var_854;
                 yield func433();
@@ -14403,9 +14403,9 @@ function func541() {
                 return;
             }
             if (var_2458 == 1) {
-                if (var_233[var_1531][0] != 806 && var_233[var_1531][0] != 851 && var_233[var_1531][0] != 852 && var_233[var_1531][8] >= 1) {
+                if (var_233[var_1531].Var0 != 806 && var_233[var_1531].Var0 != 851 && var_233[var_1531].Var0 != 852 && var_233[var_1531].Var8 >= 1) {
                     var_2467 = 1;
-                    var_1905 = var_233[var_1531][8];
+                    var_1905 = var_233[var_1531].Var8;
                     var_1910 = 1;
                     for (var cnt4 = 0; cnt4 < var_1905; ++cnt4) {
                         var_309 = var_66;
@@ -14420,41 +14420,41 @@ function func541() {
                         }
                         yield func724();
                         var_77[var_448][var_450] = var_854;
-                        var_78[var_854][0] = var_486[var_2459][var_1910][0];
-                        var_78[var_854][1] = var_448;
-                        var_78[var_854][2] = var_450;
-                        var_78[var_854][3] = var_486[var_2459][var_1910][3];
-                        var_78[var_854][4] = var_486[var_2459][var_1910][4];
-                        var_78[var_854][5] = var_486[var_2459][var_1910][5];
-                        var_78[var_854][6] = var_486[var_2459][var_1910][6];
-                        var_78[var_854][7] = var_486[var_2459][var_1910][7];
-                        var_78[var_854][8] = var_486[var_2459][var_1910][8];
-                        var_78[var_854][9] = var_71[var_448][var_450];
-                        var_78[var_854][10] = 0;
-                        var_78[var_854][11] = var_486[var_2459][var_1910][11];
-                        var_78[var_854][12] = var_486[var_2459][var_1910][12];
-                        var_78[var_854][13] = var_486[var_2459][var_1910][13];
-                        var_78[var_854][14] = var_486[var_2459][var_1910][14];
-                        var_78[var_854][15] = var_486[var_2459][var_1910][15];
-                        var_78[var_854][16] = var_486[var_2459][var_1910][16];
-                        var_78[var_854][17] = var_486[var_2459][var_1910][17];
-                        var_78[var_854][18] = var_486[var_2459][var_1910][18];
-                        var_78[var_854][19] = var_486[var_2459][var_1910][19];
-                        var_78[var_854][20] = var_486[var_2459][var_1910][20];
-                        var_78[var_854][21] = var_486[var_2459][var_1910][21];
-                        var_78[var_854][22] = var_486[var_2459][var_1910][22];
-                        var_78[var_854][23] = var_486[var_2459][var_1910][23];
-                        var_78[var_854][24] = var_486[var_2459][var_1910][24];
-                        var_78[var_854][25] = var_486[var_2459][var_1910][25];
-                        var_78[var_854][26] = var_486[var_2459][var_1910][26];
-                        var_78[var_854][27] = var_486[var_2459][var_1910][27];
-                        var_78[var_854][28] = var_486[var_2459][var_1910][28];
-                        var_78[var_854][29] = var_486[var_2459][var_1910][29];
+                        var_78[var_854].Var0 = var_486[var_2459][var_1910][0];
+                        var_78[var_854].Var1 = var_448;
+                        var_78[var_854].Var2 = var_450;
+                        var_78[var_854].Var3 = var_486[var_2459][var_1910][3];
+                        var_78[var_854].Var4 = var_486[var_2459][var_1910][4];
+                        var_78[var_854].Var5 = var_486[var_2459][var_1910][5];
+                        var_78[var_854].Var6 = var_486[var_2459][var_1910][6];
+                        var_78[var_854].Var7 = var_486[var_2459][var_1910][7];
+                        var_78[var_854].Var8 = var_486[var_2459][var_1910][8];
+                        var_78[var_854].Var9 = var_71[var_448][var_450];
+                        var_78[var_854].Var10 = 0;
+                        var_78[var_854].Var11 = var_486[var_2459][var_1910][11];
+                        var_78[var_854].Var12 = var_486[var_2459][var_1910][12];
+                        var_78[var_854].Var13 = var_486[var_2459][var_1910][13];
+                        var_78[var_854].Var14 = var_486[var_2459][var_1910][14];
+                        var_78[var_854].Var15 = var_486[var_2459][var_1910][15];
+                        var_78[var_854].Var16 = var_486[var_2459][var_1910][16];
+                        var_78[var_854].Var17 = var_486[var_2459][var_1910][17];
+                        var_78[var_854].Var18 = var_486[var_2459][var_1910][18];
+                        var_78[var_854].Var19 = var_486[var_2459][var_1910][19];
+                        var_78[var_854].Var20 = var_486[var_2459][var_1910][20];
+                        var_78[var_854].Var21 = var_486[var_2459][var_1910][21];
+                        var_78[var_854].Var22 = var_486[var_2459][var_1910][22];
+                        var_78[var_854].Var23 = var_486[var_2459][var_1910][23];
+                        var_78[var_854].Var24 = var_486[var_2459][var_1910][24];
+                        var_78[var_854].Var25 = var_486[var_2459][var_1910][25];
+                        var_78[var_854].Var26 = var_486[var_2459][var_1910][26];
+                        var_78[var_854].Var27 = var_486[var_2459][var_1910][27];
+                        var_78[var_854].Var28 = var_486[var_2459][var_1910][28];
+                        var_78[var_854].Var29 = var_486[var_2459][var_1910][29];
                         var_1910++;
                     }
                 }
-                if (var_233[var_1531][0] == 806) {
-                    var_1911 = var_233[var_1531][7] - var_233[var_1531][8];
+                if (var_233[var_1531].Var0 == 806) {
+                    var_1911 = var_233[var_1531].Var7 - var_233[var_1531].Var8;
                     if (var_1911 >= 1) {
                         var_2467 = 1;
                         var_1912 = var_673;
@@ -14470,12 +14470,12 @@ function func541() {
                         var_673 = var_1912;
                     }
                 }
-                if (var_233[var_1531][0] == 851) {
-                    var_1911 = var_233[var_1531][8];
+                if (var_233[var_1531].Var0 == 851) {
+                    var_1911 = var_233[var_1531].Var8;
                     if (var_1911 >= 1) {
                         var_2467 = 1;
                         var_1912 = var_673;
-                        var_1916 = var_233[var_1531][6];
+                        var_1916 = var_233[var_1531].Var6;
                         var_1845 = 3;
                         var_1914 = var_1550;
                         var_1915 = var_230;
@@ -14493,8 +14493,8 @@ function func541() {
                         var_673 = var_1912;
                     }
                 }
-                if (var_233[var_1531][0] == 852) {
-                    var_1911 = var_233[var_1531][7] - var_233[var_1531][8];
+                if (var_233[var_1531].Var0 == 852) {
+                    var_1911 = var_233[var_1531].Var7 - var_233[var_1531].Var8;
                     if (var_1911 >= 1) {
                         var_2467 = 1;
                         var_1912 = var_673;
@@ -14588,30 +14588,30 @@ function func541() {
             var_2474 = 0;
             if (var_357 != 0 && var_358 == 0) {
                 yield func426();
-                if (var_233[var_553][4] != 0) {
+                if (var_233[var_553].Var4 != 0) {
                     var_2474 = 1;
                 }
             }
             if (var_357 == 0 && var_358 != 0) {
                 yield func427();
-                if (var_233[var_554][4] != 0) {
+                if (var_233[var_554].Var4 != 0) {
                     var_2474 = 2;
                 }
             }
             if (var_357 != 0 && var_358 != 0) {
                 yield func426();
                 yield func427();
-                if (var_233[var_553][4] == 0 && var_233[var_554][4] == 0) {
+                if (var_233[var_553].Var4 == 0 && var_233[var_554].Var4 == 0) {
                     var_2474 = 0;
                     var_2473 = 0;
                 }
-                if (var_233[var_553][4] != 0 && var_233[var_554][4] == 0) {
+                if (var_233[var_553].Var4 != 0 && var_233[var_554].Var4 == 0) {
                     var_2474 = 1;
                 }
-                if (var_233[var_553][4] == 0 && var_233[var_554][4] != 0) {
+                if (var_233[var_553].Var4 == 0 && var_233[var_554].Var4 != 0) {
                     var_2474 = 2;
                 }
-                if (var_233[var_553][4] != 0 && var_233[var_554][4] != 0) {
+                if (var_233[var_553].Var4 != 0 && var_233[var_554].Var4 != 0) {
                     var_2475 = rnd(2);
                     if (var_2475 == 0) {
                         var_2474 = 1;
@@ -14629,32 +14629,32 @@ function func541() {
                 var_2474 = 0;
                 var_2473 = 0;
             }
-            if (var_2474 == 1 && var_233[var_553][12] == 2) {
+            if (var_2474 == 1 && var_233[var_553].Var12 == 2) {
                 var_2474 = 0;
                 var_2473 = 3;
             }
-            if (var_2474 == 2 && var_233[var_554][12] == 2) {
+            if (var_2474 == 2 && var_233[var_554].Var12 == 2) {
                 var_2474 = 0;
                 var_2473 = 3;
             }
             if (var_2474 == 1) {
                 yield func426();
-                var_233[var_553][4] = var_233[var_553][4] - 1;
+                var_233[var_553].Var4 = var_233[var_553].Var4 - 1;
                 var_580 = var_580 - 1;
                 var_894 = var_894 - 1;
                 var_2473 = 1;
                 var_232 = var_357;
-                var_487 = var_233[var_553][13];
+                var_487 = var_233[var_553].Var13;
                 yield func492();
             }
             if (var_2474 == 2) {
                 yield func427();
-                var_233[var_554][4] = var_233[var_554][4] - 1;
+                var_233[var_554].Var4 = var_233[var_554].Var4 - 1;
                 var_581 = var_581 - 1;
                 var_895 = var_895 - 1;
                 var_2473 = 1;
                 var_232 = var_358;
-                var_487 = var_233[var_554][13];
+                var_487 = var_233[var_554].Var13;
                 yield func492();
             }
             if (var_2473 == 1) {
@@ -14739,18 +14739,18 @@ function func541() {
             var_480 = 1;
             var_481 = 0;
             for (var cnt2 = 0; cnt2 < var_224; ++cnt2) {
-                var_232 = var_233[var_480][0];
+                var_232 = var_233[var_480].Var0;
                 yield func492();
                 var_2476 = Math.floor(var_483 / 2);
                 var_482 = 0;
-                var_482 = (var_233[var_480][3] + var_233[var_480][4]) * 50;
-                if (var_233[var_480][19] > 1) {
-                    var_482 = var_233[var_480][19] * 500 + var_482;
+                var_482 = (var_233[var_480].Var3 + var_233[var_480].Var4) * 50;
+                if (var_233[var_480].Var19 > 1) {
+                    var_482 = var_233[var_480].Var19 * 500 + var_482;
                 }
                 var_481 = var_481 + var_2476 + var_482;
-                if (var_233[var_480][0] >= 800 && var_233[var_480][0] < 900) {
+                if (var_233[var_480].Var0 >= 800 && var_233[var_480].Var0 < 900) {
                     var_484 = 1;
-                    var_485 = var_233[var_480][6];
+                    var_485 = var_233[var_480].Var6;
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         if (var_486[var_485][var_484][0] > 0) {
                             var_232 = var_486[var_485][var_484][0];
@@ -14831,11 +14831,11 @@ function func541() {
             for (var cnt2 = 0; cnt2 < 100; ++cnt2) {
                 var_475 = rnd(var_224);
                 var_475 = var_475 + 1;
-                if (var_233[var_475][0] >= 500 && var_233[var_475][0] < 800 && var_233[var_475][15] == 0) {
+                if (var_233[var_475].Var0 >= 500 && var_233[var_475].Var0 < 800 && var_233[var_475].Var15 == 0) {
                     var_474 = 1;
                     break;
                 }
-                if (var_233[var_475][0] >= 900 && var_233[var_475][15] == 0) {
+                if (var_233[var_475].Var0 >= 900 && var_233[var_475].Var15 == 0) {
                     var_474 = 1;
                     break;
                 }
@@ -14855,7 +14855,7 @@ function func541() {
                 var_1312 = 0;
             }
             if (var_474 == 1) {
-                var_233[var_475][15] = 2;
+                var_233[var_475].Var15 = 2;
                 var_294 = "何かが爆弾にされた！";
                 var_198 = 1;
                 var_300 = 0;
@@ -15587,9 +15587,9 @@ function func546() {
         var_2483 = 0;
         var_2484 = 1;
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
-            if (var_83[var_2484][0] != 0 && var_83[var_2484][0] != 50 && var_83[var_2484][31] != 4 && var_83[var_2484][31] != 5 && var_83[var_2484][10] == var_81[var_2480][5]) {
-                var_2485 = var_83[var_2484][1];
-                var_774 = var_83[var_2484][2];
+            if (var_83[var_2484].Var0 != 0 && var_83[var_2484].Var0 != 50 && var_83[var_2484].Var31 != 4 && var_83[var_2484].Var31 != 5 && var_83[var_2484].Var10 == var_81[var_2480][5]) {
+                var_2485 = var_83[var_2484].Var1;
+                var_774 = var_83[var_2484].Var2;
                 var_2483 = 1;
                 break;
             }
@@ -15688,12 +15688,12 @@ function func546() {
 function func547() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(547);
-        if (var_83[var_421][31] == 4 || var_83[var_421][31] == 5) {
+        if (var_83[var_421].Var31 == 4 || var_83[var_421].Var31 == 5) {
             return;
         }
         var_2488 = var_80[var_423][var_424];
         if (var_81[var_2488][4] == 1 || var_103 == 1 || var_121 == 1) {
-            if (var_81[var_2488][0] == 81 && var_83[var_421][0] != 50 && var_83[var_421][0] != 148 && var_83[var_421][0] != 143 && var_83[var_421][0] != 132 && var_83[var_421][0] != 20) {
+            if (var_81[var_2488][0] == 81 && var_83[var_421].Var0 != 50 && var_83[var_421].Var0 != 148 && var_83[var_421].Var0 != 143 && var_83[var_421].Var0 != 132 && var_83[var_421].Var0 != 20) {
                 var_240 = 0;
                 for (var cnt3 = 0; cnt3 < 5; ++cnt3) {
                     yield func337();
@@ -15702,9 +15702,9 @@ function func547() {
                 var_81[var_2488][0] = 0;
                 var_81[var_2488][1] = 0;
                 var_81[var_2488][2] = 0;
-                var_437 = var_83[var_421][0];
-                if (var_83[var_421][0] == 97 && var_83[var_421][31] >= 11) {
-                    var_437 = var_83[var_421][31];
+                var_437 = var_83[var_421].Var0;
+                if (var_83[var_421].Var0 == 97 && var_83[var_421].Var31 >= 11) {
+                    var_437 = var_83[var_421].Var31;
                 }
                 yield func626();
                 var_293 = "";
@@ -15721,23 +15721,23 @@ function func547() {
                 var_25_x = var_25[4];
                 var_26_x = var_26[4];
                 var_27_x = var_27[4];
-                var_1374 = var_83[var_421][0];
+                var_1374 = var_83[var_421].Var0;
                 if (var_1374 == 19) {
                     var_1374 = 90;
                 }
                 if (var_1374 == 96) {
                     var_1374 = 93;
                 }
-                var_2489 = var_83[var_421][5];
-                var_347 = var_83[var_421][1];
-                var_348 = var_83[var_421][2];
-                var_83[var_421][8] = 1;
+                var_2489 = var_83[var_421].Var5;
+                var_347 = var_83[var_421].Var1;
+                var_348 = var_83[var_421].Var2;
+                var_83[var_421].Var8 = 1;
                 yield func624();
-                var_83[var_421][8] = 0;
+                var_83[var_421].Var8 = 0;
                 var_1374 = 0;
                 return;
             }
-            if (var_81[var_2488][0] == 78 && var_83[var_421][0] != 50 && var_83[var_421][0] != 148 && var_83[var_421][0] != 143 && var_83[var_421][0] != 132 && var_83[var_421][0] != 20 && var_83[var_421][0] != 33 && var_83[var_421][0] != 34) {
+            if (var_81[var_2488][0] == 78 && var_83[var_421].Var0 != 50 && var_83[var_421].Var0 != 148 && var_83[var_421].Var0 != 143 && var_83[var_421].Var0 != 132 && var_83[var_421].Var0 != 20 && var_83[var_421].Var0 != 33 && var_83[var_421].Var0 != 34) {
                 var_240 = 0;
                 for (var cnt3 = 0; cnt3 < 5; ++cnt3) {
                     yield func337();
@@ -15750,7 +15750,7 @@ function func547() {
                 var_403 = "";
                 var_1396 = var_423;
                 var_1397 = var_424;
-                var_83[var_421][5] = 2;
+                var_83[var_421].Var5 = 2;
                 var_271 = 1;
                 var_1532 = 1;
                 DSPLAY(122);
@@ -15762,7 +15762,7 @@ function func547() {
                     yield func337();
                     var_1532++;
                 }
-                var_83[var_421][8] = 1;
+                var_83[var_421].Var8 = 1;
                 DSPLAY(235);
                 for (var cnt3 = 0; cnt3 < 3; ++cnt3) {
                     yield func337();
@@ -15781,7 +15781,7 @@ function func547() {
                 for (var cnt3 = 0; cnt3 < 5; ++cnt3) {
                     yield func337();
                 }
-                var_437 = var_83[var_421][0];
+                var_437 = var_83[var_421].Var0;
                 yield func626();
                 var_293 = "";
                 var_294 = "";
@@ -15804,11 +15804,11 @@ function func547() {
                 }
                 var_271 = 0;
                 var_1532 = 0;
-                var_2490 = var_83[var_421][0];
-                var_2491 = var_83[var_421][39];
-                var_83[var_421][0] = 0;
-                var_83[var_421][1] = 0;
-                var_83[var_421][2] = 0;
+                var_2490 = var_83[var_421].Var0;
+                var_2491 = var_83[var_421].Var39;
+                var_83[var_421].Var0 = 0;
+                var_83[var_421].Var1 = 0;
+                var_83[var_421].Var2 = 0;
                 var_82[var_423][var_424] = 0;
                 if (var_336 >= 200) {
                     return;
@@ -15818,36 +15818,36 @@ function func547() {
                 var_1550 = var_423;
                 var_230 = var_424;
                 var_77[var_1550][var_230] = var_866;
-                var_78[var_866][0] = 701;
-                var_78[var_866][1] = var_1550;
-                var_78[var_866][2] = var_230;
-                var_78[var_866][3] = 0;
-                var_78[var_866][4] = 0;
-                var_78[var_866][5] = 0;
-                var_78[var_866][6] = 0;
-                var_78[var_866][7] = 0;
-                var_78[var_866][8] = 0;
-                var_78[var_866][9] = var_71[var_1550][var_230];
-                var_78[var_866][10] = 1;
-                var_78[var_866][11] = 0;
-                var_78[var_866][12] = 0;
-                var_78[var_866][13] = var_2490;
-                var_78[var_866][14] = 0;
-                var_78[var_866][15] = 0;
-                var_78[var_866][16] = 0;
-                var_78[var_866][17] = 0;
-                var_78[var_866][18] = 0;
-                var_78[var_866][19] = 0;
-                var_78[var_866][20] = var_2491;
-                var_78[var_866][21] = 0;
-                var_78[var_866][22] = 0;
-                var_78[var_866][23] = 0;
-                var_78[var_866][24] = 0;
-                var_78[var_866][25] = 0;
-                var_78[var_866][26] = 0;
-                var_78[var_866][27] = 0;
-                var_78[var_866][28] = 0;
-                var_78[var_866][29] = 0;
+                var_78[var_866].Var0 = 701;
+                var_78[var_866].Var1 = var_1550;
+                var_78[var_866].Var2 = var_230;
+                var_78[var_866].Var3 = 0;
+                var_78[var_866].Var4 = 0;
+                var_78[var_866].Var5 = 0;
+                var_78[var_866].Var6 = 0;
+                var_78[var_866].Var7 = 0;
+                var_78[var_866].Var8 = 0;
+                var_78[var_866].Var9 = var_71[var_1550][var_230];
+                var_78[var_866].Var10 = 1;
+                var_78[var_866].Var11 = 0;
+                var_78[var_866].Var12 = 0;
+                var_78[var_866].Var13 = var_2490;
+                var_78[var_866].Var14 = 0;
+                var_78[var_866].Var15 = 0;
+                var_78[var_866].Var16 = 0;
+                var_78[var_866].Var17 = 0;
+                var_78[var_866].Var18 = 0;
+                var_78[var_866].Var19 = 0;
+                var_78[var_866].Var20 = var_2491;
+                var_78[var_866].Var21 = 0;
+                var_78[var_866].Var22 = 0;
+                var_78[var_866].Var23 = 0;
+                var_78[var_866].Var24 = 0;
+                var_78[var_866].Var25 = 0;
+                var_78[var_866].Var26 = 0;
+                var_78[var_866].Var27 = 0;
+                var_78[var_866].Var28 = 0;
+                var_78[var_866].Var29 = 0;
                 return;
             }
             if (var_81[var_2488][0] == 94) {
@@ -15869,7 +15869,7 @@ function func547() {
                     yield func337();
                     var_1533++;
                 }
-                var_437 = var_83[var_421][0];
+                var_437 = var_83[var_421].Var0;
                 yield func626();
                 var_402 = var_421;
                 var_314 = var_421;
@@ -15899,7 +15899,7 @@ function func547() {
                 for (var cnt3 = 0; cnt3 < 4; ++cnt3) {
                     yield func337();
                 }
-                var_437 = var_83[var_421][0];
+                var_437 = var_83[var_421].Var0;
                 yield func626();
                 var_402 = var_421;
                 var_314 = var_421;
@@ -15944,7 +15944,7 @@ function func547() {
                     yield func337();
                     var_1534++;
                 }
-                var_437 = var_83[var_421][0];
+                var_437 = var_83[var_421].Var0;
                 yield func626();
                 var_402 = var_421;
                 var_314 = var_421;
@@ -15983,7 +15983,7 @@ function func547() {
                     yield func337();
                     var_1546++;
                 }
-                var_437 = var_83[var_421][0];
+                var_437 = var_83[var_421].Var0;
                 yield func626();
                 var_402 = var_421;
                 var_314 = var_421;
@@ -16003,12 +16003,12 @@ function func547() {
                 return;
             }
             if (var_81[var_2488][0] == 86) {
-                if (var_83[var_421][15] == 0) {
-                    var_83[var_421][14] = 2;
+                if (var_83[var_421].Var15 == 0) {
+                    var_83[var_421].Var14 = 2;
                 }
-                if (var_83[var_421][15] != 0) {
-                    var_83[var_421][14] = 0;
-                    var_83[var_421][15] = 0;
+                if (var_83[var_421].Var15 != 0) {
+                    var_83[var_421].Var14 = 0;
+                    var_83[var_421].Var15 = 0;
                 }
                 var_80[var_423][var_424] = 0;
                 var_81[var_2488][0] = 0;
@@ -16025,7 +16025,7 @@ function func547() {
                 var_81[var_2488][0] = 0;
                 var_81[var_2488][1] = 0;
                 var_81[var_2488][2] = 0;
-                var_83[var_421][13] = 1;
+                var_83[var_421].Var13 = 1;
                 DSPLAY(126);
                 for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     yield func337();
@@ -16040,7 +16040,7 @@ function func547() {
                 var_81[var_2488][0] = 0;
                 var_81[var_2488][1] = 0;
                 var_81[var_2488][2] = 0;
-                var_83[var_421][19] = 1;
+                var_83[var_421].Var19 = 1;
                 DSPLAY(124);
                 for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     yield func337();
@@ -16056,8 +16056,8 @@ function func547() {
                 var_81[var_2488][0] = 0;
                 var_81[var_2488][1] = 0;
                 var_81[var_2488][2] = 0;
-                var_1389 = var_83[var_421][1];
-                var_1390 = var_83[var_421][2];
+                var_1389 = var_83[var_421].Var1;
+                var_1390 = var_83[var_421].Var2;
                 DSPLAY(179);
                 var_271 = 1;
                 var_1573 = 1;
@@ -16071,12 +16071,12 @@ function func547() {
                 yield func669();
                 var_2492 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_2492][27] == var_421) {
-                        var_83[var_2492][27] = 0;
+                    if (var_83[var_2492].Var27 == var_421) {
+                        var_83[var_2492].Var27 = 0;
                     }
                     var_2492++;
                 }
-                var_83[var_421][28] = 0;
+                var_83[var_421].Var28 = 0;
                 yield func331();
                 for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     yield func337();
@@ -16085,8 +16085,8 @@ function func547() {
             }
             if (var_81[var_2488][0] == 92) {
                 var_240 = 0;
-                var_1554 = (var_83[var_421][1] - var_66 + 4) * 40;
-                var_1555 = (var_83[var_421][2] - var_67 + 4) * 40;
+                var_1554 = (var_83[var_421].Var1 - var_66 + 4) * 40;
+                var_1555 = (var_83[var_421].Var2 - var_67 + 4) * 40;
                 var_1553 = 1;
                 var_271 = 1;
                 DSPLAY(176);
@@ -16102,7 +16102,7 @@ function func547() {
                 var_81[var_2488][2] = 0;
                 yield func331();
                 var_403 = "法王の結界が発動した！";
-                var_437 = var_83[var_421][0];
+                var_437 = var_83[var_421].Var0;
                 yield func626();
                 var_402 = var_421;
                 var_314 = var_421;
@@ -16123,7 +16123,7 @@ function func547() {
                 var_81[var_2488][0] = 0;
                 var_81[var_2488][1] = 0;
                 var_81[var_2488][2] = 0;
-                var_83[var_421][17] = 1;
+                var_83[var_421].Var17 = 1;
                 DSPLAY(149);
                 for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     yield func337();
@@ -16141,7 +16141,7 @@ function func547() {
                 var_81[var_2488][2] = 0;
                 yield func331();
                 var_403 = "ﾊｲｳｪｲｽﾀｰが養分を吸い取った！";
-                var_437 = var_83[var_421][0];
+                var_437 = var_83[var_421].Var0;
                 yield func626();
                 var_402 = var_421;
                 var_314 = var_421;
@@ -16162,9 +16162,9 @@ function func547() {
                 for (var cnt3 = 0; cnt3 < 5; ++cnt3) {
                     yield func337();
                 }
-                var_437 = var_83[var_421][0];
-                if (var_83[var_421][0] == 97 && var_83[var_421][31] >= 11) {
-                    var_437 = var_83[var_421][31];
+                var_437 = var_83[var_421].Var0;
+                if (var_83[var_421].Var0 == 97 && var_83[var_421].Var31 >= 11) {
+                    var_437 = var_83[var_421].Var31;
                 }
                 yield func626();
                 var_2493 = var_891;
@@ -16186,16 +16186,16 @@ function func547() {
                 var_747 = 1;
                 var_750 = 1;
                 var_1212 = 1;
-                var_748 = var_83[var_421][1] - var_66 + 4;
-                var_749 = var_83[var_421][2] - var_67 + 4;
+                var_748 = var_83[var_421].Var1 - var_66 + 4;
+                var_749 = var_83[var_421].Var2 - var_67 + 4;
                 var_271 = 1;
                 var_1581 = 1;
-                var_83[var_421][8] = 1;
+                var_83[var_421].Var8 = 1;
                 for (var cnt3 = 0; cnt3 < 40; ++cnt3) {
                     yield func337();
                     var_1581 = var_1581 + 1;
                     if (var_1581 == 15) {
-                        var_83[var_421][11] = 1;
+                        var_83[var_421].Var11 = 1;
                         DSPLAY(218);
                     }
                 }
@@ -16215,13 +16215,13 @@ function func547() {
                 var_25_x = var_25[4];
                 var_26_x = var_26[4];
                 var_27_x = var_27[4];
-                var_83[var_421][11] = 0;
-                if (var_83[var_421][15] == 0) {
-                    var_83[var_421][14] = 2;
+                var_83[var_421].Var11 = 0;
+                if (var_83[var_421].Var15 == 0) {
+                    var_83[var_421].Var14 = 2;
                 }
-                if (var_83[var_421][15] != 0) {
-                    var_83[var_421][14] = 0;
-                    var_83[var_421][15] = 0;
+                if (var_83[var_421].Var15 != 0) {
+                    var_83[var_421].Var14 = 0;
+                    var_83[var_421].Var15 = 0;
                 }
                 DSPLAY(107);
                 for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
@@ -16229,7 +16229,7 @@ function func547() {
                     var_1581 = var_1581 + 1;
                     var_300 = 0;
                 }
-                var_83[var_421][8] = 0;
+                var_83[var_421].Var8 = 0;
                 var_271 = 0;
                 var_1581 = 0;
                 var_293 = var_296;
@@ -16259,7 +16259,7 @@ function func547() {
                 var_81[var_2488][2] = 0;
                 yield func331();
                 var_403 = "暗黒風水が発動した！";
-                var_437 = var_83[var_421][0];
+                var_437 = var_83[var_421].Var0;
                 yield func626();
                 var_402 = var_421;
                 var_314 = var_421;
@@ -16949,149 +16949,149 @@ function func555() {
                 var_1053 = 0;
             }
             var_82[var_440][var_441] = var_673;
-            var_83[var_673][0] = var_953;
+            var_83[var_673].Var0 = var_953;
             var_437 = var_953;
             yield func626();
-            var_83[var_673][1] = var_440;
-            var_83[var_673][2] = var_441;
-            var_83[var_673][3] = var_438;
-            var_83[var_673][4] = 3;
+            var_83[var_673].Var1 = var_440;
+            var_83[var_673].Var2 = var_441;
+            var_83[var_673].Var3 = var_438;
+            var_83[var_673].Var4 = 3;
             var_2501 = rnd(8);
             if (var_2501 == 0) {
-                var_83[var_673][5] = 2;
+                var_83[var_673].Var5 = 2;
             }
             if (var_2501 == 1) {
-                var_83[var_673][5] = 4;
+                var_83[var_673].Var5 = 4;
             }
             if (var_2501 == 2) {
-                var_83[var_673][5] = 6;
+                var_83[var_673].Var5 = 6;
             }
             if (var_2501 == 3) {
-                var_83[var_673][5] = 8;
+                var_83[var_673].Var5 = 8;
             }
             if (var_2501 == 4) {
-                var_83[var_673][5] = 1;
+                var_83[var_673].Var5 = 1;
             }
             if (var_2501 == 5) {
-                var_83[var_673][5] = 3;
+                var_83[var_673].Var5 = 3;
             }
             if (var_2501 == 6) {
-                var_83[var_673][5] = 7;
+                var_83[var_673].Var5 = 7;
             }
             if (var_2501 == 7) {
-                var_83[var_673][5] = 9;
+                var_83[var_673].Var5 = 9;
             }
             if (var_953 == 101) {
-                var_83[var_673][5] = 3;
+                var_83[var_673].Var5 = 3;
             }
-            var_83[var_673][6] = 0;
-            var_83[var_673][7] = 0;
-            var_83[var_673][8] = 0;
-            var_83[var_673][9] = 0;
-            var_83[var_673][10] = var_2499;
-            var_83[var_673][11] = 0;
-            var_83[var_673][12] = var_1053;
-            var_83[var_673][13] = 0;
-            var_83[var_673][14] = 0;
+            var_83[var_673].Var6 = 0;
+            var_83[var_673].Var7 = 0;
+            var_83[var_673].Var8 = 0;
+            var_83[var_673].Var9 = 0;
+            var_83[var_673].Var10 = var_2499;
+            var_83[var_673].Var11 = 0;
+            var_83[var_673].Var12 = var_1053;
+            var_83[var_673].Var13 = 0;
+            var_83[var_673].Var14 = 0;
             if (var_953 == 147) {
-                var_83[var_673][14] = 1;
+                var_83[var_673].Var14 = 1;
             }
-            var_83[var_673][15] = 0;
+            var_83[var_673].Var15 = 0;
             if (var_953 == 39 || var_953 == 60 || var_953 == 64 || var_953 == 101 || var_953 == 117 || var_953 == 111 || var_953 == 68 || var_953 == 151 || var_953 == 168) {
-                var_83[var_673][15] = 1;
+                var_83[var_673].Var15 = 1;
             }
-            var_83[var_673][16] = 0;
-            var_83[var_673][17] = 0;
-            var_83[var_673][18] = 0;
-            var_83[var_673][19] = 0;
-            var_83[var_673][20] = 0;
-            var_83[var_673][21] = 0;
-            var_83[var_673][22] = 0;
-            var_83[var_673][23] = 0;
+            var_83[var_673].Var16 = 0;
+            var_83[var_673].Var17 = 0;
+            var_83[var_673].Var18 = 0;
+            var_83[var_673].Var19 = 0;
+            var_83[var_673].Var20 = 0;
+            var_83[var_673].Var21 = 0;
+            var_83[var_673].Var22 = 0;
+            var_83[var_673].Var23 = 0;
             if (var_953 == 118) {
-                var_83[var_673][23] = 1;
+                var_83[var_673].Var23 = 1;
             }
-            var_83[var_673][24] = 0;
-            var_83[var_673][25] = 0;
-            var_83[var_673][26] = 0;
-            var_83[var_673][27] = 0;
-            var_83[var_673][28] = 0;
-            var_83[var_673][29] = 0;
+            var_83[var_673].Var24 = 0;
+            var_83[var_673].Var25 = 0;
+            var_83[var_673].Var26 = 0;
+            var_83[var_673].Var27 = 0;
+            var_83[var_673].Var28 = 0;
+            var_83[var_673].Var29 = 0;
             if (var_953 == 121) {
                 var_2502 = rnd(20);
                 if (var_2502 == 0) {
-                    var_83[var_673][29] = 1;
+                    var_83[var_673].Var29 = 1;
                 }
             }
-            var_83[var_673][30] = 0;
+            var_83[var_673].Var30 = 0;
             if (var_953 == 85) {
-                var_83[var_673][30] = 1;
+                var_83[var_673].Var30 = 1;
             }
             if (var_953 == 118) {
-                var_83[var_673][30] = 1;
+                var_83[var_673].Var30 = 1;
             }
             if (var_953 == 154) {
-                var_83[var_673][30] = 1;
+                var_83[var_673].Var30 = 1;
             }
             if (var_953 == 109) {
                 var_2502 = rnd(2);
-                var_83[var_673][30] = var_2502;
+                var_83[var_673].Var30 = var_2502;
             }
-            var_83[var_673][31] = 0;
+            var_83[var_673].Var31 = 0;
             if (var_972 == 1) {
-                var_83[var_673][31] = 1;
+                var_83[var_673].Var31 = 1;
             }
             if (var_972 == 2) {
-                var_83[var_673][31] = 2;
+                var_83[var_673].Var31 = 2;
             }
             if (var_972 == 3) {
-                var_83[var_673][31] = 3;
+                var_83[var_673].Var31 = 3;
             }
             if (var_972 == 4) {
-                var_83[var_673][31] = 4;
+                var_83[var_673].Var31 = 4;
             }
             if (var_972 == 5) {
-                var_83[var_673][31] = 5;
+                var_83[var_673].Var31 = 5;
             }
             if (var_972 == 6) {
-                var_83[var_673][31] = 6;
+                var_83[var_673].Var31 = 6;
             }
             if (var_972 == 7) {
-                var_83[var_673][31] = 7;
+                var_83[var_673].Var31 = 7;
             }
             if (var_972 == 8) {
-                var_83[var_673][31] = 8;
+                var_83[var_673].Var31 = 8;
             }
             if (var_972 == 9) {
-                var_83[var_673][31] = 9;
+                var_83[var_673].Var31 = 9;
             }
             if (var_972 == 10) {
-                var_83[var_673][31] = 10;
+                var_83[var_673].Var31 = 10;
             }
             if (var_953 == 97) {
                 yield func559();
-                var_83[var_673][31] = var_2503;
+                var_83[var_673].Var31 = var_2503;
             }
-            var_83[var_673][32] = rnd(12);
+            var_83[var_673].Var32 = rnd(12);
             var_2504 = rnd(4);
             if (var_2504 == 0) {
-                var_83[var_673][33] = 6;
+                var_83[var_673].Var33 = 6;
             }
             if (var_2504 == 1) {
-                var_83[var_673][33] = 4;
+                var_83[var_673].Var33 = 4;
             }
             if (var_2504 == 2) {
-                var_83[var_673][33] = 8;
+                var_83[var_673].Var33 = 8;
             }
             if (var_2504 == 3) {
-                var_83[var_673][33] = 2;
+                var_83[var_673].Var33 = 2;
             }
-            var_83[var_673][34] = 6;
-            var_83[var_673][35] = var_440;
-            var_83[var_673][36] = var_441;
-            var_83[var_673][37] = var_83[var_673][5];
-            var_83[var_673][38] = 0;
-            var_83[var_673][39] = 0;
+            var_83[var_673].Var34 = 6;
+            var_83[var_673].Var35 = var_440;
+            var_83[var_673].Var36 = var_441;
+            var_83[var_673].Var37 = var_83[var_673].Var5;
+            var_83[var_673].Var38 = 0;
+            var_83[var_673].Var39 = 0;
             if (var_62 == 4 && var_91 >= 10) {
                 yield func558();
             }
@@ -17101,19 +17101,19 @@ function func555() {
                 var_2507 = var_2505 + 1;
                 var_2508 = var_2506 + 1;
                 if (var_71[var_2507][var_2506] == 0 || var_71[var_2507][var_2506] == 13 || var_71[var_2507][var_2506] == 14 || var_65[var_2507][var_2506] == 1 || var_82[var_2507][var_2506] != 0) {
-                    var_83[var_673][0] = 0;
+                    var_83[var_673].Var0 = 0;
                     var_82[var_440][var_441] = 0;
                     var_97 = var_97 - 1;
                     continue;
                 }
                 if (var_71[var_2505][var_2508] == 0 || var_71[var_2505][var_2508] == 13 || var_71[var_2505][var_2508] == 14 || var_65[var_2505][var_2508] == 1 || var_82[var_2505][var_2508] != 0) {
-                    var_83[var_673][0] = 0;
+                    var_83[var_673].Var0 = 0;
                     var_82[var_440][var_441] = 0;
                     var_97 = var_97 - 1;
                     continue;
                 }
                 if (var_71[var_2507][var_2508] == 0 || var_71[var_2507][var_2508] == 13 || var_71[var_2507][var_2508] == 14 || var_65[var_2507][var_2508] == 1 || var_82[var_2507][var_2508] != 0) {
-                    var_83[var_673][0] = 0;
+                    var_83[var_673].Var0 = 0;
                     var_82[var_440][var_441] = 0;
                     var_97 = var_97 - 1;
                     continue;
@@ -17423,8 +17423,8 @@ function func556() {
                 }
             }
             if (var_1845 == 2) {
-                var_440 = var_78[var_321][1];
-                var_441 = var_78[var_321][2];
+                var_440 = var_78[var_321].Var1;
+                var_441 = var_78[var_321].Var2;
                 var_2499 = var_71[var_440][var_441];
             }
             if (var_1845 == 4) {
@@ -18159,242 +18159,242 @@ function func556() {
             var_1053 = 99;
         }
         var_82[var_440][var_441] = var_673;
-        var_83[var_673][0] = var_953;
+        var_83[var_673].Var0 = var_953;
         var_437 = var_953;
         yield func626();
-        var_83[var_673][1] = var_440;
-        var_83[var_673][2] = var_441;
-        var_83[var_673][3] = var_438;
+        var_83[var_673].Var1 = var_440;
+        var_83[var_673].Var2 = var_441;
+        var_83[var_673].Var3 = var_438;
         if (var_953 == 49) {
-            var_83[var_673][3] = var_211;
+            var_83[var_673].Var3 = var_211;
         }
-        var_83[var_673][4] = 3;
+        var_83[var_673].Var4 = 3;
         if (var_2531 >= 1) {
-            var_83[var_673][4] = 2;
+            var_83[var_673].Var4 = 2;
         }
         if (var_1371 == 1) {
-            var_83[var_673][4] = 2;
+            var_83[var_673].Var4 = 2;
         }
         if (var_2534 == 1) {
-            var_83[var_673][4] = 2;
+            var_83[var_673].Var4 = 2;
         }
         if (var_2200 == 1) {
-            var_83[var_673][4] = 2;
+            var_83[var_673].Var4 = 2;
         }
         if (var_2456 == 1) {
-            var_83[var_673][4] = 2;
+            var_83[var_673].Var4 = 2;
         }
         var_2501 = rnd(8);
         if (var_2501 == 0) {
-            var_83[var_673][5] = 2;
+            var_83[var_673].Var5 = 2;
         }
         if (var_2501 == 1) {
-            var_83[var_673][5] = 4;
+            var_83[var_673].Var5 = 4;
         }
         if (var_2501 == 2) {
-            var_83[var_673][5] = 6;
+            var_83[var_673].Var5 = 6;
         }
         if (var_2501 == 3) {
-            var_83[var_673][5] = 8;
+            var_83[var_673].Var5 = 8;
         }
         if (var_2501 == 4) {
-            var_83[var_673][5] = 1;
+            var_83[var_673].Var5 = 1;
         }
         if (var_2501 == 5) {
-            var_83[var_673][5] = 3;
+            var_83[var_673].Var5 = 3;
         }
         if (var_2501 == 6) {
-            var_83[var_673][5] = 7;
+            var_83[var_673].Var5 = 7;
         }
         if (var_2501 == 7) {
-            var_83[var_673][5] = 9;
+            var_83[var_673].Var5 = 9;
         }
         if (var_62 == 99) {
             if (var_953 == 79 && var_2548 == 1) {
-                var_83[var_673][5] = 2;
+                var_83[var_673].Var5 = 2;
             }
             if (var_953 == 79 && var_2548 == 2) {
-                var_83[var_673][5] = 8;
+                var_83[var_673].Var5 = 8;
             }
         }
         if (var_953 == 33) {
-            var_83[var_673][5] = 2;
+            var_83[var_673].Var5 = 2;
         }
         if (var_953 == 101) {
-            var_83[var_673][5] = 3;
+            var_83[var_673].Var5 = 3;
         }
         if (var_953 == 102) {
-            var_83[var_673][5] = 1;
+            var_83[var_673].Var5 = 1;
         }
         if (var_953 == 103) {
-            var_83[var_673][5] = 9;
+            var_83[var_673].Var5 = 9;
         }
         if (var_953 == 104) {
-            var_83[var_673][5] = 7;
+            var_83[var_673].Var5 = 7;
         }
         if (var_1374 >= 1) {
-            var_83[var_673][5] = var_2489;
+            var_83[var_673].Var5 = var_2489;
         }
         if (var_2538 >= 1) {
-            var_83[var_673][5] = var_2538;
+            var_83[var_673].Var5 = var_2538;
         }
         if (var_953 == 53) {
-            var_83[var_673][5] = 2;
+            var_83[var_673].Var5 = 2;
         }
         if (var_2539 >= 1) {
-            var_83[var_673][5] = var_199;
+            var_83[var_673].Var5 = var_199;
         }
-        var_83[var_673][6] = 0;
-        var_83[var_673][7] = 0;
-        var_83[var_673][8] = 0;
-        var_83[var_673][9] = 0;
-        var_83[var_673][10] = var_2499;
-        var_83[var_673][11] = 0;
-        var_83[var_673][12] = var_1053;
-        var_83[var_673][13] = 0;
-        var_83[var_673][14] = 0;
+        var_83[var_673].Var6 = 0;
+        var_83[var_673].Var7 = 0;
+        var_83[var_673].Var8 = 0;
+        var_83[var_673].Var9 = 0;
+        var_83[var_673].Var10 = var_2499;
+        var_83[var_673].Var11 = 0;
+        var_83[var_673].Var12 = var_1053;
+        var_83[var_673].Var13 = 0;
+        var_83[var_673].Var14 = 0;
         if (var_2527 >= 1 && var_2527 != 6) {
-            var_83[var_673][14] = 1;
+            var_83[var_673].Var14 = 1;
         }
         if (var_953 == 55) {
-            var_83[var_673][14] = 1;
+            var_83[var_673].Var14 = 1;
         }
         if (var_953 == 147 || var_953 == 170) {
-            var_83[var_673][14] = 1;
+            var_83[var_673].Var14 = 1;
         }
-        var_83[var_673][15] = 0;
+        var_83[var_673].Var15 = 0;
         if (var_953 == 20 || var_953 == 39 || var_953 == 60 || var_953 == 64 || var_953 == 101 || var_953 == 102 || var_953 == 103 || var_953 == 104 || var_953 == 117 || var_953 == 111 || var_953 == 96 || var_953 == 68 || var_953 == 151 || var_953 == 168) {
-            var_83[var_673][15] = 1;
+            var_83[var_673].Var15 = 1;
         }
-        var_83[var_673][16] = 0;
+        var_83[var_673].Var16 = 0;
         if (var_953 == 36) {
-            var_83[var_673][16] = var_1025;
+            var_83[var_673].Var16 = var_1025;
         }
         if (var_953 == 105) {
-            var_83[var_673][16] = var_1026;
+            var_83[var_673].Var16 = var_1026;
         }
         if (var_953 == 106) {
-            var_83[var_673][16] = var_1027;
+            var_83[var_673].Var16 = var_1027;
         }
         if (var_953 == 108) {
-            var_83[var_673][16] = var_1029;
+            var_83[var_673].Var16 = var_1029;
         }
         if (var_1729 == 1) {
-            var_83[var_673][16] = var_2548;
+            var_83[var_673].Var16 = var_2548;
         }
         if (var_2544 >= 1) {
-            var_83[var_673][16] = 1000 + var_2544;
+            var_83[var_673].Var16 = 1000 + var_2544;
         }
-        var_83[var_673][17] = 0;
+        var_83[var_673].Var17 = 0;
         if (var_1918 >= 1) {
-            var_83[var_673][17] = 1;
+            var_83[var_673].Var17 = 1;
         }
-        var_83[var_673][18] = 0;
-        var_83[var_673][19] = 0;
-        var_83[var_673][20] = 0;
-        var_83[var_673][21] = 0;
-        var_83[var_673][22] = 0;
-        var_83[var_673][23] = 0;
+        var_83[var_673].Var18 = 0;
+        var_83[var_673].Var19 = 0;
+        var_83[var_673].Var20 = 0;
+        var_83[var_673].Var21 = 0;
+        var_83[var_673].Var22 = 0;
+        var_83[var_673].Var23 = 0;
         if (var_953 == 118) {
-            var_83[var_673][23] = 1;
+            var_83[var_673].Var23 = 1;
         }
-        var_83[var_673][24] = 0;
-        var_83[var_673][25] = 0;
-        var_83[var_673][26] = 0;
-        var_83[var_673][27] = 0;
-        var_83[var_673][28] = 0;
-        var_83[var_673][29] = 0;
+        var_83[var_673].Var24 = 0;
+        var_83[var_673].Var25 = 0;
+        var_83[var_673].Var26 = 0;
+        var_83[var_673].Var27 = 0;
+        var_83[var_673].Var28 = 0;
+        var_83[var_673].Var29 = 0;
         if (var_953 == 121 && var_1729 == 0) {
             var_2502 = rnd(20);
             if (var_2502 == 0) {
-                var_83[var_673][29] = 1;
+                var_83[var_673].Var29 = 1;
             }
         }
-        var_83[var_673][30] = 0;
+        var_83[var_673].Var30 = 0;
         if (var_2472 == 1) {
-            var_83[var_673][30] = 1;
+            var_83[var_673].Var30 = 1;
         }
         if (var_953 == 85) {
-            var_83[var_673][30] = 1;
+            var_83[var_673].Var30 = 1;
         }
         if (var_953 == 118) {
-            var_83[var_673][30] = 1;
+            var_83[var_673].Var30 = 1;
         }
         if (var_953 == 154) {
-            var_83[var_673][30] = 1;
+            var_83[var_673].Var30 = 1;
         }
         if (var_953 == 109) {
             var_2502 = rnd(2);
-            var_83[var_673][30] = var_2502;
+            var_83[var_673].Var30 = var_2502;
             if (var_62 == 99) {
                 if (var_2548 == 1) {
-                    var_83[var_673][30] = 1;
+                    var_83[var_673].Var30 = 1;
                 }
                 if (var_2548 == 2) {
-                    var_83[var_673][30] = 0;
+                    var_83[var_673].Var30 = 0;
                 }
             }
         }
         if (var_2537 >= 1) {
-            var_83[var_673][30] = 1;
+            var_83[var_673].Var30 = 1;
         }
-        var_83[var_673][31] = 0;
+        var_83[var_673].Var31 = 0;
         if (var_972 == 1) {
-            var_83[var_673][31] = 1;
+            var_83[var_673].Var31 = 1;
         }
         if (var_972 == 2) {
-            var_83[var_673][31] = 2;
+            var_83[var_673].Var31 = 2;
         }
         if (var_972 == 3) {
-            var_83[var_673][31] = 3;
+            var_83[var_673].Var31 = 3;
         }
         if (var_972 == 4) {
-            var_83[var_673][31] = 4;
+            var_83[var_673].Var31 = 4;
         }
         if (var_972 == 5) {
-            var_83[var_673][31] = 5;
+            var_83[var_673].Var31 = 5;
         }
         if (var_972 == 6) {
-            var_83[var_673][31] = 6;
+            var_83[var_673].Var31 = 6;
         }
         if (var_972 == 7) {
-            var_83[var_673][31] = 7;
+            var_83[var_673].Var31 = 7;
         }
         if (var_972 == 8) {
-            var_83[var_673][31] = 8;
+            var_83[var_673].Var31 = 8;
         }
         if (var_972 == 9) {
-            var_83[var_673][31] = 9;
+            var_83[var_673].Var31 = 9;
         }
         if (var_972 == 10) {
-            var_83[var_673][31] = 10;
+            var_83[var_673].Var31 = 10;
         }
         if (var_953 == 97) {
             yield func559();
-            var_83[var_673][31] = var_2503;
+            var_83[var_673].Var31 = var_2503;
         }
         if (var_2309 == 1) {
-            var_83[var_673][31] = 5;
+            var_83[var_673].Var31 = 5;
         }
         if (var_2310 == 1) {
-            var_83[var_673][31] = 5;
+            var_83[var_673].Var31 = 5;
         }
         if (var_2530 == 1) {
-            var_83[var_673][31] = 5;
+            var_83[var_673].Var31 = 5;
         }
         if (var_2109 == 1) {
-            var_83[var_673][31] = 5;
+            var_83[var_673].Var31 = 5;
         }
         if (var_2299 >= 1) {
-            var_83[var_673][31] = 5;
+            var_83[var_673].Var31 = 5;
         }
-        var_83[var_673][32] = rnd(12);
+        var_83[var_673].Var32 = rnd(12);
         if (var_953 == 40 || var_953 == 54) {
-            var_83[var_673][32] = 1;
+            var_83[var_673].Var32 = 1;
             var_2549 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_2549][0] == 40 || var_83[var_2549][0] == 54) {
-                    var_83[var_673][32] = var_83[var_2549][32];
+                if (var_83[var_2549].Var0 == 40 || var_83[var_2549].Var0 == 54) {
+                    var_83[var_673].Var32 = var_83[var_2549].Var32;
                     break;
                 }
                 var_2549++;
@@ -18402,65 +18402,65 @@ function func556() {
         }
         var_2504 = rnd(4);
         if (var_2504 == 0) {
-            var_83[var_673][33] = 6;
+            var_83[var_673].Var33 = 6;
         }
         if (var_2504 == 1) {
-            var_83[var_673][33] = 4;
+            var_83[var_673].Var33 = 4;
         }
         if (var_2504 == 2) {
-            var_83[var_673][33] = 8;
+            var_83[var_673].Var33 = 8;
         }
         if (var_2504 == 3) {
-            var_83[var_673][33] = 2;
+            var_83[var_673].Var33 = 2;
         }
-        var_83[var_673][34] = 6;
-        var_83[var_673][35] = var_440;
-        var_83[var_673][36] = var_441;
-        var_83[var_673][37] = var_83[var_673][5];
-        var_83[var_673][38] = 0;
-        var_83[var_673][39] = 0;
-        if (var_156[359] == 1 && var_83[var_673][31] != 5 && var_83[var_673][31] != 4 && var_1845 == 0 && var_83[var_673][12] == 99 && var_62 != 4 && var_2535 == 0) {
+        var_83[var_673].Var34 = 6;
+        var_83[var_673].Var35 = var_440;
+        var_83[var_673].Var36 = var_441;
+        var_83[var_673].Var37 = var_83[var_673].Var5;
+        var_83[var_673].Var38 = 0;
+        var_83[var_673].Var39 = 0;
+        if (var_156[359] == 1 && var_83[var_673].Var31 != 5 && var_83[var_673].Var31 != 4 && var_1845 == 0 && var_83[var_673].Var12 == 99 && var_62 != 4 && var_2535 == 0) {
             var_1073 = rnd(100);
             if (var_1073 < 20) {
-                var_83[var_673][39] = 2;
-                var_83[var_673][3] = Math.floor(var_438 * (var_83[var_673][39] + 10) / 10);
-                if (var_83[var_673][3] >= 999) {
-                    var_83[var_673][3] = 999;
+                var_83[var_673].Var39 = 2;
+                var_83[var_673].Var3 = Math.floor(var_438 * (var_83[var_673].Var39 + 10) / 10);
+                if (var_83[var_673].Var3 >= 999) {
+                    var_83[var_673].Var3 = 999;
                 }
             }
         }
         if (var_2544 >= 1) {
-            var_83[var_673][39] = 5;
-            var_83[var_673][3] = Math.floor(var_438 * (var_83[var_673][39] + 10) / 10);
-            if (var_83[var_673][3] >= 999) {
-                var_83[var_673][3] = 999;
+            var_83[var_673].Var39 = 5;
+            var_83[var_673].Var3 = Math.floor(var_438 * (var_83[var_673].Var39 + 10) / 10);
+            if (var_83[var_673].Var3 >= 999) {
+                var_83[var_673].Var3 = 999;
             }
         }
         if (var_62 == 4 && var_91 >= 10) {
             yield func558();
         }
         if (var_2214 >= 1 && var_1942 >= 2) {
-            var_83[var_673][39] = var_1942;
-            var_83[var_673][3] = Math.floor(var_438 * (var_83[var_673][39] + 10) / 10);
-            if (var_83[var_673][3] >= 999) {
-                var_83[var_673][3] = 999;
+            var_83[var_673].Var39 = var_1942;
+            var_83[var_673].Var3 = Math.floor(var_438 * (var_83[var_673].Var39 + 10) / 10);
+            if (var_83[var_673].Var3 >= 999) {
+                var_83[var_673].Var3 = 999;
             }
         }
         if (var_1918 >= 1) {
-            var_83[var_673][39] = var_1919;
-            var_83[var_673][3] = Math.floor(var_438 * (var_83[var_673][39] + 10) / 10);
-            if (var_83[var_673][3] >= 999) {
-                var_83[var_673][3] = 999;
+            var_83[var_673].Var39 = var_1919;
+            var_83[var_673].Var3 = Math.floor(var_438 * (var_83[var_673].Var39 + 10) / 10);
+            if (var_83[var_673].Var3 >= 999) {
+                var_83[var_673].Var3 = 999;
             }
         }
         if (var_953 == 36 || var_953 == 105 || var_953 == 106 || var_953 == 108) {
             yield func684();
         }
         if (var_2309 == 1) {
-            var_83[var_673][39] = Math.floor(var_840 / 3);
-            var_83[var_673][3] = Math.floor(var_438 * (var_83[var_673][39] + 10) / 10);
-            if (var_83[var_673][3] >= 999) {
-                var_83[var_673][3] = 999;
+            var_83[var_673].Var39 = Math.floor(var_840 / 3);
+            var_83[var_673].Var3 = Math.floor(var_438 * (var_83[var_673].Var39 + 10) / 10);
+            if (var_83[var_673].Var3 >= 999) {
+                var_83[var_673].Var3 = 999;
             }
         }
         if (var_953 == 75 && var_987[0] == 0) {
@@ -18473,17 +18473,17 @@ function func556() {
         }
         if (var_2535 >= 1) {
             if (var_2551 >= 2) {
-                var_83[var_673][39] = var_2551;
+                var_83[var_673].Var39 = var_2551;
             }
-            var_83[var_673][3] = var_2552;
-            var_83[var_673][14] = var_2553;
-            var_83[var_673][15] = var_2554;
-            var_83[var_673][17] = var_2555;
-            var_83[var_673][19] = var_2556;
-            var_83[var_673][20] = var_2557;
-            var_83[var_673][23] = var_2558;
-            var_83[var_673][24] = var_2559;
-            var_83[var_673][30] = var_2560;
+            var_83[var_673].Var3 = var_2552;
+            var_83[var_673].Var14 = var_2553;
+            var_83[var_673].Var15 = var_2554;
+            var_83[var_673].Var17 = var_2555;
+            var_83[var_673].Var19 = var_2556;
+            var_83[var_673].Var20 = var_2557;
+            var_83[var_673].Var23 = var_2558;
+            var_83[var_673].Var24 = var_2559;
+            var_83[var_673].Var30 = var_2560;
         }
         if (var_953 == 101 && var_2528 == 0 && var_1374 == 0 && var_2537 == 0 && var_2535 == 0) {
             var_2505 = var_440;
@@ -18500,19 +18500,19 @@ function func556() {
                 return;
             }
             if (var_71[var_2507][var_2506] == 0 || var_71[var_2507][var_2506] == 13 || var_71[var_2507][var_2506] == 14 || var_65[var_2507][var_2506] == 1 || var_82[var_2507][var_2506] != 0) {
-                var_83[var_673][0] = 0;
+                var_83[var_673].Var0 = 0;
                 var_82[var_440][var_441] = 0;
                 var_97 = var_97 - 1;
                 return;
             }
             if (var_71[var_2505][var_2508] == 0 || var_71[var_2505][var_2508] == 13 || var_71[var_2505][var_2508] == 14 || var_65[var_2505][var_2508] == 1 || var_82[var_2505][var_2508] != 0) {
-                var_83[var_673][0] = 0;
+                var_83[var_673].Var0 = 0;
                 var_82[var_440][var_441] = 0;
                 var_97 = var_97 - 1;
                 return;
             }
             if (var_71[var_2507][var_2508] == 0 || var_71[var_2507][var_2508] == 13 || var_71[var_2507][var_2508] == 14 || var_65[var_2507][var_2508] == 1 || var_82[var_2507][var_2508] != 0) {
-                var_83[var_673][0] = 0;
+                var_83[var_673].Var0 = 0;
                 var_82[var_440][var_441] = 0;
                 var_97 = var_97 - 1;
                 return;
@@ -18553,56 +18553,56 @@ function func557() {
             var_953 = 104;
         }
         var_82[var_440][var_441] = var_673;
-        var_83[var_673][0] = var_953;
+        var_83[var_673].Var0 = var_953;
         var_437 = var_953;
         yield func626();
-        var_83[var_673][1] = var_440;
-        var_83[var_673][2] = var_441;
-        var_83[var_673][3] = var_438;
-        var_83[var_673][4] = 3;
+        var_83[var_673].Var1 = var_440;
+        var_83[var_673].Var2 = var_441;
+        var_83[var_673].Var3 = var_438;
+        var_83[var_673].Var4 = 3;
         if (var_2509 == 1) {
-            var_83[var_673][5] = 1;
+            var_83[var_673].Var5 = 1;
         }
         if (var_2509 == 2) {
-            var_83[var_673][5] = 9;
+            var_83[var_673].Var5 = 9;
         }
         if (var_2509 == 3) {
-            var_83[var_673][5] = 7;
+            var_83[var_673].Var5 = 7;
         }
-        var_83[var_673][6] = 0;
-        var_83[var_673][7] = 0;
-        var_83[var_673][8] = 0;
-        var_83[var_673][9] = 0;
-        var_83[var_673][10] = var_71[var_440][var_441];
-        var_83[var_673][11] = 0;
-        var_83[var_673][12] = 99;
-        var_83[var_673][13] = 0;
-        var_83[var_673][14] = 0;
-        var_83[var_673][15] = 1;
-        var_83[var_673][16] = 0;
-        var_83[var_673][17] = 0;
-        var_83[var_673][18] = 0;
-        var_83[var_673][19] = 0;
-        var_83[var_673][20] = 0;
-        var_83[var_673][21] = 0;
-        var_83[var_673][22] = 0;
-        var_83[var_673][23] = 0;
-        var_83[var_673][24] = 0;
-        var_83[var_673][25] = 0;
-        var_83[var_673][26] = 0;
-        var_83[var_673][27] = 0;
-        var_83[var_673][28] = 0;
-        var_83[var_673][29] = 0;
-        var_83[var_673][30] = 0;
-        var_83[var_673][31] = 2;
-        var_83[var_673][32] = rnd(12);
-        var_83[var_673][33] = 6;
-        var_83[var_673][34] = 6;
-        var_83[var_673][35] = var_440;
-        var_83[var_673][36] = var_441;
-        var_83[var_673][37] = var_83[var_673][5];
-        var_83[var_673][38] = 0;
-        var_83[var_673][39] = 0;
+        var_83[var_673].Var6 = 0;
+        var_83[var_673].Var7 = 0;
+        var_83[var_673].Var8 = 0;
+        var_83[var_673].Var9 = 0;
+        var_83[var_673].Var10 = var_71[var_440][var_441];
+        var_83[var_673].Var11 = 0;
+        var_83[var_673].Var12 = 99;
+        var_83[var_673].Var13 = 0;
+        var_83[var_673].Var14 = 0;
+        var_83[var_673].Var15 = 1;
+        var_83[var_673].Var16 = 0;
+        var_83[var_673].Var17 = 0;
+        var_83[var_673].Var18 = 0;
+        var_83[var_673].Var19 = 0;
+        var_83[var_673].Var20 = 0;
+        var_83[var_673].Var21 = 0;
+        var_83[var_673].Var22 = 0;
+        var_83[var_673].Var23 = 0;
+        var_83[var_673].Var24 = 0;
+        var_83[var_673].Var25 = 0;
+        var_83[var_673].Var26 = 0;
+        var_83[var_673].Var27 = 0;
+        var_83[var_673].Var28 = 0;
+        var_83[var_673].Var29 = 0;
+        var_83[var_673].Var30 = 0;
+        var_83[var_673].Var31 = 2;
+        var_83[var_673].Var32 = rnd(12);
+        var_83[var_673].Var33 = 6;
+        var_83[var_673].Var34 = 6;
+        var_83[var_673].Var35 = var_440;
+        var_83[var_673].Var36 = var_441;
+        var_83[var_673].Var37 = var_83[var_673].Var5;
+        var_83[var_673].Var38 = 0;
+        var_83[var_673].Var39 = 0;
         if (var_62 == 4 && var_91 >= 10) {
             yield func558();
         }
@@ -18613,10 +18613,10 @@ function func558() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(558);
         var_2561 = 1;
-        if (var_83[var_673][31] == 5 || var_83[var_673][31] == 4) {
+        if (var_83[var_673].Var31 == 5 || var_83[var_673].Var31 == 4) {
             var_2561 = 0;
         }
-        if (var_83[var_673][0] == 33 || var_83[var_673][0] == 34) {
+        if (var_83[var_673].Var0 == 33 || var_83[var_673].Var0 == 34) {
             var_2561 = 1;
         }
         if (var_2561 == 1) {
@@ -18647,28 +18647,28 @@ function func558() {
             if (var_967 >= 60) {
                 var_2562 = 1;
             }
-            if (var_83[var_673][0] == 161) {
+            if (var_83[var_673].Var0 == 161) {
                 var_2562 = 1;
             }
-            if (var_83[var_673][0] == 153) {
+            if (var_83[var_673].Var0 == 153) {
                 var_2562 = 1;
             }
-            if (var_83[var_673][0] == 124) {
+            if (var_83[var_673].Var0 == 124) {
                 var_2562 = 1;
             }
-            if (var_83[var_673][0] == 127) {
+            if (var_83[var_673].Var0 == 127) {
                 var_2562 = 1;
             }
             var_2563 = var_91 - 10;
             var_2564 = rnd(3);
             var_2562 = var_2562 + var_2564;
-            var_83[var_673][39] = var_2563 + var_2562;
-            if (var_83[var_673][39] >= 999) {
-                var_83[var_673][39] = 999;
+            var_83[var_673].Var39 = var_2563 + var_2562;
+            if (var_83[var_673].Var39 >= 999) {
+                var_83[var_673].Var39 = 999;
             }
-            var_83[var_673][3] = Math.floor(var_438 * (var_83[var_673][39] + 10) / 10);
-            if (var_83[var_673][3] >= 999) {
-                var_83[var_673][3] = 999;
+            var_83[var_673].Var3 = Math.floor(var_438 * (var_83[var_673].Var39 + 10) / 10);
+            if (var_83[var_673].Var3 >= 999) {
+                var_83[var_673].Var3 = 999;
             }
         }
         return;
@@ -18791,22 +18791,22 @@ function func562() {
                 }
                 if (var_2110 == 1) {
                     var_97 = var_97 + 1;
-                    var_83[var_97][0] = var_540[var_2566][0];
-                    if (var_83[var_97][0] == 107) {
-                        var_83[var_97][0] = 106;
+                    var_83[var_97].Var0 = var_540[var_2566][0];
+                    if (var_83[var_97].Var0 == 107) {
+                        var_83[var_97].Var0 = 106;
                         if (var_677 == 992) {
                             yield func126();
                         }
                     }
-                    var_83[var_97][1] = var_440;
-                    var_83[var_97][2] = var_441;
-                    var_83[var_97][3] = var_540[var_2566][3];
-                    var_83[var_97][5] = 2;
-                    var_83[var_97][10] = var_2499;
-                    var_83[var_97][31] = 5;
-                    var_83[var_97][32] = rnd(12);
-                    var_83[var_97][39] = var_540[var_2566][4];
-                    var_83[var_97][16] = var_540[var_2566][5];
+                    var_83[var_97].Var1 = var_440;
+                    var_83[var_97].Var2 = var_441;
+                    var_83[var_97].Var3 = var_540[var_2566][3];
+                    var_83[var_97].Var5 = 2;
+                    var_83[var_97].Var10 = var_2499;
+                    var_83[var_97].Var31 = 5;
+                    var_83[var_97].Var32 = rnd(12);
+                    var_83[var_97].Var39 = var_540[var_2566][4];
+                    var_83[var_97].Var16 = var_540[var_2566][5];
                     var_82[var_440][var_441] = var_97;
                 }
                 if (var_2110 == 0) {
@@ -19157,16 +19157,16 @@ function func565() {
         if (var_151 >= 1 && var_1199 == 1) {
             var_1641 = var_152;
         }
-        var_764 = var_83[var_1641][1] - var_66 + 4;
-        var_763 = var_83[var_1641][2] - var_67 + 4;
-        var_2575 = var_83[var_1641][1];
-        var_2576 = var_83[var_1641][2];
+        var_764 = var_83[var_1641].Var1 - var_66 + 4;
+        var_763 = var_83[var_1641].Var2 - var_67 + 4;
+        var_2575 = var_83[var_1641].Var1;
+        var_2576 = var_83[var_1641].Var2;
         if (var_82[var_2575][var_2576] == 0) {
             return;
         }
-        var_437 = var_83[var_1641][0];
+        var_437 = var_83[var_1641].Var0;
         yield func626();
-        var_1640 = var_83[var_1641][5];
+        var_1640 = var_83[var_1641].Var5;
         if (var_409 == 0) {
             var_2577 = 0;
         }
@@ -19182,17 +19182,17 @@ function func565() {
         if (var_409 == 4) {
             var_2577 = 40;
         }
-        if (var_83[var_1641][15] == 3) {
+        if (var_83[var_1641].Var15 == 3) {
             if (var_409 == 2) {
-                var_764 = var_83[var_1641][35] - var_66 + 4;
-                var_763 = var_83[var_1641][36] - var_67 + 4;
-                var_1640 = var_83[var_1641][37];
+                var_764 = var_83[var_1641].Var35 - var_66 + 4;
+                var_763 = var_83[var_1641].Var36 - var_67 + 4;
+                var_1640 = var_83[var_1641].Var37;
                 var_2577 = 20;
             }
             if (var_409 == 3) {
-                var_764 = var_83[var_1641][35] - var_66 + 4;
-                var_763 = var_83[var_1641][36] - var_67 + 4;
-                var_1640 = var_83[var_1641][37];
+                var_764 = var_83[var_1641].Var35 - var_66 + 4;
+                var_763 = var_83[var_1641].Var36 - var_67 + 4;
+                var_1640 = var_83[var_1641].Var37;
                 var_2577 = 30;
             }
         }
@@ -19203,7 +19203,7 @@ function func566() {
     return __awaiter(this, void 0, void 0, function* () {
         gmode(2);
         pos(var_764 * var_35, var_763 * var_36 - 10);
-        if (var_83[var_1641][7] == 1) {
+        if (var_83[var_1641].Var7 == 1) {
             if (var_742 <= 3 || var_742 >= 10) {
                 pos(var_764 * var_35, var_763 * var_36 - 10);
             }
@@ -19316,7 +19316,7 @@ function func566() {
                     }
                 }
             }
-            if (var_83[var_1641][0] == 140) {
+            if (var_83[var_1641].Var0 == 140) {
                 if (var_742 <= 3 || var_742 >= 10) {
                     pos(var_764 * var_35, var_763 * var_36 - 10);
                 }
@@ -19399,7 +19399,7 @@ function func566() {
                     }
                 }
             }
-            if (var_83[var_1641][0] == 168) {
+            if (var_83[var_1641].Var0 == 168) {
                 if (var_742 <= 3 || var_742 >= 10) {
                     pos(var_764 * var_35, var_763 * var_36 - 10);
                 }
@@ -19482,7 +19482,7 @@ function func566() {
                     }
                 }
             }
-            if (var_83[var_1641][0] == 22 || var_83[var_1641][0] == 17 || var_83[var_1641][0] == 71) {
+            if (var_83[var_1641].Var0 == 22 || var_83[var_1641].Var0 == 17 || var_83[var_1641].Var0 == 71) {
                 if (var_742 <= 2 || var_742 >= 16) {
                     pos(var_764 * var_35, var_763 * var_36 - 10);
                 }
@@ -19539,7 +19539,7 @@ function func566() {
                     }
                 }
             }
-            if (var_83[var_1641][0] == 29 || var_83[var_1641][0] == 34) {
+            if (var_83[var_1641].Var0 == 29 || var_83[var_1641].Var0 == 34) {
                 if (var_742 <= 5 || var_742 >= 16) {
                     pos(var_764 * var_35, var_763 * var_36 - 10);
                 }
@@ -19596,7 +19596,7 @@ function func566() {
                     }
                 }
             }
-            if (var_83[var_1641][0] == 44) {
+            if (var_83[var_1641].Var0 == 44) {
                 if (var_742 == 1 || var_742 >= 12) {
                     pos(var_764 * var_35, var_763 * var_36 - 10);
                 }
@@ -19653,7 +19653,7 @@ function func566() {
                     }
                 }
             }
-            if (var_83[var_1641][0] == 164 || var_83[var_1641][0] == 165) {
+            if (var_83[var_1641].Var0 == 164 || var_83[var_1641].Var0 == 165) {
                 if (var_742 <= 3) {
                     pos(var_764 * var_35, var_763 * var_36 - 10);
                 }
@@ -19737,7 +19737,7 @@ function func566() {
                 }
             }
         }
-        if (var_83[var_1641][6] >= 1 && var_83[var_1641][7] == 0) {
+        if (var_83[var_1641].Var6 >= 1 && var_83[var_1641].Var7 == 0) {
             if (var_1640 == 4) {
                 if (var_199 == 4) {
                     pos(var_764 * var_35 + var_2577 - var_2577, var_763 * var_36 - 10);
@@ -19971,7 +19971,7 @@ function func566() {
                 }
             }
         }
-        if (var_83[var_1641][6] == 0 && var_83[var_1641][7] == 0) {
+        if (var_83[var_1641].Var6 == 0 && var_83[var_1641].Var7 == 0) {
             if (var_199 == 4) {
                 pos(var_764 * var_35 - var_2577, var_763 * var_36 - 10);
             }
@@ -20000,7 +20000,7 @@ function func566() {
                 pos(var_764 * var_35, var_763 * var_36 - 10);
             }
         }
-        if (var_83[var_1641][18] >= 1) {
+        if (var_83[var_1641].Var18 >= 1) {
             if (var_199 == 4) {
                 pos(var_764 * var_35 - var_2577, var_763 * var_36 - 10);
             }
@@ -20028,7 +20028,7 @@ function func566() {
             if (var_217 == 1) {
                 pos(var_764 * var_35, var_763 * var_36 - 10);
             }
-            if (var_83[var_1641][0] == 21 && var_742 == 4) {
+            if (var_83[var_1641].Var0 == 21 && var_742 == 4) {
                 if (var_1640 == 4) {
                     pos(var_764 * var_35 - var_2577 + 3, var_763 * var_36 - 10);
                 }
@@ -20055,23 +20055,23 @@ function func566() {
                 }
             }
         }
-        if (var_83[var_1641][15] == 4 && var_409 != 0) {
+        if (var_83[var_1641].Var15 == 4 && var_409 != 0) {
             if (var_409 == 1) {
-                var_764 = var_83[var_1641][35] - var_66 + 4;
-                var_763 = var_83[var_1641][36] - var_67 + 4;
-                var_1640 = var_83[var_1641][37];
+                var_764 = var_83[var_1641].Var35 - var_66 + 4;
+                var_763 = var_83[var_1641].Var36 - var_67 + 4;
+                var_1640 = var_83[var_1641].Var37;
                 var_2577 = 10;
             }
             if (var_409 == 2) {
-                var_764 = var_83[var_1641][35] - var_66 + 4;
-                var_763 = var_83[var_1641][36] - var_67 + 4;
-                var_1640 = var_83[var_1641][37];
+                var_764 = var_83[var_1641].Var35 - var_66 + 4;
+                var_763 = var_83[var_1641].Var36 - var_67 + 4;
+                var_1640 = var_83[var_1641].Var37;
                 var_2577 = 20;
             }
             if (var_409 == 3) {
-                var_764 = var_83[var_1641][35] - var_66 + 4;
-                var_763 = var_83[var_1641][36] - var_67 + 4;
-                var_1640 = var_83[var_1641][37];
+                var_764 = var_83[var_1641].Var35 - var_66 + 4;
+                var_763 = var_83[var_1641].Var36 - var_67 + 4;
+                var_1640 = var_83[var_1641].Var37;
                 var_2577 = 30;
             }
             if (var_1640 == 4) {
@@ -20307,7 +20307,7 @@ function func566() {
                 }
             }
         }
-        if (var_83[var_1641][12] >= 1) {
+        if (var_83[var_1641].Var12 >= 1) {
             if (var_199 == 4) {
                 pos(var_764 * var_35 - var_2577, var_763 * var_36 - 10);
             }
@@ -20336,7 +20336,7 @@ function func566() {
                 pos(var_764 * var_35, var_763 * var_36 - 10);
             }
         }
-        if (var_83[var_1641][21] == 1 && var_2578 == 1) {
+        if (var_83[var_1641].Var21 == 1 && var_2578 == 1) {
             if (var_1640 == 4) {
                 pos(var_764 * var_35 - var_2577, var_763 * var_36 - 10 - 2);
             }
@@ -20362,7 +20362,7 @@ function func566() {
                 pos(var_764 * var_35 + var_2577, var_763 * var_36 - 10 - var_2577 - 2);
             }
         }
-        if (var_83[var_1641][32] == 99) {
+        if (var_83[var_1641].Var32 == 99) {
             pos(var_764 * var_35 - 1, var_763 * var_36 - 10);
         }
         if (var_163 == 1) {
@@ -20410,25 +20410,25 @@ function func566() {
         if (var_2582 < 0) {
             var_2582 = 0;
         }
-        var_2583 = var_83[var_1641][1];
-        var_2584 = var_83[var_1641][2];
-        var_2585 = var_83[var_1641][1] - 1;
+        var_2583 = var_83[var_1641].Var1;
+        var_2584 = var_83[var_1641].Var2;
+        var_2585 = var_83[var_1641].Var1 - 1;
         if (var_2585 < 0) {
             var_2585 = 0;
         }
-        var_2586 = var_83[var_1641][1] + 1;
-        var_2587 = var_83[var_1641][2] + 1;
-        var_2588 = var_83[var_1641][2] - 1;
+        var_2586 = var_83[var_1641].Var1 + 1;
+        var_2587 = var_83[var_1641].Var2 + 1;
+        var_2588 = var_83[var_1641].Var2 - 1;
         if (var_2588 < 0) {
             var_2588 = 0;
         }
-        var_2589 = var_83[var_1641][1] - 2;
+        var_2589 = var_83[var_1641].Var1 - 2;
         if (var_2589 < 0) {
             var_2589 = 0;
         }
-        var_2590 = var_83[var_1641][1] + 2;
-        var_2591 = var_83[var_1641][2] + 2;
-        var_2592 = var_83[var_1641][2] - 2;
+        var_2590 = var_83[var_1641].Var1 + 2;
+        var_2591 = var_83[var_1641].Var2 + 2;
+        var_2592 = var_83[var_1641].Var2 - 2;
         if (var_2592 < 0) {
             var_2592 = 0;
         }
@@ -20440,96 +20440,96 @@ function func567() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(567);
         if (var_1642 == 1) {
-            if (var_83[var_1641][0] < 50) {
+            if (var_83[var_1641].Var0 < 50) {
                 var_965 = 6;
                 var_1826 = 15;
-                var_966 = var_83[var_1641][0];
+                var_966 = var_83[var_1641].Var0;
             }
-            if (var_83[var_1641][0] >= 50 && var_83[var_1641][0] < 100) {
+            if (var_83[var_1641].Var0 >= 50 && var_83[var_1641].Var0 < 100) {
                 var_965 = 21;
                 var_1826 = 22;
-                var_966 = var_83[var_1641][0] - 50;
+                var_966 = var_83[var_1641].Var0 - 50;
             }
-            if (var_83[var_1641][0] >= 100 && var_83[var_1641][0] < 150) {
+            if (var_83[var_1641].Var0 >= 100 && var_83[var_1641].Var0 < 150) {
                 var_965 = 27;
                 var_1826 = 28;
-                var_966 = var_83[var_1641][0] - 100;
+                var_966 = var_83[var_1641].Var0 - 100;
             }
-            if (var_83[var_1641][0] >= 150 && var_83[var_1641][0] < 200) {
+            if (var_83[var_1641].Var0 >= 150 && var_83[var_1641].Var0 < 200) {
                 var_965 = 13;
                 var_1826 = 20;
-                var_966 = var_83[var_1641][0] - 150;
+                var_966 = var_83[var_1641].Var0 - 150;
             }
-            if (var_83[var_1641][0] == 97 && var_83[var_1641][31] >= 11 && var_83[var_1641][3] >= 1) {
-                if (var_83[var_1641][31] < 50) {
+            if (var_83[var_1641].Var0 == 97 && var_83[var_1641].Var31 >= 11 && var_83[var_1641].Var3 >= 1) {
+                if (var_83[var_1641].Var31 < 50) {
                     var_965 = 6;
                     var_1826 = 15;
-                    var_966 = var_83[var_1641][31];
+                    var_966 = var_83[var_1641].Var31;
                 }
-                if (var_83[var_1641][31] >= 50 && var_83[var_1641][31] < 100) {
+                if (var_83[var_1641].Var31 >= 50 && var_83[var_1641].Var31 < 100) {
                     var_965 = 21;
                     var_1826 = 22;
-                    var_966 = var_83[var_1641][31] - 50;
+                    var_966 = var_83[var_1641].Var31 - 50;
                 }
-                if (var_83[var_1641][31] >= 100 && var_83[var_1641][31] < 150) {
+                if (var_83[var_1641].Var31 >= 100 && var_83[var_1641].Var31 < 150) {
                     var_965 = 27;
                     var_1826 = 28;
-                    var_966 = var_83[var_1641][31] - 100;
+                    var_966 = var_83[var_1641].Var31 - 100;
                 }
-                if (var_83[var_1641][31] >= 150 && var_83[var_1641][31] < 200) {
+                if (var_83[var_1641].Var31 >= 150 && var_83[var_1641].Var31 < 200) {
                     var_965 = 13;
                     var_1826 = 20;
-                    var_966 = var_83[var_1641][31] - 150;
+                    var_966 = var_83[var_1641].Var31 - 150;
                 }
             }
             if (var_1161 == 1) {
                 color(0, 0, 0);
                 gmode(4, null, null, 100);
-                if (var_83[var_1641][30] >= 1 && var_119 == 0 && var_83[var_1641][0] != 118) {
+                if (var_83[var_1641].Var30 >= 1 && var_119 == 0 && var_83[var_1641].Var0 != 118) {
                     return;
                 }
-                if (var_83[var_1641][30] >= 1 && var_119 == 0 && var_83[var_1641][0] == 118 && var_83[var_1641][21] == 0) {
+                if (var_83[var_1641].Var30 >= 1 && var_119 == 0 && var_83[var_1641].Var0 == 118 && var_83[var_1641].Var21 == 0) {
                     return;
                 }
-                if (var_83[var_1641][30] >= 1 && var_119 == 0 && var_83[var_1641][0] == 118 && var_83[var_1641][21] == 1 && var_411 < 6) {
+                if (var_83[var_1641].Var30 >= 1 && var_119 == 0 && var_83[var_1641].Var0 == 118 && var_83[var_1641].Var21 == 1 && var_411 < 6) {
                     return;
                 }
-                if (var_83[var_1641][0] == 50) {
+                if (var_83[var_1641].Var0 == 50) {
                     return;
                 }
-                if (var_83[var_1641][0] == 115 || var_83[var_1641][0] == 43 || var_83[var_1641][0] == 19 || var_83[var_1641][0] == 90 || var_83[var_1641][0] == 23 || var_83[var_1641][0] == 27 || var_83[var_1641][0] == 170) {
+                if (var_83[var_1641].Var0 == 115 || var_83[var_1641].Var0 == 43 || var_83[var_1641].Var0 == 19 || var_83[var_1641].Var0 == 90 || var_83[var_1641].Var0 == 23 || var_83[var_1641].Var0 == 27 || var_83[var_1641].Var0 == 170) {
                     return;
                 }
-                if (var_83[var_1641][8] == 1 && var_1238 >= 22 && var_1238 < 75) {
+                if (var_83[var_1641].Var8 == 1 && var_1238 >= 22 && var_1238 < 75) {
                     return;
                 }
-                if (var_83[var_1641][11] >= 1) {
+                if (var_83[var_1641].Var11 >= 1) {
                     return;
                 }
-                if (var_83[var_1641][0] == 13 || var_83[var_1641][0] == 26 || var_83[var_1641][0] == 74 || var_83[var_1641][0] == 75 || var_83[var_1641][0] == 40 || var_83[var_1641][0] == 54 || var_83[var_1641][0] == 151 || var_83[var_1641][0] == 172) {
+                if (var_83[var_1641].Var0 == 13 || var_83[var_1641].Var0 == 26 || var_83[var_1641].Var0 == 74 || var_83[var_1641].Var0 == 75 || var_83[var_1641].Var0 == 40 || var_83[var_1641].Var0 == 54 || var_83[var_1641].Var0 == 151 || var_83[var_1641].Var0 == 172) {
                     gcopy(3, 1440, 0, 40, 45);
                     return;
                 }
-                if (var_83[var_1641][0] == 7) {
+                if (var_83[var_1641].Var0 == 7) {
                     gcopy(3, 1280, 80, 40, 45);
                     return;
                 }
-                if (var_83[var_1641][0] == 17 || var_83[var_1641][0] == 37 || var_83[var_1641][0] == 166) {
+                if (var_83[var_1641].Var0 == 17 || var_83[var_1641].Var0 == 37 || var_83[var_1641].Var0 == 166) {
                     gcopy(3, 1400, 0, 40, 40);
                     return;
                 }
-                if (var_83[var_1641][0] == 118) {
-                    if (var_83[var_1641][21] == 0) {
+                if (var_83[var_1641].Var0 == 118) {
+                    if (var_83[var_1641].Var21 == 0) {
                         gcopy(3, 1560, 0, 40, 45);
                     }
-                    if (var_83[var_1641][21] == 1 && var_411 < 6) {
+                    if (var_83[var_1641].Var21 == 1 && var_411 < 6) {
                         gcopy(3, 1560, 0, 40, 45);
                     }
-                    if (var_83[var_1641][21] == 1 && var_411 >= 6 && var_411 <= 7) {
+                    if (var_83[var_1641].Var21 == 1 && var_411 >= 6 && var_411 <= 7) {
                         gmode(2);
                         gcopy(3, 1400, 80, 40, 45);
                     }
-                    if (var_83[var_1641][21] == 1 && var_411 == 8) {
+                    if (var_83[var_1641].Var21 == 1 && var_411 == 8) {
                         color(0, 0, 0);
                         gmode(4, null, null, 150);
                         gcopy(3, 1400, 80, 40, 45);
@@ -20539,25 +20539,25 @@ function func567() {
                 gcopy(3, 1560, 0, 40, 45);
                 return;
             }
-            if (var_83[var_1641][30] >= 1 && var_83[var_1641][8] == 0) {
-                if (var_83[var_1641][0] != 85 && var_119 == 0 && var_270 != 166) {
+            if (var_83[var_1641].Var30 >= 1 && var_83[var_1641].Var8 == 0) {
+                if (var_83[var_1641].Var0 != 85 && var_119 == 0 && var_270 != 166) {
                     return;
                 }
-                if (var_83[var_1641][0] == 85 && var_140 == 0 && var_119 == 0 && var_156[320] == 0 && var_270 != 166) {
+                if (var_83[var_1641].Var0 == 85 && var_140 == 0 && var_119 == 0 && var_156[320] == 0 && var_270 != 166) {
                     return;
                 }
             }
-            if (var_83[var_1641][11] == 1) {
+            if (var_83[var_1641].Var11 == 1) {
                 return;
             }
             gmode(2);
-            if (var_83[var_1641][30] >= 1) {
+            if (var_83[var_1641].Var30 >= 1) {
                 color(0, 0, 0);
                 gmode(4, null, null, 100);
             }
-            if (var_83[var_1641][11] == 2) {
-                var_764 = var_83[var_1641][35] - var_66 + 4;
-                var_763 = var_83[var_1641][36] - var_67 + 4;
+            if (var_83[var_1641].Var11 == 2) {
+                var_764 = var_83[var_1641].Var35 - var_66 + 4;
+                var_763 = var_83[var_1641].Var36 - var_67 + 4;
                 if (var_199 == 4) {
                     pos(var_764 * var_35 - var_2577, var_763 * var_36 - 10);
                 }
@@ -20599,7 +20599,7 @@ function func567() {
                 }
                 return;
             }
-            if (var_83[var_1641][21] == 1) {
+            if (var_83[var_1641].Var21 == 1) {
                 if (var_411 == 0) {
                     return;
                 }
@@ -20630,63 +20630,63 @@ function func567() {
                 yield func568();
                 return;
             }
-            if (var_83[var_1641][8] == 1) {
-                if (var_83[var_1641][5] == 6) {
+            if (var_83[var_1641].Var8 == 1) {
+                if (var_83[var_1641].Var5 == 6) {
                     gcopy(var_965, 1080, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 4) {
+                if (var_83[var_1641].Var5 == 4) {
                     gcopy(var_965, 1000, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 2) {
+                if (var_83[var_1641].Var5 == 2) {
                     gcopy(var_965, 960, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 8) {
+                if (var_83[var_1641].Var5 == 8) {
                     gcopy(var_965, 1040, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 9) {
+                if (var_83[var_1641].Var5 == 9) {
                     gcopy(var_965, 1240, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 7) {
+                if (var_83[var_1641].Var5 == 7) {
                     gcopy(var_965, 1160, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 3) {
+                if (var_83[var_1641].Var5 == 3) {
                     gcopy(var_965, 1200, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 1) {
+                if (var_83[var_1641].Var5 == 1) {
                     gcopy(var_965, 1120, var_966 * 40, 40, 40);
                 }
                 yield func568();
                 return;
             }
-            if (var_83[var_1641][8] == 2) {
-                if (var_83[var_1641][5] == 6) {
+            if (var_83[var_1641].Var8 == 2) {
+                if (var_83[var_1641].Var5 == 6) {
                     gcopy(var_965, 1080, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 4) {
+                if (var_83[var_1641].Var5 == 4) {
                     gcopy(var_965, 1000, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 2) {
+                if (var_83[var_1641].Var5 == 2) {
                     gcopy(var_965, 960, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 8) {
+                if (var_83[var_1641].Var5 == 8) {
                     gcopy(var_965, 1040, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 9) {
+                if (var_83[var_1641].Var5 == 9) {
                     gcopy(var_965, 1240, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 7) {
+                if (var_83[var_1641].Var5 == 7) {
                     gcopy(var_965, 1160, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 3) {
+                if (var_83[var_1641].Var5 == 3) {
                     gcopy(var_965, 1200, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][5] == 1) {
+                if (var_83[var_1641].Var5 == 1) {
                     gcopy(var_965, 1120, var_966 * 40, 40, 40);
                 }
                 yield func568();
                 return;
             }
-            if (var_83[var_1641][12] >= 1) {
+            if (var_83[var_1641].Var12 >= 1) {
                 if (var_1640 == 8) {
                     gcopy(var_965, 280, var_966 * 40, 40, 40);
                 }
@@ -20711,7 +20711,7 @@ function func567() {
                 if (var_1640 == 9) {
                     gcopy(var_965, 880, var_966 * 40, 40, 40);
                 }
-                if (var_83[var_1641][12] == 99 || var_83[var_1641][12] == 1) {
+                if (var_83[var_1641].Var12 == 99 || var_83[var_1641].Var12 == 1) {
                     if (var_1164 >= 0 && var_1164 < 2) {
                         gcopy(3, 360, 320, 40, 40);
                     }
@@ -20722,7 +20722,7 @@ function func567() {
                         gcopy(3, 440, 320, 40, 40);
                     }
                 }
-                if (var_83[var_1641][12] != 99 && var_83[var_1641][12] != 1) {
+                if (var_83[var_1641].Var12 != 99 && var_83[var_1641].Var12 != 1) {
                     if (var_1164 >= 0 && var_1164 < 2) {
                         gcopy(3, 480, 320, 40, 40);
                     }
@@ -20736,7 +20736,7 @@ function func567() {
                 yield func568();
                 return;
             }
-            if (var_83[var_1641][13] >= 1) {
+            if (var_83[var_1641].Var13 >= 1) {
                 if (var_1640 == 8) {
                     gcopy(var_965, 280, var_966 * 40, 40, 40);
                 }
@@ -20776,7 +20776,7 @@ function func567() {
             var_2602 = 9;
             var_2603 = 10;
             var_2604 = 11;
-            if (var_83[var_1641][15] >= 1) {
+            if (var_83[var_1641].Var15 >= 1) {
                 var_2593 = 0;
                 var_2594 = 1;
                 var_2595 = 6;
@@ -20790,7 +20790,7 @@ function func567() {
                 var_2603 = 8;
                 var_2604 = 11;
             }
-            if (var_83[var_1641][0] == 10 && var_83[var_1641][14] == 0 && var_83[var_1641][20] == 0 && var_157 != 0) {
+            if (var_83[var_1641].Var0 == 10 && var_83[var_1641].Var14 == 0 && var_83[var_1641].Var20 == 0 && var_157 != 0) {
                 var_2593 = 0;
                 var_2594 = 1;
                 var_2595 = 6;
@@ -20804,7 +20804,7 @@ function func567() {
                 var_2603 = 8;
                 var_2604 = 11;
             }
-            if (var_83[var_1641][0] == 17 || var_83[var_1641][0] == 29 || var_83[var_1641][0] == 42 || var_83[var_1641][0] == 48 || var_83[var_1641][0] == 60 || var_83[var_1641][0] == 108 || var_83[var_1641][0] == 118 || var_83[var_1641][0] == 96) {
+            if (var_83[var_1641].Var0 == 17 || var_83[var_1641].Var0 == 29 || var_83[var_1641].Var0 == 42 || var_83[var_1641].Var0 == 48 || var_83[var_1641].Var0 == 60 || var_83[var_1641].Var0 == 108 || var_83[var_1641].Var0 == 118 || var_83[var_1641].Var0 == 96) {
                 var_2593 = 0;
                 var_2594 = 1;
                 var_2595 = 6;
@@ -20817,7 +20817,7 @@ function func567() {
                 var_2602 = 11;
                 var_2603 = 8;
                 var_2604 = 9;
-                if (var_83[var_1641][15] >= 1) {
+                if (var_83[var_1641].Var15 >= 1) {
                     var_2593 = 0;
                     var_2594 = 3;
                     var_2595 = 6;
@@ -20832,7 +20832,7 @@ function func567() {
                     var_2604 = 10;
                 }
             }
-            if (var_83[var_1641][0] == 88 || var_83[var_1641][0] == 115 || var_83[var_1641][0] == 170) {
+            if (var_83[var_1641].Var0 == 88 || var_83[var_1641].Var0 == 115 || var_83[var_1641].Var0 == 170) {
                 var_2593 = 0;
                 var_2594 = 1;
                 var_2595 = 2;
@@ -20845,7 +20845,7 @@ function func567() {
                 var_2602 = 11;
                 var_2603 = 6;
                 var_2604 = 7;
-                if (var_83[var_1641][15] >= 1) {
+                if (var_83[var_1641].Var15 >= 1) {
                     var_2593 = 0;
                     var_2594 = 1;
                     var_2595 = 6;
@@ -20860,11 +20860,11 @@ function func567() {
                     var_2604 = 9;
                 }
             }
-            var_2605 = var_83[var_1641][32];
-            if (var_83[var_1641][32] == 99) {
+            var_2605 = var_83[var_1641].Var32;
+            if (var_83[var_1641].Var32 == 99) {
                 var_2605 = 0;
             }
-            if (var_83[var_1641][7] == 0) {
+            if (var_83[var_1641].Var7 == 0) {
                 if (var_1640 == 8) {
                     if (var_2605 == var_2593 || var_2605 == var_2594 || var_2605 == var_2595 || var_2605 == var_2596) {
                         gcopy(var_965, 240, var_966 * 40, 40, 40);
@@ -20954,7 +20954,7 @@ function func567() {
                     }
                 }
             }
-            if (var_83[var_1641][7] == 1) {
+            if (var_83[var_1641].Var7 == 1) {
                 if (var_742 <= 3) {
                     var_2606 = 1;
                 }
@@ -20964,35 +20964,35 @@ function func567() {
                 if (var_742 >= 5) {
                     var_2606 = 3;
                 }
-                if (var_83[var_1641][0] == 136 && var_1198 >= 1) {
-                    if (var_83[var_1641][5] == 2) {
+                if (var_83[var_1641].Var0 == 136 && var_1198 >= 1) {
+                    if (var_83[var_1641].Var5 == 2) {
                         gcopy(var_1826, 960, var_966 * 40, 40, 40);
                     }
-                    if (var_83[var_1641][5] == 4) {
+                    if (var_83[var_1641].Var5 == 4) {
                         gcopy(var_1826, 1000, var_966 * 40, 40, 40);
                     }
-                    if (var_83[var_1641][5] == 8) {
+                    if (var_83[var_1641].Var5 == 8) {
                         gcopy(var_1826, 1040, var_966 * 40, 40, 40);
                     }
-                    if (var_83[var_1641][5] == 6) {
+                    if (var_83[var_1641].Var5 == 6) {
                         gcopy(var_1826, 1080, var_966 * 40, 40, 40);
                     }
-                    if (var_83[var_1641][5] == 1) {
+                    if (var_83[var_1641].Var5 == 1) {
                         gcopy(var_1826, 1120, var_966 * 40, 40, 40);
                     }
-                    if (var_83[var_1641][5] == 7) {
+                    if (var_83[var_1641].Var5 == 7) {
                         gcopy(var_1826, 1160, var_966 * 40, 40, 40);
                     }
-                    if (var_83[var_1641][5] == 3) {
+                    if (var_83[var_1641].Var5 == 3) {
                         gcopy(var_1826, 1200, var_966 * 40, 40, 40);
                     }
-                    if (var_83[var_1641][5] == 9) {
+                    if (var_83[var_1641].Var5 == 9) {
                         gcopy(var_1826, 1240, var_966 * 40, 40, 40);
                     }
                     yield func568();
                     return;
                 }
-                if (var_83[var_1641][0] == 136) {
+                if (var_83[var_1641].Var0 == 136) {
                     if (var_742 <= 2) {
                         var_2606 = 1;
                     }
@@ -21010,7 +21010,7 @@ function func567() {
                         var_1826 = var_965;
                     }
                 }
-                if (var_83[var_1641][0] == 22 || var_83[var_1641][0] == 17 || var_83[var_1641][0] == 71) {
+                if (var_83[var_1641].Var0 == 22 || var_83[var_1641].Var0 == 17 || var_83[var_1641].Var0 == 71) {
                     if (var_742 <= 3) {
                         var_2606 = 1;
                     }
@@ -21021,7 +21021,7 @@ function func567() {
                         var_2606 = 3;
                     }
                 }
-                if (var_83[var_1641][0] == 140) {
+                if (var_83[var_1641].Var0 == 140) {
                     if (var_742 <= 3) {
                         var_2606 = 1;
                     }
@@ -21035,7 +21035,7 @@ function func567() {
                         var_2606 = 1;
                     }
                 }
-                if (var_83[var_1641][0] == 168) {
+                if (var_83[var_1641].Var0 == 168) {
                     if (var_742 <= 3) {
                         var_2606 = 1;
                     }
@@ -21049,7 +21049,7 @@ function func567() {
                         var_2606 = 1;
                     }
                 }
-                if (var_83[var_1641][0] == 39 || var_83[var_1641][0] == 3) {
+                if (var_83[var_1641].Var0 == 39 || var_83[var_1641].Var0 == 3) {
                     if (var_742 <= 3) {
                         var_2606 = 1;
                     }
@@ -21063,7 +21063,7 @@ function func567() {
                         var_2606 = 1;
                     }
                 }
-                if (var_83[var_1641][0] == 34) {
+                if (var_83[var_1641].Var0 == 34) {
                     if (var_742 == 1 || var_742 == 3 || var_742 == 5) {
                         var_2606 = 1;
                     }
@@ -21074,7 +21074,7 @@ function func567() {
                         var_2606 = 3;
                     }
                 }
-                if (var_83[var_1641][0] == 29) {
+                if (var_83[var_1641].Var0 == 29) {
                     if (var_742 <= 5) {
                         var_2606 = 1;
                     }
@@ -21088,7 +21088,7 @@ function func567() {
                         var_2606 = 2;
                     }
                 }
-                if (var_83[var_1641][0] == 141) {
+                if (var_83[var_1641].Var0 == 141) {
                     if (var_742 <= 2) {
                         var_2606 = 1;
                     }
@@ -21105,7 +21105,7 @@ function func567() {
                         var_2606 = 1;
                     }
                 }
-                if (var_83[var_1641][0] == 51) {
+                if (var_83[var_1641].Var0 == 51) {
                     if (var_742 <= 4) {
                         var_2606 = 1;
                     }
@@ -21119,7 +21119,7 @@ function func567() {
                         var_2606 = 1;
                     }
                 }
-                if (var_83[var_1641][0] == 135) {
+                if (var_83[var_1641].Var0 == 135) {
                     if (var_742 <= 3) {
                         var_2606 = 1;
                     }
@@ -21133,7 +21133,7 @@ function func567() {
                         var_2606 = 1;
                     }
                 }
-                if (var_83[var_1641][0] == 44) {
+                if (var_83[var_1641].Var0 == 44) {
                     if (var_742 == 1 || var_742 == 2) {
                         var_2606 = 1;
                     }
@@ -21147,7 +21147,7 @@ function func567() {
                         var_2606 = 1;
                     }
                 }
-                if (var_83[var_1641][0] == 56) {
+                if (var_83[var_1641].Var0 == 56) {
                     if (var_742 == 1 || var_742 == 3 || var_742 == 5 || var_742 == 7 || var_742 == 9 || var_742 == 11 || var_742 == 13) {
                         var_2606 = 3;
                     }
@@ -21155,7 +21155,7 @@ function func567() {
                         var_2606 = 2;
                     }
                 }
-                if (var_83[var_1641][0] == 48) {
+                if (var_83[var_1641].Var0 == 48) {
                     if (var_742 == 1 || var_742 == 4 || var_742 == 7 || var_742 == 10) {
                         var_2606 = 1;
                     }
@@ -21166,7 +21166,7 @@ function func567() {
                         var_2606 = 3;
                     }
                 }
-                if (var_83[var_1641][0] == 46 || var_83[var_1641][0] == 30) {
+                if (var_83[var_1641].Var0 == 46 || var_83[var_1641].Var0 == 30) {
                     if (var_742 == 1) {
                         var_2606 = 1;
                     }
@@ -21177,7 +21177,7 @@ function func567() {
                         var_2606 = 3;
                     }
                 }
-                if (var_83[var_1641][0] == 21) {
+                if (var_83[var_1641].Var0 == 21) {
                     if (var_742 == 1) {
                         var_2606 = 1;
                     }
@@ -21188,7 +21188,7 @@ function func567() {
                         var_2606 = 3;
                     }
                 }
-                if (var_83[var_1641][0] == 164 || var_83[var_1641][0] == 165) {
+                if (var_83[var_1641].Var0 == 164 || var_83[var_1641].Var0 == 165) {
                     if (var_742 == 1) {
                         var_2606 = 1;
                         color(0, 0, 0);
@@ -21325,7 +21325,7 @@ function func567() {
                 }
             }
             yield func568();
-            if (var_743 == 1 && var_83[var_1641][7] == 1) {
+            if (var_743 == 1 && var_83[var_1641].Var7 == 1) {
                 var_1281 = 0;
                 if (var_742 == 1) {
                     var_1281 = 8;
@@ -21366,7 +21366,7 @@ function func567() {
                 if (var_1640 == 9) {
                     pos(var_764 * var_35 + 20 - var_1281, var_763 * var_36 - 20 - 10 + var_1281);
                 }
-                if (var_83[var_1641][0] == 87) {
+                if (var_83[var_1641].Var0 == 87) {
                     if (var_1640 == 4) {
                         pos(var_764 * var_35 - 20 + var_1281 - 12, var_763 * var_36 - 10);
                     }
@@ -21392,121 +21392,121 @@ function func567() {
                         pos(var_764 * var_35 + 20 - var_1281 + 15, var_763 * var_36 - 20 - 10 + var_1281 - 5);
                     }
                 }
-                if (var_83[var_1641][0] == 4) {
+                if (var_83[var_1641].Var0 == 4) {
                     var_1291 = 7;
                 }
-                if (var_83[var_1641][0] == 145) {
+                if (var_83[var_1641].Var0 == 145) {
                     var_1291 = 2;
                 }
-                if (var_83[var_1641][0] == 150) {
+                if (var_83[var_1641].Var0 == 150) {
                     var_1291 = 2;
                 }
-                if (var_83[var_1641][0] == 32) {
+                if (var_83[var_1641].Var0 == 32) {
                     var_1291 = 14;
                 }
-                if (var_83[var_1641][0] == 137) {
+                if (var_83[var_1641].Var0 == 137) {
                     var_1291 = 14;
                 }
-                if (var_83[var_1641][0] == 144) {
+                if (var_83[var_1641].Var0 == 144) {
                     var_1291 = 14;
                 }
-                if (var_83[var_1641][0] == 35) {
+                if (var_83[var_1641].Var0 == 35) {
                     var_1291 = 8;
                 }
-                if (var_83[var_1641][0] == 68) {
+                if (var_83[var_1641].Var0 == 68) {
                     var_1291 = 8;
                 }
-                if (var_83[var_1641][0] == 47) {
+                if (var_83[var_1641].Var0 == 47) {
                     var_1291 = 6;
                 }
-                if (var_83[var_1641][0] == 67) {
+                if (var_83[var_1641].Var0 == 67) {
                     var_1291 = 6;
                 }
-                if (var_83[var_1641][0] == 59) {
+                if (var_83[var_1641].Var0 == 59) {
                     var_1291 = 16;
                 }
-                if (var_83[var_1641][0] == 113) {
+                if (var_83[var_1641].Var0 == 113) {
                     var_1291 = 13;
                 }
-                if (var_83[var_1641][0] == 114) {
+                if (var_83[var_1641].Var0 == 114) {
                     var_1291 = 13;
                 }
-                if (var_83[var_1641][0] == 14) {
+                if (var_83[var_1641].Var0 == 14) {
                     var_1291 = 20;
                 }
-                if (var_83[var_1641][0] == 66) {
+                if (var_83[var_1641].Var0 == 66) {
                     var_1291 = 20;
                 }
-                if (var_83[var_1641][0] == 60) {
+                if (var_83[var_1641].Var0 == 60) {
                     var_1291 = 20;
                 }
-                if (var_83[var_1641][0] == 131) {
+                if (var_83[var_1641].Var0 == 131) {
                     var_1291 = 17;
                 }
-                if (var_83[var_1641][0] == 132) {
+                if (var_83[var_1641].Var0 == 132) {
                     var_1291 = 37;
                 }
-                if (var_83[var_1641][0] == 78) {
+                if (var_83[var_1641].Var0 == 78) {
                     var_1291 = 12;
                 }
-                if (var_83[var_1641][0] == 108) {
+                if (var_83[var_1641].Var0 == 108) {
                     var_1291 = 36;
                 }
-                if (var_83[var_1641][0] == 119) {
+                if (var_83[var_1641].Var0 == 119) {
                     var_1291 = 18;
                 }
-                if (var_83[var_1641][0] == 147) {
+                if (var_83[var_1641].Var0 == 147) {
                     var_1291 = 18;
                 }
-                if (var_83[var_1641][0] == 122) {
+                if (var_83[var_1641].Var0 == 122) {
                     var_1291 = 4;
                 }
-                if (var_83[var_1641][0] == 129) {
+                if (var_83[var_1641].Var0 == 129) {
                     var_1291 = 4;
                 }
-                if (var_83[var_1641][0] == 125) {
+                if (var_83[var_1641].Var0 == 125) {
                     var_1291 = 27;
                 }
-                if (var_83[var_1641][0] == 120) {
+                if (var_83[var_1641].Var0 == 120) {
                     var_1291 = 5;
                 }
-                if (var_83[var_1641][0] == 128) {
+                if (var_83[var_1641].Var0 == 128) {
                     var_1291 = 5;
                 }
-                if (var_83[var_1641][0] == 134) {
+                if (var_83[var_1641].Var0 == 134) {
                     var_1291 = 26;
                 }
-                if (var_83[var_1641][0] == 98) {
+                if (var_83[var_1641].Var0 == 98) {
                     var_1291 = 35;
                 }
-                if (var_83[var_1641][0] == 123) {
+                if (var_83[var_1641].Var0 == 123) {
                     var_1291 = 11;
                 }
-                if (var_83[var_1641][0] == 148) {
+                if (var_83[var_1641].Var0 == 148) {
                     var_1291 = 41;
                 }
-                if (var_83[var_1641][0] == 80) {
+                if (var_83[var_1641].Var0 == 80) {
                     var_1291 = 42;
                 }
-                if (var_83[var_1641][0] == 152) {
+                if (var_83[var_1641].Var0 == 152) {
                     var_1291 = 25;
                 }
-                if (var_83[var_1641][0] == 156) {
+                if (var_83[var_1641].Var0 == 156) {
                     var_1291 = 35;
                 }
-                if (var_83[var_1641][0] == 159) {
+                if (var_83[var_1641].Var0 == 159) {
                     var_1291 = 46;
                 }
-                if (var_83[var_1641][0] == 157) {
+                if (var_83[var_1641].Var0 == 157) {
                     var_1291 = 23;
                 }
-                if (var_83[var_1641][0] == 63) {
+                if (var_83[var_1641].Var0 == 63) {
                     var_1291 = 31;
                 }
-                if (var_83[var_1641][0] == 49) {
+                if (var_83[var_1641].Var0 == 49) {
                     var_1291 = 3;
                 }
-                if (var_83[var_1641][0] == 87) {
+                if (var_83[var_1641].Var0 == 87) {
                     var_1291 = 52;
                 }
                 if (var_1291 != 20) {
@@ -21696,8 +21696,8 @@ function func567() {
 function func568() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(568);
-        if (var_83[var_1641][31] == 5) {
-            if (var_83[var_1641][0] == 17 || var_83[var_1641][0] == 6) {
+        if (var_83[var_1641].Var31 == 5) {
+            if (var_83[var_1641].Var0 == 17 || var_83[var_1641].Var0 == 6) {
                 if (var_1164 >= 0 && var_1164 < 2) {
                     gcopy(3, 760, 680, 40, 40);
                 }
@@ -21709,8 +21709,8 @@ function func568() {
                 }
             }
         }
-        if (var_83[var_1641][14] != 0 && var_83[var_1641][0] != 23 && var_83[var_1641][0] != 53 && var_83[var_1641][0] != 90 && var_83[var_1641][0] != 147 && var_83[var_1641][0] != 50 && var_83[var_1641][0] != 170) {
-            if (var_83[var_1641][31] != 4 || var_83[var_1641][0] == 33) {
+        if (var_83[var_1641].Var14 != 0 && var_83[var_1641].Var0 != 23 && var_83[var_1641].Var0 != 53 && var_83[var_1641].Var0 != 90 && var_83[var_1641].Var0 != 147 && var_83[var_1641].Var0 != 50 && var_83[var_1641].Var0 != 170) {
+            if (var_83[var_1641].Var31 != 4 || var_83[var_1641].Var0 == 33) {
                 if (var_1164 >= 0 && var_1164 < 2) {
                     gcopy(3, 120, 320, 40, 40);
                 }
@@ -21722,7 +21722,7 @@ function func568() {
                 }
             }
         }
-        if (var_83[var_1641][17] >= 1 && var_83[var_1641][0] != 23 && var_83[var_1641][0] != 53 && var_83[var_1641][0] != 75 && var_83[var_1641][0] != 90 && var_83[var_1641][0] != 50) {
+        if (var_83[var_1641].Var17 >= 1 && var_83[var_1641].Var0 != 23 && var_83[var_1641].Var0 != 53 && var_83[var_1641].Var0 != 75 && var_83[var_1641].Var0 != 90 && var_83[var_1641].Var0 != 50) {
             if (var_1164 >= 0 && var_1164 < 2) {
                 gcopy(3, 240, 320, 40, 40);
             }
@@ -21733,7 +21733,7 @@ function func568() {
                 gcopy(3, 320, 320, 40, 40);
             }
         }
-        if (var_83[var_1641][19] == 1 && var_83[var_1641][0] != 23 && var_83[var_1641][0] != 53 && var_83[var_1641][0] != 50) {
+        if (var_83[var_1641].Var19 == 1 && var_83[var_1641].Var0 != 23 && var_83[var_1641].Var0 != 53 && var_83[var_1641].Var0 != 50) {
             if (var_1164 >= 0 && var_1164 < 2) {
                 gcopy(3, 640, 280, 40, 40);
             }
@@ -21744,7 +21744,7 @@ function func568() {
                 gcopy(3, 720, 280, 40, 40);
             }
         }
-        if (var_83[var_1641][20] == 1) {
+        if (var_83[var_1641].Var20 == 1) {
             if (var_1164 >= 0 && var_1164 < 2) {
                 gcopy(3, 880, 480, 40, 40);
             }
@@ -21755,7 +21755,7 @@ function func568() {
                 gcopy(3, 960, 480, 40, 40);
             }
         }
-        if (var_83[var_1641][20] == 2) {
+        if (var_83[var_1641].Var20 == 2) {
             if (var_1164 >= 0 && var_1164 < 2) {
                 gcopy(3, 880, 520, 40, 40);
             }
@@ -21766,75 +21766,75 @@ function func568() {
                 gcopy(3, 960, 520, 40, 40);
             }
         }
-        if (var_83[var_1641][23] != 0 && var_83[var_1641][0] != 23 && var_83[var_1641][0] != 53 && var_83[var_1641][0] != 90 && var_83[var_1641][0] != 118 && var_83[var_1641][0] != 50) {
+        if (var_83[var_1641].Var23 != 0 && var_83[var_1641].Var0 != 23 && var_83[var_1641].Var0 != 53 && var_83[var_1641].Var0 != 90 && var_83[var_1641].Var0 != 118 && var_83[var_1641].Var0 != 50) {
             color(0, 0, 0);
             gmode(4, null, null, 100);
             gcopy(3, 960, 320, 40, 40);
             gmode(2);
         }
-        if (var_83[var_1641][13] != 0 && var_83[var_1641][13] != 99 && var_83[var_1641][0] != 50) {
+        if (var_83[var_1641].Var13 != 0 && var_83[var_1641].Var13 != 99 && var_83[var_1641].Var0 != 50) {
             color(0, 0, 0);
             gmode(4, null, null, 170);
             gcopy(3, 40, 360, 40, 40);
             gmode(2);
         }
-        if (var_83[var_1641][39] >= 2 || var_83[var_1641][24] >= 1) {
+        if (var_83[var_1641].Var39 >= 2 || var_83[var_1641].Var24 >= 1) {
             var_1274 = ginfo(22);
             var_1275 = ginfo(23);
         }
-        if (var_62 == 5 && var_83[var_1641][16] >= 1000 && var_83[var_1641][13] == 0) {
+        if (var_62 == 5 && var_83[var_1641].Var16 >= 1000 && var_83[var_1641].Var13 == 0) {
             var_1274 = ginfo(22);
             var_1275 = ginfo(23);
             pos(var_1274 - 12, var_1275 - 10 - 12);
             color(0, 0, 0);
             gmode(4, null, null, 150);
-            if (var_83[var_1641][32] == 0 || var_83[var_1641][32] == 1 || var_83[var_1641][32] == 2) {
+            if (var_83[var_1641].Var32 == 0 || var_83[var_1641].Var32 == 1 || var_83[var_1641].Var32 == 2) {
                 gcopy(35, 0, 1024, 64, 64);
             }
-            if (var_83[var_1641][32] == 3 || var_83[var_1641][32] == 4 || var_83[var_1641][32] == 5) {
+            if (var_83[var_1641].Var32 == 3 || var_83[var_1641].Var32 == 4 || var_83[var_1641].Var32 == 5) {
                 gcopy(35, 64, 1024, 64, 64);
             }
-            if (var_83[var_1641][32] == 6 || var_83[var_1641][32] == 7 || var_83[var_1641][32] == 8) {
+            if (var_83[var_1641].Var32 == 6 || var_83[var_1641].Var32 == 7 || var_83[var_1641].Var32 == 8) {
                 gcopy(35, 128, 1024, 64, 64);
             }
-            if (var_83[var_1641][32] == 9 || var_83[var_1641][32] == 10 || var_83[var_1641][32] == 11 || var_83[var_1641][32] == 99) {
+            if (var_83[var_1641].Var32 == 9 || var_83[var_1641].Var32 == 10 || var_83[var_1641].Var32 == 11 || var_83[var_1641].Var32 == 99) {
                 gcopy(35, 192, 1024, 64, 64);
             }
         }
-        if (var_83[var_1641][39] >= 2 && var_83[var_1641][0] != 50) {
+        if (var_83[var_1641].Var39 >= 2 && var_83[var_1641].Var0 != 50) {
             font("MS ゴシック", 16, 1);
-            if (var_83[var_1641][39] < 10) {
+            if (var_83[var_1641].Var39 < 10) {
                 var_2607 = var_1274 + 30;
                 var_2608 = var_1275 + 24;
             }
-            if (var_83[var_1641][39] >= 10 && var_83[var_1641][39] < 100) {
+            if (var_83[var_1641].Var39 >= 10 && var_83[var_1641].Var39 < 100) {
                 var_2607 = var_1274 + 20;
                 var_2608 = var_1275 + 24;
                 font("MS ゴシック", 16, 1);
             }
-            if (var_83[var_1641][39] >= 100) {
+            if (var_83[var_1641].Var39 >= 100) {
                 var_2607 = var_1274 + 10;
                 var_2608 = var_1275 + 24;
                 font("MS ゴシック", 16, 1);
             }
             color(1, 1, 1);
             pos(var_2607 - 1, var_2608);
-            mes(var_83[var_1641][39]);
+            mes(var_83[var_1641].Var39);
             pos(var_2607 + 1, var_2608);
-            mes(var_83[var_1641][39]);
+            mes(var_83[var_1641].Var39);
             pos(var_2607, var_2608 - 1);
-            mes(var_83[var_1641][39]);
+            mes(var_83[var_1641].Var39);
             pos(var_2607, var_2608 + 1);
-            mes(var_83[var_1641][39]);
+            mes(var_83[var_1641].Var39);
             color(255, 255, 255);
             pos(var_2607, var_2608);
-            mes(var_83[var_1641][39]);
+            mes(var_83[var_1641].Var39);
         }
-        if (var_83[var_1641][24] >= 1) {
+        if (var_83[var_1641].Var24 >= 1) {
             font("MS ゴシック", 16, 1);
             var_2609 = var_1274 + 16;
             var_2610 = var_1275 - 10;
-            var_1276 = var_83[var_1641][24];
+            var_1276 = var_83[var_1641].Var24;
             if (var_1276 == 10) {
                 var_2609 = var_2609 - 5;
             }
@@ -21857,63 +21857,63 @@ function func568() {
 function func569() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(569);
-        if (var_83[var_2611][9] == 1) {
+        if (var_83[var_2611].Var9 == 1) {
             return;
         }
-        if (var_83[var_2611][18] >= 1) {
+        if (var_83[var_2611].Var18 >= 1) {
             return;
         }
-        var_423 = var_83[var_2611][1];
-        var_424 = var_83[var_2611][2];
-        var_2612 = var_83[var_2611][1];
-        var_2613 = var_83[var_2611][2];
+        var_423 = var_83[var_2611].Var1;
+        var_424 = var_83[var_2611].Var2;
+        var_2612 = var_83[var_2611].Var1;
+        var_2613 = var_83[var_2611].Var2;
         var_2614 = var_82[var_423][var_424];
-        var_2615 = var_83[var_2611][5];
+        var_2615 = var_83[var_2611].Var5;
         var_610 = 0;
         var_2616 = 0;
         var_2617 = 0;
         var_2618 = 0;
-        if (var_83[var_2611][28] >= 1) {
+        if (var_83[var_2611].Var28 >= 1) {
             var_2616 = 1;
-            var_83[var_2611][28] = var_83[var_2611][28] - 1;
+            var_83[var_2611].Var28 = var_83[var_2611].Var28 - 1;
         }
-        if (var_83[var_2611][9] == 1) {
-            var_2616 = 1;
-        }
-        if (var_83[var_2611][13] >= 1) {
+        if (var_83[var_2611].Var9 == 1) {
             var_2616 = 1;
         }
-        if (var_83[var_2611][18] >= 1) {
+        if (var_83[var_2611].Var13 >= 1) {
             var_2616 = 1;
         }
-        if (var_83[var_2611][31] == 4 && var_313 == var_2611) {
+        if (var_83[var_2611].Var18 >= 1) {
+            var_2616 = 1;
+        }
+        if (var_83[var_2611].Var31 == 4 && var_313 == var_2611) {
             var_313 = 0;
             var_2616 = 1;
         }
-        if (var_83[var_2611][31] == 5 && var_313 == var_2611) {
+        if (var_83[var_2611].Var31 == 5 && var_313 == var_2611) {
             var_313 = 0;
             var_2616 = 1;
         }
-        if (var_83[var_2611][0] == 61 && var_313 == var_2611) {
+        if (var_83[var_2611].Var0 == 61 && var_313 == var_2611) {
             var_313 = 0;
             var_2616 = 1;
         }
-        if (var_83[var_2611][0] == 116 && var_313 == var_2611) {
+        if (var_83[var_2611].Var0 == 116 && var_313 == var_2611) {
             var_313 = 0;
             var_2616 = 1;
         }
-        if (var_83[var_2611][20] == 2 && var_313 == var_2611) {
+        if (var_83[var_2611].Var20 == 2 && var_313 == var_2611) {
             var_313 = 0;
             var_2616 = 1;
         }
-        if (var_83[var_2611][14] == 1 && var_83[var_2611][15] == 0) {
+        if (var_83[var_2611].Var14 == 1 && var_83[var_2611].Var15 == 0) {
             var_2616 = 1;
         }
-        if (var_157 == 1 && var_83[var_2611][15] == 0) {
-            if (var_83[var_2611][0] != 10) {
+        if (var_157 == 1 && var_83[var_2611].Var15 == 0) {
+            if (var_83[var_2611].Var0 != 10) {
                 var_2616 = 1;
             }
-            if (var_83[var_2611][0] == 10 && var_83[var_2611][20] != 0) {
+            if (var_83[var_2611].Var0 == 10 && var_83[var_2611].Var20 != 0) {
                 var_2616 = 1;
             }
         }
@@ -21955,8 +21955,8 @@ function func569() {
             var_2623 = var_34;
         }
         if (var_123 == 0 && var_131 == 0 && var_144 == 0) {
-            if (var_83[var_2611][12] == 99 && var_83[var_2611][10] == var_201 && var_201 != var_279 && var_279 != 13 && var_201 != 13) {
-                if (var_83[var_2611][0] != 101 && var_83[var_2611][0] != 102 && var_83[var_2611][0] != 103 && var_83[var_2611][0] != 104) {
+            if (var_83[var_2611].Var12 == 99 && var_83[var_2611].Var10 == var_201 && var_201 != var_279 && var_279 != 13 && var_201 != 13) {
+                if (var_83[var_2611].Var0 != 101 && var_83[var_2611].Var0 != 102 && var_83[var_2611].Var0 != 103 && var_83[var_2611].Var0 != 104) {
                     var_2625 = rnd(3);
                     if (var_156[350] == 1) {
                         var_2625 = 0;
@@ -21970,21 +21970,21 @@ function func569() {
                     if (var_96 >= 1 && var_201 == var_204) {
                         var_2625 = 1;
                     }
-                    if (var_62 == 5 && var_83[var_314][16] >= 1000) {
+                    if (var_62 == 5 && var_83[var_314].Var16 >= 1000) {
                         var_2625 = 1;
                     }
                     if (var_375 == 1) {
                         var_2625 = 0;
                     }
                     if (var_2625 == 0) {
-                        var_83[var_2611][12] = 0;
+                        var_83[var_2611].Var12 = 0;
                         var_2616 = 1;
-                        var_83[var_2611][4] = 2;
+                        var_83[var_2611].Var4 = 2;
                     }
                 }
             }
-            if (var_83[var_2611][12] == 99 && var_83[var_2611][10] == var_279 && var_201 == 14 && var_279 != 13 && var_201 != 13) {
-                if (var_83[var_2611][0] != 101 && var_83[var_2611][0] != 102 && var_83[var_2611][0] != 103 && var_83[var_2611][0] != 104) {
+            if (var_83[var_2611].Var12 == 99 && var_83[var_2611].Var10 == var_279 && var_201 == 14 && var_279 != 13 && var_201 != 13) {
+                if (var_83[var_2611].Var0 != 101 && var_83[var_2611].Var0 != 102 && var_83[var_2611].Var0 != 103 && var_83[var_2611].Var0 != 104) {
                     var_2625 = rnd(3);
                     if (var_156[350] == 1) {
                         var_2625 = 0;
@@ -21995,70 +21995,70 @@ function func569() {
                     if (var_156[107] == 1 && var_156[350] == 1) {
                         var_2625 = rnd(3);
                     }
-                    if (var_62 == 5 && var_83[var_314][16] >= 1000) {
+                    if (var_62 == 5 && var_83[var_314].Var16 >= 1000) {
                         var_2625 = 1;
                     }
                     if (var_2625 == 0) {
-                        var_83[var_2611][12] = 0;
+                        var_83[var_2611].Var12 = 0;
                         var_2616 = 1;
-                        var_83[var_2611][4] = 2;
+                        var_83[var_2611].Var4 = 2;
                     }
                 }
             }
-            if (var_83[var_2611][12] == 99) {
+            if (var_83[var_2611].Var12 == 99) {
                 var_2626 = 0;
                 if (var_82[var_425][var_424] != 0) {
                     var_430 = var_82[var_425][var_424];
-                    if (var_83[var_430][31] == 5) {
+                    if (var_83[var_430].Var31 == 5) {
                         var_2626 = 1;
                     }
                 }
                 if (var_82[var_426][var_424] != 0) {
                     var_430 = var_82[var_426][var_424];
-                    if (var_83[var_430][31] == 5) {
+                    if (var_83[var_430].Var31 == 5) {
                         var_2626 = 1;
                     }
                 }
                 if (var_82[var_423][var_427] != 0) {
                     var_430 = var_82[var_423][var_427];
-                    if (var_83[var_430][31] == 5) {
+                    if (var_83[var_430].Var31 == 5) {
                         var_2626 = 1;
                     }
                 }
                 if (var_82[var_423][var_428] != 0) {
                     var_430 = var_82[var_423][var_428];
-                    if (var_83[var_430][31] == 5) {
+                    if (var_83[var_430].Var31 == 5) {
                         var_2626 = 1;
                     }
                 }
                 if (var_82[var_425][var_427] != 0) {
                     var_430 = var_82[var_425][var_427];
-                    if (var_83[var_430][31] == 5) {
+                    if (var_83[var_430].Var31 == 5) {
                         var_2626 = 1;
                     }
                 }
                 if (var_82[var_426][var_427] != 0) {
                     var_430 = var_82[var_426][var_427];
-                    if (var_83[var_430][31] == 5) {
+                    if (var_83[var_430].Var31 == 5) {
                         var_2626 = 1;
                     }
                 }
                 if (var_82[var_425][var_428] != 0) {
                     var_430 = var_82[var_425][var_428];
-                    if (var_83[var_430][31] == 5) {
+                    if (var_83[var_430].Var31 == 5) {
                         var_2626 = 1;
                     }
                 }
                 if (var_82[var_426][var_428] != 0) {
                     var_430 = var_82[var_426][var_428];
-                    if (var_83[var_430][31] == 5) {
+                    if (var_83[var_430].Var31 == 5) {
                         var_2626 = 1;
                     }
                 }
                 if (var_65[var_425][var_424] == 1 || var_65[var_426][var_424] == 1 || var_65[var_423][var_427] == 1 || var_65[var_423][var_428] == 1 || var_65[var_425][var_427] == 1 || var_65[var_425][var_428] == 1 || var_65[var_426][var_427] == 1 || var_65[var_426][var_428] == 1) {
                     var_2626 = 1;
                 }
-                if (var_83[var_2611][0] == 101 || var_83[var_2611][0] == 102 || var_83[var_2611][0] == 103 || var_83[var_2611][0] == 104) {
+                if (var_83[var_2611].Var0 == 101 || var_83[var_2611].Var0 == 102 || var_83[var_2611].Var0 == 103 || var_83[var_2611].Var0 == 104) {
                     var_2626 = 0;
                 }
                 if (var_2626 == 1) {
@@ -22076,109 +22076,109 @@ function func569() {
                         var_2625 = 1;
                     }
                     if (var_2625 == 0) {
-                        var_83[var_2611][12] = 0;
+                        var_83[var_2611].Var12 = 0;
                         var_2616 = 1;
-                        var_83[var_2611][4] = 2;
+                        var_83[var_2611].Var4 = 2;
                     }
                 }
-                if (var_83[var_2611][0] == 101 && var_83[var_2611][12] == 99) {
+                if (var_83[var_2611].Var0 == 101 && var_83[var_2611].Var12 == 99) {
                     if (var_82[var_426][var_424] == 0 || var_82[var_423][var_427] == 0 || var_82[var_426][var_427] == 0) {
-                        var_83[var_2611][12] = 0;
+                        var_83[var_2611].Var12 = 0;
                     }
                     if (var_82[var_426][var_424] != 0) {
                         var_2627 = var_82[var_426][var_424];
-                        if (var_83[var_2627][0] != 102 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 102 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                     if (var_82[var_423][var_427] != 0) {
                         var_2627 = var_82[var_423][var_427];
-                        if (var_83[var_2627][0] != 103 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 103 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                     if (var_82[var_426][var_427] != 0) {
                         var_2627 = var_82[var_426][var_427];
-                        if (var_83[var_2627][0] != 104 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 104 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                 }
-                if (var_83[var_2611][0] == 102 && var_83[var_2611][12] == 99) {
+                if (var_83[var_2611].Var0 == 102 && var_83[var_2611].Var12 == 99) {
                     if (var_82[var_425][var_424] == 0 || var_82[var_425][var_427] == 0 || var_82[var_423][var_427] == 0) {
-                        var_83[var_2611][12] = 0;
+                        var_83[var_2611].Var12 = 0;
                     }
                     if (var_82[var_425][var_424] != 0) {
                         var_2627 = var_82[var_425][var_424];
-                        if (var_83[var_2627][0] != 101 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 101 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                     if (var_82[var_425][var_427] != 0) {
                         var_2627 = var_82[var_425][var_427];
-                        if (var_83[var_2627][0] != 103 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 103 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                     if (var_82[var_423][var_427] != 0) {
                         var_2627 = var_82[var_423][var_427];
-                        if (var_83[var_2627][0] != 104 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 104 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                 }
-                if (var_83[var_2611][0] == 103 && var_83[var_2611][12] == 99) {
+                if (var_83[var_2611].Var0 == 103 && var_83[var_2611].Var12 == 99) {
                     if (var_82[var_423][var_428] == 0 || var_82[var_426][var_428] == 0 || var_82[var_426][var_424] == 0) {
-                        var_83[var_2611][12] = 0;
+                        var_83[var_2611].Var12 = 0;
                     }
                     if (var_82[var_423][var_428] != 0) {
                         var_2627 = var_82[var_423][var_428];
-                        if (var_83[var_2627][0] != 101 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 101 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                     if (var_82[var_426][var_428] != 0) {
                         var_2627 = var_82[var_426][var_428];
-                        if (var_83[var_2627][0] != 102 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 102 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                     if (var_82[var_426][var_424] != 0) {
                         var_2627 = var_82[var_426][var_424];
-                        if (var_83[var_2627][0] != 104 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 104 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                 }
-                if (var_83[var_2611][0] == 104 && var_83[var_2611][12] == 99) {
+                if (var_83[var_2611].Var0 == 104 && var_83[var_2611].Var12 == 99) {
                     if (var_82[var_425][var_428] == 0 || var_82[var_423][var_428] == 0 || var_82[var_425][var_424] == 0) {
-                        var_83[var_2611][12] = 0;
+                        var_83[var_2611].Var12 = 0;
                     }
                     if (var_82[var_425][var_428] != 0) {
                         var_2627 = var_82[var_425][var_428];
-                        if (var_83[var_2627][0] != 101 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 101 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                     if (var_82[var_423][var_428] != 0) {
                         var_2627 = var_82[var_423][var_428];
-                        if (var_83[var_2627][0] != 102 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 102 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                     if (var_82[var_425][var_424] != 0) {
                         var_2627 = var_82[var_425][var_424];
-                        if (var_83[var_2627][0] != 103 || var_83[var_2627][12] == 0) {
-                            var_83[var_2611][12] = 0;
+                        if (var_83[var_2627].Var0 != 103 || var_83[var_2627].Var12 == 0) {
+                            var_83[var_2611].Var12 = 0;
                         }
                     }
                 }
             }
         }
-        if (var_83[var_2611][12] >= 1) {
+        if (var_83[var_2611].Var12 >= 1) {
             var_2616 = 1;
         }
-        if (var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0 && var_83[var_2611][17] == 0 && var_83[var_2611][27] == 0 && var_83[var_2611][31] != 4 && var_83[var_2611][23] == 0 && var_123 == 0 && var_131 == 0 && var_144 == 0 && var_218 == 0) {
+        if (var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var27 == 0 && var_83[var_2611].Var31 != 4 && var_83[var_2611].Var23 == 0 && var_123 == 0 && var_131 == 0 && var_144 == 0 && var_218 == 0) {
             var_2628 = 0;
             var_2629 = var_66;
             var_2630 = var_67;
@@ -22214,135 +22214,135 @@ function func569() {
             if (var_2638 < 5) {
                 var_2634 = 5;
             }
-            if (var_83[var_2611][1] >= var_2635 && var_83[var_2611][1] <= var_2636 && var_83[var_2611][2] >= var_2638 && var_83[var_2611][2] <= var_2637) {
-                if (var_83[var_2611][10] == 14 && var_201 != 14) {
-                    var_83[var_2611][4] = 3;
+            if (var_83[var_2611].Var1 >= var_2635 && var_83[var_2611].Var1 <= var_2636 && var_83[var_2611].Var2 >= var_2638 && var_83[var_2611].Var2 <= var_2637) {
+                if (var_83[var_2611].Var10 == 14 && var_201 != 14) {
+                    var_83[var_2611].Var4 = 3;
                 }
-                if (var_83[var_2611][10] == 14 && var_201 == 14 && var_83[var_2611][33] != 5) {
+                if (var_83[var_2611].Var10 == 14 && var_201 == 14 && var_83[var_2611].Var33 != 5) {
                     if (var_71[var_426][var_424] != 0 && var_71[var_426][var_424] == var_187) {
-                        var_83[var_2611][4] = 2;
+                        var_83[var_2611].Var4 = 2;
                         var_2628 = 1;
                     }
                     if (var_71[var_425][var_424] != 0 && var_71[var_425][var_424] == var_187) {
-                        var_83[var_2611][4] = 2;
+                        var_83[var_2611].Var4 = 2;
                         var_2628 = 1;
                     }
                     if (var_71[var_423][var_428] != 0 && var_71[var_423][var_428] == var_187) {
-                        var_83[var_2611][4] = 2;
+                        var_83[var_2611].Var4 = 2;
                         var_2628 = 1;
                     }
                     if (var_71[var_423][var_427] != 0 && var_71[var_423][var_427] == var_187) {
-                        var_83[var_2611][4] = 2;
+                        var_83[var_2611].Var4 = 2;
                         var_2628 = 1;
                     }
                 }
-                if (var_83[var_2611][10] != 14 && var_201 == 14 && var_83[var_2611][33] != 5) {
-                    if (var_71[var_426][var_424] == 0 && var_66 > var_83[var_2611][1]) {
-                        var_83[var_2611][4] = 3;
-                        var_83[var_2611][33] = 2;
+                if (var_83[var_2611].Var10 != 14 && var_201 == 14 && var_83[var_2611].Var33 != 5) {
+                    if (var_71[var_426][var_424] == 0 && var_66 > var_83[var_2611].Var1) {
+                        var_83[var_2611].Var4 = 3;
+                        var_83[var_2611].Var33 = 2;
                         var_2628 = 1;
                     }
-                    if (var_71[var_425][var_424] == 0 && var_66 < var_83[var_2611][1]) {
-                        var_83[var_2611][4] = 3;
-                        var_83[var_2611][33] = 8;
+                    if (var_71[var_425][var_424] == 0 && var_66 < var_83[var_2611].Var1) {
+                        var_83[var_2611].Var4 = 3;
+                        var_83[var_2611].Var33 = 8;
                         var_2628 = 1;
                     }
-                    if (var_71[var_423][var_428] == 0 && var_67 < var_83[var_2611][2]) {
-                        var_83[var_2611][4] = 3;
-                        var_83[var_2611][33] = 6;
+                    if (var_71[var_423][var_428] == 0 && var_67 < var_83[var_2611].Var2) {
+                        var_83[var_2611].Var4 = 3;
+                        var_83[var_2611].Var33 = 6;
                         var_2628 = 1;
                     }
-                    if (var_71[var_423][var_427] == 0 && var_67 > var_83[var_2611][2]) {
-                        var_83[var_2611][4] = 3;
-                        var_83[var_2611][33] = 4;
+                    if (var_71[var_423][var_427] == 0 && var_67 > var_83[var_2611].Var2) {
+                        var_83[var_2611].Var4 = 3;
+                        var_83[var_2611].Var33 = 4;
                         var_2628 = 1;
                     }
-                    if (var_66 == var_83[var_2611][1] || var_67 == var_83[var_2611][2]) {
-                        var_83[var_2611][4] = 2;
+                    if (var_66 == var_83[var_2611].Var1 || var_67 == var_83[var_2611].Var2) {
+                        var_83[var_2611].Var4 = 2;
                         var_2628 = 1;
                     }
                 }
-                if (var_83[var_2611][1] >= var_2631 && var_83[var_2611][1] <= var_2632 && var_83[var_2611][2] >= var_2634 && var_83[var_2611][2] <= var_2633) {
-                    var_83[var_2611][4] = 2;
+                if (var_83[var_2611].Var1 >= var_2631 && var_83[var_2611].Var1 <= var_2632 && var_83[var_2611].Var2 >= var_2634 && var_83[var_2611].Var2 <= var_2633) {
+                    var_83[var_2611].Var4 = 2;
                     var_2628 = 1;
                 }
             }
-            if (var_83[var_2611][10] == 14 && var_201 != 14) {
+            if (var_83[var_2611].Var10 == 14 && var_201 != 14) {
                 if (var_71[var_425][var_424] == var_201) {
-                    var_83[var_2611][4] = 2;
-                    var_83[var_2611][33] = 2;
+                    var_83[var_2611].Var4 = 2;
+                    var_83[var_2611].Var33 = 2;
                     var_2628 = 1;
                 }
                 if (var_71[var_426][var_424] == var_201) {
-                    var_83[var_2611][4] = 2;
-                    var_83[var_2611][33] = 8;
+                    var_83[var_2611].Var4 = 2;
+                    var_83[var_2611].Var33 = 8;
                     var_2628 = 1;
                 }
                 if (var_71[var_423][var_427] == var_201) {
-                    var_83[var_2611][4] = 2;
-                    var_83[var_2611][33] = 6;
+                    var_83[var_2611].Var4 = 2;
+                    var_83[var_2611].Var33 = 6;
                     var_2628 = 1;
                 }
                 if (var_71[var_423][var_428] == var_201) {
-                    var_83[var_2611][4] = 2;
-                    var_83[var_2611][33] = 4;
+                    var_83[var_2611].Var4 = 2;
+                    var_83[var_2611].Var33 = 4;
                     var_2628 = 1;
                 }
             }
-            if (var_83[var_2611][10] != 14 && var_201 == 14 && var_2628 == 0 && var_83[var_2611][33] != 5) {
-                if (var_71[var_2631][var_2630] == var_83[var_2611][10]) {
-                    var_83[var_2611][4] = 3;
-                    var_83[var_2611][33] = 2;
+            if (var_83[var_2611].Var10 != 14 && var_201 == 14 && var_2628 == 0 && var_83[var_2611].Var33 != 5) {
+                if (var_71[var_2631][var_2630] == var_83[var_2611].Var10) {
+                    var_83[var_2611].Var4 = 3;
+                    var_83[var_2611].Var33 = 2;
                     var_2628 = 1;
                 }
-                if (var_71[var_2632][var_2630] == var_83[var_2611][10]) {
-                    var_83[var_2611][4] = 3;
-                    var_83[var_2611][33] = 8;
+                if (var_71[var_2632][var_2630] == var_83[var_2611].Var10) {
+                    var_83[var_2611].Var4 = 3;
+                    var_83[var_2611].Var33 = 8;
                     var_2628 = 1;
                 }
-                if (var_71[var_2629][var_2633] == var_83[var_2611][10]) {
-                    var_83[var_2611][4] = 3;
-                    var_83[var_2611][33] = 6;
+                if (var_71[var_2629][var_2633] == var_83[var_2611].Var10) {
+                    var_83[var_2611].Var4 = 3;
+                    var_83[var_2611].Var33 = 6;
                     var_2628 = 1;
                 }
-                if (var_71[var_2629][var_2634] == var_83[var_2611][10]) {
-                    var_83[var_2611][4] = 3;
-                    var_83[var_2611][33] = 4;
+                if (var_71[var_2629][var_2634] == var_83[var_2611].Var10) {
+                    var_83[var_2611].Var4 = 3;
+                    var_83[var_2611].Var33 = 4;
                     var_2628 = 1;
                 }
             }
-            if (var_83[var_2611][10] == var_201 && var_201 != 14) {
-                var_83[var_2611][4] = 2;
+            if (var_83[var_2611].Var10 == var_201 && var_201 != 14) {
+                var_83[var_2611].Var4 = 2;
                 var_2628 = 1;
             }
-            if (var_83[var_2611][0] == 111 || var_83[var_2611][0] == 43) {
-                var_83[var_2611][38] = 0;
-                var_83[var_2611][4] = 2;
+            if (var_83[var_2611].Var0 == 111 || var_83[var_2611].Var0 == 43) {
+                var_83[var_2611].Var38 = 0;
+                var_83[var_2611].Var4 = 2;
                 var_2628 = 1;
             }
             if (var_2628 == 0) {
-                var_83[var_2611][4] = 3;
+                var_83[var_2611].Var4 = 3;
             }
         }
-        if (var_83[var_2611][20] == 0 && var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0) {
-            if (var_83[var_2611][0] == 3 || var_83[var_2611][0] == 44 || var_83[var_2611][0] == 115 || var_83[var_2611][0] == 27 || var_83[var_2611][0] == 18 || var_83[var_2611][0] == 86) {
-                if (var_83[var_2611][0] == 27) {
-                    var_83[var_2611][4] = 5;
+        if (var_83[var_2611].Var20 == 0 && var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0) {
+            if (var_83[var_2611].Var0 == 3 || var_83[var_2611].Var0 == 44 || var_83[var_2611].Var0 == 115 || var_83[var_2611].Var0 == 27 || var_83[var_2611].Var0 == 18 || var_83[var_2611].Var0 == 86) {
+                if (var_83[var_2611].Var0 == 27) {
+                    var_83[var_2611].Var4 = 5;
                 }
-                if (var_201 != 14 && var_83[var_2611][10] == var_201) {
+                if (var_201 != 14 && var_83[var_2611].Var10 == var_201) {
                     var_2639 = rnd(3);
-                    if (var_83[var_2611][0] == 3) {
+                    if (var_83[var_2611].Var0 == 3) {
                         var_2639 = rnd(2);
                     }
-                    if (var_83[var_2611][0] == 86) {
+                    if (var_83[var_2611].Var0 == 86) {
                         var_2639 = rnd(4);
                     }
                     if (var_2639 == 0) {
-                        var_83[var_2611][4] = 4;
+                        var_83[var_2611].Var4 = 4;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 46 || var_83[var_2611][0] == 30 || var_83[var_2611][0] == 65 || var_83[var_2611][0] == 84 || var_83[var_2611][0] == 124 || var_83[var_2611][0] == 145 || var_83[var_2611][0] == 143 || var_83[var_2611][0] == 135 || var_83[var_2611][0] == 155 || var_83[var_2611][0] == 151 || var_83[var_2611][0] == 166 || var_83[var_2611][0] == 172) {
+            if (var_83[var_2611].Var0 == 46 || var_83[var_2611].Var0 == 30 || var_83[var_2611].Var0 == 65 || var_83[var_2611].Var0 == 84 || var_83[var_2611].Var0 == 124 || var_83[var_2611].Var0 == 145 || var_83[var_2611].Var0 == 143 || var_83[var_2611].Var0 == 135 || var_83[var_2611].Var0 == 155 || var_83[var_2611].Var0 == 151 || var_83[var_2611].Var0 == 166 || var_83[var_2611].Var0 == 172) {
                 if (var_423 >= var_2621 && var_423 <= var_2622 && var_424 >= var_2624 && var_424 <= var_2623) {
                     var_2640 = var_66 - 3;
                     if (var_2640 < 0) {
@@ -22360,256 +22360,256 @@ function func569() {
                     if (var_2643 < 0) {
                         var_2643 = 0;
                     }
-                    var_83[var_2611][4] = 6;
+                    var_83[var_2611].Var4 = 6;
                     if (var_423 < var_2640 || var_423 > var_2641 || var_424 < var_2643 || var_424 > var_2642) {
-                        var_83[var_2611][4] = 2;
+                        var_83[var_2611].Var4 = 2;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 48 || var_83[var_2611][0] == 15) {
-                if (var_201 != 14 && var_83[var_2611][10] != var_201 && var_83[var_2611][20] == 0 && var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0) {
+            if (var_83[var_2611].Var0 == 48 || var_83[var_2611].Var0 == 15) {
+                if (var_201 != 14 && var_83[var_2611].Var10 != var_201 && var_83[var_2611].Var20 == 0 && var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0) {
                     var_2639 = rnd(10);
                     if (var_2639 == 0) {
-                        var_83[var_2611][4] = 4;
+                        var_83[var_2611].Var4 = 4;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 118 && var_62 != 0) {
-                var_83[var_2611][4] = 7;
-                if (var_201 != 14 && var_83[var_2611][10] != var_201 && var_83[var_2611][20] == 0 && var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0) {
+            if (var_83[var_2611].Var0 == 118 && var_62 != 0) {
+                var_83[var_2611].Var4 = 7;
+                if (var_201 != 14 && var_83[var_2611].Var10 != var_201 && var_83[var_2611].Var20 == 0 && var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0) {
                     var_2639 = rnd(5);
                     if (var_2639 == 0) {
-                        var_83[var_2611][4] = 4;
+                        var_83[var_2611].Var4 = 4;
                     }
                 }
-                if (var_83[var_2611][10] == 14) {
+                if (var_83[var_2611].Var10 == 14) {
                     if (var_423 >= 52 || var_423 <= 6 || var_424 >= 35 || var_424 <= 6) {
-                        var_83[var_2611][4] = 4;
+                        var_83[var_2611].Var4 = 4;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 10 && var_133 != 0) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 10 && var_133 != 0) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 31) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 31) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 43) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 43) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 85) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 85) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 153) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 153) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 99) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 99) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 37) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 37) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 147) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 147) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 149) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 149) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 170) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 170) {
+                var_83[var_2611].Var4 = 1;
             }
-            if (var_83[var_2611][0] == 109 && var_83[var_2611][30] == 1) {
-                var_83[var_2611][4] = 1;
+            if (var_83[var_2611].Var0 == 109 && var_83[var_2611].Var30 == 1) {
+                var_83[var_2611].Var4 = 1;
             }
         }
-        if (var_83[var_2611][0] == 36) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 36) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 58) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 58) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 57) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 57) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 74) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 74) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 81) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 81) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 83) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 83) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 105) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 105) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 106) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 106) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 107) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 107) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 108) {
-            var_83[var_2611][4] = 3;
+        if (var_83[var_2611].Var0 == 108) {
+            var_83[var_2611].Var4 = 3;
             if (var_62 == 0) {
-                var_83[var_2611][4] = 0;
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 163) {
-            var_83[var_2611][4] = 1;
+        if (var_83[var_2611].Var0 == 163) {
+            var_83[var_2611].Var4 = 1;
         }
-        if (var_83[var_2611][0] == 82) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 82) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][31] == 5) {
-            var_83[var_2611][4] = 2;
+        if (var_83[var_2611].Var31 == 5) {
+            var_83[var_2611].Var4 = 2;
         }
-        if (var_83[var_2611][31] == 5 && var_71[var_66][var_67] == 13) {
-            var_83[var_2611][4] = 1;
+        if (var_83[var_2611].Var31 == 5 && var_71[var_66][var_67] == 13) {
+            var_83[var_2611].Var4 = 1;
         }
-        if (var_83[var_2611][0] == 49) {
-            var_83[var_2611][4] = 1;
+        if (var_83[var_2611].Var0 == 49) {
+            var_83[var_2611].Var4 = 1;
         }
-        if (var_131 >= 1 && var_83[var_2611][0] != 48) {
-            var_83[var_2611][4] = 3;
+        if (var_131 >= 1 && var_83[var_2611].Var0 != 48) {
+            var_83[var_2611].Var4 = 3;
         }
-        if (var_123 >= 1 && var_83[var_124][10] == var_83[var_2611][10]) {
+        if (var_123 >= 1 && var_83[var_124].Var10 == var_83[var_2611].Var10) {
             var_2618 = 1;
-            var_2644 = var_83[var_124][1];
-            var_2645 = var_83[var_124][2];
+            var_2644 = var_83[var_124].Var1;
+            var_2645 = var_83[var_124].Var2;
         }
-        if (var_83[var_2611][10] != 14) {
+        if (var_83[var_2611].Var10 != 14) {
             var_616 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_616][0] != 0 && var_83[var_2611][31] == 5 && var_83[var_2611][0] != 49 && var_83[var_616][0] != 53 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_616][30] == 0 && var_83[var_2611][10] == var_83[var_616][10] && var_83[var_616][10] != 0) {
+                if (var_83[var_616].Var0 != 0 && var_83[var_2611].Var31 == 5 && var_83[var_2611].Var0 != 49 && var_83[var_616].Var0 != 53 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_616].Var30 == 0 && var_83[var_2611].Var10 == var_83[var_616].Var10 && var_83[var_616].Var10 != 0) {
                     var_2618 = 1;
-                    var_2644 = var_83[var_616][1];
-                    var_2645 = var_83[var_616][2];
-                    var_83[var_2611][4] = 2;
+                    var_2644 = var_83[var_616].Var1;
+                    var_2645 = var_83[var_616].Var2;
+                    var_83[var_2611].Var4 = 2;
                     break;
                 }
-                if (var_83[var_616][0] == 49 && var_83[var_2611][31] != 5 && var_83[var_2611][31] != 4 && var_83[var_2611][4] == 2 && var_83[var_616][10] == var_83[var_2611][10]) {
+                if (var_83[var_616].Var0 == 49 && var_83[var_2611].Var31 != 5 && var_83[var_2611].Var31 != 4 && var_83[var_2611].Var4 == 2 && var_83[var_616].Var10 == var_83[var_2611].Var10) {
                     var_2618 = 1;
-                    var_2644 = var_83[var_616][1];
-                    var_2645 = var_83[var_616][2];
+                    var_2644 = var_83[var_616].Var1;
+                    var_2645 = var_83[var_616].Var2;
                     break;
                 }
-                if (var_83[var_2611][0] != 37 && var_83[var_616][0] == 37 && var_83[var_2611][31] != 5 && var_83[var_2611][31] != 4 && var_83[var_2611][4] == 2 && var_83[var_616][10] == var_83[var_2611][10]) {
+                if (var_83[var_2611].Var0 != 37 && var_83[var_616].Var0 == 37 && var_83[var_2611].Var31 != 5 && var_83[var_2611].Var31 != 4 && var_83[var_2611].Var4 == 2 && var_83[var_616].Var10 == var_83[var_2611].Var10) {
                     var_2618 = 1;
-                    var_2644 = var_83[var_616][1];
-                    var_2645 = var_83[var_616][2];
+                    var_2644 = var_83[var_616].Var1;
+                    var_2645 = var_83[var_616].Var2;
                     break;
                 }
                 var_616++;
             }
         }
-        if (var_83[var_2611][20] == 0 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0) {
-            if (var_83[var_2611][0] == 134 || var_83[var_2611][0] == 35) {
+        if (var_83[var_2611].Var20 == 0 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0) {
+            if (var_83[var_2611].Var0 == 134 || var_83[var_2611].Var0 == 35) {
                 var_616 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_616][0] != 0 && var_2611 != var_616 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_2611][10] == var_83[var_616][10] && var_83[var_616][30] == 0 && var_83[var_2611][10] != 14) {
+                    if (var_83[var_616].Var0 != 0 && var_2611 != var_616 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_2611].Var10 == var_83[var_616].Var10 && var_83[var_616].Var30 == 0 && var_83[var_2611].Var10 != 14) {
                         var_2646 = var_616;
                         yield func578();
                         if (var_2647 >= 1) {
-                            var_83[var_2611][4] = 2;
+                            var_83[var_2611].Var4 = 2;
                             var_2618 = 1;
-                            var_2644 = var_83[var_616][1];
-                            var_2645 = var_83[var_616][2];
+                            var_2644 = var_83[var_616].Var1;
+                            var_2645 = var_83[var_616].Var2;
                         }
                     }
                     var_616++;
                 }
             }
-            if (var_83[var_2611][0] == 86) {
+            if (var_83[var_2611].Var0 == 86) {
                 var_616 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_616][0] != 0 && var_83[var_616][0] != 86 && var_2611 != var_616 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_2611][10] == var_83[var_616][10] && var_83[var_616][31] == 2 && var_83[var_2611][10] != 14) {
-                        var_83[var_2611][4] = 2;
+                    if (var_83[var_616].Var0 != 0 && var_83[var_616].Var0 != 86 && var_2611 != var_616 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_2611].Var10 == var_83[var_616].Var10 && var_83[var_616].Var31 == 2 && var_83[var_2611].Var10 != 14) {
+                        var_83[var_2611].Var4 = 2;
                         var_2618 = 1;
-                        var_2644 = var_83[var_616][1];
-                        var_2645 = var_83[var_616][2];
+                        var_2644 = var_83[var_616].Var1;
+                        var_2645 = var_83[var_616].Var2;
                     }
                     var_616++;
                 }
             }
-            if (var_83[var_2611][0] == 165 || var_83[var_2611][0] == 164) {
-                var_83[var_2611][4] = 3;
+            if (var_83[var_2611].Var0 == 165 || var_83[var_2611].Var0 == 164) {
+                var_83[var_2611].Var4 = 3;
                 var_616 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_616][0] != 0 && var_83[var_616][0] != 164 && var_83[var_616][0] != 165 && var_2611 != var_616 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_2611][10] == var_83[var_616][10] && var_83[var_2611][10] != 14) {
-                        var_83[var_2611][4] = 2;
+                    if (var_83[var_616].Var0 != 0 && var_83[var_616].Var0 != 164 && var_83[var_616].Var0 != 165 && var_2611 != var_616 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_2611].Var10 == var_83[var_616].Var10 && var_83[var_2611].Var10 != 14) {
+                        var_83[var_2611].Var4 = 2;
                         var_2618 = 1;
-                        var_2644 = var_83[var_616][1];
-                        var_2645 = var_83[var_616][2];
+                        var_2644 = var_83[var_616].Var1;
+                        var_2645 = var_83[var_616].Var2;
                     }
                     var_616++;
                 }
             }
-            if (var_83[var_2611][0] == 113 || var_83[var_2611][0] == 114) {
+            if (var_83[var_2611].Var0 == 113 || var_83[var_2611].Var0 == 114) {
                 var_616 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_616][0] == 119) {
-                        if (var_83[var_2611][10] == var_83[var_616][10] && var_83[var_2611][10] != 14) {
-                            var_83[var_2611][4] = 2;
+                    if (var_83[var_616].Var0 == 119) {
+                        if (var_83[var_2611].Var10 == var_83[var_616].Var10 && var_83[var_2611].Var10 != 14) {
+                            var_83[var_2611].Var4 = 2;
                             var_2618 = 1;
-                            var_2644 = var_83[var_616][1];
-                            var_2645 = var_83[var_616][2];
+                            var_2644 = var_83[var_616].Var1;
+                            var_2645 = var_83[var_616].Var2;
                         }
                     }
                     var_616++;
                 }
             }
-            if (var_83[var_2611][0] == 44) {
+            if (var_83[var_2611].Var0 == 44) {
                 var_616 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_616][0] == 147) {
-                        if (var_83[var_2611][10] == var_83[var_616][10] && var_83[var_2611][10] != 14) {
-                            var_83[var_2611][4] = 2;
+                    if (var_83[var_616].Var0 == 147) {
+                        if (var_83[var_2611].Var10 == var_83[var_616].Var10 && var_83[var_2611].Var10 != 14) {
+                            var_83[var_2611].Var4 = 2;
                             var_2618 = 1;
-                            var_2644 = var_83[var_616][1];
-                            var_2645 = var_83[var_616][2];
+                            var_2644 = var_83[var_616].Var1;
+                            var_2645 = var_83[var_616].Var2;
                         }
                     }
                     var_616++;
                 }
             }
-            if (var_83[var_2611][0] == 134 && var_83[var_2611][10] != 14) {
+            if (var_83[var_2611].Var0 == 134 && var_83[var_2611].Var10 != 14) {
                 var_2648 = 1;
                 for (var cnt3 = 0; cnt3 < var_336; ++cnt3) {
-                    if (var_78[var_2648][0] == 572 && var_78[var_2648][9] == var_83[var_2611][10]) {
-                        var_83[var_2611][4] = 2;
+                    if (var_78[var_2648].Var0 == 572 && var_78[var_2648].Var9 == var_83[var_2611].Var10) {
+                        var_83[var_2611].Var4 = 2;
                         var_2618 = 1;
-                        var_2644 = var_78[var_2648][1];
-                        var_2645 = var_78[var_2648][2];
-                        if (var_78[var_2648][1] == var_83[var_2611][1] && var_78[var_2648][2] == var_83[var_2611][2]) {
-                            var_83[var_2611][4] = 0;
+                        var_2644 = var_78[var_2648].Var1;
+                        var_2645 = var_78[var_2648].Var2;
+                        if (var_78[var_2648].Var1 == var_83[var_2611].Var1 && var_78[var_2648].Var2 == var_83[var_2611].Var2) {
+                            var_83[var_2611].Var4 = 0;
                         }
                         if (var_194 == var_2648) {
                             break;
@@ -22618,16 +22618,16 @@ function func569() {
                     var_2648 = var_2648 + 1;
                 }
             }
-            if (var_83[var_2611][0] == 17 && var_83[var_2611][10] != 14) {
+            if (var_83[var_2611].Var0 == 17 && var_83[var_2611].Var10 != 14) {
                 var_2648 = 1;
                 for (var cnt3 = 0; cnt3 < var_336; ++cnt3) {
-                    if (var_78[var_2648][0] == 713 && var_78[var_2648][9] == var_83[var_2611][10]) {
-                        var_83[var_2611][4] = 2;
+                    if (var_78[var_2648].Var0 == 713 && var_78[var_2648].Var9 == var_83[var_2611].Var10) {
+                        var_83[var_2611].Var4 = 2;
                         var_2618 = 1;
-                        var_2644 = var_78[var_2648][1];
-                        var_2645 = var_78[var_2648][2];
-                        if (var_78[var_2648][1] == var_83[var_2611][1] && var_78[var_2648][2] == var_83[var_2611][2]) {
-                            var_83[var_2611][4] = 0;
+                        var_2644 = var_78[var_2648].Var1;
+                        var_2645 = var_78[var_2648].Var2;
+                        if (var_78[var_2648].Var1 == var_83[var_2611].Var1 && var_78[var_2648].Var2 == var_83[var_2611].Var2) {
+                            var_83[var_2611].Var4 = 0;
                         }
                         if (var_194 == var_2648) {
                             break;
@@ -22636,25 +22636,25 @@ function func569() {
                     var_2648 = var_2648 + 1;
                 }
             }
-            if (var_83[var_2611][0] == 32 || var_83[var_2611][0] == 137) {
-                if (var_83[var_2611][10] == var_201 && var_83[var_2611][10] != 14 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0) {
+            if (var_83[var_2611].Var0 == 32 || var_83[var_2611].Var0 == 137) {
+                if (var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var10 != 14 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0) {
                     var_2646 = var_2611;
                     yield func578();
                     if (var_2647 == 0) {
                         var_2649 = 1;
                         for (var cnt5 = 0; cnt5 < var_336; ++cnt5) {
                             var_2650 = 0;
-                            if (var_78[var_2649][0] != 0 && var_78[var_2649][11] == 0 && var_78[var_2649][0] >= 500 && var_78[var_2649][0] < 800 && var_78[var_2649][15] == 0 && var_78[var_2649][9] == var_83[var_2611][10]) {
+                            if (var_78[var_2649].Var0 != 0 && var_78[var_2649].Var11 == 0 && var_78[var_2649].Var0 >= 500 && var_78[var_2649].Var0 < 800 && var_78[var_2649].Var15 == 0 && var_78[var_2649].Var9 == var_83[var_2611].Var10) {
                                 var_2650 = 1;
                             }
-                            if (var_78[var_2649][0] != 0 && var_78[var_2649][11] == 0 && var_78[var_2649][0] >= 900 && var_78[var_2649][15] == 0 && var_78[var_2649][9] == var_83[var_2611][10]) {
+                            if (var_78[var_2649].Var0 != 0 && var_78[var_2649].Var11 == 0 && var_78[var_2649].Var0 >= 900 && var_78[var_2649].Var15 == 0 && var_78[var_2649].Var9 == var_83[var_2611].Var10) {
                                 var_2650 = 1;
                             }
                             if (var_2650 == 1) {
-                                var_83[var_2611][4] = 2;
+                                var_83[var_2611].Var4 = 2;
                                 var_2617 = 1;
-                                var_2644 = var_78[var_2649][1];
-                                var_2645 = var_78[var_2649][2];
+                                var_2644 = var_78[var_2649].Var1;
+                                var_2645 = var_78[var_2649].Var2;
                                 if (var_194 == var_2649) {
                                     break;
                                 }
@@ -22663,35 +22663,35 @@ function func569() {
                         }
                     }
                 }
-                var_2651 = var_83[var_2611][1];
-                var_2652 = var_83[var_2611][2];
-                if (var_77[var_2651][var_2652] != 0 && var_83[var_2611][10] == var_201 && var_83[var_2611][10] != 14 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0) {
+                var_2651 = var_83[var_2611].Var1;
+                var_2652 = var_83[var_2611].Var2;
+                if (var_77[var_2651][var_2652] != 0 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var10 != 14 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0) {
                     var_2649 = var_77[var_2651][var_2652];
-                    if (var_78[var_2649][11] == 0 && var_78[var_2649][0] >= 500 && var_78[var_2649][0] < 800 && var_78[var_2649][15] == 0) {
-                        var_83[var_2611][4] = 0;
-                        var_78[var_2649][15] = 2;
+                    if (var_78[var_2649].Var11 == 0 && var_78[var_2649].Var0 >= 500 && var_78[var_2649].Var0 < 800 && var_78[var_2649].Var15 == 0) {
+                        var_83[var_2611].Var4 = 0;
+                        var_78[var_2649].Var15 = 2;
                         var_2617 = 0;
                     }
-                    if (var_78[var_2649][11] == 0 && var_78[var_2649][0] >= 900 && var_78[var_2649][15] == 0) {
-                        var_83[var_2611][4] = 0;
-                        var_78[var_2649][15] = 2;
+                    if (var_78[var_2649].Var11 == 0 && var_78[var_2649].Var0 >= 900 && var_78[var_2649].Var15 == 0) {
+                        var_83[var_2611].Var4 = 0;
+                        var_78[var_2649].Var15 = 2;
                         var_2617 = 0;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 87) {
-                if (var_83[var_2611][10] == var_201 && var_83[var_2611][10] != 14 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0) {
+            if (var_83[var_2611].Var0 == 87) {
+                if (var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var10 != 14 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0) {
                     var_2646 = var_2611;
                     yield func578();
                     if (var_2647 == 0) {
                         var_2650 = 0;
                         var_2649 = 1;
                         for (var cnt5 = 0; cnt5 < var_336; ++cnt5) {
-                            if (var_78[var_2649][0] != 0 && var_78[var_2649][11] == 0 && var_78[var_2649][15] == 0 && var_78[var_2649][9] == var_83[var_2611][10] && var_78[var_2649][0] != 641) {
-                                var_83[var_2611][4] = 2;
+                            if (var_78[var_2649].Var0 != 0 && var_78[var_2649].Var11 == 0 && var_78[var_2649].Var15 == 0 && var_78[var_2649].Var9 == var_83[var_2611].Var10 && var_78[var_2649].Var0 != 641) {
+                                var_83[var_2611].Var4 = 2;
                                 var_2617 = 1;
-                                var_2644 = var_78[var_2649][1];
-                                var_2645 = var_78[var_2649][2];
+                                var_2644 = var_78[var_2649].Var1;
+                                var_2645 = var_78[var_2649].Var2;
                                 if (var_194 == var_2649) {
                                     break;
                                 }
@@ -22700,29 +22700,29 @@ function func569() {
                         }
                     }
                 }
-                var_2651 = var_83[var_2611][1];
-                var_2652 = var_83[var_2611][2];
-                if (var_77[var_2651][var_2652] != 0 && var_83[var_2611][10] == var_201 && var_83[var_2611][10] != 14 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0) {
+                var_2651 = var_83[var_2611].Var1;
+                var_2652 = var_83[var_2611].Var2;
+                if (var_77[var_2651][var_2652] != 0 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var10 != 14 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0) {
                     var_2649 = var_77[var_2651][var_2652];
-                    if (var_78[var_2649][11] == 0 && var_78[var_2649][15] == 0 && var_78[var_2649][0] != 641) {
-                        var_83[var_2611][4] = 0;
-                        var_78[var_2649][0] = 641;
+                    if (var_78[var_2649].Var11 == 0 && var_78[var_2649].Var15 == 0 && var_78[var_2649].Var0 != 641) {
+                        var_83[var_2611].Var4 = 0;
+                        var_78[var_2649].Var0 = 641;
                         var_2617 = 0;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 26) {
-                if (var_83[var_2611][26] == 0 && var_83[var_2611][10] == var_201 && var_83[var_2611][10] != 14 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0) {
+            if (var_83[var_2611].Var0 == 26) {
+                if (var_83[var_2611].Var26 == 0 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var10 != 14 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0) {
                     var_2646 = var_2611;
                     yield func578();
                     if (var_2647 == 0) {
                         var_2649 = 1;
                         for (var cnt5 = 0; cnt5 < var_336; ++cnt5) {
-                            if (var_78[var_2649][0] >= 1 && var_78[var_2649][9] == var_83[var_2611][10] && var_78[var_2649][11] == 0) {
-                                var_83[var_2611][4] = 2;
+                            if (var_78[var_2649].Var0 >= 1 && var_78[var_2649].Var9 == var_83[var_2611].Var10 && var_78[var_2649].Var11 == 0) {
+                                var_83[var_2611].Var4 = 2;
                                 var_2617 = 1;
-                                var_2644 = var_78[var_2649][1];
-                                var_2645 = var_78[var_2649][2];
+                                var_2644 = var_78[var_2649].Var1;
+                                var_2645 = var_78[var_2649].Var2;
                                 if (var_194 == var_2649) {
                                     break;
                                 }
@@ -22731,25 +22731,25 @@ function func569() {
                         }
                     }
                 }
-                var_2651 = var_83[var_2611][1];
-                var_2652 = var_83[var_2611][2];
+                var_2651 = var_83[var_2611].Var1;
+                var_2652 = var_83[var_2611].Var2;
                 var_2649 = var_77[var_2651][var_2652];
-                if (var_77[var_2651][var_2652] != 0 && var_83[var_2611][10] == var_201 && var_83[var_2611][10] != 14 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0 && var_83[var_2611][26] == 0 && var_78[var_2649][11] == 0) {
+                if (var_77[var_2651][var_2652] != 0 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var10 != 14 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0 && var_83[var_2611].Var26 == 0 && var_78[var_2649].Var11 == 0) {
                     var_2617 = 0;
-                    var_83[var_2611][4] = 0;
+                    var_83[var_2611].Var4 = 0;
                 }
             }
-            if (var_83[var_2611][0] == 61 && var_83[var_2611][10] != 14) {
+            if (var_83[var_2611].Var0 == 61 && var_83[var_2611].Var10 != 14) {
                 var_2648 = 1;
                 for (var cnt3 = 0; cnt3 < var_336; ++cnt3) {
-                    if (var_78[var_2648][0] == 650 || var_78[var_2648][0] == 651 || var_78[var_2648][0] == 652 || var_78[var_2648][0] == 653) {
-                        if (var_78[var_2648][9] == var_83[var_2611][10]) {
-                            var_83[var_2611][4] = 2;
+                    if (var_78[var_2648].Var0 == 650 || var_78[var_2648].Var0 == 651 || var_78[var_2648].Var0 == 652 || var_78[var_2648].Var0 == 653) {
+                        if (var_78[var_2648].Var9 == var_83[var_2611].Var10) {
+                            var_83[var_2611].Var4 = 2;
                             var_2618 = 1;
-                            var_2644 = var_78[var_2648][1];
-                            var_2645 = var_78[var_2648][2];
-                            if (var_78[var_2648][1] == var_83[var_2611][1] && var_78[var_2648][2] == var_83[var_2611][2]) {
-                                var_83[var_2611][4] = 0;
+                            var_2644 = var_78[var_2648].Var1;
+                            var_2645 = var_78[var_2648].Var2;
+                            if (var_78[var_2648].Var1 == var_83[var_2611].Var1 && var_78[var_2648].Var2 == var_83[var_2611].Var2) {
+                                var_83[var_2611].Var4 = 0;
                             }
                             if (var_194 == var_2648) {
                                 break;
@@ -22759,27 +22759,27 @@ function func569() {
                     var_2648 = var_2648 + 1;
                 }
             }
-            if (var_83[var_2611][0] == 48 && var_83[var_2611][10] != 14) {
+            if (var_83[var_2611].Var0 == 48 && var_83[var_2611].Var10 != 14) {
                 var_2648 = 1;
                 for (var cnt3 = 0; cnt3 < var_336; ++cnt3) {
-                    if (var_78[var_2648][0] == 713 && var_78[var_2648][9] == var_83[var_2611][10]) {
-                        var_83[var_2611][4] = 1;
+                    if (var_78[var_2648].Var0 == 713 && var_78[var_2648].Var9 == var_83[var_2611].Var10) {
+                        var_83[var_2611].Var4 = 1;
                     }
                     var_2648 = var_2648 + 1;
                 }
             }
-            if (var_83[var_2611][0] == 1) {
-                var_83[var_2611][4] = 1;
-                if (var_83[var_2611][10] == var_201 && var_83[var_2611][10] != 14) {
+            if (var_83[var_2611].Var0 == 1) {
+                var_83[var_2611].Var4 = 1;
+                if (var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var10 != 14) {
                     var_2649 = 1;
                     for (var cnt4 = 0; cnt4 < var_336; ++cnt4) {
-                        if (var_78[var_2649][0] == 725 && var_78[var_2649][9] == var_83[var_2611][10]) {
-                            var_83[var_2611][4] = 2;
+                        if (var_78[var_2649].Var0 == 725 && var_78[var_2649].Var9 == var_83[var_2611].Var10) {
+                            var_83[var_2611].Var4 = 2;
                             var_2617 = 1;
-                            var_2644 = var_78[var_2649][1];
-                            var_2645 = var_78[var_2649][2];
-                            if (var_78[var_2649][1] == var_83[var_2611][1] && var_78[var_2649][2] == var_83[var_2611][2]) {
-                                var_83[var_2611][4] = 0;
+                            var_2644 = var_78[var_2649].Var1;
+                            var_2645 = var_78[var_2649].Var2;
+                            if (var_78[var_2649].Var1 == var_83[var_2611].Var1 && var_78[var_2649].Var2 == var_83[var_2611].Var2) {
+                                var_83[var_2611].Var4 = 0;
                             }
                             if (var_194 == var_2649) {
                                 break;
@@ -22789,19 +22789,19 @@ function func569() {
                     }
                     var_2653 = 1;
                     for (var cnt4 = 0; cnt4 < var_224; ++cnt4) {
-                        if (var_233[var_2653][0] == 725) {
-                            var_83[var_2611][4] = 2;
+                        if (var_233[var_2653].Var0 == 725) {
+                            var_83[var_2611].Var4 = 2;
                             var_2617 = 0;
                             break;
                         }
                         var_2653++;
                     }
                 }
-                if (var_83[var_2611][4] == 1 && var_83[var_2611][1] >= var_2635 && var_83[var_2611][1] <= var_2636 && var_83[var_2611][2] >= var_2638 && var_83[var_2611][2] <= var_2637) {
+                if (var_83[var_2611].Var4 == 1 && var_83[var_2611].Var1 >= var_2635 && var_83[var_2611].Var1 <= var_2636 && var_83[var_2611].Var2 >= var_2638 && var_83[var_2611].Var2 <= var_2637) {
                     var_2653 = 1;
                     for (var cnt4 = 0; cnt4 < var_224; ++cnt4) {
-                        if (var_233[var_2653][0] == 725) {
-                            var_83[var_2611][4] = 2;
+                        if (var_233[var_2653].Var0 == 725) {
+                            var_83[var_2611].Var4 = 2;
                             var_2617 = 0;
                             break;
                         }
@@ -22809,7 +22809,7 @@ function func569() {
                     }
                 }
             }
-            if (var_83[var_2611][0] == 76 && var_83[var_2611][10] <= 12 && var_83[var_2611][10] == var_201 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0 && var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0) {
+            if (var_83[var_2611].Var0 == 76 && var_83[var_2611].Var10 <= 12 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0 && var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0) {
                 if (var_77[var_423][var_424] == 0 && var_80[var_423][var_424] == 0 && var_73[var_423][var_424] == 0) {
                     var_2654 = rnd(4);
                     if (var_2654 == 0) {
@@ -22824,13 +22824,13 @@ function func569() {
                         var_768 = 0;
                         var_1728 = 0;
                         var_2425 = 0;
-                        var_83[var_2611][22] = 1;
-                        var_83[var_2611][9] = 0;
+                        var_83[var_2611].Var22 = 1;
+                        var_83[var_2611].Var9 = 0;
                         var_2616 = 1;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 65 && var_83[var_2611][10] <= 12 && var_83[var_2611][10] == var_201 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0 && var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0) {
+            if (var_83[var_2611].Var0 == 65 && var_83[var_2611].Var10 <= 12 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0 && var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0) {
                 if (var_77[var_423][var_424] == 0 && var_80[var_423][var_424] == 0 && var_73[var_423][var_424] == 0) {
                     var_2654 = rnd(8);
                     if (var_2654 == 0) {
@@ -22847,34 +22847,34 @@ function func569() {
                         var_1728 = 0;
                         var_2425 = 0;
                         var_2429 = 0;
-                        var_83[var_2611][22] = 1;
-                        var_83[var_2611][9] = 0;
+                        var_83[var_2611].Var22 = 1;
+                        var_83[var_2611].Var9 = 0;
                         var_2616 = 1;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 148 && var_83[var_2611][29] < 3 && var_83[var_2611][10] <= 12 && var_83[var_2611][10] == var_201 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0 && var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0) {
+            if (var_83[var_2611].Var0 == 148 && var_83[var_2611].Var29 < 3 && var_83[var_2611].Var10 <= 12 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0 && var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0) {
                 if (var_77[var_423][var_424] == 0 && var_80[var_423][var_424] == 0 && var_73[var_423][var_424] == 0) {
                     var_2654 = rnd(4);
                     if (var_2654 == 0) {
-                        var_83[var_2611][29] = var_83[var_2611][29] + 1;
-                        var_83[var_2611][22] = 1;
-                        var_83[var_2611][9] = 0;
+                        var_83[var_2611].Var29 = var_83[var_2611].Var29 + 1;
+                        var_83[var_2611].Var22 = 1;
+                        var_83[var_2611].Var9 = 0;
                         var_2616 = 1;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 135 && var_83[var_2611][10] <= 12 && var_83[var_2611][10] == var_201 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0 && var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0) {
+            if (var_83[var_2611].Var0 == 135 && var_83[var_2611].Var10 <= 12 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0 && var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0) {
                 if (var_77[var_423][var_424] == 0 && var_80[var_423][var_424] == 0 && var_73[var_423][var_424] == 0) {
                     var_2654 = rnd(4);
                     if (var_2654 == 0) {
-                        var_83[var_2611][22] = 1;
-                        var_83[var_2611][9] = 0;
+                        var_83[var_2611].Var22 = 1;
+                        var_83[var_2611].Var9 = 0;
                         var_2616 = 1;
                     }
                 }
             }
-            if (var_83[var_2611][0] == 155 && var_83[var_2611][10] <= 12 && var_83[var_2611][10] == var_201 && var_83[var_2611][17] == 0 && var_83[var_2611][23] == 0 && var_83[var_2611][12] == 0 && var_83[var_2611][13] == 0) {
+            if (var_83[var_2611].Var0 == 155 && var_83[var_2611].Var10 <= 12 && var_83[var_2611].Var10 == var_201 && var_83[var_2611].Var17 == 0 && var_83[var_2611].Var23 == 0 && var_83[var_2611].Var12 == 0 && var_83[var_2611].Var13 == 0) {
                 if (var_77[var_423][var_424] == 0 && var_80[var_423][var_424] == 0 && var_73[var_423][var_424] == 0) {
                     var_2654 = rnd(4);
                     if (var_2654 == 0) {
@@ -22889,26 +22889,26 @@ function func569() {
                         var_768 = 0;
                         var_1728 = 0;
                         var_2430 = 0;
-                        var_83[var_2611][22] = 1;
-                        var_83[var_2611][9] = 0;
+                        var_83[var_2611].Var22 = 1;
+                        var_83[var_2611].Var9 = 0;
                         var_2616 = 1;
                     }
                 }
             }
         }
-        if (var_83[var_2611][0] == 33) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 33) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 33 && var_72[var_66][var_67] >= 1) {
+        if (var_83[var_2611].Var0 == 33 && var_72[var_66][var_67] >= 1) {
             yield func721();
             if (var_1008 > 0) {
-                var_83[var_2611][4] = 2;
+                var_83[var_2611].Var4 = 2;
                 var_2617 = 1;
                 var_2644 = var_1018;
                 var_2645 = var_1019;
             }
             if (var_1008 == 0) {
-                var_83[var_2611][4] = 2;
+                var_83[var_2611].Var4 = 2;
                 var_2617 = 1;
                 var_2644 = var_1016;
                 var_2645 = var_1017;
@@ -22917,101 +22917,101 @@ function func569() {
                     var_2645 = var_1021;
                 }
                 if (var_82[var_2644][var_2645] != 0 || var_65[var_2644][var_2645] != 0) {
-                    var_83[var_2611][4] = 0;
+                    var_83[var_2611].Var4 = 0;
                 }
-                if (var_83[var_2611][1] == var_1016 && var_83[var_2611][2] == var_1017) {
-                    var_83[var_2611][4] = 0;
+                if (var_83[var_2611].Var1 == var_1016 && var_83[var_2611].Var2 == var_1017) {
+                    var_83[var_2611].Var4 = 0;
                 }
-                if (var_83[var_2611][1] == var_1020 && var_83[var_2611][2] == var_1021) {
-                    var_83[var_2611][4] = 0;
+                if (var_83[var_2611].Var1 == var_1020 && var_83[var_2611].Var2 == var_1021) {
+                    var_83[var_2611].Var4 = 0;
                 }
             }
         }
-        if (var_83[var_2611][0] == 26 && var_83[var_2611][26] >= 1 && var_83[var_2611][20] == 0) {
-            var_83[var_2611][4] = 6;
+        if (var_83[var_2611].Var0 == 26 && var_83[var_2611].Var26 >= 1 && var_83[var_2611].Var20 == 0) {
+            var_83[var_2611].Var4 = 6;
         }
-        if (var_83[var_2611][0] == 144 && var_83[var_2611][26] >= 1 && var_83[var_2611][20] == 0) {
-            var_83[var_2611][4] = 6;
+        if (var_83[var_2611].Var0 == 144 && var_83[var_2611].Var26 >= 1 && var_83[var_2611].Var20 == 0) {
+            var_83[var_2611].Var4 = 6;
         }
-        if (var_83[var_2611][0] == 116 && var_83[var_2611][26] >= 1 && var_83[var_2611][20] == 0) {
-            var_83[var_2611][4] = 6;
+        if (var_83[var_2611].Var0 == 116 && var_83[var_2611].Var26 >= 1 && var_83[var_2611].Var20 == 0) {
+            var_83[var_2611].Var4 = 6;
         }
-        if (var_83[var_2611][0] == 117 && var_83[var_2611][20] == 0) {
-            var_83[var_2611][4] = 6;
+        if (var_83[var_2611].Var0 == 117 && var_83[var_2611].Var20 == 0) {
+            var_83[var_2611].Var4 = 6;
         }
-        if (var_83[var_2611][23] >= 1 && var_83[var_2611][0] != 118) {
-            var_83[var_2611][4] = 7;
+        if (var_83[var_2611].Var23 >= 1 && var_83[var_2611].Var0 != 118) {
+            var_83[var_2611].Var4 = 7;
         }
-        if (var_218 >= 1 && var_83[var_2611][0] != 33) {
-            var_83[var_2611][4] = 3;
+        if (var_218 >= 1 && var_83[var_2611].Var0 != 33) {
+            var_83[var_2611].Var4 = 3;
         }
-        if (var_144 >= 1 && var_83[var_2611][0] != 33) {
-            var_83[var_2611][4] = 3;
+        if (var_144 >= 1 && var_83[var_2611].Var0 != 33) {
+            var_83[var_2611].Var4 = 3;
         }
-        if (var_83[var_2611][17] >= 1) {
-            var_83[var_2611][4] = 1;
+        if (var_83[var_2611].Var17 >= 1) {
+            var_83[var_2611].Var4 = 1;
         }
-        if (var_83[var_2611][0] == 91) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 91) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 92) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 92) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 94 && var_83[var_2611][23] == 0) {
-            var_83[var_2611][4] = 5;
+        if (var_83[var_2611].Var0 == 94 && var_83[var_2611].Var23 == 0) {
+            var_83[var_2611].Var4 = 5;
         }
-        if (var_83[var_2611][0] == 21 && var_83[var_2611][23] == 0) {
-            var_83[var_2611][4] = 5;
+        if (var_83[var_2611].Var0 == 21 && var_83[var_2611].Var23 == 0) {
+            var_83[var_2611].Var4 = 5;
         }
-        if (var_83[var_2611][0] == 172 && var_83[var_2611][23] == 0) {
-            var_83[var_2611][4] = 5;
+        if (var_83[var_2611].Var0 == 172 && var_83[var_2611].Var23 == 0) {
+            var_83[var_2611].Var4 = 5;
         }
-        if (var_83[var_2611][0] == 27 || var_83[var_2611][0] == 94 || var_83[var_2611][0] == 21 || var_83[var_2611][0] == 172) {
-            if (var_83[var_2611][23] >= 1 || var_218 >= 1 || var_144 >= 1 || var_131 >= 1) {
-                var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 27 || var_83[var_2611].Var0 == 94 || var_83[var_2611].Var0 == 21 || var_83[var_2611].Var0 == 172) {
+            if (var_83[var_2611].Var23 >= 1 || var_218 >= 1 || var_144 >= 1 || var_131 >= 1) {
+                var_83[var_2611].Var4 = 0;
             }
         }
-        if (var_83[var_2611][0] == 19) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 19) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 90) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 90) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 23) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 23) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 70) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 70) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 53) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 53) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 55) {
-            var_83[var_2611][4] = 1;
+        if (var_83[var_2611].Var0 == 55) {
+            var_83[var_2611].Var4 = 1;
         }
-        if (var_83[var_2611][0] == 75) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 75) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 96) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 96) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 79) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 79) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 69 && var_114 >= 1 && var_66 == var_461 && var_67 == var_462) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 69 && var_114 >= 1 && var_66 == var_461 && var_67 == var_462) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 50) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 50) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 142) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 142) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_83[var_2611][0] == 173) {
-            var_83[var_2611][4] = 0;
+        if (var_83[var_2611].Var0 == 173) {
+            var_83[var_2611].Var4 = 0;
         }
-        if (var_146 >= 1 && var_147 == var_83[var_2611][1] && var_148 == var_83[var_2611][2]) {
-            var_83[var_2611][4] = 0;
+        if (var_146 >= 1 && var_147 == var_83[var_2611].Var1 && var_148 == var_83[var_2611].Var2) {
+            var_83[var_2611].Var4 = 0;
         }
         if (var_2616 == 0) {
             var_602 = 0;
@@ -23046,7 +23046,7 @@ function func569() {
             if (var_71[var_426][var_428] == 0 || var_65[var_426][var_428] == 1) {
                 var_609 = 1;
             }
-            if (var_83[var_2611][23] >= 1) {
+            if (var_83[var_2611].Var23 >= 1) {
                 var_602 = 0;
                 var_603 = 0;
                 var_604 = 0;
@@ -23080,8 +23080,8 @@ function func569() {
                     var_609 = 1;
                 }
             }
-            if (var_83[var_2611][0] == 43 || var_83[var_2611][0] == 111) {
-                if (var_83[var_2611][20] == 0 && var_62 != 0) {
+            if (var_83[var_2611].Var0 == 43 || var_83[var_2611].Var0 == 111) {
+                if (var_83[var_2611].Var20 == 0 && var_62 != 0) {
                     var_602 = 0;
                     var_603 = 0;
                     var_604 = 0;
@@ -23116,8 +23116,8 @@ function func569() {
                     }
                 }
             }
-            if (var_83[var_2611][0] == 118) {
-                if (var_83[var_2611][20] == 0 && var_62 != 0) {
+            if (var_83[var_2611].Var0 == 118) {
+                if (var_83[var_2611].Var20 == 0 && var_62 != 0) {
                     var_602 = 0;
                     var_603 = 0;
                     var_604 = 0;
@@ -23200,7 +23200,7 @@ function func569() {
                 var_606 = 1;
                 var_608 = 1;
             }
-            if (var_83[var_2611][4] == 1) {
+            if (var_83[var_2611].Var4 == 1) {
                 var_610 = 0;
                 for (var cnt3 = 0; cnt3 < 50; ++cnt3) {
                     var_2486 = rnd(12);
@@ -23233,45 +23233,45 @@ function func569() {
                     if (var_2486 == 4 && var_604 == 0 && var_602 == 0 && var_606 == 0 && var_82[var_425][var_427] == 0) {
                         var_423 = var_423 - 1;
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 1;
+                        var_83[var_2611].Var5 = 1;
                         var_610 = 1;
                     }
                     if (var_2486 == 5 && var_604 == 0 && var_82[var_423][var_427] == 0) {
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 2;
+                        var_83[var_2611].Var5 = 2;
                         var_610 = 1;
                     }
                     if (var_2486 == 6 && var_604 == 0 && var_603 == 0 && var_608 == 0 && var_82[var_426][var_427] == 0) {
                         var_423 = var_423 + 1;
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 3;
+                        var_83[var_2611].Var5 = 3;
                         var_610 = 1;
                     }
                     if (var_2486 == 7 && var_602 == 0 && var_82[var_425][var_424] == 0) {
                         var_423 = var_423 - 1;
-                        var_83[var_2611][5] = 4;
+                        var_83[var_2611].Var5 = 4;
                         var_610 = 1;
                     }
                     if (var_2486 == 8 && var_603 == 0 && var_82[var_426][var_424] == 0) {
                         var_423 = var_423 + 1;
-                        var_83[var_2611][5] = 6;
+                        var_83[var_2611].Var5 = 6;
                         var_610 = 1;
                     }
                     if (var_2486 == 9 && var_602 == 0 && var_605 == 0 && var_607 == 0 && var_82[var_425][var_428] == 0) {
                         var_423 = var_423 - 1;
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 7;
+                        var_83[var_2611].Var5 = 7;
                         var_610 = 1;
                     }
                     if (var_2486 == 10 && var_605 == 0 && var_82[var_423][var_428] == 0) {
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 8;
+                        var_83[var_2611].Var5 = 8;
                         var_610 = 1;
                     }
                     if (var_2486 == 11 && var_603 == 0 && var_605 == 0 && var_609 == 0 && var_82[var_426][var_428] == 0) {
                         var_423 = var_423 + 1;
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 9;
+                        var_83[var_2611].Var5 = 9;
                         var_610 = 1;
                     }
                     if (var_423 < 5) {
@@ -23290,14 +23290,14 @@ function func569() {
                         var_423 = var_2619;
                         var_424 = var_2620;
                         var_610 = 0;
-                        var_83[var_2611][5] = var_2615;
+                        var_83[var_2611].Var5 = var_2615;
                     }
                     if (var_610 == 1) {
                         break;
                     }
                 }
             }
-            if (var_83[var_2611][4] == 2) {
+            if (var_83[var_2611].Var4 == 2) {
                 var_610 = 0;
                 if (var_2618 == 1 || var_2617 == 1) {
                     var_613 = var_66;
@@ -23307,7 +23307,7 @@ function func569() {
                 }
                 yield func570();
                 if (var_610 == 1) {
-                    var_83[var_2611][38] = 0;
+                    var_83[var_2611].Var38 = 0;
                 }
                 if (var_2618 == 1 || var_2617 == 1) {
                     var_2617 = 0;
@@ -23316,13 +23316,13 @@ function func569() {
                     var_67 = var_614;
                 }
             }
-            if (var_83[var_2611][4] == 6) {
+            if (var_83[var_2611].Var4 == 6) {
                 var_610 = 0;
                 var_2655 = var_423;
                 var_2656 = var_424;
-                var_2657 = var_83[var_2611][5];
-                var_2658 = var_83[var_2611][1];
-                var_2659 = var_83[var_2611][2];
+                var_2657 = var_83[var_2611].Var5;
+                var_2658 = var_83[var_2611].Var1;
+                var_2659 = var_83[var_2611].Var2;
                 var_2660 = var_2658 - 1;
                 if (var_2660 < 5) {
                     var_2660 = 5;
@@ -23339,58 +23339,58 @@ function func569() {
                 if (var_2663 < 5) {
                     var_2663 = 5;
                 }
-                if (var_83[var_2611][5] == 2 && var_610 == 0) {
+                if (var_83[var_2611].Var5 == 2 && var_610 == 0) {
                     if (var_65[var_2658][var_2662] == 1 || var_65[var_2660][var_2662] == 1 || var_65[var_2661][var_2662] == 1) {
-                        var_83[var_2611][5] = 8;
+                        var_83[var_2611].Var5 = 8;
                         yield func571();
                         yield func572();
                     }
                 }
-                if (var_83[var_2611][5] == 8 && var_610 == 0) {
+                if (var_83[var_2611].Var5 == 8 && var_610 == 0) {
                     if (var_65[var_2658][var_2663] == 1 || var_65[var_2660][var_2663] == 1 || var_65[var_2661][var_2663] == 1) {
-                        var_83[var_2611][5] = 2;
+                        var_83[var_2611].Var5 = 2;
                         yield func571();
                         yield func572();
                     }
                 }
-                if (var_83[var_2611][5] == 4 && var_610 == 0) {
+                if (var_83[var_2611].Var5 == 4 && var_610 == 0) {
                     if (var_65[var_2660][var_2659] == 1 || var_65[var_2660][var_2662] == 1 || var_65[var_2660][var_2663] == 1) {
-                        var_83[var_2611][5] = 6;
+                        var_83[var_2611].Var5 = 6;
                         yield func571();
                         yield func572();
                     }
                 }
-                if (var_83[var_2611][5] == 6 && var_610 == 0) {
+                if (var_83[var_2611].Var5 == 6 && var_610 == 0) {
                     if (var_65[var_2661][var_2659] == 1 || var_65[var_2661][var_2662] == 1 || var_65[var_2661][var_2663] == 1) {
-                        var_83[var_2611][5] = 4;
+                        var_83[var_2611].Var5 = 4;
                         yield func571();
                         yield func572();
                     }
                 }
-                if (var_83[var_2611][5] == 1 && var_610 == 0) {
+                if (var_83[var_2611].Var5 == 1 && var_610 == 0) {
                     if (var_65[var_2660][var_2662] == 1 || var_65[var_2660][var_2659] == 1 || var_65[var_2658][var_2662] == 1) {
-                        var_83[var_2611][5] = 9;
+                        var_83[var_2611].Var5 = 9;
                         yield func571();
                         yield func572();
                     }
                 }
-                if (var_83[var_2611][5] == 3 && var_610 == 0) {
+                if (var_83[var_2611].Var5 == 3 && var_610 == 0) {
                     if (var_65[var_2661][var_2662] == 1 || var_65[var_2661][var_2659] == 1 || var_65[var_2658][var_2662] == 1) {
-                        var_83[var_2611][5] = 7;
+                        var_83[var_2611].Var5 = 7;
                         yield func571();
                         yield func572();
                     }
                 }
-                if (var_83[var_2611][5] == 7 && var_610 == 0) {
+                if (var_83[var_2611].Var5 == 7 && var_610 == 0) {
                     if (var_65[var_2660][var_2663] == 1 || var_65[var_2660][var_2659] == 1 || var_65[var_2658][var_2663] == 1) {
-                        var_83[var_2611][5] = 3;
+                        var_83[var_2611].Var5 = 3;
                         yield func571();
                         yield func572();
                     }
                 }
-                if (var_83[var_2611][5] == 9 && var_610 == 0) {
+                if (var_83[var_2611].Var5 == 9 && var_610 == 0) {
                     if (var_65[var_2661][var_2663] == 1 || var_65[var_2661][var_2659] == 1 || var_65[var_2658][var_2663] == 1) {
-                        var_83[var_2611][5] = 1;
+                        var_83[var_2611].Var5 = 1;
                         yield func571();
                         yield func572();
                     }
@@ -23412,27 +23412,27 @@ function func569() {
                     var_2668 = 5;
                 }
                 var_2669 = 0;
-                if (var_201 == var_83[var_2611][10]) {
+                if (var_201 == var_83[var_2611].Var10) {
                     var_2669 = 1;
                 }
-                if (var_201 == 14 && var_71[var_2664][var_67] == var_83[var_2611][10]) {
+                if (var_201 == 14 && var_71[var_2664][var_67] == var_83[var_2611].Var10) {
                     var_2669 = 1;
                 }
-                if (var_201 == 14 && var_71[var_2666][var_67] == var_83[var_2611][10]) {
+                if (var_201 == 14 && var_71[var_2666][var_67] == var_83[var_2611].Var10) {
                     var_2669 = 1;
                 }
-                if (var_201 == 14 && var_71[var_66][var_2667] == var_83[var_2611][10]) {
+                if (var_201 == 14 && var_71[var_66][var_2667] == var_83[var_2611].Var10) {
                     var_2669 = 1;
                 }
-                if (var_201 == 14 && var_71[var_66][var_2668] == var_83[var_2611][10]) {
+                if (var_201 == 14 && var_71[var_66][var_2668] == var_83[var_2611].Var10) {
                     var_2669 = 1;
                 }
-                if (var_83[var_2611][10] != 14 && var_2669 == 0 && var_610 == 0) {
+                if (var_83[var_2611].Var10 != 14 && var_2669 == 0 && var_610 == 0) {
                     var_611 = 0;
-                    var_615 = var_83[var_2611][10];
+                    var_615 = var_83[var_2611].Var10;
                     var_613 = var_66;
                     var_614 = var_67;
-                    if (var_83[var_2611][33] == 4) {
+                    if (var_83[var_2611].Var33 == 4) {
                         if (var_76[var_615][4][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][4][1];
                             var_67 = var_76[var_615][4][2];
@@ -23462,7 +23462,7 @@ function func569() {
                             }
                         }
                     }
-                    if (var_83[var_2611][33] == 6) {
+                    if (var_83[var_2611].Var33 == 6) {
                         if (var_76[var_615][1][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][1][1];
                             var_67 = var_76[var_615][1][2];
@@ -23492,7 +23492,7 @@ function func569() {
                             }
                         }
                     }
-                    if (var_83[var_2611][33] == 8) {
+                    if (var_83[var_2611].Var33 == 8) {
                         if (var_76[var_615][2][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][2][1];
                             var_67 = var_76[var_615][2][2];
@@ -23522,7 +23522,7 @@ function func569() {
                             }
                         }
                     }
-                    if (var_83[var_2611][33] == 2) {
+                    if (var_83[var_2611].Var33 == 2) {
                         if (var_76[var_615][3][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][3][1];
                             var_67 = var_76[var_615][3][2];
@@ -23552,7 +23552,7 @@ function func569() {
                             }
                         }
                     }
-                    if (var_83[var_2611][33] == 5) {
+                    if (var_83[var_2611].Var33 == 5) {
                         if (var_76[var_615][3][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][3][1];
                             var_67 = var_76[var_615][3][2];
@@ -23588,45 +23588,45 @@ function func569() {
                     var_66 = var_613;
                     var_67 = var_614;
                 }
-                if (var_83[var_2611][10] != 14 && var_2669 == 1 && var_610 == 0) {
-                    if (var_83[var_2611][34] == 14) {
+                if (var_83[var_2611].Var10 != 14 && var_2669 == 1 && var_610 == 0) {
+                    if (var_83[var_2611].Var34 == 14) {
                         var_2670 = 0;
-                        if (var_83[var_2611][5] == 2 && var_2670 == 0) {
-                            var_83[var_2611][5] = 6;
+                        if (var_83[var_2611].Var5 == 2 && var_2670 == 0) {
+                            var_83[var_2611].Var5 = 6;
                             var_2670 = 1;
                         }
-                        if (var_83[var_2611][5] == 8 && var_2670 == 0) {
-                            var_83[var_2611][5] = 4;
+                        if (var_83[var_2611].Var5 == 8 && var_2670 == 0) {
+                            var_83[var_2611].Var5 = 4;
                             var_2670 = 1;
                         }
-                        if (var_83[var_2611][5] == 4 && var_2670 == 0) {
-                            var_83[var_2611][5] = 2;
+                        if (var_83[var_2611].Var5 == 4 && var_2670 == 0) {
+                            var_83[var_2611].Var5 = 2;
                             var_2670 = 1;
                         }
-                        if (var_83[var_2611][5] == 6 && var_2670 == 0) {
-                            var_83[var_2611][5] = 8;
+                        if (var_83[var_2611].Var5 == 6 && var_2670 == 0) {
+                            var_83[var_2611].Var5 = 8;
                             var_2670 = 1;
                         }
-                        if (var_83[var_2611][5] == 1 && var_2670 == 0) {
-                            var_83[var_2611][5] = 2;
+                        if (var_83[var_2611].Var5 == 1 && var_2670 == 0) {
+                            var_83[var_2611].Var5 = 2;
                             var_2670 = 1;
                         }
-                        if (var_83[var_2611][5] == 3 && var_2670 == 0) {
-                            var_83[var_2611][5] = 2;
+                        if (var_83[var_2611].Var5 == 3 && var_2670 == 0) {
+                            var_83[var_2611].Var5 = 2;
                             var_2670 = 1;
                         }
-                        if (var_83[var_2611][5] == 7 && var_2670 == 0) {
-                            var_83[var_2611][5] = 8;
+                        if (var_83[var_2611].Var5 == 7 && var_2670 == 0) {
+                            var_83[var_2611].Var5 = 8;
                             var_2670 = 1;
                         }
-                        if (var_83[var_2611][5] == 9 && var_2670 == 0) {
-                            var_83[var_2611][5] = 8;
+                        if (var_83[var_2611].Var5 == 9 && var_2670 == 0) {
+                            var_83[var_2611].Var5 = 8;
                             var_2670 = 1;
                         }
                     }
                     yield func571();
                 }
-                if (var_83[var_2611][10] != 14 && var_610 == 1) {
+                if (var_83[var_2611].Var10 != 14 && var_610 == 1) {
                     var_2658 = var_423;
                     var_2659 = var_424;
                     var_2660 = var_2658 - 1;
@@ -23645,65 +23645,65 @@ function func569() {
                     if (var_2663 < 5) {
                         var_2663 = 5;
                     }
-                    if (var_83[var_2611][5] == 2) {
+                    if (var_83[var_2611].Var5 == 2) {
                         if (var_65[var_2658][var_2662] == 1 || var_65[var_2660][var_2662] == 1 || var_65[var_2661][var_2662] == 1) {
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_423 = var_2655;
                             var_424 = var_2656;
                             var_610 = 0;
                         }
                     }
-                    if (var_83[var_2611][5] == 8) {
+                    if (var_83[var_2611].Var5 == 8) {
                         if (var_65[var_2658][var_2663] == 1 || var_65[var_2660][var_2663] == 1 || var_65[var_2661][var_2663] == 1) {
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_423 = var_2655;
                             var_424 = var_2656;
                             var_610 = 0;
                         }
                     }
-                    if (var_83[var_2611][5] == 4) {
+                    if (var_83[var_2611].Var5 == 4) {
                         if (var_65[var_2660][var_2659] == 1 || var_65[var_2660][var_2662] == 1 || var_65[var_2660][var_2663] == 1) {
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_423 = var_2655;
                             var_424 = var_2656;
                             var_610 = 0;
                         }
                     }
-                    if (var_83[var_2611][5] == 6) {
+                    if (var_83[var_2611].Var5 == 6) {
                         if (var_65[var_2661][var_2659] == 1 || var_65[var_2661][var_2662] == 1 || var_65[var_2661][var_2663] == 1) {
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_423 = var_2655;
                             var_424 = var_2656;
                             var_610 = 0;
                         }
                     }
-                    if (var_83[var_2611][5] == 1) {
+                    if (var_83[var_2611].Var5 == 1) {
                         if (var_65[var_2660][var_2662] == 1 || var_65[var_2660][var_2659] == 1 || var_65[var_2658][var_2662] == 1) {
-                            var_83[var_2611][5] = 9;
+                            var_83[var_2611].Var5 = 9;
                             var_423 = var_2655;
                             var_424 = var_2656;
                             var_610 = 0;
                         }
                     }
-                    if (var_83[var_2611][5] == 3) {
+                    if (var_83[var_2611].Var5 == 3) {
                         if (var_65[var_2661][var_2662] == 1 || var_65[var_2661][var_2659] == 1 || var_65[var_2658][var_2662] == 1) {
-                            var_83[var_2611][5] = 7;
+                            var_83[var_2611].Var5 = 7;
                             var_423 = var_2655;
                             var_424 = var_2656;
                             var_610 = 0;
                         }
                     }
-                    if (var_83[var_2611][5] == 7) {
+                    if (var_83[var_2611].Var5 == 7) {
                         if (var_65[var_2660][var_2663] == 1 || var_65[var_2660][var_2659] == 1 || var_65[var_2658][var_2663] == 1) {
-                            var_83[var_2611][5] = 3;
+                            var_83[var_2611].Var5 = 3;
                             var_423 = var_2655;
                             var_424 = var_2656;
                             var_610 = 0;
                         }
                     }
-                    if (var_83[var_2611][5] == 9) {
+                    if (var_83[var_2611].Var5 == 9) {
                         if (var_65[var_2661][var_2663] == 1 || var_65[var_2661][var_2659] == 1 || var_65[var_2658][var_2663] == 1) {
-                            var_83[var_2611][5] = 1;
+                            var_83[var_2611].Var5 = 1;
                             var_423 = var_2655;
                             var_424 = var_2656;
                             var_610 = 0;
@@ -23714,196 +23714,196 @@ function func569() {
                         yield func572();
                     }
                 }
-                if (var_83[var_2611][10] == 14 && var_610 == 0) {
-                    if (var_83[var_2611][5] == 1 && var_610 == 0) {
+                if (var_83[var_2611].Var10 == 14 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 1 && var_610 == 0) {
                         if (var_610 == 0 && var_606 == 0 && var_602 == 0 && var_604 == 0 && var_82[var_425][var_427] == 0 && var_71[var_425][var_427] != 13) {
                             var_423 = var_423 - 1;
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 1;
+                            var_83[var_2611].Var5 = 1;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 3 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 3 && var_610 == 0) {
                         if (var_610 == 0 && var_608 == 0 && var_603 == 0 && var_604 == 0 && var_82[var_426][var_427] == 0 && var_71[var_426][var_427] != 13) {
                             var_423 = var_423 + 1;
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 3;
+                            var_83[var_2611].Var5 = 3;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 7 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 7 && var_610 == 0) {
                         if (var_610 == 0 && var_607 == 0 && var_602 == 0 && var_605 == 0 && var_82[var_425][var_428] == 0 && var_71[var_425][var_428] != 13) {
                             var_423 = var_423 - 1;
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 7;
+                            var_83[var_2611].Var5 = 7;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 9 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 9 && var_610 == 0) {
                         if (var_610 == 0 && var_609 == 0 && var_603 == 0 && var_605 == 0 && var_82[var_426][var_428] == 0 && var_71[var_426][var_428] != 13) {
                             var_423 = var_423 + 1;
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 9;
+                            var_83[var_2611].Var5 = 9;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 2 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 2 && var_610 == 0) {
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 8 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 8 && var_610 == 0) {
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 4 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 4 && var_610 == 0) {
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 6 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 6 && var_610 == 0) {
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                     }
                 }
                 if (var_610 == 1) {
-                    var_83[var_2611][38] = 0;
+                    var_83[var_2611].Var38 = 0;
                 }
                 if (var_610 == 0) {
-                    var_83[var_2611][38] = 0;
+                    var_83[var_2611].Var38 = 0;
                     var_618 = 0;
-                    if (var_618 == 0 && var_83[var_2611][5] == 2) {
-                        var_83[var_2611][5] = 8;
+                    if (var_618 == 0 && var_83[var_2611].Var5 == 2) {
+                        var_83[var_2611].Var5 = 8;
                         var_618 = 1;
                     }
-                    if (var_618 == 0 && var_83[var_2611][5] == 8) {
-                        var_83[var_2611][5] = 2;
+                    if (var_618 == 0 && var_83[var_2611].Var5 == 8) {
+                        var_83[var_2611].Var5 = 2;
                         var_618 = 1;
                     }
-                    if (var_618 == 0 && var_83[var_2611][5] == 6) {
-                        var_83[var_2611][5] = 4;
+                    if (var_618 == 0 && var_83[var_2611].Var5 == 6) {
+                        var_83[var_2611].Var5 = 4;
                         var_618 = 1;
                     }
-                    if (var_618 == 0 && var_83[var_2611][5] == 4) {
-                        var_83[var_2611][5] = 6;
+                    if (var_618 == 0 && var_83[var_2611].Var5 == 4) {
+                        var_83[var_2611].Var5 = 6;
                         var_618 = 1;
                     }
-                    if (var_618 == 0 && var_83[var_2611][5] == 1) {
-                        var_83[var_2611][5] = 2;
+                    if (var_618 == 0 && var_83[var_2611].Var5 == 1) {
+                        var_83[var_2611].Var5 = 2;
                         var_618 = 1;
                     }
-                    if (var_618 == 0 && var_83[var_2611][5] == 3) {
-                        var_83[var_2611][5] = 2;
+                    if (var_618 == 0 && var_83[var_2611].Var5 == 3) {
+                        var_83[var_2611].Var5 = 2;
                         var_618 = 1;
                     }
-                    if (var_618 == 0 && var_83[var_2611][5] == 7) {
-                        var_83[var_2611][5] = 8;
+                    if (var_618 == 0 && var_83[var_2611].Var5 == 7) {
+                        var_83[var_2611].Var5 = 8;
                         var_618 = 1;
                     }
-                    if (var_618 == 0 && var_83[var_2611][5] == 9) {
-                        var_83[var_2611][5] = 8;
+                    if (var_618 == 0 && var_83[var_2611].Var5 == 9) {
+                        var_83[var_2611].Var5 = 8;
                         var_618 = 1;
                     }
                 }
             }
-            if (var_83[var_2611][4] == 3) {
+            if (var_83[var_2611].Var4 == 3) {
                 var_610 = 0;
                 var_611 = 0;
-                if (var_83[var_2611][10] != 14) {
-                    var_615 = var_83[var_2611][10];
+                if (var_83[var_2611].Var10 != 14) {
+                    var_615 = var_83[var_2611].Var10;
                     var_613 = var_66;
                     var_614 = var_67;
-                    if (var_83[var_2611][33] == 4) {
+                    if (var_83[var_2611].Var33 == 4) {
                         if (var_76[var_615][4][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][4][1];
                             var_67 = var_76[var_615][4][2];
@@ -23933,7 +23933,7 @@ function func569() {
                             }
                         }
                     }
-                    if (var_83[var_2611][33] == 6) {
+                    if (var_83[var_2611].Var33 == 6) {
                         if (var_76[var_615][1][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][1][1];
                             var_67 = var_76[var_615][1][2];
@@ -23963,7 +23963,7 @@ function func569() {
                             }
                         }
                     }
-                    if (var_83[var_2611][33] == 8) {
+                    if (var_83[var_2611].Var33 == 8) {
                         if (var_76[var_615][2][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][2][1];
                             var_67 = var_76[var_615][2][2];
@@ -23993,7 +23993,7 @@ function func569() {
                             }
                         }
                     }
-                    if (var_83[var_2611][33] == 2) {
+                    if (var_83[var_2611].Var33 == 2) {
                         if (var_76[var_615][3][1] != 0 && var_611 == 0) {
                             var_66 = var_76[var_615][3][1];
                             var_67 = var_76[var_615][3][2];
@@ -24023,7 +24023,7 @@ function func569() {
                             }
                         }
                     }
-                    if (var_83[var_2611][33] == 5) {
+                    if (var_83[var_2611].Var33 == 5) {
                         var_66 = var_188;
                         var_67 = var_189;
                         if (var_71[var_66][var_67] != 0) {
@@ -24034,34 +24034,34 @@ function func569() {
                         yield func570();
                     }
                     if (var_610 == 1) {
-                        var_83[var_2611][38] = 0;
+                        var_83[var_2611].Var38 = 0;
                     }
                     if (var_610 == 0) {
-                        var_83[var_2611][38] = var_83[var_2611][38] + 1;
+                        var_83[var_2611].Var38 = var_83[var_2611].Var38 + 1;
                         if (var_131 >= 1 || var_144 >= 1 || var_218 >= 1) {
-                            var_83[var_2611][38] = 6;
+                            var_83[var_2611].Var38 = 6;
                         }
-                        if (var_83[var_2611][38] > 5) {
-                            var_83[var_2611][38] = 0;
+                        if (var_83[var_2611].Var38 > 5) {
+                            var_83[var_2611].Var38 = 0;
                             var_617 = 0;
-                            if (var_617 == 0 && var_83[var_2611][33] == 2) {
-                                var_83[var_2611][33] = 4;
+                            if (var_617 == 0 && var_83[var_2611].Var33 == 2) {
+                                var_83[var_2611].Var33 = 4;
                                 var_617 = 1;
                             }
-                            if (var_617 == 0 && var_83[var_2611][33] == 6) {
-                                var_83[var_2611][33] = 2;
+                            if (var_617 == 0 && var_83[var_2611].Var33 == 6) {
+                                var_83[var_2611].Var33 = 2;
                                 var_617 = 1;
                             }
-                            if (var_617 == 0 && var_83[var_2611][33] == 8) {
-                                var_83[var_2611][33] = 6;
+                            if (var_617 == 0 && var_83[var_2611].Var33 == 8) {
+                                var_83[var_2611].Var33 = 6;
                                 var_617 = 1;
                             }
-                            if (var_617 == 0 && var_83[var_2611][33] == 4) {
-                                var_83[var_2611][33] = 8;
+                            if (var_617 == 0 && var_83[var_2611].Var33 == 4) {
+                                var_83[var_2611].Var33 = 8;
                                 var_617 = 1;
                             }
-                            if (var_617 == 0 && var_83[var_2611][33] == 5) {
-                                var_83[var_2611][33] = 8;
+                            if (var_617 == 0 && var_83[var_2611].Var33 == 5) {
+                                var_83[var_2611].Var33 = 8;
                                 var_617 = 1;
                             }
                         }
@@ -24069,210 +24069,210 @@ function func569() {
                     var_66 = var_613;
                     var_67 = var_614;
                 }
-                if (var_83[var_2611][10] == 14 || var_611 == 0) {
-                    if (var_83[var_2611][5] == 1 && var_610 == 0) {
+                if (var_83[var_2611].Var10 == 14 || var_611 == 0) {
+                    if (var_83[var_2611].Var5 == 1 && var_610 == 0) {
                         if (var_610 == 0 && var_606 == 0 && var_602 == 0 && var_604 == 0 && var_82[var_425][var_427] == 0 && var_71[var_425][var_427] != 13) {
                             var_423 = var_423 - 1;
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 1;
+                            var_83[var_2611].Var5 = 1;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 3 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 3 && var_610 == 0) {
                         if (var_610 == 0 && var_608 == 0 && var_603 == 0 && var_604 == 0 && var_82[var_426][var_427] == 0 && var_71[var_426][var_427] != 13) {
                             var_423 = var_423 + 1;
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 3;
+                            var_83[var_2611].Var5 = 3;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 7 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 7 && var_610 == 0) {
                         if (var_610 == 0 && var_607 == 0 && var_602 == 0 && var_605 == 0 && var_82[var_425][var_428] == 0 && var_71[var_425][var_428] != 13) {
                             var_423 = var_423 - 1;
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 7;
+                            var_83[var_2611].Var5 = 7;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 9 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 9 && var_610 == 0) {
                         if (var_610 == 0 && var_609 == 0 && var_603 == 0 && var_605 == 0 && var_82[var_426][var_428] == 0 && var_71[var_426][var_428] != 13) {
                             var_423 = var_423 + 1;
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 9;
+                            var_83[var_2611].Var5 = 9;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 2 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 2 && var_610 == 0) {
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 8 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 8 && var_610 == 0) {
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 4 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 4 && var_610 == 0) {
                         if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                             var_423 = var_423 - 1;
-                            var_83[var_2611][5] = 4;
+                            var_83[var_2611].Var5 = 4;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                     }
-                    if (var_83[var_2611][5] == 6 && var_610 == 0) {
+                    if (var_83[var_2611].Var5 == 6 && var_610 == 0) {
                         if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                             var_423 = var_423 + 1;
-                            var_83[var_2611][5] = 6;
+                            var_83[var_2611].Var5 = 6;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                             var_424 = var_424 + 1;
-                            var_83[var_2611][5] = 2;
+                            var_83[var_2611].Var5 = 2;
                             var_610 = 1;
                         }
                         if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                             var_424 = var_424 - 1;
-                            var_83[var_2611][5] = 8;
+                            var_83[var_2611].Var5 = 8;
                             var_610 = 1;
                         }
                     }
                     if (var_610 == 1) {
-                        var_83[var_2611][38] = 0;
+                        var_83[var_2611].Var38 = 0;
                     }
                     if (var_610 == 0) {
-                        var_83[var_2611][38] = var_83[var_2611][38] + 1;
+                        var_83[var_2611].Var38 = var_83[var_2611].Var38 + 1;
                         if (var_131 >= 1 || var_144 >= 1 || var_218 >= 1) {
-                            var_83[var_2611][38] = 6;
+                            var_83[var_2611].Var38 = 6;
                         }
-                        if (var_83[var_2611][38] > 5) {
-                            var_83[var_2611][38] = 0;
+                        if (var_83[var_2611].Var38 > 5) {
+                            var_83[var_2611].Var38 = 0;
                             var_618 = 0;
-                            if (var_618 == 0 && var_83[var_2611][5] == 2) {
-                                var_83[var_2611][5] = 8;
+                            if (var_618 == 0 && var_83[var_2611].Var5 == 2) {
+                                var_83[var_2611].Var5 = 8;
                                 var_618 = 1;
                             }
-                            if (var_618 == 0 && var_83[var_2611][5] == 8) {
-                                var_83[var_2611][5] = 2;
+                            if (var_618 == 0 && var_83[var_2611].Var5 == 8) {
+                                var_83[var_2611].Var5 = 2;
                                 var_618 = 1;
                             }
-                            if (var_618 == 0 && var_83[var_2611][5] == 6) {
-                                var_83[var_2611][5] = 4;
+                            if (var_618 == 0 && var_83[var_2611].Var5 == 6) {
+                                var_83[var_2611].Var5 = 4;
                                 var_618 = 1;
                             }
-                            if (var_618 == 0 && var_83[var_2611][5] == 4) {
-                                var_83[var_2611][5] = 6;
+                            if (var_618 == 0 && var_83[var_2611].Var5 == 4) {
+                                var_83[var_2611].Var5 = 6;
                                 var_618 = 1;
                             }
-                            if (var_618 == 0 && var_83[var_2611][5] == 1) {
-                                var_83[var_2611][5] = 2;
+                            if (var_618 == 0 && var_83[var_2611].Var5 == 1) {
+                                var_83[var_2611].Var5 = 2;
                                 var_618 = 1;
                             }
-                            if (var_618 == 0 && var_83[var_2611][5] == 3) {
-                                var_83[var_2611][5] = 2;
+                            if (var_618 == 0 && var_83[var_2611].Var5 == 3) {
+                                var_83[var_2611].Var5 = 2;
                                 var_618 = 1;
                             }
-                            if (var_618 == 0 && var_83[var_2611][5] == 7) {
-                                var_83[var_2611][5] = 8;
+                            if (var_618 == 0 && var_83[var_2611].Var5 == 7) {
+                                var_83[var_2611].Var5 = 8;
                                 var_618 = 1;
                             }
-                            if (var_618 == 0 && var_83[var_2611][5] == 9) {
-                                var_83[var_2611][5] = 8;
+                            if (var_618 == 0 && var_83[var_2611].Var5 == 9) {
+                                var_83[var_2611].Var5 = 8;
                                 var_618 = 1;
                             }
                         }
                     }
                 }
             }
-            if (var_83[var_2611][4] == 4) {
-                if (var_83[var_2611][0] == 3 || var_83[var_2611][0] == 44 || var_83[var_2611][0] == 115 || var_83[var_2611][0] == 27 || var_83[var_2611][0] == 18 || var_83[var_2611][0] == 118 || var_83[var_2611][0] == 86 || var_83[var_2611][0] == 48 || var_83[var_2611][0] == 15) {
+            if (var_83[var_2611].Var4 == 4) {
+                if (var_83[var_2611].Var0 == 3 || var_83[var_2611].Var0 == 44 || var_83[var_2611].Var0 == 115 || var_83[var_2611].Var0 == 27 || var_83[var_2611].Var0 == 18 || var_83[var_2611].Var0 == 118 || var_83[var_2611].Var0 == 86 || var_83[var_2611].Var0 == 48 || var_83[var_2611].Var0 == 15) {
                     var_2671 = var_2611;
-                    var_2672 = var_83[var_2671][1];
-                    var_2673 = var_83[var_2671][2];
+                    var_2672 = var_83[var_2671].Var1;
+                    var_2673 = var_83[var_2671].Var2;
                     var_1349 = 0;
                     for (var cnt4 = 0; cnt4 < 500; ++cnt4) {
                         var_2350 = rnd(var_33);
                         var_2351 = rnd(var_34);
-                        if (var_83[var_2611][0] != 118 && var_71[var_2350][var_2351] == var_201 && var_65[var_2350][var_2351] == 0 && var_82[var_2350][var_2351] == 0 && var_71[var_2350][var_2351] != 13) {
+                        if (var_83[var_2611].Var0 != 118 && var_71[var_2350][var_2351] == var_201 && var_65[var_2350][var_2351] == 0 && var_82[var_2350][var_2351] == 0 && var_71[var_2350][var_2351] != 13) {
                             if (var_2350 > var_2621 && var_2350 < var_2622 && var_2351 > var_2624 && var_2351 < var_2623) {
                                 var_1349 = 1;
                                 break;
                             }
                         }
-                        if (var_83[var_2611][0] == 118 && var_65[var_2350][var_2351] == 0 && var_82[var_2350][var_2351] == 0) {
+                        if (var_83[var_2611].Var0 == 118 && var_65[var_2350][var_2351] == 0 && var_82[var_2350][var_2351] == 0) {
                             if (var_2350 > var_2621 && var_2350 < var_2622 && var_2351 > var_2624 && var_2351 < var_2623) {
                                 var_1349 = 1;
                                 break;
@@ -24284,167 +24284,167 @@ function func569() {
                         var_2351 = var_2673;
                     }
                     if (var_1349 == 1) {
-                        var_83[var_2671][35] = var_2672;
-                        var_83[var_2671][36] = var_2673;
-                        var_83[var_2671][1] = var_2350;
-                        var_83[var_2671][2] = var_2351;
+                        var_83[var_2671].Var35 = var_2672;
+                        var_83[var_2671].Var36 = var_2673;
+                        var_83[var_2671].Var1 = var_2350;
+                        var_83[var_2671].Var2 = var_2351;
                         var_82[var_2350][var_2351] = var_82[var_2672][var_2673];
                         var_82[var_2672][var_2673] = 0;
-                        var_83[var_2671][10] = var_71[var_2350][var_2351];
-                        var_83[var_2671][11] = 2;
-                        if (var_83[var_2611][0] == 118) {
-                            var_83[var_2671][11] = 1;
+                        var_83[var_2671].Var10 = var_71[var_2350][var_2351];
+                        var_83[var_2671].Var11 = 2;
+                        if (var_83[var_2611].Var0 == 118) {
+                            var_83[var_2671].Var11 = 1;
                         }
-                        var_83[var_2671][22] = 1;
-                        var_83[var_2671][6] = 0;
-                        var_83[var_2671][5] = 2;
+                        var_83[var_2671].Var22 = 1;
+                        var_83[var_2671].Var6 = 0;
+                        var_83[var_2671].Var5 = 2;
                     }
                 }
             }
-            if (var_83[var_2611][4] == 5) {
+            if (var_83[var_2611].Var4 == 5) {
                 if (var_66 < var_423 && var_67 == var_424) {
-                    var_83[var_2611][5] = 4;
+                    var_83[var_2611].Var5 = 4;
                 }
                 if (var_66 > var_423 && var_67 == var_424) {
-                    var_83[var_2611][5] = 6;
+                    var_83[var_2611].Var5 = 6;
                 }
                 if (var_66 == var_423 && var_67 < var_424) {
-                    var_83[var_2611][5] = 8;
+                    var_83[var_2611].Var5 = 8;
                 }
                 if (var_66 == var_423 && var_67 > var_424) {
-                    var_83[var_2611][5] = 2;
+                    var_83[var_2611].Var5 = 2;
                 }
                 if (var_66 < var_423 && var_67 < var_424) {
-                    var_83[var_2611][5] = 7;
+                    var_83[var_2611].Var5 = 7;
                 }
                 if (var_66 < var_423 && var_67 > var_424) {
-                    var_83[var_2611][5] = 1;
+                    var_83[var_2611].Var5 = 1;
                 }
                 if (var_66 > var_423 && var_67 < var_424) {
-                    var_83[var_2611][5] = 9;
+                    var_83[var_2611].Var5 = 9;
                 }
                 if (var_66 > var_423 && var_67 > var_424) {
-                    var_83[var_2611][5] = 3;
+                    var_83[var_2611].Var5 = 3;
                 }
-                if (var_83[var_2611][17] != 0) {
+                if (var_83[var_2611].Var17 != 0) {
                     var_2674 = rnd(8);
                     if (var_2674 == 0) {
-                        var_83[var_2611][5] = 1;
+                        var_83[var_2611].Var5 = 1;
                     }
                     if (var_2674 == 1) {
-                        var_83[var_2611][5] = 2;
+                        var_83[var_2611].Var5 = 2;
                     }
                     if (var_2674 == 2) {
-                        var_83[var_2611][5] = 3;
+                        var_83[var_2611].Var5 = 3;
                     }
                     if (var_2674 == 3) {
-                        var_83[var_2611][5] = 4;
+                        var_83[var_2611].Var5 = 4;
                     }
                     if (var_2674 == 4) {
-                        var_83[var_2611][5] = 6;
+                        var_83[var_2611].Var5 = 6;
                     }
                     if (var_2674 == 5) {
-                        var_83[var_2611][5] = 7;
+                        var_83[var_2611].Var5 = 7;
                     }
                     if (var_2674 == 6) {
-                        var_83[var_2611][5] = 8;
+                        var_83[var_2611].Var5 = 8;
                     }
                     if (var_2674 == 7) {
-                        var_83[var_2611][5] = 9;
+                        var_83[var_2611].Var5 = 9;
                     }
                 }
             }
-            if (var_83[var_2611][4] == 7) {
+            if (var_83[var_2611].Var4 == 7) {
                 var_610 = 0;
-                if (var_83[var_2611][0] != 118) {
-                    if (var_610 == 0 && var_602 == 0 && var_83[var_2611][5] == 4 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13 && var_65[var_425][var_424] == 0) {
+                if (var_83[var_2611].Var0 != 118) {
+                    if (var_610 == 0 && var_602 == 0 && var_83[var_2611].Var5 == 4 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13 && var_65[var_425][var_424] == 0) {
                         var_423 = var_423 - 1;
-                        var_83[var_2611][5] = 4;
+                        var_83[var_2611].Var5 = 4;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_603 == 0 && var_83[var_2611][5] == 6 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13 && var_65[var_426][var_424] == 0) {
+                    if (var_610 == 0 && var_603 == 0 && var_83[var_2611].Var5 == 6 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13 && var_65[var_426][var_424] == 0) {
                         var_423 = var_423 + 1;
-                        var_83[var_2611][5] = 6;
+                        var_83[var_2611].Var5 = 6;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_605 == 0 && var_83[var_2611][5] == 8 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13 && var_65[var_423][var_428] == 0) {
+                    if (var_610 == 0 && var_605 == 0 && var_83[var_2611].Var5 == 8 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13 && var_65[var_423][var_428] == 0) {
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 8;
+                        var_83[var_2611].Var5 = 8;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_604 == 0 && var_83[var_2611][5] == 2 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13 && var_65[var_423][var_427] == 0) {
+                    if (var_610 == 0 && var_604 == 0 && var_83[var_2611].Var5 == 2 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13 && var_65[var_423][var_427] == 0) {
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 2;
+                        var_83[var_2611].Var5 = 2;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_606 == 0 && var_602 == 0 && var_604 == 0 && var_83[var_2611][5] == 1 && var_82[var_425][var_427] == 0 && var_71[var_425][var_427] != 13 && var_65[var_425][var_427] == 0) {
+                    if (var_610 == 0 && var_606 == 0 && var_602 == 0 && var_604 == 0 && var_83[var_2611].Var5 == 1 && var_82[var_425][var_427] == 0 && var_71[var_425][var_427] != 13 && var_65[var_425][var_427] == 0) {
                         var_423 = var_423 - 1;
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 1;
+                        var_83[var_2611].Var5 = 1;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_608 == 0 && var_603 == 0 && var_604 == 0 && var_83[var_2611][5] == 3 && var_82[var_426][var_427] == 0 && var_71[var_426][var_427] != 13 && var_65[var_426][var_427] == 0) {
+                    if (var_610 == 0 && var_608 == 0 && var_603 == 0 && var_604 == 0 && var_83[var_2611].Var5 == 3 && var_82[var_426][var_427] == 0 && var_71[var_426][var_427] != 13 && var_65[var_426][var_427] == 0) {
                         var_423 = var_423 + 1;
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 3;
+                        var_83[var_2611].Var5 = 3;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_607 == 0 && var_602 == 0 && var_605 == 0 && var_83[var_2611][5] == 7 && var_82[var_425][var_428] == 0 && var_71[var_425][var_428] != 13 && var_65[var_425][var_428] == 0) {
+                    if (var_610 == 0 && var_607 == 0 && var_602 == 0 && var_605 == 0 && var_83[var_2611].Var5 == 7 && var_82[var_425][var_428] == 0 && var_71[var_425][var_428] != 13 && var_65[var_425][var_428] == 0) {
                         var_423 = var_423 - 1;
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 7;
+                        var_83[var_2611].Var5 = 7;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_609 == 0 && var_603 == 0 && var_605 == 0 && var_83[var_2611][5] == 9 && var_82[var_426][var_428] == 0 && var_71[var_426][var_428] != 13 && var_65[var_426][var_428] == 0) {
+                    if (var_610 == 0 && var_609 == 0 && var_603 == 0 && var_605 == 0 && var_83[var_2611].Var5 == 9 && var_82[var_426][var_428] == 0 && var_71[var_426][var_428] != 13 && var_65[var_426][var_428] == 0) {
                         var_423 = var_423 + 1;
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 9;
+                        var_83[var_2611].Var5 = 9;
                         var_610 = 1;
                     }
                 }
-                if (var_83[var_2611][0] == 118) {
-                    if (var_610 == 0 && var_602 == 0 && var_83[var_2611][5] == 4 && var_82[var_425][var_424] == 0 && var_65[var_425][var_424] == 0) {
+                if (var_83[var_2611].Var0 == 118) {
+                    if (var_610 == 0 && var_602 == 0 && var_83[var_2611].Var5 == 4 && var_82[var_425][var_424] == 0 && var_65[var_425][var_424] == 0) {
                         var_423 = var_423 - 1;
-                        var_83[var_2611][5] = 4;
+                        var_83[var_2611].Var5 = 4;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_603 == 0 && var_83[var_2611][5] == 6 && var_82[var_426][var_424] == 0 && var_65[var_426][var_424] == 0) {
+                    if (var_610 == 0 && var_603 == 0 && var_83[var_2611].Var5 == 6 && var_82[var_426][var_424] == 0 && var_65[var_426][var_424] == 0) {
                         var_423 = var_423 + 1;
-                        var_83[var_2611][5] = 6;
+                        var_83[var_2611].Var5 = 6;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_605 == 0 && var_83[var_2611][5] == 8 && var_82[var_423][var_428] == 0 && var_65[var_423][var_428] == 0) {
+                    if (var_610 == 0 && var_605 == 0 && var_83[var_2611].Var5 == 8 && var_82[var_423][var_428] == 0 && var_65[var_423][var_428] == 0) {
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 8;
+                        var_83[var_2611].Var5 = 8;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_604 == 0 && var_83[var_2611][5] == 2 && var_82[var_423][var_427] == 0 && var_65[var_423][var_427] == 0) {
+                    if (var_610 == 0 && var_604 == 0 && var_83[var_2611].Var5 == 2 && var_82[var_423][var_427] == 0 && var_65[var_423][var_427] == 0) {
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 2;
+                        var_83[var_2611].Var5 = 2;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_606 == 0 && var_602 == 0 && var_604 == 0 && var_83[var_2611][5] == 1 && var_82[var_425][var_427] == 0 && var_65[var_425][var_427] == 0) {
+                    if (var_610 == 0 && var_606 == 0 && var_602 == 0 && var_604 == 0 && var_83[var_2611].Var5 == 1 && var_82[var_425][var_427] == 0 && var_65[var_425][var_427] == 0) {
                         var_423 = var_423 - 1;
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 1;
+                        var_83[var_2611].Var5 = 1;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_608 == 0 && var_603 == 0 && var_604 == 0 && var_83[var_2611][5] == 3 && var_82[var_426][var_427] == 0 && var_65[var_426][var_427] == 0) {
+                    if (var_610 == 0 && var_608 == 0 && var_603 == 0 && var_604 == 0 && var_83[var_2611].Var5 == 3 && var_82[var_426][var_427] == 0 && var_65[var_426][var_427] == 0) {
                         var_423 = var_423 + 1;
                         var_424 = var_424 + 1;
-                        var_83[var_2611][5] = 3;
+                        var_83[var_2611].Var5 = 3;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_607 == 0 && var_602 == 0 && var_605 == 0 && var_83[var_2611][5] == 7 && var_82[var_425][var_428] == 0 && var_65[var_425][var_428] == 0) {
+                    if (var_610 == 0 && var_607 == 0 && var_602 == 0 && var_605 == 0 && var_83[var_2611].Var5 == 7 && var_82[var_425][var_428] == 0 && var_65[var_425][var_428] == 0) {
                         var_423 = var_423 - 1;
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 7;
+                        var_83[var_2611].Var5 = 7;
                         var_610 = 1;
                     }
-                    if (var_610 == 0 && var_609 == 0 && var_603 == 0 && var_605 == 0 && var_83[var_2611][5] == 9 && var_82[var_426][var_428] == 0 && var_65[var_426][var_428] == 0) {
+                    if (var_610 == 0 && var_609 == 0 && var_603 == 0 && var_605 == 0 && var_83[var_2611].Var5 == 9 && var_82[var_426][var_428] == 0 && var_65[var_426][var_428] == 0) {
                         var_423 = var_423 + 1;
                         var_424 = var_424 - 1;
-                        var_83[var_2611][5] = 9;
+                        var_83[var_2611].Var5 = 9;
                         var_610 = 1;
                     }
                 }
@@ -24467,43 +24467,43 @@ function func569() {
                 if (var_610 == 0) {
                     var_2675 = rnd(8);
                     if (var_2675 == 0) {
-                        var_83[var_2611][5] = 4;
+                        var_83[var_2611].Var5 = 4;
                     }
                     if (var_2675 == 1) {
-                        var_83[var_2611][5] = 6;
+                        var_83[var_2611].Var5 = 6;
                     }
                     if (var_2675 == 2) {
-                        var_83[var_2611][5] = 8;
+                        var_83[var_2611].Var5 = 8;
                     }
                     if (var_2675 == 3) {
-                        var_83[var_2611][5] = 2;
+                        var_83[var_2611].Var5 = 2;
                     }
                     if (var_2675 == 4) {
-                        var_83[var_2611][5] = 1;
+                        var_83[var_2611].Var5 = 1;
                     }
                     if (var_2675 == 5) {
-                        var_83[var_2611][5] = 3;
+                        var_83[var_2611].Var5 = 3;
                     }
                     if (var_2675 == 6) {
-                        var_83[var_2611][5] = 7;
+                        var_83[var_2611].Var5 = 7;
                     }
                     if (var_2675 == 7) {
-                        var_83[var_2611][5] = 9;
+                        var_83[var_2611].Var5 = 9;
                     }
                 }
             }
         }
-        var_83[var_2611][6] = 0;
-        if (var_83[var_2611][4] != 4 && var_83[var_2611][4] != 5) {
+        var_83[var_2611].Var6 = 0;
+        if (var_83[var_2611].Var4 != 4 && var_83[var_2611].Var4 != 5) {
             if (var_610 == 1) {
-                var_83[var_2611][34] = var_71[var_2619][var_2620];
-                var_83[var_2611][6] = 1;
-                var_83[var_2611][10] = var_71[var_423][var_424];
-                var_83[var_2611][1] = var_423;
-                var_83[var_2611][2] = var_424;
+                var_83[var_2611].Var34 = var_71[var_2619][var_2620];
+                var_83[var_2611].Var6 = 1;
+                var_83[var_2611].Var10 = var_71[var_423][var_424];
+                var_83[var_2611].Var1 = var_423;
+                var_83[var_2611].Var2 = var_424;
                 var_82[var_2619][var_2620] = 0;
                 var_82[var_423][var_424] = var_2614;
-                if (var_83[var_2611][0] == 118 && var_83[var_2611][20] == 0 && var_83[var_2611][10] == 0) {
+                if (var_83[var_2611].Var0 == 118 && var_83[var_2611].Var20 == 0 && var_83[var_2611].Var10 == 0) {
                     var_71[var_423][var_424] = 14;
                     var_2676 = 14;
                     var_2677 = var_423;
@@ -24532,70 +24532,70 @@ function func569() {
                         var_71[var_423][var_424] = var_71[var_2677][var_2682];
                         var_2676 = var_71[var_423][var_424];
                     }
-                    var_83[var_2611][10] = var_2676;
-                    if (var_83[var_2611][5] == 1 && var_71[var_423][var_2681] == 0) {
+                    var_83[var_2611].Var10 = var_2676;
+                    if (var_83[var_2611].Var5 == 1 && var_71[var_423][var_2681] == 0) {
                         var_71[var_423][var_2681] = var_2676;
                     }
-                    if (var_83[var_2611][5] == 1 && var_71[var_2680][var_424] == 0) {
+                    if (var_83[var_2611].Var5 == 1 && var_71[var_2680][var_424] == 0) {
                         var_71[var_2680][var_424] = var_2676;
                     }
-                    if (var_83[var_2611][5] == 3 && var_71[var_423][var_2681] == 0) {
+                    if (var_83[var_2611].Var5 == 3 && var_71[var_423][var_2681] == 0) {
                         var_71[var_423][var_2681] = var_2676;
                     }
-                    if (var_83[var_2611][5] == 3 && var_71[var_2679][var_424] == 0) {
+                    if (var_83[var_2611].Var5 == 3 && var_71[var_2679][var_424] == 0) {
                         var_71[var_2679][var_424] = var_2676;
                     }
-                    if (var_83[var_2611][5] == 7 && var_71[var_423][var_2682] == 0) {
+                    if (var_83[var_2611].Var5 == 7 && var_71[var_423][var_2682] == 0) {
                         var_71[var_423][var_2682] = var_2676;
                     }
-                    if (var_83[var_2611][5] == 7 && var_71[var_2680][var_424] == 0) {
+                    if (var_83[var_2611].Var5 == 7 && var_71[var_2680][var_424] == 0) {
                         var_71[var_2680][var_424] = var_2676;
                     }
-                    if (var_83[var_2611][5] == 9 && var_71[var_423][var_2682] == 0) {
+                    if (var_83[var_2611].Var5 == 9 && var_71[var_423][var_2682] == 0) {
                         var_71[var_423][var_2682] = var_2676;
                     }
-                    if (var_83[var_2611][5] == 9 && var_71[var_2679][var_424] == 0) {
+                    if (var_83[var_2611].Var5 == 9 && var_71[var_2679][var_424] == 0) {
                         var_71[var_2679][var_424] = var_2676;
                     }
                 }
-                if (var_83[var_2611][34] == 14 && var_83[var_2611][10] != 14) {
-                    var_83[var_2611][33] = var_83[var_2611][5];
-                    if (var_201 == 14 && var_71[var_2631][var_2630] == var_83[var_2611][10]) {
-                        var_83[var_2611][33] = 2;
+                if (var_83[var_2611].Var34 == 14 && var_83[var_2611].Var10 != 14) {
+                    var_83[var_2611].Var33 = var_83[var_2611].Var5;
+                    if (var_201 == 14 && var_71[var_2631][var_2630] == var_83[var_2611].Var10) {
+                        var_83[var_2611].Var33 = 2;
                     }
-                    if (var_201 == 14 && var_71[var_2632][var_2630] == var_83[var_2611][10]) {
-                        var_83[var_2611][33] = 8;
+                    if (var_201 == 14 && var_71[var_2632][var_2630] == var_83[var_2611].Var10) {
+                        var_83[var_2611].Var33 = 8;
                     }
-                    if (var_201 == 14 && var_71[var_2629][var_2633] == var_83[var_2611][10]) {
-                        var_83[var_2611][33] = 6;
+                    if (var_201 == 14 && var_71[var_2629][var_2633] == var_83[var_2611].Var10) {
+                        var_83[var_2611].Var33 = 6;
                     }
-                    if (var_201 == 14 && var_71[var_2629][var_2634] == var_83[var_2611][10]) {
-                        var_83[var_2611][33] = 4;
+                    if (var_201 == 14 && var_71[var_2629][var_2634] == var_83[var_2611].Var10) {
+                        var_83[var_2611].Var33 = 4;
                     }
-                    if (var_83[var_2611][33] == 1) {
-                        var_83[var_2611][33] = 2;
+                    if (var_83[var_2611].Var33 == 1) {
+                        var_83[var_2611].Var33 = 2;
                     }
-                    if (var_83[var_2611][33] == 7) {
-                        var_83[var_2611][33] = 8;
+                    if (var_83[var_2611].Var33 == 7) {
+                        var_83[var_2611].Var33 = 8;
                     }
-                    if (var_83[var_2611][33] == 9) {
-                        var_83[var_2611][33] = 8;
+                    if (var_83[var_2611].Var33 == 9) {
+                        var_83[var_2611].Var33 = 8;
                     }
-                    if (var_83[var_2611][33] == 3) {
-                        var_83[var_2611][33] = 2;
+                    if (var_83[var_2611].Var33 == 3) {
+                        var_83[var_2611].Var33 = 2;
                     }
-                    if (var_83[var_2611][33] == 5) {
-                        var_83[var_2611][33] = 2;
+                    if (var_83[var_2611].Var33 == 5) {
+                        var_83[var_2611].Var33 = 2;
                     }
                 }
             }
         }
-        if (var_83[var_2611][0] == 36 && var_313 == 1) {
+        if (var_83[var_2611].Var0 == 36 && var_313 == 1) {
             var_313 = 0;
-            var_83[var_2611][6] = 1;
+            var_83[var_2611].Var6 = 1;
         }
-        if (var_83[var_2611][4] == 4) {
-            var_83[var_2611][4] = 2;
+        if (var_83[var_2611].Var4 == 4) {
+            var_83[var_2611].Var4 = 2;
         }
         return;
     });
@@ -24608,7 +24608,7 @@ function func570() {
             if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_606 != 1 && var_71[var_425][var_427] != 13 && var_82[var_425][var_427] == 0) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 1;
+                var_83[var_2611].Var5 = 1;
                 var_610 = 1;
             }
             if (var_610 == 0) {
@@ -24642,47 +24642,47 @@ function func570() {
             if (var_2683 == 0) {
                 if (var_610 == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_82[var_423][var_427] == 0) {
                     var_424 = var_424 + 1;
-                    var_83[var_2611][5] = 2;
+                    var_83[var_2611].Var5 = 2;
                     var_610 = 1;
                 }
                 if (var_610 == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_82[var_425][var_424] == 0) {
                     var_423 = var_423 - 1;
-                    var_83[var_2611][5] = 4;
+                    var_83[var_2611].Var5 = 4;
                     var_610 = 1;
                 }
             }
             if (var_2683 == 1) {
                 if (var_610 == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_82[var_425][var_424] == 0) {
                     var_423 = var_423 - 1;
-                    var_83[var_2611][5] = 4;
+                    var_83[var_2611].Var5 = 4;
                     var_610 = 1;
                 }
                 if (var_610 == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_82[var_423][var_427] == 0) {
                     var_424 = var_424 + 1;
-                    var_83[var_2611][5] = 2;
+                    var_83[var_2611].Var5 = 2;
                     var_610 = 1;
                 }
             }
-            if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_608 != 1 && var_71[var_426][var_427] != 13 && var_82[var_426][var_427] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_608 != 1 && var_71[var_426][var_427] != 13 && var_82[var_426][var_427] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 3;
+                var_83[var_2611].Var5 = 3;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_607 != 1 && var_71[var_425][var_428] != 13 && var_82[var_425][var_428] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_607 != 1 && var_71[var_425][var_428] != 13 && var_82[var_425][var_428] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 7;
+                var_83[var_2611].Var5 = 7;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_82[var_426][var_424] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_82[var_426][var_424] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_82[var_423][var_428] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_82[var_423][var_428] == 0 && var_83[var_2611].Var10 != 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
         }
@@ -24690,7 +24690,7 @@ function func570() {
             if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_607 != 1 && var_71[var_425][var_428] != 13 && var_82[var_425][var_428] == 0) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 7;
+                var_83[var_2611].Var5 = 7;
                 var_610 = 1;
             }
             if (var_610 == 0) {
@@ -24724,47 +24724,47 @@ function func570() {
             if (var_2683 == 0) {
                 if (var_610 == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_82[var_425][var_424] == 0) {
                     var_423 = var_423 - 1;
-                    var_83[var_2611][5] = 4;
+                    var_83[var_2611].Var5 = 4;
                     var_610 = 1;
                 }
                 if (var_610 == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_82[var_423][var_428] == 0) {
                     var_424 = var_424 - 1;
-                    var_83[var_2611][5] = 8;
+                    var_83[var_2611].Var5 = 8;
                     var_610 = 1;
                 }
             }
             if (var_2683 == 1) {
                 if (var_610 == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_82[var_423][var_428] == 0) {
                     var_424 = var_424 - 1;
-                    var_83[var_2611][5] = 8;
+                    var_83[var_2611].Var5 = 8;
                     var_610 = 1;
                 }
                 if (var_610 == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_82[var_425][var_424] == 0) {
                     var_423 = var_423 - 1;
-                    var_83[var_2611][5] = 4;
+                    var_83[var_2611].Var5 = 4;
                     var_610 = 1;
                 }
             }
             if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_606 != 1 && var_71[var_425][var_427] != 13 && var_82[var_425][var_427] == 0) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 1;
+                var_83[var_2611].Var5 = 1;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_609 != 1 && var_71[var_426][var_428] != 13 && var_82[var_426][var_428] == 0) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 9;
+                var_83[var_2611].Var5 = 9;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_82[var_423][var_427] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_82[var_423][var_427] == 0 && var_83[var_2611].Var10 != 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_82[var_426][var_424] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_82[var_426][var_424] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
         }
@@ -24772,7 +24772,7 @@ function func570() {
             if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_608 != 1 && var_71[var_426][var_427] != 13 && var_82[var_426][var_427] == 0) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 3;
+                var_83[var_2611].Var5 = 3;
                 var_610 = 1;
             }
             if (var_610 == 0) {
@@ -24806,47 +24806,47 @@ function func570() {
             if (var_2683 == 0) {
                 if (var_610 == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_82[var_426][var_424] == 0) {
                     var_423 = var_423 + 1;
-                    var_83[var_2611][5] = 6;
+                    var_83[var_2611].Var5 = 6;
                     var_610 = 1;
                 }
                 if (var_610 == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_82[var_423][var_427] == 0) {
                     var_424 = var_424 + 1;
-                    var_83[var_2611][5] = 2;
+                    var_83[var_2611].Var5 = 2;
                     var_610 = 1;
                 }
             }
             if (var_2683 == 1) {
                 if (var_610 == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_82[var_423][var_427] == 0) {
                     var_424 = var_424 + 1;
-                    var_83[var_2611][5] = 2;
+                    var_83[var_2611].Var5 = 2;
                     var_610 = 1;
                 }
                 if (var_610 == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_82[var_426][var_424] == 0) {
                     var_423 = var_423 + 1;
-                    var_83[var_2611][5] = 6;
+                    var_83[var_2611].Var5 = 6;
                     var_610 = 1;
                 }
             }
-            if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_609 != 1 && var_71[var_426][var_428] != 13 && var_82[var_426][var_428] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_609 != 1 && var_71[var_426][var_428] != 13 && var_82[var_426][var_428] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 9;
+                var_83[var_2611].Var5 = 9;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_606 != 1 && var_71[var_425][var_427] != 13 && var_82[var_425][var_427] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_606 != 1 && var_71[var_425][var_427] != 13 && var_82[var_425][var_427] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 1;
+                var_83[var_2611].Var5 = 1;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_82[var_423][var_428] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_82[var_423][var_428] == 0 && var_83[var_2611].Var10 != 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_82[var_425][var_424] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_82[var_425][var_424] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
         }
@@ -24854,7 +24854,7 @@ function func570() {
             if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_609 != 1 && var_71[var_426][var_428] != 13 && var_82[var_426][var_428] == 0) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 9;
+                var_83[var_2611].Var5 = 9;
                 var_610 = 1;
             }
             if (var_610 == 0) {
@@ -24888,163 +24888,163 @@ function func570() {
             if (var_2683 == 0) {
                 if (var_610 == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_82[var_423][var_428] == 0) {
                     var_424 = var_424 - 1;
-                    var_83[var_2611][5] = 8;
+                    var_83[var_2611].Var5 = 8;
                     var_610 = 1;
                 }
                 if (var_610 == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_82[var_426][var_424] == 0) {
                     var_423 = var_423 + 1;
-                    var_83[var_2611][5] = 6;
+                    var_83[var_2611].Var5 = 6;
                     var_610 = 1;
                 }
             }
             if (var_2683 == 1) {
                 if (var_610 == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_82[var_426][var_424] == 0) {
                     var_423 = var_423 + 1;
-                    var_83[var_2611][5] = 6;
+                    var_83[var_2611].Var5 = 6;
                     var_610 = 1;
                 }
                 if (var_610 == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_82[var_423][var_428] == 0) {
                     var_424 = var_424 - 1;
-                    var_83[var_2611][5] = 8;
+                    var_83[var_2611].Var5 = 8;
                     var_610 = 1;
                 }
             }
-            if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_607 != 1 && var_71[var_425][var_428] != 13 && var_82[var_425][var_428] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_607 != 1 && var_71[var_425][var_428] != 13 && var_82[var_425][var_428] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 7;
+                var_83[var_2611].Var5 = 7;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_608 != 1 && var_71[var_426][var_427] != 13 && var_82[var_426][var_427] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_608 != 1 && var_71[var_426][var_427] != 13 && var_82[var_426][var_427] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 3;
+                var_83[var_2611].Var5 = 3;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_82[var_425][var_424] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_82[var_425][var_424] == 0 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_82[var_423][var_427] == 0 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_82[var_423][var_427] == 0 && var_83[var_2611].Var10 != 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
         }
         if (var_66 < var_423 && var_67 == var_424) {
             if (var_610 == 0 && var_82[var_425][var_424] == 0 && var_602 != 1 && var_71[var_425][var_424] != 13) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_82[var_425][var_428] == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_607 != 1 && var_71[var_425][var_428] != 13) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 7;
+                var_83[var_2611].Var5 = 7;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_82[var_425][var_427] == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_606 != 1 && var_71[var_425][var_427] != 13) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 1;
+                var_83[var_2611].Var5 = 1;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_82[var_423][var_428] == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_82[var_423][var_428] == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_83[var_2611].Var10 != 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_82[var_423][var_427] == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_82[var_423][var_427] == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_83[var_2611].Var10 != 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
         }
         if (var_66 > var_423 && var_67 == var_424) {
             if (var_610 == 0 && var_82[var_426][var_424] == 0 && var_603 != 1 && var_71[var_426][var_424] != 13) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_82[var_426][var_427] == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_608 != 1 && var_71[var_426][var_427] != 13) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 3;
+                var_83[var_2611].Var5 = 3;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_82[var_426][var_428] == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_609 != 1 && var_71[var_426][var_428] != 13) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 9;
+                var_83[var_2611].Var5 = 9;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_82[var_423][var_427] == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_82[var_423][var_427] == 0 && var_604 != 1 && var_71[var_423][var_427] != 13 && var_83[var_2611].Var10 != 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_82[var_423][var_428] == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_82[var_423][var_428] == 0 && var_605 != 1 && var_71[var_423][var_428] != 13 && var_83[var_2611].Var10 != 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
         }
         if (var_66 == var_423 && var_67 < var_424) {
             if (var_610 == 0 && var_82[var_423][var_428] == 0 && var_605 != 1 && var_71[var_423][var_428] != 13) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_82[var_426][var_428] == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_609 != 1 && var_71[var_426][var_428] != 13) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 9;
+                var_83[var_2611].Var5 = 9;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_82[var_425][var_428] == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_607 != 1 && var_71[var_425][var_428] != 13) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 7;
+                var_83[var_2611].Var5 = 7;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_82[var_426][var_424] == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_82[var_426][var_424] == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_82[var_425][var_424] == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_82[var_425][var_424] == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
         }
         if (var_66 == var_423 && var_67 > var_424) {
             if (var_610 == 0 && var_82[var_423][var_427] == 0 && var_604 != 1 && var_71[var_423][var_427] != 13) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_82[var_425][var_427] == 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_606 != 1 && var_71[var_425][var_427] != 13) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 1;
+                var_83[var_2611].Var5 = 1;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_82[var_426][var_427] == 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_608 != 1 && var_71[var_426][var_427] != 13) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 3;
+                var_83[var_2611].Var5 = 3;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_82[var_425][var_424] == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_82[var_425][var_424] == 0 && var_602 != 1 && var_71[var_425][var_424] != 13 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_82[var_426][var_424] == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_83[var_2611][10] != 14) {
+            if (var_610 == 0 && var_82[var_426][var_424] == 0 && var_603 != 1 && var_71[var_426][var_424] != 13 && var_83[var_2611].Var10 != 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
         }
@@ -25054,283 +25054,283 @@ function func570() {
 function func571() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(571);
-        if (var_83[var_2611][5] == 1 && var_610 == 0) {
+        if (var_83[var_2611].Var5 == 1 && var_610 == 0) {
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] == 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] == 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] == 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] == 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_606 == 0 && var_602 == 0 && var_604 == 0 && var_82[var_425][var_427] == 0 && var_71[var_425][var_427] != 13) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 1;
+                var_83[var_2611].Var5 = 1;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
         }
-        if (var_83[var_2611][5] == 3 && var_610 == 0) {
+        if (var_83[var_2611].Var5 == 3 && var_610 == 0) {
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] == 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] == 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] == 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] == 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_608 == 0 && var_603 == 0 && var_604 == 0 && var_82[var_426][var_427] == 0 && var_71[var_426][var_427] != 13) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 3;
+                var_83[var_2611].Var5 = 3;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
         }
-        if (var_83[var_2611][5] == 7 && var_610 == 0) {
+        if (var_83[var_2611].Var5 == 7 && var_610 == 0) {
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] == 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] == 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] == 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] == 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_607 == 0 && var_602 == 0 && var_605 == 0 && var_82[var_425][var_428] == 0 && var_71[var_425][var_428] != 13) {
                 var_423 = var_423 - 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 7;
+                var_83[var_2611].Var5 = 7;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
         }
-        if (var_83[var_2611][5] == 9 && var_610 == 0) {
+        if (var_83[var_2611].Var5 == 9 && var_610 == 0) {
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] == 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] == 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] == 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] == 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_609 == 0 && var_603 == 0 && var_605 == 0 && var_82[var_426][var_428] == 0 && var_71[var_426][var_428] != 13) {
                 var_423 = var_423 + 1;
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 9;
+                var_83[var_2611].Var5 = 9;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
         }
-        if (var_83[var_2611][5] == 2 && var_610 == 0) {
+        if (var_83[var_2611].Var5 == 2 && var_610 == 0) {
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] == 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] == 14 && var_83[var_2611][34] != 14) {
+            if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] == 14 && var_83[var_2611].Var34 != 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] == 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
         }
-        if (var_83[var_2611][5] == 8 && var_610 == 0) {
+        if (var_83[var_2611].Var5 == 8 && var_610 == 0) {
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] == 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] == 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] == 14 && var_83[var_2611][34] != 14) {
+            if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] == 14 && var_83[var_2611].Var34 != 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
         }
-        if (var_83[var_2611][5] == 4 && var_610 == 0) {
-            if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] == 14 && var_83[var_2611][34] != 14) {
+        if (var_83[var_2611].Var5 == 4 && var_610 == 0) {
+            if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] == 14 && var_83[var_2611].Var34 != 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] == 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] == 14) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_602 == 0 && var_82[var_425][var_424] == 0 && var_71[var_425][var_424] != 13) {
                 var_423 = var_423 - 1;
-                var_83[var_2611][5] = 4;
+                var_83[var_2611].Var5 = 4;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
         }
-        if (var_83[var_2611][5] == 6 && var_610 == 0) {
+        if (var_83[var_2611].Var5 == 6 && var_610 == 0) {
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] == 14) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
-            if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] == 14 && var_83[var_2611][34] != 14) {
+            if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] == 14 && var_83[var_2611].Var34 != 14) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] == 14) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_603 == 0 && var_82[var_426][var_424] == 0 && var_71[var_426][var_424] != 13) {
                 var_423 = var_423 + 1;
-                var_83[var_2611][5] = 6;
+                var_83[var_2611].Var5 = 6;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_604 == 0 && var_82[var_423][var_427] == 0 && var_71[var_423][var_427] != 13) {
                 var_424 = var_424 + 1;
-                var_83[var_2611][5] = 2;
+                var_83[var_2611].Var5 = 2;
                 var_610 = 1;
             }
             if (var_610 == 0 && var_605 == 0 && var_82[var_423][var_428] == 0 && var_71[var_423][var_428] != 13) {
                 var_424 = var_424 - 1;
-                var_83[var_2611][5] = 8;
+                var_83[var_2611].Var5 = 8;
                 var_610 = 1;
             }
         }
@@ -25340,29 +25340,29 @@ function func571() {
 function func572() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(572);
-        if (var_83[var_2611][5] == 2) {
-            var_83[var_2611][33] = 4;
+        if (var_83[var_2611].Var5 == 2) {
+            var_83[var_2611].Var33 = 4;
         }
-        if (var_83[var_2611][5] == 8) {
-            var_83[var_2611][33] = 6;
+        if (var_83[var_2611].Var5 == 8) {
+            var_83[var_2611].Var33 = 6;
         }
-        if (var_83[var_2611][5] == 4) {
-            var_83[var_2611][33] = 8;
+        if (var_83[var_2611].Var5 == 4) {
+            var_83[var_2611].Var33 = 8;
         }
-        if (var_83[var_2611][5] == 6) {
-            var_83[var_2611][33] = 2;
+        if (var_83[var_2611].Var5 == 6) {
+            var_83[var_2611].Var33 = 2;
         }
-        if (var_83[var_2611][5] == 1) {
-            var_83[var_2611][33] = 4;
+        if (var_83[var_2611].Var5 == 1) {
+            var_83[var_2611].Var33 = 4;
         }
-        if (var_83[var_2611][5] == 3) {
-            var_83[var_2611][33] = 2;
+        if (var_83[var_2611].Var5 == 3) {
+            var_83[var_2611].Var33 = 2;
         }
-        if (var_83[var_2611][5] == 7) {
-            var_83[var_2611][33] = 8;
+        if (var_83[var_2611].Var5 == 7) {
+            var_83[var_2611].Var33 = 8;
         }
-        if (var_83[var_2611][5] == 9) {
-            var_83[var_2611][33] = 6;
+        if (var_83[var_2611].Var5 == 9) {
+            var_83[var_2611].Var33 = 6;
         }
         return;
     });
@@ -25372,86 +25372,86 @@ function func573() {
         dbgprt(573);
         var_2694 = var_421;
         var_412 = var_2694;
-        var_2695 = var_83[var_2694][1];
-        var_2696 = var_83[var_2694][2];
+        var_2695 = var_83[var_2694].Var1;
+        var_2696 = var_83[var_2694].Var2;
         if (var_77[var_2695][var_2696] != 0) {
             var_475 = var_77[var_2695][var_2696];
             var_2697 = 0;
-            if (var_78[var_475][11] == 0 && var_72[var_2695][var_2696] == 0) {
+            if (var_78[var_475].Var11 == 0 && var_72[var_2695][var_2696] == 0) {
                 var_2697 = 1;
             }
             if (var_2697 == 1) {
-                var_417 = var_78[var_475][0];
+                var_417 = var_78[var_475].Var0;
                 var_419 = var_2694 + 200;
-                var_78[var_419][0] = var_78[var_475][0];
-                var_78[var_475][0] = 0;
-                var_78[var_419][1] = var_78[var_475][1];
-                var_78[var_475][1] = 0;
-                var_78[var_419][2] = var_78[var_475][2];
-                var_78[var_475][2] = 0;
-                var_78[var_419][3] = var_78[var_475][3];
-                var_78[var_475][3] = 0;
-                var_78[var_419][4] = var_78[var_475][4];
-                var_78[var_475][4] = 0;
-                var_78[var_419][5] = var_78[var_475][5];
-                var_78[var_475][5] = 0;
-                var_78[var_419][6] = var_78[var_475][6];
-                var_78[var_475][6] = 0;
-                var_78[var_419][7] = var_78[var_475][7];
-                var_78[var_475][7] = 0;
-                var_78[var_419][8] = var_78[var_475][8];
-                var_78[var_475][8] = 0;
-                var_78[var_419][9] = var_78[var_475][9];
-                var_78[var_475][9] = 0;
-                var_78[var_419][10] = var_78[var_475][10];
-                var_78[var_475][10] = 0;
-                var_78[var_419][11] = var_78[var_475][11];
-                var_78[var_475][11] = 0;
-                var_78[var_419][12] = var_78[var_475][12];
-                var_78[var_475][12] = 0;
-                var_78[var_419][13] = var_78[var_475][13];
-                var_78[var_475][13] = 0;
-                var_78[var_419][14] = var_78[var_475][14];
-                var_78[var_475][14] = 0;
-                var_78[var_419][15] = var_78[var_475][15];
-                var_78[var_475][15] = 0;
-                var_78[var_419][16] = var_78[var_475][16];
-                var_78[var_475][16] = 0;
-                var_78[var_419][17] = var_78[var_475][17];
-                var_78[var_475][17] = 0;
-                var_78[var_419][18] = var_78[var_475][18];
-                var_78[var_475][18] = 0;
-                var_78[var_419][19] = var_78[var_475][19];
-                var_78[var_475][19] = 0;
-                var_78[var_419][20] = var_78[var_475][20];
-                var_78[var_475][20] = 0;
-                var_78[var_419][21] = var_78[var_475][21];
-                var_78[var_475][21] = 0;
-                var_78[var_419][22] = var_78[var_475][22];
-                var_78[var_475][22] = 0;
-                var_78[var_419][23] = var_78[var_475][23];
-                var_78[var_475][23] = 0;
-                var_78[var_419][24] = var_78[var_475][24];
-                var_78[var_475][24] = 0;
-                var_78[var_419][25] = var_78[var_475][25];
-                var_78[var_475][25] = 0;
-                var_78[var_419][26] = var_78[var_475][26];
-                var_78[var_475][26] = 0;
-                var_78[var_419][27] = var_78[var_475][27];
-                var_78[var_475][27] = 0;
-                var_78[var_419][28] = var_78[var_475][28];
-                var_78[var_475][28] = 0;
-                var_78[var_419][29] = var_78[var_475][29];
-                var_78[var_475][29] = 0;
+                var_78[var_419].Var0 = var_78[var_475].Var0;
+                var_78[var_475].Var0 = 0;
+                var_78[var_419].Var1 = var_78[var_475].Var1;
+                var_78[var_475].Var1 = 0;
+                var_78[var_419].Var2 = var_78[var_475].Var2;
+                var_78[var_475].Var2 = 0;
+                var_78[var_419].Var3 = var_78[var_475].Var3;
+                var_78[var_475].Var3 = 0;
+                var_78[var_419].Var4 = var_78[var_475].Var4;
+                var_78[var_475].Var4 = 0;
+                var_78[var_419].Var5 = var_78[var_475].Var5;
+                var_78[var_475].Var5 = 0;
+                var_78[var_419].Var6 = var_78[var_475].Var6;
+                var_78[var_475].Var6 = 0;
+                var_78[var_419].Var7 = var_78[var_475].Var7;
+                var_78[var_475].Var7 = 0;
+                var_78[var_419].Var8 = var_78[var_475].Var8;
+                var_78[var_475].Var8 = 0;
+                var_78[var_419].Var9 = var_78[var_475].Var9;
+                var_78[var_475].Var9 = 0;
+                var_78[var_419].Var10 = var_78[var_475].Var10;
+                var_78[var_475].Var10 = 0;
+                var_78[var_419].Var11 = var_78[var_475].Var11;
+                var_78[var_475].Var11 = 0;
+                var_78[var_419].Var12 = var_78[var_475].Var12;
+                var_78[var_475].Var12 = 0;
+                var_78[var_419].Var13 = var_78[var_475].Var13;
+                var_78[var_475].Var13 = 0;
+                var_78[var_419].Var14 = var_78[var_475].Var14;
+                var_78[var_475].Var14 = 0;
+                var_78[var_419].Var15 = var_78[var_475].Var15;
+                var_78[var_475].Var15 = 0;
+                var_78[var_419].Var16 = var_78[var_475].Var16;
+                var_78[var_475].Var16 = 0;
+                var_78[var_419].Var17 = var_78[var_475].Var17;
+                var_78[var_475].Var17 = 0;
+                var_78[var_419].Var18 = var_78[var_475].Var18;
+                var_78[var_475].Var18 = 0;
+                var_78[var_419].Var19 = var_78[var_475].Var19;
+                var_78[var_475].Var19 = 0;
+                var_78[var_419].Var20 = var_78[var_475].Var20;
+                var_78[var_475].Var20 = 0;
+                var_78[var_419].Var21 = var_78[var_475].Var21;
+                var_78[var_475].Var21 = 0;
+                var_78[var_419].Var22 = var_78[var_475].Var22;
+                var_78[var_475].Var22 = 0;
+                var_78[var_419].Var23 = var_78[var_475].Var23;
+                var_78[var_475].Var23 = 0;
+                var_78[var_419].Var24 = var_78[var_475].Var24;
+                var_78[var_475].Var24 = 0;
+                var_78[var_419].Var25 = var_78[var_475].Var25;
+                var_78[var_475].Var25 = 0;
+                var_78[var_419].Var26 = var_78[var_475].Var26;
+                var_78[var_475].Var26 = 0;
+                var_78[var_419].Var27 = var_78[var_475].Var27;
+                var_78[var_475].Var27 = 0;
+                var_78[var_419].Var28 = var_78[var_475].Var28;
+                var_78[var_475].Var28 = 0;
+                var_78[var_419].Var29 = var_78[var_475].Var29;
+                var_78[var_475].Var29 = 0;
                 var_77[var_2695][var_2696] = 0;
-                var_83[var_2694][15] = 1;
-                var_83[var_2694][14] = 0;
-                var_83[var_2694][26] = 1;
-                var_83[var_2694][9] = 0;
-                if (var_78[var_419][15] == 2) {
-                    var_78[var_419][15] = 0;
+                var_83[var_2694].Var15 = 1;
+                var_83[var_2694].Var14 = 0;
+                var_83[var_2694].Var26 = 1;
+                var_83[var_2694].Var9 = 0;
+                if (var_78[var_419].Var15 == 2) {
+                    var_78[var_419].Var15 = 0;
                     var_412 = var_2694;
-                    var_83[var_2694][11] = 1;
+                    var_83[var_2694].Var11 = 1;
                     var_271 = 1;
                     var_1345 = 1;
                     for (var cnt4 = 0; cnt4 < 14; ++cnt4) {
@@ -25460,9 +25460,9 @@ function func573() {
                     }
                     var_271 = 0;
                     var_1345 = 0;
-                    var_83[var_2694][11] = 0;
-                    var_232 = var_78[var_419][0];
-                    var_487 = var_78[var_419][13];
+                    var_83[var_2694].Var11 = 0;
+                    var_232 = var_78[var_419].Var0;
+                    var_487 = var_78[var_419].Var13;
                     yield func492();
                     var_418 = var_489;
                     var_293 = "";
@@ -25480,9 +25480,9 @@ function func573() {
                     var_26_x = var_26[1];
                     var_27_x = var_27[1];
                     yield func047();
-                    var_455 = var_83[var_2694][1];
-                    var_456 = var_83[var_2694][2];
-                    var_83[var_2694][8] = 1;
+                    var_455 = var_83[var_2694].Var1;
+                    var_456 = var_83[var_2694].Var2;
+                    var_83[var_2694].Var8 = 1;
                     yield func668();
                     return;
                 }
@@ -25496,8 +25496,8 @@ function func573() {
                     }
                 }
                 if (var_1349 == 0) {
-                    var_83[var_412][11] = 1;
-                    var_83[var_2694][5] = 2;
+                    var_83[var_412].Var11 = 1;
+                    var_83[var_2694].Var5 = 2;
                     var_1347 = var_2695;
                     var_1348 = var_2696;
                     var_271 = 1;
@@ -25508,7 +25508,7 @@ function func573() {
                     }
                     var_271 = 0;
                     var_1346 = 0;
-                    var_83[var_412][11] = 0;
+                    var_83[var_412].Var11 = 0;
                     return;
                 }
                 var_2698 = var_66 - 5;
@@ -25528,7 +25528,7 @@ function func573() {
                     var_2701 = 0;
                 }
                 if (var_2695 > var_2698 && var_2695 < var_2699 && var_2696 > var_2701 && var_2696 < var_2700) {
-                    var_83[var_412][11] = 1;
+                    var_83[var_412].Var11 = 1;
                     var_1347 = var_2695;
                     var_1348 = var_2696;
                     var_271 = 1;
@@ -25542,14 +25542,14 @@ function func573() {
                     }
                     var_271 = 0;
                     var_1346 = 0;
-                    var_83[var_412][11] = 0;
+                    var_83[var_412].Var11 = 0;
                 }
-                var_83[var_412][1] = var_2350;
-                var_83[var_412][2] = var_2351;
+                var_83[var_412].Var1 = var_2350;
+                var_83[var_412].Var2 = var_2351;
                 var_82[var_2695][var_2696] = 0;
                 var_82[var_2350][var_2351] = var_2694;
-                var_83[var_412][9] = 0;
-                var_83[var_412][10] = var_71[var_2350][var_2351];
+                var_83[var_412].Var9 = 0;
+                var_83[var_412].Var10 = var_71[var_2350][var_2351];
                 yield func331();
             }
         }
@@ -25561,16 +25561,16 @@ function func574() {
         dbgprt(574);
         var_2694 = 1;
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
-            if (var_83[var_2694][22] == 1) {
-                if (var_83[var_2694][0] == 118) {
+            if (var_83[var_2694].Var22 == 1) {
+                if (var_83[var_2694].Var0 == 118) {
                     var_2676 = var_201;
-                    var_2702 = var_83[var_2694][1];
-                    var_2703 = var_83[var_2694][2];
+                    var_2702 = var_83[var_2694].Var1;
+                    var_2703 = var_83[var_2694].Var2;
                     if (var_77[var_2702][var_2703] != 0) {
                         var_2704 = var_77[var_2702][var_2703];
-                        var_78[var_2704][0] = 0;
-                        var_78[var_2704][1] = 0;
-                        var_78[var_2704][2] = 0;
+                        var_78[var_2704].Var0 = 0;
+                        var_78[var_2704].Var1 = 0;
+                        var_78[var_2704].Var2 = 0;
                         var_77[var_2702][var_2703] = 0;
                     }
                     if (var_80[var_2702][var_2703] != 0) {
@@ -25614,11 +25614,11 @@ function func574() {
                     }
                     var_271 = 1;
                     var_1357 = 1;
-                    var_748 = (var_83[var_2694][1] - var_66 + 4) * 40;
-                    var_749 = (var_83[var_2694][2] - var_67 + 4) * 40 + 20;
-                    var_83[var_2694][10] = var_2676;
-                    var_83[var_2694][11] = 0;
-                    var_83[var_2694][21] = 1;
+                    var_748 = (var_83[var_2694].Var1 - var_66 + 4) * 40;
+                    var_749 = (var_83[var_2694].Var2 - var_67 + 4) * 40 + 20;
+                    var_83[var_2694].Var10 = var_2676;
+                    var_83[var_2694].Var11 = 0;
+                    var_83[var_2694].Var21 = 1;
                     var_411 = 6;
                     DSPLAY(189);
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
@@ -25636,46 +25636,46 @@ function func574() {
                         yield func337();
                     }
                     var_411 = 0;
-                    var_83[var_2694][21] = 0;
+                    var_83[var_2694].Var21 = 0;
                     for (var cnt4 = 0; cnt4 < 2; ++cnt4) {
                         yield func337();
                     }
-                    var_2705 = var_83[var_2694][1];
-                    var_2706 = var_83[var_2694][2];
+                    var_2705 = var_83[var_2694].Var1;
+                    var_2706 = var_83[var_2694].Var2;
                     if (var_66 < var_2705 && var_67 > var_2706) {
-                        var_83[var_2694][5] = 1;
+                        var_83[var_2694].Var5 = 1;
                     }
                     if (var_66 > var_2705 && var_67 > var_2706) {
-                        var_83[var_2694][5] = 3;
+                        var_83[var_2694].Var5 = 3;
                     }
                     if (var_66 < var_2705 && var_67 < var_2706) {
-                        var_83[var_2694][5] = 7;
+                        var_83[var_2694].Var5 = 7;
                     }
                     if (var_66 > var_2705 && var_67 < var_2706) {
-                        var_83[var_2694][5] = 9;
+                        var_83[var_2694].Var5 = 9;
                     }
                     if (var_66 == var_2705 && var_67 > var_2706) {
-                        var_83[var_2694][5] = 2;
+                        var_83[var_2694].Var5 = 2;
                     }
                     if (var_66 == var_2705 && var_67 < var_2706) {
-                        var_83[var_2694][5] = 8;
+                        var_83[var_2694].Var5 = 8;
                     }
                     if (var_67 == var_2706 && var_66 < var_2705) {
-                        var_83[var_2694][5] = 4;
+                        var_83[var_2694].Var5 = 4;
                     }
                     if (var_67 == var_2706 && var_66 > var_2705) {
-                        var_83[var_2694][5] = 6;
+                        var_83[var_2694].Var5 = 6;
                     }
                     for (var cnt4 = 0; cnt4 < 2; ++cnt4) {
                         yield func337();
                     }
                 }
-                if (var_83[var_2694][0] == 3) {
-                    var_83[var_2694][11] = 0;
+                if (var_83[var_2694].Var0 == 3) {
+                    var_83[var_2694].Var11 = 0;
                     var_271 = 1;
                     var_1306 = 1;
-                    var_1286 = (var_83[var_2694][1] - var_66 + 4) * 40;
-                    var_1287 = (var_83[var_2694][2] - var_67 + 4) * 40 - 50;
+                    var_1286 = (var_83[var_2694].Var1 - var_66 + 4) * 40;
+                    var_1287 = (var_83[var_2694].Var2 - var_67 + 4) * 40 - 50;
                     DSPLAY(190);
                     for (var cnt4 = 0; cnt4 < 5; ++cnt4) {
                         yield func337();
@@ -25684,14 +25684,14 @@ function func574() {
                     var_1306 = 0;
                     var_271 = 0;
                 }
-                if (var_83[var_2694][0] == 48) {
-                    var_83[var_2694][11] = 0;
+                if (var_83[var_2694].Var0 == 48) {
+                    var_83[var_2694].Var11 = 0;
                     var_271 = 1;
                     var_1307 = 1;
                     var_1308 = rnd(2);
                     var_1308++;
-                    var_1286 = (var_83[var_2694][1] - var_66 + 4) * 40;
-                    var_1287 = (var_83[var_2694][2] - var_67 + 4) * 40 - 50;
+                    var_1286 = (var_83[var_2694].Var1 - var_66 + 4) * 40;
+                    var_1287 = (var_83[var_2694].Var2 - var_67 + 4) * 40 - 50;
                     DSPLAY(191);
                     for (var cnt4 = 0; cnt4 < 9; ++cnt4) {
                         yield func337();
@@ -25700,15 +25700,15 @@ function func574() {
                     var_1307 = 0;
                     var_271 = 0;
                 }
-                if (var_83[var_2694][0] == 15) {
-                    var_83[var_2694][11] = 1;
-                    if (var_127 == 0 && var_83[var_2694][30] == 0) {
+                if (var_83[var_2694].Var0 == 15) {
+                    var_83[var_2694].Var11 = 1;
+                    if (var_127 == 0 && var_83[var_2694].Var30 == 0) {
                         var_271 = 1;
                     }
                     var_1453 = 1;
                     DSPLAY(219);
-                    var_1286 = (var_83[var_2694][1] - var_66 + 4) * 40;
-                    var_1287 = (var_83[var_2694][2] - var_67 + 4) * 40 - 10;
+                    var_1286 = (var_83[var_2694].Var1 - var_66 + 4) * 40;
+                    var_1287 = (var_83[var_2694].Var2 - var_67 + 4) * 40 - 10;
                     DSPLAY(191);
                     for (var cnt4 = 0; cnt4 < 9; ++cnt4) {
                         yield func337();
@@ -25716,24 +25716,24 @@ function func574() {
                     }
                     var_1453 = 0;
                     var_271 = 0;
-                    var_83[var_2694][11] = 0;
+                    var_83[var_2694].Var11 = 0;
                 }
-                if (var_83[var_2694][0] == 115 || var_83[var_2694][0] == 27 || var_83[var_2694][0] == 18 || var_83[var_2694][0] == 86 || var_83[var_2694][0] == 44) {
+                if (var_83[var_2694].Var0 == 115 || var_83[var_2694].Var0 == 27 || var_83[var_2694].Var0 == 18 || var_83[var_2694].Var0 == 86 || var_83[var_2694].Var0 == 44) {
                     yield func337();
-                    var_83[var_2694][11] = 0;
-                    if (var_83[var_2694][0] == 115) {
+                    var_83[var_2694].Var11 = 0;
+                    if (var_83[var_2694].Var0 == 115) {
                         DSPLAY(183);
                     }
-                    if (var_83[var_2694][0] == 27) {
+                    if (var_83[var_2694].Var0 == 27) {
                         DSPLAY(183);
                     }
-                    if (var_83[var_2694][0] == 86) {
+                    if (var_83[var_2694].Var0 == 86) {
                         DSPLAY(123);
                     }
-                    if (var_83[var_2694][0] == 44) {
+                    if (var_83[var_2694].Var0 == 44) {
                         DSPLAY(120);
                     }
-                    var_83[var_2694][21] = 1;
+                    var_83[var_2694].Var21 = 1;
                     var_411 = 1;
                     yield func337();
                     var_411 = 2;
@@ -25745,25 +25745,25 @@ function func574() {
                     var_411 = 5;
                     yield func337();
                     var_411 = 0;
-                    var_83[var_2694][21] = 0;
+                    var_83[var_2694].Var21 = 0;
                 }
-                if (var_83[var_2694][0] == 76 || var_83[var_2694][0] == 65) {
-                    var_83[var_2694][21] = 1;
+                if (var_83[var_2694].Var0 == 76 || var_83[var_2694].Var0 == 65) {
+                    var_83[var_2694].Var21 = 1;
                     var_411 = 1;
-                    if (var_83[var_2694][0] == 76) {
+                    if (var_83[var_2694].Var0 == 76) {
                         DSPLAY(231);
                     }
-                    if (var_83[var_2694][0] == 65) {
+                    if (var_83[var_2694].Var0 == 65) {
                         DSPLAY(230);
                     }
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         yield func337();
                     }
-                    var_83[var_2694][21] = 0;
+                    var_83[var_2694].Var21 = 0;
                     var_411 = 0;
                 }
-                if (var_83[var_2694][0] == 135) {
-                    var_83[var_2694][21] = 1;
+                if (var_83[var_2694].Var0 == 135) {
+                    var_83[var_2694].Var21 = 1;
                     DSPLAY(229);
                     for (var cnt4 = 0; cnt4 < 2; ++cnt4) {
                         var_411 = 1;
@@ -25778,20 +25778,20 @@ function func574() {
                     var_768 = 1;
                     var_1728 = 1;
                     var_2435 = 1;
-                    var_1550 = var_83[var_2694][1];
-                    var_230 = var_83[var_2694][2];
+                    var_1550 = var_83[var_2694].Var1;
+                    var_230 = var_83[var_2694].Var2;
                     var_2412 = 1;
                     yield func536();
                     var_2412 = 0;
                     var_768 = 0;
                     var_1728 = 0;
                     var_2435 = 0;
-                    var_83[var_2694][21] = 0;
+                    var_83[var_2694].Var21 = 0;
                     var_411 = 0;
-                    var_83[var_2694][22] = 0;
+                    var_83[var_2694].Var22 = 0;
                 }
-                if (var_83[var_2694][0] == 148) {
-                    var_83[var_2694][21] = 1;
+                if (var_83[var_2694].Var0 == 148) {
+                    var_83[var_2694].Var21 = 1;
                     var_411 = 1;
                     for (var cnt4 = 0; cnt4 < 2; ++cnt4) {
                         yield func337();
@@ -25808,8 +25808,8 @@ function func574() {
                     var_768 = 1;
                     var_1728 = 1;
                     var_2425 = 1;
-                    var_1550 = var_83[var_2694][1];
-                    var_230 = var_83[var_2694][2];
+                    var_1550 = var_83[var_2694].Var1;
+                    var_230 = var_83[var_2694].Var2;
                     var_2412 = 1;
                     var_2428 = 1;
                     yield func536();
@@ -25830,10 +25830,10 @@ function func574() {
                     for (var cnt4 = 0; cnt4 < 2; ++cnt4) {
                         yield func337();
                     }
-                    var_83[var_2694][21] = 0;
+                    var_83[var_2694].Var21 = 0;
                     var_411 = 0;
                 }
-                var_83[var_2694][22] = 0;
+                var_83[var_2694].Var22 = 0;
             }
             var_2694 = var_2694 + 1;
         }
@@ -25846,13 +25846,13 @@ function func575() {
         var_673 = 1;
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
             var_2707 = cnt1;
-            if (var_83[var_673][0] == 0) {
-                var_423 = var_83[var_673][1];
-                var_424 = var_83[var_673][2];
+            if (var_83[var_673].Var0 == 0) {
+                var_423 = var_83[var_673].Var1;
+                var_424 = var_83[var_673].Var2;
                 var_82[var_423][var_424] = 0;
-                var_83[var_673][0] = 0;
-                var_83[var_673][1] = 0;
-                var_83[var_673][2] = 0;
+                var_83[var_673].Var0 = 0;
+                var_83[var_673].Var1 = 0;
+                var_83[var_673].Var2 = 0;
                 var_673 = var_673 + 1;
                 continue;
             }
@@ -25860,189 +25860,189 @@ function func575() {
                 var_673 = var_673 + 1;
                 continue;
             }
-            var_83[var_673][9] = 0;
-            var_83[var_673][18] = 0;
-            var_83[var_673][6] = 0;
-            var_83[var_673][27] = 0;
-            var_423 = var_83[var_673][1];
-            var_424 = var_83[var_673][2];
+            var_83[var_673].Var9 = 0;
+            var_83[var_673].Var18 = 0;
+            var_83[var_673].Var6 = 0;
+            var_83[var_673].Var27 = 0;
+            var_423 = var_83[var_673].Var1;
+            var_424 = var_83[var_673].Var2;
             if (var_82[var_423][var_424] == 0) {
-                var_83[var_673][0] = 0;
-                var_83[var_673][1] = 0;
-                var_83[var_673][2] = 0;
+                var_83[var_673].Var0 = 0;
+                var_83[var_673].Var1 = 0;
+                var_83[var_673].Var2 = 0;
                 var_673 = var_673 + 1;
                 continue;
             }
             var_2708 = 0;
             var_2709 = 0;
             var_2710 = 0;
-            if (var_83[var_673][12] >= 1) {
+            if (var_83[var_673].Var12 >= 1) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][13] >= 1) {
+            if (var_83[var_673].Var13 >= 1) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][14] == 1) {
+            if (var_83[var_673].Var14 == 1) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 19) {
+            if (var_83[var_673].Var0 == 19) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 90) {
+            if (var_83[var_673].Var0 == 90) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 91) {
+            if (var_83[var_673].Var0 == 91) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 92) {
+            if (var_83[var_673].Var0 == 92) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 33) {
+            if (var_83[var_673].Var0 == 33) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 23) {
+            if (var_83[var_673].Var0 == 23) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 53) {
+            if (var_83[var_673].Var0 == 53) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 75) {
+            if (var_83[var_673].Var0 == 75) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 50) {
+            if (var_83[var_673].Var0 == 50) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 49) {
+            if (var_83[var_673].Var0 == 49) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 36 && var_83[var_673][31] == 4) {
+            if (var_83[var_673].Var0 == 36 && var_83[var_673].Var31 == 4) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 105 && var_83[var_673][31] == 4) {
+            if (var_83[var_673].Var0 == 105 && var_83[var_673].Var31 == 4) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 106 && var_83[var_673][31] == 4) {
+            if (var_83[var_673].Var0 == 106 && var_83[var_673].Var31 == 4) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 107 && var_83[var_673][31] == 4) {
+            if (var_83[var_673].Var0 == 107 && var_83[var_673].Var31 == 4) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 108 && var_83[var_673][31] == 4) {
+            if (var_83[var_673].Var0 == 108 && var_83[var_673].Var31 == 4) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 57) {
+            if (var_83[var_673].Var0 == 57) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 58) {
+            if (var_83[var_673].Var0 == 58) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 61) {
+            if (var_83[var_673].Var0 == 61) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 116) {
+            if (var_83[var_673].Var0 == 116) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 70) {
+            if (var_83[var_673].Var0 == 70) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 74) {
+            if (var_83[var_673].Var0 == 74) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 79) {
+            if (var_83[var_673].Var0 == 79) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 81) {
+            if (var_83[var_673].Var0 == 81) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 82) {
+            if (var_83[var_673].Var0 == 82) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 83) {
+            if (var_83[var_673].Var0 == 83) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 96) {
+            if (var_83[var_673].Var0 == 96) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 55) {
+            if (var_83[var_673].Var0 == 55) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 142) {
+            if (var_83[var_673].Var0 == 142) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 163) {
+            if (var_83[var_673].Var0 == 163) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 149) {
+            if (var_83[var_673].Var0 == 149) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 169) {
+            if (var_83[var_673].Var0 == 169) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 173) {
+            if (var_83[var_673].Var0 == 173) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 147 && var_83[var_673][20] == 0) {
+            if (var_83[var_673].Var0 == 147 && var_83[var_673].Var20 == 0) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 117 && var_83[var_673][20] == 0) {
+            if (var_83[var_673].Var0 == 117 && var_83[var_673].Var20 == 0) {
                 var_2708 = 1;
             }
-            if (var_71[var_66][var_67] == 0 && var_83[var_673][0] != 43 && var_83[var_673][0] != 111) {
+            if (var_71[var_66][var_67] == 0 && var_83[var_673].Var0 != 43 && var_83[var_673].Var0 != 111) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 10 && var_133 != 0) {
+            if (var_83[var_673].Var0 == 10 && var_133 != 0) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 26 && var_83[var_673][26] >= 1 && var_83[var_673][20] == 0) {
+            if (var_83[var_673].Var0 == 26 && var_83[var_673].Var26 >= 1 && var_83[var_673].Var20 == 0) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] == 65 && var_83[var_673][20] == 0) {
+            if (var_83[var_673].Var0 == 65 && var_83[var_673].Var20 == 0) {
                 var_2711 = rnd(10);
                 if (var_2711 < 4) {
                     var_2708 = 1;
                 }
             }
-            if (var_83[var_673][0] == 144 && var_83[var_673][26] >= 1 && var_83[var_673][20] == 0) {
+            if (var_83[var_673].Var0 == 144 && var_83[var_673].Var26 >= 1 && var_83[var_673].Var20 == 0) {
                 var_2711 = rnd(10);
                 if (var_2711 < 4) {
                     var_2708 = 1;
                 }
             }
-            if (var_83[var_673][0] == 109 && var_83[var_673][30] != 0 && var_83[var_673][20] == 0) {
+            if (var_83[var_673].Var0 == 109 && var_83[var_673].Var30 != 0 && var_83[var_673].Var20 == 0) {
                 var_2711 = rnd(10);
                 if (var_2711 < 4) {
                     var_2708 = 1;
                 }
             }
-            if (var_83[var_673][31] == 5 && var_313 == var_673) {
+            if (var_83[var_673].Var31 == 5 && var_313 == var_673) {
                 var_2708 = 1;
             }
-            if (var_157 == 1 && var_83[var_673][0] != 10 && var_83[var_673][15] == 0) {
+            if (var_157 == 1 && var_83[var_673].Var0 != 10 && var_83[var_673].Var15 == 0) {
                 var_2708 = 1;
             }
             var_2712 = 0;
             var_616 = 1;
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_616][0] == 49) {
+                if (var_83[var_616].Var0 == 49) {
                     var_2712 = 1;
                     break;
                 }
-                if (var_83[var_616][0] == 37 && var_83[var_673][0] != 37) {
-                    var_2713 = var_83[var_673][1];
-                    var_2714 = var_83[var_673][2];
-                    var_2715 = var_83[var_673][1] - 1;
+                if (var_83[var_616].Var0 == 37 && var_83[var_673].Var0 != 37) {
+                    var_2713 = var_83[var_673].Var1;
+                    var_2714 = var_83[var_673].Var2;
+                    var_2715 = var_83[var_673].Var1 - 1;
                     if (var_2715 < 0) {
                         var_2715 = 0;
                     }
-                    var_2716 = var_83[var_673][1] + 1;
+                    var_2716 = var_83[var_673].Var1 + 1;
                     if (var_2716 > var_33) {
                         var_2716 = var_33;
                     }
-                    var_2717 = var_83[var_673][2] + 1;
+                    var_2717 = var_83[var_673].Var2 + 1;
                     if (var_2717 > var_34) {
                         var_2717 = var_34;
                     }
-                    var_2718 = var_83[var_673][2] - 1;
+                    var_2718 = var_83[var_673].Var2 - 1;
                     if (var_2718 < 0) {
                         var_2718 = 0;
                     }
@@ -26053,20 +26053,20 @@ function func575() {
                 }
                 var_616++;
             }
-            if (var_83[var_673][0] == 48 && var_83[var_673][10] != 14 && var_83[var_673][20] == 0) {
+            if (var_83[var_673].Var0 == 48 && var_83[var_673].Var10 != 14 && var_83[var_673].Var20 == 0) {
                 var_2648 = 1;
                 for (var cnt3 = 0; cnt3 < var_336; ++cnt3) {
-                    if (var_78[var_2648][0] == 713 && var_78[var_2648][9] == var_83[var_673][10]) {
+                    if (var_78[var_2648].Var0 == 713 && var_78[var_2648].Var9 == var_83[var_673].Var10) {
                         var_2708 = 1;
                     }
                     var_2648 = var_2648 + 1;
                 }
             }
-            if (var_83[var_673][0] == 134 || var_83[var_673][0] == 35) {
-                if (var_83[var_673][10] != 14) {
+            if (var_83[var_673].Var0 == 134 || var_83[var_673].Var0 == 35) {
+                if (var_83[var_673].Var10 != 14) {
                     var_616 = 1;
                     for (var cnt4 = 0; cnt4 < var_97; ++cnt4) {
-                        if (var_83[var_616][0] != 0 && var_673 != var_616 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_673][10] == var_83[var_616][10]) {
+                        if (var_83[var_616].Var0 != 0 && var_673 != var_616 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_673].Var10 == var_83[var_616].Var10) {
                             var_2646 = var_616;
                             yield func578();
                             if (var_2647 >= 1) {
@@ -26078,43 +26078,43 @@ function func575() {
                     }
                 }
             }
-            if (var_83[var_673][0] == 86) {
-                if (var_83[var_673][10] != 14) {
+            if (var_83[var_673].Var0 == 86) {
+                if (var_83[var_673].Var10 != 14) {
                     var_616 = 1;
                     for (var cnt4 = 0; cnt4 < var_97; ++cnt4) {
-                        if (var_83[var_616][0] != 0 && var_83[var_616][0] != 86 && var_673 != var_616 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_673][10] == var_83[var_616][10] && var_83[var_616][31] == 2) {
-                            var_2709 = var_83[var_616][0];
+                        if (var_83[var_616].Var0 != 0 && var_83[var_616].Var0 != 86 && var_673 != var_616 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_673].Var10 == var_83[var_616].Var10 && var_83[var_616].Var31 == 2) {
+                            var_2709 = var_83[var_616].Var0;
                             break;
                         }
                         var_616++;
                     }
                 }
             }
-            if (var_83[var_673][0] == 44) {
+            if (var_83[var_673].Var0 == 44) {
                 var_616 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_616][0] == 147 && var_83[var_673][10] == var_83[var_616][10]) {
-                        var_2709 = var_83[var_616][0];
+                    if (var_83[var_616].Var0 == 147 && var_83[var_673].Var10 == var_83[var_616].Var10) {
+                        var_2709 = var_83[var_616].Var0;
                         break;
                     }
                     var_616++;
                 }
             }
-            if (var_83[var_673][0] == 164 || var_83[var_673][0] == 165) {
+            if (var_83[var_673].Var0 == 164 || var_83[var_673].Var0 == 165) {
                 var_616 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_616][0] != 0 && var_83[var_616][0] != 164 && var_83[var_616][0] != 165 && var_673 != var_616 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5) {
+                    if (var_83[var_616].Var0 != 0 && var_83[var_616].Var0 != 164 && var_83[var_616].Var0 != 165 && var_673 != var_616 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5) {
                         var_2709 = 1;
                         break;
                     }
                     var_616++;
                 }
             }
-            if (var_83[var_673][0] == 113 || var_83[var_673][0] == 114) {
-                if (var_83[var_673][10] != 14 && var_201 == var_83[var_673][10]) {
+            if (var_83[var_673].Var0 == 113 || var_83[var_673].Var0 == 114) {
+                if (var_83[var_673].Var10 != 14 && var_201 == var_83[var_673].Var10) {
                     var_616 = 1;
                     for (var cnt4 = 0; cnt4 < var_97; ++cnt4) {
-                        if (var_83[var_616][0] == 119 && var_83[var_673][10] == var_83[var_616][10]) {
+                        if (var_83[var_616].Var0 == 119 && var_83[var_673].Var10 == var_83[var_616].Var10) {
                             var_2709 = 119;
                             break;
                         }
@@ -26122,26 +26122,26 @@ function func575() {
                     }
                 }
             }
-            if (var_83[var_673][0] == 17 && var_83[var_673][3] == 1 && var_83[var_673][20] == 0) {
-                var_83[var_673][9] = 1;
+            if (var_83[var_673].Var0 == 17 && var_83[var_673].Var3 == 1 && var_83[var_673].Var20 == 0) {
+                var_83[var_673].Var9 = 1;
                 var_2708 = 1;
             }
-            if (var_83[var_673][20] == 2) {
+            if (var_83[var_673].Var20 == 2) {
                 var_2708 = 1;
             }
             if (var_2708 == 0) {
                 var_2719 = 0;
-                if (var_2708 == 0 && var_83[var_673][20] == 0) {
-                    if (var_83[var_673][0] == 7 || var_83[var_673][0] == 15 || var_83[var_673][0] == 21 || var_83[var_673][0] == 47 || var_83[var_673][0] == 67 || var_83[var_673][0] == 158 || var_83[var_673][0] == 168 || var_83[var_673][0] == 175) {
+                if (var_2708 == 0 && var_83[var_673].Var20 == 0) {
+                    if (var_83[var_673].Var0 == 7 || var_83[var_673].Var0 == 15 || var_83[var_673].Var0 == 21 || var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67 || var_83[var_673].Var0 == 158 || var_83[var_673].Var0 == 168 || var_83[var_673].Var0 == 175) {
                         var_2719 = 1;
                     }
-                    if (var_83[var_673][0] == 48 || var_83[var_673][0] == 40 || var_83[var_673][0] == 41 || var_83[var_673][0] == 42 || var_83[var_673][0] == 155 || var_83[var_673][0] == 140 || var_83[var_673][0] == 136) {
+                    if (var_83[var_673].Var0 == 48 || var_83[var_673].Var0 == 40 || var_83[var_673].Var0 == 41 || var_83[var_673].Var0 == 42 || var_83[var_673].Var0 == 155 || var_83[var_673].Var0 == 140 || var_83[var_673].Var0 == 136) {
                         var_2719 = 1;
                     }
-                    if (var_83[var_673][0] == 56 || var_83[var_673][0] == 80 || var_83[var_673][0] == 93 || var_83[var_673][0] == 95 || var_83[var_673][0] == 121 || var_83[var_673][0] == 113 || var_83[var_673][0] == 76) {
+                    if (var_83[var_673].Var0 == 56 || var_83[var_673].Var0 == 80 || var_83[var_673].Var0 == 93 || var_83[var_673].Var0 == 95 || var_83[var_673].Var0 == 121 || var_83[var_673].Var0 == 113 || var_83[var_673].Var0 == 76) {
                         var_2719 = 1;
                     }
-                    if (var_83[var_673][0] == 114 || var_83[var_673][0] == 128 || var_83[var_673][0] == 132 || var_83[var_673][0] == 141 || var_83[var_673][0] == 123 || var_83[var_673][0] == 126 || var_83[var_673][0] == 151 || var_83[var_673][0] == 172) {
+                    if (var_83[var_673].Var0 == 114 || var_83[var_673].Var0 == 128 || var_83[var_673].Var0 == 132 || var_83[var_673].Var0 == 141 || var_83[var_673].Var0 == 123 || var_83[var_673].Var0 == 126 || var_83[var_673].Var0 == 151 || var_83[var_673].Var0 == 172) {
                         var_2719 = 1;
                     }
                     if (var_2719 == 1) {
@@ -26162,25 +26162,25 @@ function func575() {
                         if (var_2723 > var_34) {
                             var_2723 = var_34;
                         }
-                        if (var_83[var_673][17] == 0 && var_83[var_673][23] == 0 && var_201 != 14 && var_201 == var_83[var_673][10]) {
+                        if (var_83[var_673].Var17 == 0 && var_83[var_673].Var23 == 0 && var_201 != 14 && var_201 == var_83[var_673].Var10) {
                             var_2720 = 1;
                         }
-                        if (var_83[var_673][17] == 0 && var_83[var_673][23] == 0 && var_201 != 14 && var_83[var_673][10] == 14) {
-                            var_2713 = var_83[var_673][1];
-                            var_2714 = var_83[var_673][2];
-                            var_2715 = var_83[var_673][1] - 1;
+                        if (var_83[var_673].Var17 == 0 && var_83[var_673].Var23 == 0 && var_201 != 14 && var_83[var_673].Var10 == 14) {
+                            var_2713 = var_83[var_673].Var1;
+                            var_2714 = var_83[var_673].Var2;
+                            var_2715 = var_83[var_673].Var1 - 1;
                             if (var_2715 < 0) {
                                 var_2715 = 0;
                             }
-                            var_2716 = var_83[var_673][1] + 1;
+                            var_2716 = var_83[var_673].Var1 + 1;
                             if (var_2716 > var_33) {
                                 var_2716 = var_33;
                             }
-                            var_2717 = var_83[var_673][2] + 1;
+                            var_2717 = var_83[var_673].Var2 + 1;
                             if (var_2717 > var_34) {
                                 var_2717 = var_34;
                             }
-                            var_2718 = var_83[var_673][2] - 1;
+                            var_2718 = var_83[var_673].Var2 - 1;
                             if (var_2718 < 0) {
                                 var_2718 = 0;
                             }
@@ -26188,7 +26188,7 @@ function func575() {
                                 var_2720 = 1;
                             }
                         }
-                        if (var_83[var_673][17] == 0 && var_83[var_673][23] == 0 && var_201 == 14 && var_83[var_673][10] != 14) {
+                        if (var_83[var_673].Var17 == 0 && var_83[var_673].Var23 == 0 && var_201 == 14 && var_83[var_673].Var10 != 14) {
                             var_2713 = var_66;
                             var_2714 = var_67;
                             var_2715 = var_66 - 1;
@@ -26207,17 +26207,17 @@ function func575() {
                             if (var_2718 < 0) {
                                 var_2718 = 0;
                             }
-                            if (var_71[var_2715][var_2714] == var_83[var_673][10] || var_71[var_2716][var_2714] == var_83[var_673][10] || var_71[var_2713][var_2717] == var_83[var_673][10] || var_71[var_2713][var_2718] == var_83[var_673][10] || var_71[var_2715][var_2717] == var_83[var_673][10] || var_71[var_2715][var_2718] == var_83[var_673][10] || var_71[var_2716][var_2717] == var_83[var_673][10] || var_71[var_2716][var_2718] == var_83[var_673][10]) {
+                            if (var_71[var_2715][var_2714] == var_83[var_673].Var10 || var_71[var_2716][var_2714] == var_83[var_673].Var10 || var_71[var_2713][var_2717] == var_83[var_673].Var10 || var_71[var_2713][var_2718] == var_83[var_673].Var10 || var_71[var_2715][var_2717] == var_83[var_673].Var10 || var_71[var_2715][var_2718] == var_83[var_673].Var10 || var_71[var_2716][var_2717] == var_83[var_673].Var10 || var_71[var_2716][var_2718] == var_83[var_673].Var10) {
                                 var_2720 = 1;
                             }
                         }
-                        if (var_83[var_673][17] == 0 && var_83[var_673][23] == 0 && var_423 >= var_2721 && var_423 <= var_2722 && var_424 >= var_2724 && var_424 <= var_2723) {
+                        if (var_83[var_673].Var17 == 0 && var_83[var_673].Var23 == 0 && var_423 >= var_2721 && var_423 <= var_2722 && var_424 >= var_2724 && var_424 <= var_2723) {
                             var_2720 = 1;
                         }
-                        if (var_83[var_673][0] == 123 || var_83[var_673][0] == 140 || var_83[var_673][0] == 168) {
+                        if (var_83[var_673].Var0 == 123 || var_83[var_673].Var0 == 140 || var_83[var_673].Var0 == 168) {
                             var_2720 = 0;
-                            if (var_83[var_673][17] == 0 && var_83[var_673][23] == 0 && var_146 == 0 && var_123 == 0 && var_2712 == 0) {
-                                var_2725 = var_83[var_673][5];
+                            if (var_83[var_673].Var17 == 0 && var_83[var_673].Var23 == 0 && var_146 == 0 && var_123 == 0 && var_2712 == 0) {
+                                var_2725 = var_83[var_673].Var5;
                                 var_2726 = var_66 - 2;
                                 if (var_2726 < 0) {
                                     var_2726 = 0;
@@ -26235,47 +26235,47 @@ function func575() {
                                     var_2729 = 0;
                                 }
                                 if (var_423 == var_2726 && var_424 == var_67) {
-                                    var_83[var_673][5] = 4;
+                                    var_83[var_673].Var5 = 4;
                                     var_2720 = 1;
                                     var_2708 = 1;
                                 }
                                 if (var_423 == var_2727 && var_424 == var_67) {
-                                    var_83[var_673][5] = 6;
+                                    var_83[var_673].Var5 = 6;
                                     var_2720 = 1;
                                     var_2708 = 1;
                                 }
                                 if (var_423 == var_66 && var_424 == var_2729) {
-                                    var_83[var_673][5] = 8;
+                                    var_83[var_673].Var5 = 8;
                                     var_2720 = 1;
                                     var_2708 = 1;
                                 }
                                 if (var_423 == var_66 && var_424 == var_2728) {
-                                    var_83[var_673][5] = 2;
+                                    var_83[var_673].Var5 = 2;
                                     var_2720 = 1;
                                     var_2708 = 1;
                                 }
                                 if (var_423 == var_2726 && var_424 == var_2729) {
-                                    var_83[var_673][5] = 7;
+                                    var_83[var_673].Var5 = 7;
                                     var_2720 = 1;
                                     var_2708 = 1;
                                 }
                                 if (var_423 == var_2727 && var_424 == var_2729) {
-                                    var_83[var_673][5] = 9;
+                                    var_83[var_673].Var5 = 9;
                                     var_2720 = 1;
                                     var_2708 = 1;
                                 }
                                 if (var_423 == var_2726 && var_424 == var_2728) {
-                                    var_83[var_673][5] = 1;
+                                    var_83[var_673].Var5 = 1;
                                     var_2720 = 1;
                                     var_2708 = 1;
                                 }
                                 if (var_423 == var_2727 && var_424 == var_2728) {
-                                    var_83[var_673][5] = 3;
+                                    var_83[var_673].Var5 = 3;
                                     var_2720 = 1;
                                     var_2708 = 1;
                                 }
                                 if (var_2720 == 1) {
-                                    if (var_83[var_673][0] == 140 || var_83[var_673][0] == 168) {
+                                    if (var_83[var_673].Var0 == 140 || var_83[var_673].Var0 == 168) {
                                         var_2726 = var_66 - 1;
                                         if (var_2726 < 0) {
                                             var_2726 = 0;
@@ -26292,65 +26292,65 @@ function func575() {
                                         if (var_2729 < 0) {
                                             var_2729 = 0;
                                         }
-                                        if (var_83[var_673][5] == 4) {
+                                        if (var_83[var_673].Var5 == 4) {
                                             if (var_82[var_2726][var_67] != 0 || var_71[var_2726][var_67] == 0) {
                                                 var_2720 = 0;
                                                 var_2708 = 0;
-                                                var_83[var_673][5] = var_2725;
+                                                var_83[var_673].Var5 = var_2725;
                                             }
                                         }
-                                        if (var_83[var_673][5] == 6) {
+                                        if (var_83[var_673].Var5 == 6) {
                                             if (var_82[var_2727][var_67] != 0 || var_71[var_2727][var_67] == 0) {
                                                 var_2720 = 0;
                                                 var_2708 = 0;
-                                                var_83[var_673][5] = var_2725;
+                                                var_83[var_673].Var5 = var_2725;
                                             }
                                         }
-                                        if (var_83[var_673][5] == 2) {
+                                        if (var_83[var_673].Var5 == 2) {
                                             if (var_82[var_66][var_2728] != 0 || var_71[var_66][var_2728] == 0) {
                                                 var_2720 = 0;
                                                 var_2708 = 0;
-                                                var_83[var_673][5] = var_2725;
+                                                var_83[var_673].Var5 = var_2725;
                                             }
                                         }
-                                        if (var_83[var_673][5] == 8) {
+                                        if (var_83[var_673].Var5 == 8) {
                                             if (var_82[var_66][var_2729] != 0 || var_71[var_66][var_2729] == 0) {
                                                 var_2720 = 0;
                                                 var_2708 = 0;
-                                                var_83[var_673][5] = var_2725;
+                                                var_83[var_673].Var5 = var_2725;
                                             }
                                         }
-                                        if (var_83[var_673][5] == 1) {
+                                        if (var_83[var_673].Var5 == 1) {
                                             if (var_82[var_2726][var_2728] != 0 || var_71[var_2726][var_2728] == 0) {
                                                 var_2720 = 0;
                                                 var_2708 = 0;
-                                                var_83[var_673][5] = var_2725;
+                                                var_83[var_673].Var5 = var_2725;
                                             }
                                         }
-                                        if (var_83[var_673][5] == 3) {
+                                        if (var_83[var_673].Var5 == 3) {
                                             if (var_82[var_2727][var_2728] != 0 || var_71[var_2727][var_2728] == 0) {
                                                 var_2720 = 0;
                                                 var_2708 = 0;
-                                                var_83[var_673][5] = var_2725;
+                                                var_83[var_673].Var5 = var_2725;
                                             }
                                         }
-                                        if (var_83[var_673][5] == 7) {
+                                        if (var_83[var_673].Var5 == 7) {
                                             if (var_82[var_2726][var_2729] != 0 || var_71[var_2726][var_2729] == 0) {
                                                 var_2720 = 0;
                                                 var_2708 = 0;
-                                                var_83[var_673][5] = var_2725;
+                                                var_83[var_673].Var5 = var_2725;
                                             }
                                         }
-                                        if (var_83[var_673][5] == 9) {
+                                        if (var_83[var_673].Var5 == 9) {
                                             if (var_82[var_2727][var_2729] != 0 || var_71[var_2727][var_2729] == 0) {
                                                 var_2720 = 0;
                                                 var_2708 = 0;
-                                                var_83[var_673][5] = var_2725;
+                                                var_83[var_673].Var5 = var_2725;
                                             }
                                         }
                                     }
                                 }
-                                if (var_2720 == 1 && var_83[var_673][0] == 123) {
+                                if (var_2720 == 1 && var_83[var_673].Var0 == 123) {
                                     var_2726 = var_66 - 1;
                                     if (var_2726 < 0) {
                                         var_2726 = 0;
@@ -26367,58 +26367,58 @@ function func575() {
                                     if (var_2729 < 0) {
                                         var_2729 = 0;
                                     }
-                                    if (var_83[var_673][5] == 4 && var_82[var_2726][var_67] != 0) {
+                                    if (var_83[var_673].Var5 == 4 && var_82[var_2726][var_67] != 0) {
                                         var_2730 = var_82[var_2726][var_67];
-                                        if (var_83[var_2730][31] == 4 || var_83[var_2730][31] == 5) {
+                                        if (var_83[var_2730].Var31 == 4 || var_83[var_2730].Var31 == 5) {
                                             var_2720 = 0;
                                             var_2708 = 0;
                                         }
                                     }
-                                    if (var_83[var_673][5] == 6 && var_82[var_2727][var_67] != 0) {
+                                    if (var_83[var_673].Var5 == 6 && var_82[var_2727][var_67] != 0) {
                                         var_2730 = var_82[var_2727][var_67];
-                                        if (var_83[var_2730][31] == 4 || var_83[var_2730][31] == 5) {
+                                        if (var_83[var_2730].Var31 == 4 || var_83[var_2730].Var31 == 5) {
                                             var_2720 = 0;
                                             var_2708 = 0;
                                         }
                                     }
-                                    if (var_83[var_673][5] == 2 && var_82[var_66][var_2728] != 0) {
+                                    if (var_83[var_673].Var5 == 2 && var_82[var_66][var_2728] != 0) {
                                         var_2730 = var_82[var_66][var_2728];
-                                        if (var_83[var_2730][31] == 4 || var_83[var_2730][31] == 5) {
+                                        if (var_83[var_2730].Var31 == 4 || var_83[var_2730].Var31 == 5) {
                                             var_2720 = 0;
                                             var_2708 = 0;
                                         }
                                     }
-                                    if (var_83[var_673][5] == 8 && var_82[var_66][var_2729] != 0) {
+                                    if (var_83[var_673].Var5 == 8 && var_82[var_66][var_2729] != 0) {
                                         var_2730 = var_82[var_66][var_2729];
-                                        if (var_83[var_2730][31] == 4 || var_83[var_2730][31] == 5) {
+                                        if (var_83[var_2730].Var31 == 4 || var_83[var_2730].Var31 == 5) {
                                             var_2720 = 0;
                                             var_2708 = 0;
                                         }
                                     }
-                                    if (var_83[var_673][5] == 1 && var_82[var_2726][var_2728] != 0) {
+                                    if (var_83[var_673].Var5 == 1 && var_82[var_2726][var_2728] != 0) {
                                         var_2730 = var_82[var_2726][var_2728];
-                                        if (var_83[var_2730][31] == 4 || var_83[var_2730][31] == 5) {
+                                        if (var_83[var_2730].Var31 == 4 || var_83[var_2730].Var31 == 5) {
                                             var_2720 = 0;
                                             var_2708 = 0;
                                         }
                                     }
-                                    if (var_83[var_673][5] == 3 && var_82[var_2727][var_2728] != 0) {
+                                    if (var_83[var_673].Var5 == 3 && var_82[var_2727][var_2728] != 0) {
                                         var_2730 = var_82[var_2727][var_2728];
-                                        if (var_83[var_2730][31] == 4 || var_83[var_2730][31] == 5) {
+                                        if (var_83[var_2730].Var31 == 4 || var_83[var_2730].Var31 == 5) {
                                             var_2720 = 0;
                                             var_2708 = 0;
                                         }
                                     }
-                                    if (var_83[var_673][5] == 7 && var_82[var_2726][var_2729] != 0) {
+                                    if (var_83[var_673].Var5 == 7 && var_82[var_2726][var_2729] != 0) {
                                         var_2730 = var_82[var_2726][var_2729];
-                                        if (var_83[var_2730][31] == 4 || var_83[var_2730][31] == 5) {
+                                        if (var_83[var_2730].Var31 == 4 || var_83[var_2730].Var31 == 5) {
                                             var_2720 = 0;
                                             var_2708 = 0;
                                         }
                                     }
-                                    if (var_83[var_673][5] == 9 && var_82[var_2727][var_2729] != 0) {
+                                    if (var_83[var_673].Var5 == 9 && var_82[var_2727][var_2729] != 0) {
                                         var_2730 = var_82[var_2727][var_2729];
-                                        if (var_83[var_2730][31] == 4 || var_83[var_2730][31] == 5) {
+                                        if (var_83[var_2730].Var31 == 4 || var_83[var_2730].Var31 == 5) {
                                             var_2720 = 0;
                                             var_2708 = 0;
                                         }
@@ -26430,7 +26430,7 @@ function func575() {
                             var_2720 = 0;
                         }
                         if (var_2720 == 1) {
-                            if (var_83[var_673][0] == 168) {
+                            if (var_83[var_673].Var0 == 168) {
                                 var_2731 = 1;
                             }
                             yield func576();
@@ -26438,31 +26438,31 @@ function func575() {
                         }
                     }
                 }
-                if (var_83[var_673][17] == 0 && var_83[var_673][20] == 0 && var_83[var_673][23] == 0 && var_123 == 0 && var_2712 == 0) {
-                    if (var_83[var_673][0] == 46 || var_83[var_673][0] == 30 || var_83[var_673][0] == 99 || var_83[var_673][0] == 65 || var_83[var_673][0] == 84 || var_83[var_673][0] == 85 || var_83[var_673][0] == 63 || var_83[var_673][0] == 153) {
+                if (var_83[var_673].Var17 == 0 && var_83[var_673].Var20 == 0 && var_83[var_673].Var23 == 0 && var_123 == 0 && var_2712 == 0) {
+                    if (var_83[var_673].Var0 == 46 || var_83[var_673].Var0 == 30 || var_83[var_673].Var0 == 99 || var_83[var_673].Var0 == 65 || var_83[var_673].Var0 == 84 || var_83[var_673].Var0 == 85 || var_83[var_673].Var0 == 63 || var_83[var_673].Var0 == 153) {
                         yield func576();
                     }
-                    if (var_83[var_673][0] == 124 || var_83[var_673][0] == 125 || var_83[var_673][0] == 134 || var_83[var_673][0] == 35 || var_83[var_673][0] == 164 || var_83[var_673][0] == 165 || var_83[var_673][0] == 159) {
+                    if (var_83[var_673].Var0 == 124 || var_83[var_673].Var0 == 125 || var_83[var_673].Var0 == 134 || var_83[var_673].Var0 == 35 || var_83[var_673].Var0 == 164 || var_83[var_673].Var0 == 165 || var_83[var_673].Var0 == 159) {
                         yield func576();
                     }
-                    if (var_83[var_673][0] == 143 || var_83[var_673][0] == 145 || var_83[var_673][0] == 150 || var_83[var_673][0] == 137 || var_83[var_673][0] == 72 || var_83[var_673][0] == 98 || var_83[var_673][0] == 154) {
+                    if (var_83[var_673].Var0 == 143 || var_83[var_673].Var0 == 145 || var_83[var_673].Var0 == 150 || var_83[var_673].Var0 == 137 || var_83[var_673].Var0 == 72 || var_83[var_673].Var0 == 98 || var_83[var_673].Var0 == 154) {
                         yield func576();
                     }
-                    if (var_83[var_673][0] == 157) {
+                    if (var_83[var_673].Var0 == 157) {
                         yield func576();
                     }
-                    if (var_83[var_673][0] == 168 && var_83[var_673][18] == 0) {
+                    if (var_83[var_673].Var0 == 168 && var_83[var_673].Var18 == 0) {
                         yield func576();
                     }
                 }
-                if (var_83[var_673][17] == 0 && var_83[var_673][20] == 0 && var_123 == 0 && var_83[var_673][0] == 118 && var_2712 == 0) {
+                if (var_83[var_673].Var17 == 0 && var_83[var_673].Var20 == 0 && var_123 == 0 && var_83[var_673].Var0 == 118 && var_2712 == 0) {
                     yield func576();
                 }
                 if (var_2709 == 1) {
                     var_2709 = 0;
                     var_2708 = 1;
                 }
-                if (var_83[var_673][18] == 0 && var_2708 == 0) {
+                if (var_83[var_673].Var18 == 0 && var_2708 == 0) {
                     var_2619 = var_423;
                     var_2620 = var_424;
                     var_425 = var_423 - 1;
@@ -26481,461 +26481,461 @@ function func575() {
                     if (var_427 > var_34) {
                         var_427 = var_2620;
                     }
-                    if (var_83[var_673][17] >= 1 || var_2709 == 2) {
+                    if (var_83[var_673].Var17 >= 1 || var_2709 == 2) {
                         var_2710 = rnd(5);
                         if (var_2710 != 0) {
-                            if (var_83[var_673][9] == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0) {
+                            if (var_83[var_673].Var9 == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0) {
                                 var_2732 = var_82[var_425][var_424];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 4;
-                                var_83[var_673][27] = var_82[var_425][var_424];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 4;
+                                var_83[var_673].Var27 = var_82[var_425][var_424];
                                 var_2733 = var_82[var_425][var_424];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0) {
+                            if (var_83[var_673].Var9 == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0) {
                                 var_2732 = var_82[var_426][var_424];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 6;
-                                var_83[var_673][27] = var_82[var_426][var_424];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 6;
+                                var_83[var_673].Var27 = var_82[var_426][var_424];
                                 var_2733 = var_82[var_426][var_424];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0) {
+                            if (var_83[var_673].Var9 == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0) {
                                 var_2732 = var_82[var_423][var_427];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 2;
-                                var_83[var_673][27] = var_82[var_423][var_427];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 2;
+                                var_83[var_673].Var27 = var_82[var_423][var_427];
                                 var_2733 = var_82[var_423][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0) {
+                            if (var_83[var_673].Var9 == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0) {
                                 var_2732 = var_82[var_423][var_428];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 8;
-                                var_83[var_673][27] = var_82[var_423][var_428];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 8;
+                                var_83[var_673].Var27 = var_82[var_423][var_428];
                                 var_2733 = var_82[var_423][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                            if (var_83[var_673].Var9 == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
                                 var_2732 = var_82[var_425][var_427];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 1;
-                                var_83[var_673][27] = var_82[var_425][var_427];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 1;
+                                var_83[var_673].Var27 = var_82[var_425][var_427];
                                 var_2733 = var_82[var_425][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                            if (var_83[var_673].Var9 == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
                                 var_2732 = var_82[var_426][var_427];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 3;
-                                var_83[var_673][27] = var_82[var_426][var_427];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 3;
+                                var_83[var_673].Var27 = var_82[var_426][var_427];
                                 var_2733 = var_82[var_426][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                            if (var_83[var_673].Var9 == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
                                 var_2732 = var_82[var_425][var_428];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 7;
-                                var_83[var_673][27] = var_82[var_425][var_428];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 7;
+                                var_83[var_673].Var27 = var_82[var_425][var_428];
                                 var_2733 = var_82[var_425][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                            if (var_83[var_673].Var9 == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
                                 var_2732 = var_82[var_426][var_428];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 9;
-                                var_83[var_673][27] = var_82[var_426][var_428];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 9;
+                                var_83[var_673].Var27 = var_82[var_426][var_428];
                                 var_2733 = var_82[var_426][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
                     }
                     if (var_2709 >= 3) {
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0) {
                             var_2732 = var_82[var_425][var_424];
-                            if (var_83[var_2732][0] == var_2709) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 4;
-                                var_83[var_673][27] = var_82[var_425][var_424];
+                            if (var_83[var_2732].Var0 == var_2709) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 4;
+                                var_83[var_673].Var27 = var_82[var_425][var_424];
                                 var_2733 = var_82[var_425][var_424];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0) {
                             var_2732 = var_82[var_426][var_424];
-                            if (var_83[var_2732][0] == var_2709) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 6;
-                                var_83[var_673][27] = var_82[var_426][var_424];
+                            if (var_83[var_2732].Var0 == var_2709) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 6;
+                                var_83[var_673].Var27 = var_82[var_426][var_424];
                                 var_2733 = var_82[var_426][var_424];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0) {
                             var_2732 = var_82[var_423][var_427];
-                            if (var_83[var_2732][0] == var_2709) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 2;
-                                var_83[var_673][27] = var_82[var_423][var_427];
+                            if (var_83[var_2732].Var0 == var_2709) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 2;
+                                var_83[var_673].Var27 = var_82[var_423][var_427];
                                 var_2733 = var_82[var_423][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0) {
                             var_2732 = var_82[var_423][var_428];
-                            if (var_83[var_2732][0] == var_2709) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 8;
-                                var_83[var_673][27] = var_82[var_423][var_428];
+                            if (var_83[var_2732].Var0 == var_2709) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 8;
+                                var_83[var_673].Var27 = var_82[var_423][var_428];
                                 var_2733 = var_82[var_423][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                            if (var_83[var_2732][0] == var_2709) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                            if (var_83[var_2732].Var0 == var_2709) {
                                 var_2732 = var_82[var_425][var_427];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 1;
-                                var_83[var_673][27] = var_82[var_425][var_427];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 1;
+                                var_83[var_673].Var27 = var_82[var_425][var_427];
                                 var_2733 = var_82[var_425][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                            if (var_83[var_2732][0] == var_2709) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                            if (var_83[var_2732].Var0 == var_2709) {
                                 var_2732 = var_82[var_426][var_427];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 3;
-                                var_83[var_673][27] = var_82[var_426][var_427];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 3;
+                                var_83[var_673].Var27 = var_82[var_426][var_427];
                                 var_2733 = var_82[var_426][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                            if (var_83[var_2732][0] == var_2709) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                            if (var_83[var_2732].Var0 == var_2709) {
                                 var_2732 = var_82[var_425][var_428];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 7;
-                                var_83[var_673][27] = var_82[var_425][var_428];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 7;
+                                var_83[var_673].Var27 = var_82[var_425][var_428];
                                 var_2733 = var_82[var_425][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                            if (var_83[var_2732][0] == var_2709) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                            if (var_83[var_2732].Var0 == var_2709) {
                                 var_2732 = var_82[var_426][var_428];
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 9;
-                                var_83[var_673][27] = var_82[var_426][var_428];
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 9;
+                                var_83[var_673].Var27 = var_82[var_426][var_428];
                                 var_2733 = var_82[var_426][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
                     }
-                    if (var_83[var_673][23] >= 1) {
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0 && var_83[var_673][5] == 4) {
+                    if (var_83[var_673].Var23 >= 1) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0 && var_83[var_673].Var5 == 4) {
                             var_2732 = var_82[var_425][var_424];
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 4;
-                            var_83[var_673][27] = var_82[var_425][var_424];
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 4;
+                            var_83[var_673].Var27 = var_82[var_425][var_424];
                             var_2733 = var_82[var_425][var_424];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0 && var_83[var_673][5] == 6) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0 && var_83[var_673].Var5 == 6) {
                             var_2732 = var_82[var_426][var_424];
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 6;
-                            var_83[var_673][27] = var_82[var_426][var_424];
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 6;
+                            var_83[var_673].Var27 = var_82[var_426][var_424];
                             var_2733 = var_82[var_426][var_424];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673][5] == 2) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673].Var5 == 2) {
                             var_2732 = var_82[var_423][var_427];
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 2;
-                            var_83[var_673][27] = var_82[var_423][var_427];
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 2;
+                            var_83[var_673].Var27 = var_82[var_423][var_427];
                             var_2733 = var_82[var_423][var_427];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673][5] == 8) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673].Var5 == 8) {
                             var_2732 = var_82[var_423][var_428];
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 8;
-                            var_83[var_673][27] = var_82[var_423][var_428];
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 8;
+                            var_83[var_673].Var27 = var_82[var_423][var_428];
                             var_2733 = var_82[var_423][var_428];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673][5] == 1) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673].Var5 == 1) {
                             var_2732 = var_82[var_425][var_427];
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 1;
-                            var_83[var_673][27] = var_82[var_425][var_427];
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 1;
+                            var_83[var_673].Var27 = var_82[var_425][var_427];
                             var_2733 = var_82[var_425][var_427];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673][5] == 3) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673].Var5 == 3) {
                             var_2732 = var_82[var_426][var_427];
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 3;
-                            var_83[var_673][27] = var_82[var_426][var_427];
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 3;
+                            var_83[var_673].Var27 = var_82[var_426][var_427];
                             var_2733 = var_82[var_426][var_427];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673][5] == 7) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673].Var5 == 7) {
                             var_2732 = var_82[var_425][var_428];
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 7;
-                            var_83[var_673][27] = var_82[var_425][var_428];
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 7;
+                            var_83[var_673].Var27 = var_82[var_425][var_428];
                             var_2733 = var_82[var_425][var_428];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673][5] == 9) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673].Var5 == 9) {
                             var_2732 = var_82[var_426][var_428];
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 9;
-                            var_83[var_673][27] = var_82[var_426][var_428];
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 9;
+                            var_83[var_673].Var27 = var_82[var_426][var_428];
                             var_2733 = var_82[var_426][var_428];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][0] == 118 && var_83[var_673][9] == 1) {
-                            var_2733 = var_83[var_673][27];
-                            if (var_83[var_2733][0] == 118) {
-                                var_83[var_673][9] = 0;
-                                var_83[var_673][27] = 0;
-                                var_83[var_2733][28] = var_83[var_2733][28] - 1;
+                        if (var_83[var_673].Var0 == 118 && var_83[var_673].Var9 == 1) {
+                            var_2733 = var_83[var_673].Var27;
+                            if (var_83[var_2733].Var0 == 118) {
+                                var_83[var_673].Var9 = 0;
+                                var_83[var_673].Var27 = 0;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 - 1;
                             }
                         }
                     }
-                    if (var_83[var_673][31] == 5) {
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0) {
+                    if (var_83[var_673].Var31 == 5) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0) {
                             var_2732 = var_82[var_425][var_424];
-                            if (var_83[var_2732][31] != 4 && var_83[var_2732][31] != 5 && var_83[var_2732][0] != 53) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 4;
-                                var_83[var_673][27] = var_82[var_425][var_424];
+                            if (var_83[var_2732].Var31 != 4 && var_83[var_2732].Var31 != 5 && var_83[var_2732].Var0 != 53) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 4;
+                                var_83[var_673].Var27 = var_82[var_425][var_424];
                                 var_2733 = var_82[var_425][var_424];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0) {
                             var_2732 = var_82[var_426][var_424];
-                            if (var_83[var_2732][31] != 4 && var_83[var_2732][31] != 5 && var_83[var_2732][0] != 53) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 6;
-                                var_83[var_673][27] = var_82[var_426][var_424];
+                            if (var_83[var_2732].Var31 != 4 && var_83[var_2732].Var31 != 5 && var_83[var_2732].Var0 != 53) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 6;
+                                var_83[var_673].Var27 = var_82[var_426][var_424];
                                 var_2733 = var_82[var_426][var_424];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0) {
                             var_2732 = var_82[var_423][var_427];
-                            if (var_83[var_2732][31] != 4 && var_83[var_2732][31] != 5 && var_83[var_2732][0] != 53) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 2;
-                                var_83[var_673][27] = var_82[var_423][var_427];
+                            if (var_83[var_2732].Var31 != 4 && var_83[var_2732].Var31 != 5 && var_83[var_2732].Var0 != 53) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 2;
+                                var_83[var_673].Var27 = var_82[var_423][var_427];
                                 var_2733 = var_82[var_423][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0) {
                             var_2732 = var_82[var_423][var_428];
-                            if (var_83[var_2732][31] != 4 && var_83[var_2732][31] != 5 && var_83[var_2732][0] != 53) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 8;
-                                var_83[var_673][27] = var_82[var_423][var_428];
+                            if (var_83[var_2732].Var31 != 4 && var_83[var_2732].Var31 != 5 && var_83[var_2732].Var0 != 53) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 8;
+                                var_83[var_673].Var27 = var_82[var_423][var_428];
                                 var_2733 = var_82[var_423][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
                             var_2732 = var_82[var_425][var_427];
-                            if (var_83[var_2732][31] != 4 && var_83[var_2732][31] != 5 && var_83[var_2732][0] != 53) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 1;
-                                var_83[var_673][27] = var_82[var_425][var_427];
+                            if (var_83[var_2732].Var31 != 4 && var_83[var_2732].Var31 != 5 && var_83[var_2732].Var0 != 53) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 1;
+                                var_83[var_673].Var27 = var_82[var_425][var_427];
                                 var_2733 = var_82[var_425][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
                             var_2732 = var_82[var_426][var_427];
-                            if (var_83[var_2732][31] != 4 && var_83[var_2732][31] != 5 && var_83[var_2732][0] != 53) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 3;
-                                var_83[var_673][27] = var_82[var_426][var_427];
+                            if (var_83[var_2732].Var31 != 4 && var_83[var_2732].Var31 != 5 && var_83[var_2732].Var0 != 53) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 3;
+                                var_83[var_673].Var27 = var_82[var_426][var_427];
                                 var_2733 = var_82[var_426][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
                             var_2732 = var_82[var_425][var_428];
-                            if (var_83[var_2732][31] != 4 && var_83[var_2732][31] != 5 && var_83[var_2732][0] != 53) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 7;
-                                var_83[var_673][27] = var_82[var_425][var_428];
+                            if (var_83[var_2732].Var31 != 4 && var_83[var_2732].Var31 != 5 && var_83[var_2732].Var0 != 53) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 7;
+                                var_83[var_673].Var27 = var_82[var_425][var_428];
                                 var_2733 = var_82[var_425][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
                             var_2732 = var_82[var_426][var_428];
-                            if (var_83[var_2732][31] != 4 && var_83[var_2732][31] != 5 && var_83[var_2732][0] != 53) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 9;
-                                var_83[var_673][27] = var_82[var_426][var_428];
+                            if (var_83[var_2732].Var31 != 4 && var_83[var_2732].Var31 != 5 && var_83[var_2732].Var0 != 53) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 9;
+                                var_83[var_673].Var27 = var_82[var_426][var_428];
                                 var_2733 = var_82[var_426][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
                     }
-                    if (var_83[var_673][31] != 5 && var_83[var_673][31] != 4) {
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0) {
+                    if (var_83[var_673].Var31 != 5 && var_83[var_673].Var31 != 4) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_424] != 0 && var_71[var_425][var_424] != 0) {
                             var_2732 = var_82[var_425][var_424];
-                            if (var_83[var_2732][31] == 5) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 4;
-                                var_83[var_673][27] = var_82[var_425][var_424];
+                            if (var_83[var_2732].Var31 == 5) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 4;
+                                var_83[var_673].Var27 = var_82[var_425][var_424];
                                 var_2733 = var_82[var_425][var_424];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_424] != 0 && var_71[var_426][var_424] != 0) {
                             var_2732 = var_82[var_426][var_424];
-                            if (var_83[var_2732][31] == 5) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 6;
-                                var_83[var_673][27] = var_82[var_426][var_424];
+                            if (var_83[var_2732].Var31 == 5) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 6;
+                                var_83[var_673].Var27 = var_82[var_426][var_424];
                                 var_2733 = var_82[var_426][var_424];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_427] != 0 && var_71[var_423][var_427] != 0) {
                             var_2732 = var_82[var_423][var_427];
-                            if (var_83[var_2732][31] == 5) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 2;
-                                var_83[var_673][27] = var_82[var_423][var_427];
+                            if (var_83[var_2732].Var31 == 5) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 2;
+                                var_83[var_673].Var27 = var_82[var_423][var_427];
                                 var_2733 = var_82[var_423][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_428] != 0 && var_71[var_423][var_428] != 0) {
                             var_2732 = var_82[var_423][var_428];
-                            if (var_83[var_2732][31] == 5) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 8;
-                                var_83[var_673][27] = var_82[var_423][var_428];
+                            if (var_83[var_2732].Var31 == 5) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 8;
+                                var_83[var_673].Var27 = var_82[var_423][var_428];
                                 var_2733 = var_82[var_423][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_427] != 0 && var_71[var_425][var_427] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
                             var_2732 = var_82[var_425][var_427];
-                            if (var_83[var_2732][31] == 5) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 1;
-                                var_83[var_673][27] = var_82[var_425][var_427];
+                            if (var_83[var_2732].Var31 == 5) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 1;
+                                var_83[var_673].Var27 = var_82[var_425][var_427];
                                 var_2733 = var_82[var_425][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_427] != 0 && var_71[var_426][var_427] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
                             var_2732 = var_82[var_426][var_427];
-                            if (var_83[var_2732][31] == 5) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 3;
-                                var_83[var_673][27] = var_82[var_426][var_427];
+                            if (var_83[var_2732].Var31 == 5) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 3;
+                                var_83[var_673].Var27 = var_82[var_426][var_427];
                                 var_2733 = var_82[var_426][var_427];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_428] != 0 && var_71[var_425][var_428] != 0 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
                             var_2732 = var_82[var_425][var_428];
-                            if (var_83[var_2732][31] == 5) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 7;
-                                var_83[var_673][27] = var_82[var_425][var_428];
+                            if (var_83[var_2732].Var31 == 5) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 7;
+                                var_83[var_673].Var27 = var_82[var_425][var_428];
                                 var_2733 = var_82[var_425][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_428] != 0 && var_71[var_426][var_428] != 0 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
                             var_2732 = var_82[var_426][var_428];
-                            if (var_83[var_2732][31] == 5) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 9;
-                                var_83[var_673][27] = var_82[var_426][var_428];
+                            if (var_83[var_2732].Var31 == 5) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 9;
+                                var_83[var_673].Var27 = var_82[var_426][var_428];
                                 var_2733 = var_82[var_426][var_428];
-                                var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                                var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                             }
                         }
                     }
-                    if (var_123 >= 1 && var_83[var_673][31] != 5 && var_83[var_673][31] != 4) {
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_424] == var_124) {
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 4;
-                            var_83[var_673][27] = var_82[var_425][var_424];
+                    if (var_123 >= 1 && var_83[var_673].Var31 != 5 && var_83[var_673].Var31 != 4) {
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_424] == var_124) {
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 4;
+                            var_83[var_673].Var27 = var_82[var_425][var_424];
                             var_2733 = var_82[var_425][var_424];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_424] == var_124) {
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 6;
-                            var_83[var_673][27] = var_82[var_426][var_424];
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_424] == var_124) {
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 6;
+                            var_83[var_673].Var27 = var_82[var_426][var_424];
                             var_2733 = var_82[var_426][var_424];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_427] == var_124) {
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 2;
-                            var_83[var_673][27] = var_82[var_423][var_427];
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_427] == var_124) {
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 2;
+                            var_83[var_673].Var27 = var_82[var_423][var_427];
                             var_2733 = var_82[var_423][var_427];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_423][var_428] == var_124) {
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 8;
-                            var_83[var_673][27] = var_82[var_423][var_428];
+                        if (var_83[var_673].Var9 == 0 && var_82[var_423][var_428] == var_124) {
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 8;
+                            var_83[var_673].Var27 = var_82[var_423][var_428];
                             var_2733 = var_82[var_423][var_428];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_427] == var_124 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 1;
-                            var_83[var_673][27] = var_82[var_425][var_427];
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_427] == var_124 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 1;
+                            var_83[var_673].Var27 = var_82[var_425][var_427];
                             var_2733 = var_82[var_425][var_427];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_427] == var_124 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 3;
-                            var_83[var_673][27] = var_82[var_426][var_427];
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_427] == var_124 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 3;
+                            var_83[var_673].Var27 = var_82[var_426][var_427];
                             var_2733 = var_82[var_426][var_427];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_425][var_428] == var_124 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 7;
-                            var_83[var_673][27] = var_82[var_425][var_428];
+                        if (var_83[var_673].Var9 == 0 && var_82[var_425][var_428] == var_124 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 7;
+                            var_83[var_673].Var27 = var_82[var_425][var_428];
                             var_2733 = var_82[var_425][var_428];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
-                        if (var_83[var_673][9] == 0 && var_82[var_426][var_428] == var_124 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                            var_83[var_673][9] = 1;
-                            var_83[var_673][5] = 9;
-                            var_83[var_673][27] = var_82[var_426][var_428];
+                        if (var_83[var_673].Var9 == 0 && var_82[var_426][var_428] == var_124 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                            var_83[var_673].Var9 = 1;
+                            var_83[var_673].Var5 = 9;
+                            var_83[var_673].Var27 = var_82[var_426][var_428];
                             var_2733 = var_82[var_426][var_428];
-                            var_83[var_2733][28] = var_83[var_2733][28] + 1;
+                            var_83[var_2733].Var28 = var_83[var_2733].Var28 + 1;
                         }
                     }
                     var_2734 = 1;
                     if (var_123 != 0) {
                         var_2734 = 0;
                     }
-                    if (var_83[var_673][31] == 5) {
+                    if (var_83[var_673].Var31 == 5) {
                         var_2734 = 0;
                     }
-                    if (var_83[var_673][9] == 1) {
+                    if (var_83[var_673].Var9 == 1) {
                         var_2734 = 0;
                     }
                     if (var_131 >= 1) {
@@ -26962,196 +26962,196 @@ function func575() {
                     if (var_2710 != 0) {
                         var_2734 = 0;
                     }
-                    if (var_146 >= 1 && var_147 == var_66 && var_148 == var_67 && var_83[var_673][0] != 132) {
+                    if (var_146 >= 1 && var_147 == var_66 && var_148 == var_67 && var_83[var_673].Var0 != 132) {
                         var_2734 = 0;
                     }
-                    if (var_83[var_673][0] == 164 || var_83[var_673][0] == 165) {
-                        if (var_83[var_673][20] == 0) {
+                    if (var_83[var_673].Var0 == 164 || var_83[var_673].Var0 == 165) {
+                        if (var_83[var_673].Var20 == 0) {
                             var_2734 = 0;
                         }
                     }
                     if (var_2734 == 1) {
-                        if (var_83[var_673][23] >= 1) {
-                            if (var_83[var_673][9] == 0 && var_65[var_425][var_424] == 1 && var_83[var_673][5] == 4) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 4;
+                        if (var_83[var_673].Var23 >= 1) {
+                            if (var_83[var_673].Var9 == 0 && var_65[var_425][var_424] == 1 && var_83[var_673].Var5 == 4) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 4;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_426][var_424] == 1 && var_83[var_673][5] == 6) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 6;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_426][var_424] == 1 && var_83[var_673].Var5 == 6) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 6;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_423][var_427] == 1 && var_83[var_673][5] == 2) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 2;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_423][var_427] == 1 && var_83[var_673].Var5 == 2) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 2;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_423][var_428] == 1 && var_83[var_673][5] == 8) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 8;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_423][var_428] == 1 && var_83[var_673].Var5 == 8) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 8;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_425][var_427] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673][5] == 1) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 1;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_425][var_427] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673].Var5 == 1) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_426][var_427] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673][5] == 3) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 3;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_426][var_427] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0 && var_83[var_673].Var5 == 3) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 3;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_425][var_428] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673][5] == 7) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 7;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_425][var_428] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673].Var5 == 7) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 7;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_426][var_428] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673][5] == 9) {
-                                var_83[var_673][9] = 1;
-                                var_83[var_673][5] = 9;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_426][var_428] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0 && var_83[var_673].Var5 == 9) {
+                                var_83[var_673].Var9 = 1;
+                                var_83[var_673].Var5 = 9;
                             }
                         }
-                        if (var_83[var_673][23] == 0) {
-                            if (var_83[var_673][0] != 111 && var_83[var_673][0] != 43) {
-                                if (var_83[var_673][9] == 0 && var_65[var_425][var_424] == 1) {
-                                    var_83[var_673][9] = 1;
-                                    var_83[var_673][5] = 4;
+                        if (var_83[var_673].Var23 == 0) {
+                            if (var_83[var_673].Var0 != 111 && var_83[var_673].Var0 != 43) {
+                                if (var_83[var_673].Var9 == 0 && var_65[var_425][var_424] == 1) {
+                                    var_83[var_673].Var9 = 1;
+                                    var_83[var_673].Var5 = 4;
                                 }
-                                if (var_83[var_673][9] == 0 && var_65[var_426][var_424] == 1) {
-                                    var_83[var_673][9] = 1;
-                                    var_83[var_673][5] = 6;
+                                if (var_83[var_673].Var9 == 0 && var_65[var_426][var_424] == 1) {
+                                    var_83[var_673].Var9 = 1;
+                                    var_83[var_673].Var5 = 6;
                                 }
-                                if (var_83[var_673][9] == 0 && var_65[var_423][var_427] == 1) {
-                                    var_83[var_673][9] = 1;
-                                    var_83[var_673][5] = 2;
+                                if (var_83[var_673].Var9 == 0 && var_65[var_423][var_427] == 1) {
+                                    var_83[var_673].Var9 = 1;
+                                    var_83[var_673].Var5 = 2;
                                 }
-                                if (var_83[var_673][9] == 0 && var_65[var_423][var_428] == 1) {
-                                    var_83[var_673][9] = 1;
-                                    var_83[var_673][5] = 8;
+                                if (var_83[var_673].Var9 == 0 && var_65[var_423][var_428] == 1) {
+                                    var_83[var_673].Var9 = 1;
+                                    var_83[var_673].Var5 = 8;
                                 }
-                                if (var_83[var_673][9] == 0 && var_65[var_425][var_427] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                                    var_83[var_673][9] = 1;
-                                    var_83[var_673][5] = 1;
+                                if (var_83[var_673].Var9 == 0 && var_65[var_425][var_427] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                                    var_83[var_673].Var9 = 1;
+                                    var_83[var_673].Var5 = 1;
                                 }
-                                if (var_83[var_673][9] == 0 && var_65[var_426][var_427] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                                    var_83[var_673][9] = 1;
-                                    var_83[var_673][5] = 3;
+                                if (var_83[var_673].Var9 == 0 && var_65[var_426][var_427] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                                    var_83[var_673].Var9 = 1;
+                                    var_83[var_673].Var5 = 3;
                                 }
-                                if (var_83[var_673][9] == 0 && var_65[var_425][var_428] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                                    var_83[var_673][9] = 1;
-                                    var_83[var_673][5] = 7;
+                                if (var_83[var_673].Var9 == 0 && var_65[var_425][var_428] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                                    var_83[var_673].Var9 = 1;
+                                    var_83[var_673].Var5 = 7;
                                 }
-                                if (var_83[var_673][9] == 0 && var_65[var_426][var_428] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                                    var_83[var_673][9] = 1;
-                                    var_83[var_673][5] = 9;
+                                if (var_83[var_673].Var9 == 0 && var_65[var_426][var_428] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                                    var_83[var_673].Var9 = 1;
+                                    var_83[var_673].Var5 = 9;
                                 }
                             }
-                            if (var_83[var_673][0] == 111 || var_83[var_673][0] == 43) {
-                                if (var_83[var_673][20] == 0) {
-                                    if (var_83[var_673][9] == 0 && var_65[var_425][var_424] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 4;
+                            if (var_83[var_673].Var0 == 111 || var_83[var_673].Var0 == 43) {
+                                if (var_83[var_673].Var20 == 0) {
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_425][var_424] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 4;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_426][var_424] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 6;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_426][var_424] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 6;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_423][var_427] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 2;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_423][var_427] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 2;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_423][var_428] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 8;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_423][var_428] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 8;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_425][var_427] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 1;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_425][var_427] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 1;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_426][var_427] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 3;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_426][var_427] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 3;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_425][var_428] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 7;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_425][var_428] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 7;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_426][var_428] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 9;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_426][var_428] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 9;
                                     }
                                 }
-                                if (var_83[var_673][20] != 0) {
-                                    if (var_83[var_673][9] == 0 && var_65[var_425][var_424] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 4;
+                                if (var_83[var_673].Var20 != 0) {
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_425][var_424] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 4;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_426][var_424] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 6;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_426][var_424] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 6;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_423][var_427] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 2;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_423][var_427] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 2;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_423][var_428] == 1) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 8;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_423][var_428] == 1) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 8;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_425][var_427] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 1;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_425][var_427] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 1;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_426][var_427] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 3;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_426][var_427] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 3;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_425][var_428] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 7;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_425][var_428] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 7;
                                     }
-                                    if (var_83[var_673][9] == 0 && var_65[var_426][var_428] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                                        var_83[var_673][9] = 1;
-                                        var_83[var_673][5] = 9;
+                                    if (var_83[var_673].Var9 == 0 && var_65[var_426][var_428] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                                        var_83[var_673].Var9 = 1;
+                                        var_83[var_673].Var5 = 9;
                                     }
                                 }
                             }
                         }
                     }
-                    if (var_123 == 0 && var_83[var_673][31] == 5 && var_83[var_673][9] == 0 && var_71[var_66][var_67] != 13) {
+                    if (var_123 == 0 && var_83[var_673].Var31 == 5 && var_83[var_673].Var9 == 0 && var_71[var_66][var_67] != 13) {
                         var_2735 = 0;
                         var_616 = 1;
                         for (var cnt5 = 0; cnt5 < var_97; ++cnt5) {
-                            if (var_83[var_616][0] != 0 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_616][30] == 0 && var_83[var_673][10] == var_83[var_616][10] && var_83[var_673][10] != 14) {
+                            if (var_83[var_616].Var0 != 0 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_616].Var30 == 0 && var_83[var_673].Var10 == var_83[var_616].Var10 && var_83[var_673].Var10 != 14) {
                                 var_2735 = 1;
                                 break;
                             }
-                            if (var_83[var_616][10] == 14) {
-                                var_2221 = var_83[var_616][1];
-                                var_2222 = var_83[var_616][2];
-                                var_2223 = var_83[var_616][1] - 1;
+                            if (var_83[var_616].Var10 == 14) {
+                                var_2221 = var_83[var_616].Var1;
+                                var_2222 = var_83[var_616].Var2;
+                                var_2223 = var_83[var_616].Var1 - 1;
                                 if (var_2223 < 0) {
                                     var_2223 = 0;
                                 }
-                                var_2224 = var_83[var_616][1] + 1;
+                                var_2224 = var_83[var_616].Var1 + 1;
                                 if (var_2224 > var_33) {
                                     var_2224 = var_33;
                                 }
-                                var_2225 = var_83[var_616][2] + 1;
+                                var_2225 = var_83[var_616].Var2 + 1;
                                 if (var_2225 > var_34) {
                                     var_2225 = var_34;
                                 }
-                                var_2226 = var_83[var_616][2] - 1;
+                                var_2226 = var_83[var_616].Var2 - 1;
                                 if (var_2226 < 0) {
                                     var_2226 = 0;
                                 }
-                                if (var_83[var_616][0] != 0 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_616][30] == 0 && var_71[var_2223][var_2222] == var_83[var_673][10] && var_83[var_673][10] != 14) {
+                                if (var_83[var_616].Var0 != 0 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_616].Var30 == 0 && var_71[var_2223][var_2222] == var_83[var_673].Var10 && var_83[var_673].Var10 != 14) {
                                     var_2735 = 1;
                                     break;
                                 }
-                                if (var_83[var_616][0] != 0 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_616][30] == 0 && var_71[var_2224][var_2222] == var_83[var_673][10] && var_83[var_673][10] != 14) {
+                                if (var_83[var_616].Var0 != 0 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_616].Var30 == 0 && var_71[var_2224][var_2222] == var_83[var_673].Var10 && var_83[var_673].Var10 != 14) {
                                     var_2735 = 1;
                                     break;
                                 }
-                                if (var_83[var_616][0] != 0 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_616][30] == 0 && var_71[var_2221][var_2225] == var_83[var_673][10] && var_83[var_673][10] != 14) {
+                                if (var_83[var_616].Var0 != 0 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_616].Var30 == 0 && var_71[var_2221][var_2225] == var_83[var_673].Var10 && var_83[var_673].Var10 != 14) {
                                     var_2735 = 1;
                                     break;
                                 }
-                                if (var_83[var_616][0] != 0 && var_83[var_616][31] != 4 && var_83[var_616][31] != 5 && var_83[var_616][30] == 0 && var_71[var_2221][var_2226] == var_83[var_673][10] && var_83[var_673][10] != 14) {
+                                if (var_83[var_616].Var0 != 0 && var_83[var_616].Var31 != 4 && var_83[var_616].Var31 != 5 && var_83[var_616].Var30 == 0 && var_71[var_2221][var_2226] == var_83[var_673].Var10 && var_83[var_673].Var10 != 14) {
                                     var_2735 = 1;
                                     break;
                                 }
@@ -27162,64 +27162,64 @@ function func575() {
                             var_2735 = 1;
                         }
                         if (var_2735 == 0) {
-                            if (var_83[var_673][9] == 0 && var_65[var_425][var_424] == 1) {
-                                var_83[var_673][9] = 2;
-                                var_83[var_673][5] = 4;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_425][var_424] == 1) {
+                                var_83[var_673].Var9 = 2;
+                                var_83[var_673].Var5 = 4;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_426][var_424] == 1) {
-                                var_83[var_673][9] = 2;
-                                var_83[var_673][5] = 6;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_426][var_424] == 1) {
+                                var_83[var_673].Var9 = 2;
+                                var_83[var_673].Var5 = 6;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_423][var_427] == 1) {
-                                var_83[var_673][9] = 2;
-                                var_83[var_673][5] = 2;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_423][var_427] == 1) {
+                                var_83[var_673].Var9 = 2;
+                                var_83[var_673].Var5 = 2;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_423][var_428] == 1) {
-                                var_83[var_673][9] = 2;
-                                var_83[var_673][5] = 8;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_423][var_428] == 1) {
+                                var_83[var_673].Var9 = 2;
+                                var_83[var_673].Var5 = 8;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_425][var_427] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                                var_83[var_673][9] = 2;
-                                var_83[var_673][5] = 1;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_425][var_427] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                                var_83[var_673].Var9 = 2;
+                                var_83[var_673].Var5 = 1;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_426][var_427] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
-                                var_83[var_673][9] = 2;
-                                var_83[var_673][5] = 3;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_426][var_427] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_427] != 0) {
+                                var_83[var_673].Var9 = 2;
+                                var_83[var_673].Var5 = 3;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_425][var_428] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                                var_83[var_673][9] = 2;
-                                var_83[var_673][5] = 7;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_425][var_428] == 1 && var_71[var_425][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                                var_83[var_673].Var9 = 2;
+                                var_83[var_673].Var5 = 7;
                             }
-                            if (var_83[var_673][9] == 0 && var_65[var_426][var_428] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
-                                var_83[var_673][9] = 2;
-                                var_83[var_673][5] = 9;
+                            if (var_83[var_673].Var9 == 0 && var_65[var_426][var_428] == 1 && var_71[var_426][var_424] != 0 && var_71[var_423][var_428] != 0) {
+                                var_83[var_673].Var9 = 2;
+                                var_83[var_673].Var5 = 9;
                             }
                         }
                     }
                 }
             }
-            if (var_83[var_673][9] == 1 || var_83[var_673][18] == 1) {
+            if (var_83[var_673].Var9 == 1 || var_83[var_673].Var18 == 1) {
                 var_362 = 1;
             }
-            if (var_83[var_673][9] == 0 && var_83[var_673][18] == 0) {
+            if (var_83[var_673].Var9 == 0 && var_83[var_673].Var18 == 0) {
                 var_2611 = var_673;
-                var_83[var_2611][6] = 0;
+                var_83[var_2611].Var6 = 0;
                 yield func569();
-                if (var_83[var_2611][15] == 2 && var_83[var_2611][6] != 0) {
-                    var_83[var_2611][15] = 3;
+                if (var_83[var_2611].Var15 == 2 && var_83[var_2611].Var6 != 0) {
+                    var_83[var_2611].Var15 = 3;
                 }
-                if (var_83[var_2611][15] == 2 && var_83[var_2611][6] == 0) {
-                    var_83[var_2611][15] = 4;
-                    var_83[var_2611][6] = 1;
+                if (var_83[var_2611].Var15 == 2 && var_83[var_2611].Var6 == 0) {
+                    var_83[var_2611].Var15 = 4;
+                    var_83[var_2611].Var6 = 1;
                 }
-                if (var_83[var_2611][15] == 1 && var_83[var_2611][6] != 0 && var_157 == 0) {
-                    var_83[var_2611][15] = 2;
-                    var_83[var_2611][35] = var_83[var_2611][1];
-                    var_83[var_2611][36] = var_83[var_2611][2];
-                    var_83[var_2611][37] = var_83[var_2611][5];
+                if (var_83[var_2611].Var15 == 1 && var_83[var_2611].Var6 != 0 && var_157 == 0) {
+                    var_83[var_2611].Var15 = 2;
+                    var_83[var_2611].Var35 = var_83[var_2611].Var1;
+                    var_83[var_2611].Var36 = var_83[var_2611].Var2;
+                    var_83[var_2611].Var37 = var_83[var_2611].Var5;
                     var_2736 = 0;
-                    var_2737 = var_83[var_2611][1];
-                    var_2738 = var_83[var_2611][2];
+                    var_2737 = var_83[var_2611].Var1;
+                    var_2738 = var_83[var_2611].Var2;
                     if (var_80[var_2737][var_2738] != 0) {
                         var_2739 = var_80[var_2737][var_2738];
                         if (var_81[var_2739] >= 70 && var_81[var_2739] <= 94) {
@@ -27232,11 +27232,11 @@ function func575() {
                     }
                 }
             }
-            if (var_83[var_673][15] == 2) {
-                if (var_83[var_673][6] == 0 || var_83[var_673][9] != 0 || var_83[var_673][18] != 0) {
-                    var_83[var_673][15] = 4;
+            if (var_83[var_673].Var15 == 2) {
+                if (var_83[var_673].Var6 == 0 || var_83[var_673].Var9 != 0 || var_83[var_673].Var18 != 0) {
+                    var_83[var_673].Var15 = 4;
                 }
-                var_83[var_673][6] = 1;
+                var_83[var_673].Var6 = 1;
             }
             var_673 = var_673 + 1;
         }
@@ -27246,15 +27246,15 @@ function func575() {
 function func576() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(576);
-        if (var_83[var_673][18] == 2) {
+        if (var_83[var_673].Var18 == 2) {
             return;
         }
-        if (var_83[var_673][0] == 46 || var_83[var_673][0] == 30 || var_83[var_673][0] == 99 || var_83[var_673][0] == 84 || var_83[var_673][0] == 85 || var_83[var_673][0] == 153) {
+        if (var_83[var_673].Var0 == 46 || var_83[var_673].Var0 == 30 || var_83[var_673].Var0 == 99 || var_83[var_673].Var0 == 84 || var_83[var_673].Var0 == 85 || var_83[var_673].Var0 == 153) {
             if (var_123 != 0 || var_131 != 0 || var_144 != 0 || var_218 != 0 || var_2712 != 0) {
                 return;
             }
-            var_2740 = var_83[var_673][1];
-            var_2741 = var_83[var_673][2];
+            var_2740 = var_83[var_673].Var1;
+            var_2741 = var_83[var_673].Var2;
             var_2640 = var_66 - 2;
             if (var_2640 < 0) {
                 var_2640 = 0;
@@ -27290,15 +27290,15 @@ function func576() {
             if (var_2740 >= var_2742 && var_2740 <= var_2743 && var_2741 >= var_2745 && var_2741 <= var_2744) {
                 var_2746 = rnd(4);
                 if (var_2746 == 0) {
-                    var_83[var_673][18] = 1;
+                    var_83[var_673].Var18 = 1;
                 }
             }
             var_2708 = 1;
             return;
         }
-        if (var_83[var_673][0] == 134 || var_83[var_673][0] == 35) {
-            var_2740 = var_83[var_673][1];
-            var_2741 = var_83[var_673][2];
+        if (var_83[var_673].Var0 == 134 || var_83[var_673].Var0 == 35) {
+            var_2740 = var_83[var_673].Var1;
+            var_2741 = var_83[var_673].Var2;
             var_2742 = var_66 - 3;
             if (var_2742 < 0) {
                 var_2742 = 0;
@@ -27316,28 +27316,28 @@ function func576() {
                 var_2745 = 0;
             }
             if (var_2740 >= var_2742 && var_2740 <= var_2743 && var_2741 >= var_2745 && var_2741 <= var_2744) {
-                var_2747 = var_83[var_673][1];
-                var_2748 = var_83[var_673][2];
-                var_1993 = var_83[var_673][1] - 1;
+                var_2747 = var_83[var_673].Var1;
+                var_2748 = var_83[var_673].Var2;
+                var_1993 = var_83[var_673].Var1 - 1;
                 if (var_1993 < 0) {
                     var_1993 = 0;
                 }
-                var_1994 = var_83[var_673][1] + 1;
+                var_1994 = var_83[var_673].Var1 + 1;
                 if (var_1994 > var_33) {
                     var_1994 = var_33;
                 }
-                var_1995 = var_83[var_673][2] + 1;
+                var_1995 = var_83[var_673].Var2 + 1;
                 if (var_1995 > var_34) {
                     var_1995 = var_34;
                 }
-                var_1996 = var_83[var_673][2] - 1;
+                var_1996 = var_83[var_673].Var2 - 1;
                 if (var_1996 < 0) {
                     var_1996 = 0;
                 }
                 var_2749 = 0;
                 if (var_82[var_2747][var_1995] != 0) {
                     var_2750 = var_82[var_2747][var_1995];
-                    if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5) {
+                    if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5) {
                         var_2646 = var_2750;
                         yield func578();
                         if (var_2647 >= 1) {
@@ -27347,7 +27347,7 @@ function func576() {
                 }
                 if (var_82[var_2747][var_1996] != 0) {
                     var_2750 = var_82[var_2747][var_1996];
-                    if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5) {
+                    if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5) {
                         var_2646 = var_2750;
                         yield func578();
                         if (var_2647 >= 1) {
@@ -27357,7 +27357,7 @@ function func576() {
                 }
                 if (var_82[var_1993][var_2748] != 0) {
                     var_2750 = var_82[var_1993][var_2748];
-                    if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5) {
+                    if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5) {
                         var_2646 = var_2750;
                         yield func578();
                         if (var_2647 >= 1) {
@@ -27367,7 +27367,7 @@ function func576() {
                 }
                 if (var_82[var_1994][var_2748] != 0) {
                     var_2750 = var_82[var_1994][var_2748];
-                    if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5) {
+                    if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5) {
                         var_2646 = var_2750;
                         yield func578();
                         if (var_2647 >= 1) {
@@ -27377,7 +27377,7 @@ function func576() {
                 }
                 if (var_82[var_1993][var_1995] != 0) {
                     var_2750 = var_82[var_1993][var_1995];
-                    if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5) {
+                    if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5) {
                         var_2646 = var_2750;
                         yield func578();
                         if (var_2647 >= 1) {
@@ -27387,7 +27387,7 @@ function func576() {
                 }
                 if (var_82[var_1993][var_1996] != 0) {
                     var_2750 = var_82[var_1993][var_1996];
-                    if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5) {
+                    if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5) {
                         var_2646 = var_2750;
                         yield func578();
                         if (var_2647 >= 1) {
@@ -27397,7 +27397,7 @@ function func576() {
                 }
                 if (var_82[var_1994][var_1995] != 0) {
                     var_2750 = var_82[var_1994][var_1995];
-                    if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5) {
+                    if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5) {
                         var_2646 = var_2750;
                         yield func578();
                         if (var_2647 >= 1) {
@@ -27407,7 +27407,7 @@ function func576() {
                 }
                 if (var_82[var_1994][var_1996] != 0) {
                     var_2750 = var_82[var_1994][var_1996];
-                    if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5) {
+                    if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5) {
                         var_2646 = var_2750;
                         yield func578();
                         if (var_2647 >= 1) {
@@ -27415,128 +27415,128 @@ function func576() {
                         }
                     }
                 }
-                var_83[var_673][18] = var_2749;
+                var_83[var_673].Var18 = var_2749;
             }
             return;
         }
-        if (var_83[var_673][0] == 164 || var_83[var_673][0] == 165) {
-            var_2740 = var_83[var_673][1];
-            var_2741 = var_83[var_673][2];
-            var_2747 = var_83[var_673][1];
-            var_2748 = var_83[var_673][2];
-            var_1993 = var_83[var_673][1] - 1;
+        if (var_83[var_673].Var0 == 164 || var_83[var_673].Var0 == 165) {
+            var_2740 = var_83[var_673].Var1;
+            var_2741 = var_83[var_673].Var2;
+            var_2747 = var_83[var_673].Var1;
+            var_2748 = var_83[var_673].Var2;
+            var_1993 = var_83[var_673].Var1 - 1;
             if (var_1993 < 0) {
                 var_1993 = 0;
             }
-            var_1994 = var_83[var_673][1] + 1;
+            var_1994 = var_83[var_673].Var1 + 1;
             if (var_1994 > var_33) {
                 var_1994 = var_33;
             }
-            var_1995 = var_83[var_673][2] + 1;
+            var_1995 = var_83[var_673].Var2 + 1;
             if (var_1995 > var_34) {
                 var_1995 = var_34;
             }
-            var_1996 = var_83[var_673][2] - 1;
+            var_1996 = var_83[var_673].Var2 - 1;
             if (var_1996 < 0) {
                 var_1996 = 0;
             }
             var_2749 = 0;
             if (var_82[var_2747][var_1995] != 0) {
                 var_2750 = var_82[var_2747][var_1995];
-                if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5 && var_83[var_2750][0] != 164 && var_83[var_2750][0] != 165) {
+                if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5 && var_83[var_2750].Var0 != 164 && var_83[var_2750].Var0 != 165) {
                     var_2749 = var_2750;
-                    var_83[var_673][5] = 2;
+                    var_83[var_673].Var5 = 2;
                 }
             }
             if (var_82[var_2747][var_1996] != 0) {
                 var_2750 = var_82[var_2747][var_1996];
-                if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5 && var_83[var_2750][0] != 164 && var_83[var_2750][0] != 165) {
+                if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5 && var_83[var_2750].Var0 != 164 && var_83[var_2750].Var0 != 165) {
                     var_2749 = var_2750;
-                    var_83[var_673][5] = 8;
+                    var_83[var_673].Var5 = 8;
                 }
             }
             if (var_82[var_1993][var_2748] != 0) {
                 var_2750 = var_82[var_1993][var_2748];
-                if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5 && var_83[var_2750][0] != 164 && var_83[var_2750][0] != 165) {
+                if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5 && var_83[var_2750].Var0 != 164 && var_83[var_2750].Var0 != 165) {
                     var_2749 = var_2750;
-                    var_83[var_673][5] = 4;
+                    var_83[var_673].Var5 = 4;
                 }
             }
             if (var_82[var_1994][var_2748] != 0) {
                 var_2750 = var_82[var_1994][var_2748];
-                if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5 && var_83[var_2750][0] != 164 && var_83[var_2750][0] != 165) {
+                if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5 && var_83[var_2750].Var0 != 164 && var_83[var_2750].Var0 != 165) {
                     var_2749 = var_2750;
-                    var_83[var_673][5] = 6;
+                    var_83[var_673].Var5 = 6;
                 }
             }
             if (var_82[var_1993][var_1995] != 0) {
                 var_2750 = var_82[var_1993][var_1995];
-                if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5 && var_83[var_2750][0] != 164 && var_83[var_2750][0] != 165) {
+                if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5 && var_83[var_2750].Var0 != 164 && var_83[var_2750].Var0 != 165) {
                     var_2749 = var_2750;
-                    var_83[var_673][5] = 1;
+                    var_83[var_673].Var5 = 1;
                 }
             }
             if (var_82[var_1993][var_1996] != 0) {
                 var_2750 = var_82[var_1993][var_1996];
-                if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5 && var_83[var_2750][0] != 164 && var_83[var_2750][0] != 165) {
+                if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5 && var_83[var_2750].Var0 != 164 && var_83[var_2750].Var0 != 165) {
                     var_2749 = var_2750;
-                    var_83[var_673][5] = 7;
+                    var_83[var_673].Var5 = 7;
                 }
             }
             if (var_82[var_1994][var_1995] != 0) {
                 var_2750 = var_82[var_1994][var_1995];
-                if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5 && var_83[var_2750][0] != 164 && var_83[var_2750][0] != 165) {
+                if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5 && var_83[var_2750].Var0 != 164 && var_83[var_2750].Var0 != 165) {
                     var_2749 = var_2750;
-                    var_83[var_673][5] = 3;
+                    var_83[var_673].Var5 = 3;
                 }
             }
             if (var_82[var_1994][var_1996] != 0) {
                 var_2750 = var_82[var_1994][var_1996];
-                if (var_83[var_2750][0] != 0 && var_83[var_2750][31] != 4 && var_83[var_2750][31] != 5 && var_83[var_2750][0] != 164 && var_83[var_2750][0] != 165) {
+                if (var_83[var_2750].Var0 != 0 && var_83[var_2750].Var31 != 4 && var_83[var_2750].Var31 != 5 && var_83[var_2750].Var0 != 164 && var_83[var_2750].Var0 != 165) {
                     var_2749 = var_2750;
-                    var_83[var_673][5] = 9;
+                    var_83[var_673].Var5 = 9;
                 }
             }
-            var_83[var_673][18] = var_2749;
+            var_83[var_673].Var18 = var_2749;
             return;
         }
-        if (var_83[var_673][0] == 124) {
+        if (var_83[var_673].Var0 == 124) {
             if (var_123 != 0 || var_131 != 0 || var_144 != 0 || var_218 != 0 || var_2712 != 0) {
                 return;
             }
             var_2746 = rnd(18);
-            if (var_83[var_673][10] == var_201 && var_201 != 14) {
+            if (var_83[var_673].Var10 == var_201 && var_201 != 14) {
                 var_2746 = rnd(4);
             }
             if (var_2746 == 0) {
-                var_83[var_673][18] = 1;
+                var_83[var_673].Var18 = 1;
             }
             var_2708 = 1;
             return;
         }
-        if (var_83[var_673][0] == 63 || var_83[var_673][0] == 125 || var_83[var_673][0] == 113 || var_83[var_673][0] == 114 || var_83[var_673][0] == 128 || var_83[var_673][0] == 118 || var_83[var_673][0] == 143 || var_83[var_673][0] == 145 || var_83[var_673][0] == 150 || var_83[var_673][0] == 137 || var_83[var_673][0] == 72 || var_83[var_673][0] == 98 || var_83[var_673][0] == 65 || var_83[var_673][0] == 154 || var_83[var_673][0] == 159) {
+        if (var_83[var_673].Var0 == 63 || var_83[var_673].Var0 == 125 || var_83[var_673].Var0 == 113 || var_83[var_673].Var0 == 114 || var_83[var_673].Var0 == 128 || var_83[var_673].Var0 == 118 || var_83[var_673].Var0 == 143 || var_83[var_673].Var0 == 145 || var_83[var_673].Var0 == 150 || var_83[var_673].Var0 == 137 || var_83[var_673].Var0 == 72 || var_83[var_673].Var0 == 98 || var_83[var_673].Var0 == 65 || var_83[var_673].Var0 == 154 || var_83[var_673].Var0 == 159) {
             if (var_123 != 0 || var_131 != 0 || var_144 != 0 || var_218 != 0 || var_2712 != 0) {
                 return;
             }
             var_2751 = rnd(4);
-            if (var_83[var_673][0] == 118) {
+            if (var_83[var_673].Var0 == 118) {
                 var_2751 = rnd(8);
             }
-            if (var_83[var_673][0] == 143) {
+            if (var_83[var_673].Var0 == 143) {
                 var_2751 = rnd(5);
             }
-            if (var_83[var_673][0] == 65) {
+            if (var_83[var_673].Var0 == 65) {
                 var_2751 = rnd(6);
             }
-            if (var_83[var_673][0] == 159) {
+            if (var_83[var_673].Var0 == 159) {
                 var_2751 = rnd(8);
             }
-            if (var_2751 == 0 && var_201 != 14 && var_201 == var_83[var_673][10]) {
-                var_83[var_673][18] = 1;
+            if (var_2751 == 0 && var_201 != 14 && var_201 == var_83[var_673].Var10) {
+                var_83[var_673].Var18 = 1;
             }
-            if (var_83[var_673][0] == 145 || var_83[var_673][0] == 150 || var_83[var_673][0] == 137 || var_83[var_673][0] == 65 || var_83[var_673][0] == 154 || var_83[var_673][0] == 159) {
-                var_2752 = var_83[var_673][1];
-                var_2753 = var_83[var_673][2];
+            if (var_83[var_673].Var0 == 145 || var_83[var_673].Var0 == 150 || var_83[var_673].Var0 == 137 || var_83[var_673].Var0 == 65 || var_83[var_673].Var0 == 154 || var_83[var_673].Var0 == 159) {
+                var_2752 = var_83[var_673].Var1;
+                var_2753 = var_83[var_673].Var2;
                 var_2754 = var_66 - 4;
                 var_2755 = var_66 + 4;
                 var_2756 = var_67 + 4;
@@ -27554,12 +27554,12 @@ function func576() {
                     var_2756 = var_34;
                 }
                 if (var_2752 < var_2754 || var_2752 > var_2755 || var_2753 < var_2757 || var_2753 > var_2756) {
-                    var_83[var_673][18] = 0;
+                    var_83[var_673].Var18 = 0;
                 }
             }
-            if (var_83[var_673][0] == 113 || var_83[var_673][0] == 114 || var_83[var_673][0] == 128 || var_83[var_673][0] == 63) {
-                var_2752 = var_83[var_673][1];
-                var_2753 = var_83[var_673][2];
+            if (var_83[var_673].Var0 == 113 || var_83[var_673].Var0 == 114 || var_83[var_673].Var0 == 128 || var_83[var_673].Var0 == 63) {
+                var_2752 = var_83[var_673].Var1;
+                var_2753 = var_83[var_673].Var2;
                 var_2754 = var_66 - 6;
                 var_2755 = var_66 + 6;
                 var_2756 = var_67 + 6;
@@ -27577,12 +27577,12 @@ function func576() {
                     var_2756 = var_34;
                 }
                 if (var_2752 < var_2754 || var_2752 > var_2755 || var_2753 < var_2757 || var_2753 > var_2756) {
-                    var_83[var_673][18] = 0;
+                    var_83[var_673].Var18 = 0;
                 }
             }
-            if (var_83[var_673][0] == 63 || var_83[var_673][0] == 125 || var_83[var_673][0] == 72 || var_83[var_673][0] == 98) {
-                var_2752 = var_83[var_673][1];
-                var_2753 = var_83[var_673][2];
+            if (var_83[var_673].Var0 == 63 || var_83[var_673].Var0 == 125 || var_83[var_673].Var0 == 72 || var_83[var_673].Var0 == 98) {
+                var_2752 = var_83[var_673].Var1;
+                var_2753 = var_83[var_673].Var2;
                 var_2754 = var_66 - 9;
                 var_2755 = var_66 + 9;
                 var_2756 = var_67 + 9;
@@ -27600,15 +27600,15 @@ function func576() {
                     var_2756 = var_34;
                 }
                 if (var_2752 < var_2754 || var_2752 > var_2755 || var_2753 < var_2757 || var_2753 > var_2756) {
-                    var_83[var_673][18] = 0;
+                    var_83[var_673].Var18 = 0;
                 }
             }
-            var_2758 = var_83[var_673][1];
-            var_2759 = var_83[var_673][2];
-            var_2760 = var_83[var_673][1] - 1;
-            var_2761 = var_83[var_673][1] + 1;
-            var_2762 = var_83[var_673][2] - 1;
-            var_2763 = var_83[var_673][2] + 1;
+            var_2758 = var_83[var_673].Var1;
+            var_2759 = var_83[var_673].Var2;
+            var_2760 = var_83[var_673].Var1 - 1;
+            var_2761 = var_83[var_673].Var1 + 1;
+            var_2762 = var_83[var_673].Var2 - 1;
+            var_2763 = var_83[var_673].Var2 + 1;
             if (var_2760 < 0) {
                 var_2760 = 0;
             }
@@ -27622,52 +27622,52 @@ function func576() {
                 var_2763 = var_34;
             }
             if (var_2760 == var_66 && var_2759 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2759 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2758 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2758 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2760 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2760 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
-            if (var_83[var_673][0] == 63 && var_565 <= 0) {
-                var_83[var_673][18] = 0;
+            if (var_83[var_673].Var0 == 63 && var_565 <= 0) {
+                var_83[var_673].Var18 = 0;
             }
-            if (var_83[var_673][0] == 143) {
+            if (var_83[var_673].Var0 == 143) {
                 var_2708 = 1;
             }
-            if (var_83[var_673][0] != 113) {
+            if (var_83[var_673].Var0 != 113) {
                 return;
             }
-            if (var_83[var_673][0] == 113 && var_83[var_673][18] == 1) {
+            if (var_83[var_673].Var0 == 113 && var_83[var_673].Var18 == 1) {
                 return;
             }
         }
-        if (var_83[var_673][0] == 157) {
+        if (var_83[var_673].Var0 == 157) {
             if (var_123 != 0 || var_131 != 0 || var_144 != 0 || var_218 != 0 || var_2712 != 0) {
                 return;
             }
             var_2751 = rnd(2);
-            if (var_62 == 99 && var_83[var_673][16] == 1) {
+            if (var_62 == 99 && var_83[var_673].Var16 == 1) {
                 var_2751 = 1;
             }
-            if (var_2751 >= 1 && var_201 != 14 && var_201 == var_83[var_673][10]) {
-                var_83[var_673][18] = 1;
+            if (var_2751 >= 1 && var_201 != 14 && var_201 == var_83[var_673].Var10) {
+                var_83[var_673].Var18 = 1;
             }
             var_2758 = var_423;
             var_2759 = var_424;
@@ -27688,7 +27688,7 @@ function func576() {
                 var_2763 = var_34;
             }
             if (var_71[var_2760][var_2759] != 0 && var_71[var_2761][var_2759] != 0 && var_71[var_2758][var_2762] != 0 && var_71[var_2758][var_2763] != 0 && var_71[var_2760][var_2763] != 0 && var_71[var_2760][var_2762] != 0 && var_71[var_2761][var_2763] != 0 && var_71[var_2761][var_2762] != 0) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
                 return;
             }
             var_2764 = var_66 - 1;
@@ -27708,68 +27708,68 @@ function func576() {
                 var_2766 = var_34;
             }
             if (var_71[var_2764][var_67] != 0 && var_71[var_2765][var_67] != 0 && var_71[var_66][var_2766] != 0 && var_71[var_66][var_2767] != 0 && var_71[var_2764][var_2766] != 0 && var_71[var_2764][var_2767] != 0 && var_71[var_2765][var_2766] != 0 && var_71[var_2765][var_2767] != 0) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
                 return;
             }
             if (var_2760 == var_66 && var_2759 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2759 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2758 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2758 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2760 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2760 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
-            if (var_83[var_673][18] == 1) {
+            if (var_83[var_673].Var18 == 1) {
                 if (var_71[var_2760][var_2763] == 0) {
-                    var_83[var_673][5] = 1;
+                    var_83[var_673].Var5 = 1;
                 }
                 if (var_71[var_2760][var_2762] == 0) {
-                    var_83[var_673][5] = 7;
+                    var_83[var_673].Var5 = 7;
                 }
                 if (var_71[var_2761][var_2763] == 0) {
-                    var_83[var_673][5] = 3;
+                    var_83[var_673].Var5 = 3;
                 }
                 if (var_71[var_2761][var_2762] == 0) {
-                    var_83[var_673][5] = 9;
+                    var_83[var_673].Var5 = 9;
                 }
                 if (var_71[var_2758][var_2762] == 0) {
-                    var_83[var_673][5] = 8;
+                    var_83[var_673].Var5 = 8;
                 }
                 if (var_71[var_2758][var_2763] == 0) {
-                    var_83[var_673][5] = 2;
+                    var_83[var_673].Var5 = 2;
                 }
                 if (var_71[var_2760][var_2759] == 0) {
-                    var_83[var_673][5] = 4;
+                    var_83[var_673].Var5 = 4;
                 }
                 if (var_71[var_2761][var_2759] == 0) {
-                    var_83[var_673][5] = 6;
+                    var_83[var_673].Var5 = 6;
                 }
             }
             return;
         }
-        if (var_83[var_673][0] == 168 && var_2731 == 0 && var_83[var_673][18] == 0) {
+        if (var_83[var_673].Var0 == 168 && var_2731 == 0 && var_83[var_673].Var18 == 0) {
             if (var_123 != 0 || var_131 != 0 || var_144 != 0 || var_218 != 0 || var_2712 != 0) {
                 return;
             }
             var_2751 = rnd(8);
-            if (var_2751 == 0 && var_201 != 14 && var_201 == var_83[var_673][10]) {
-                var_83[var_673][18] = 2;
+            if (var_2751 == 0 && var_201 != 14 && var_201 == var_83[var_673].Var10) {
+                var_83[var_673].Var18 = 2;
             }
             var_2758 = var_423;
             var_2759 = var_424;
@@ -27790,47 +27790,47 @@ function func576() {
                 var_2763 = var_34;
             }
             if (var_2760 == var_66 && var_2759 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2759 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2758 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2758 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2760 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2762 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2760 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             if (var_2761 == var_66 && var_2763 == var_67) {
-                var_83[var_673][18] = 0;
+                var_83[var_673].Var18 = 0;
             }
             return;
         }
         if (var_123 >= 1) {
             var_2768 = var_66;
             var_2769 = var_67;
-            var_66 = var_83[var_124][1];
-            var_67 = var_83[var_124][2];
+            var_66 = var_83[var_124].Var1;
+            var_67 = var_83[var_124].Var2;
         }
         var_2770 = 0;
         var_616 = 1;
         var_2771 = 0;
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
-            if (var_83[var_616][0] == 49) {
+            if (var_83[var_616].Var0 == 49) {
                 var_2771 = 1;
             }
-            if (var_83[var_616][0] != 0 && var_83[var_616][31] == 5 && var_83[var_616][30] == 0) {
-                var_2772 = var_83[var_616][1];
-                var_2773 = var_83[var_616][2];
+            if (var_83[var_616].Var0 != 0 && var_83[var_616].Var31 == 5 && var_83[var_616].Var30 == 0) {
+                var_2772 = var_83[var_616].Var1;
+                var_2773 = var_83[var_616].Var2;
                 var_2774 = var_2772 - 1;
                 if (var_2774 < 0) {
                     var_2774 = 0;
@@ -27847,23 +27847,23 @@ function func576() {
                 if (var_2777 < 0) {
                     var_2777 = 0;
                 }
-                if (var_83[var_673][10] == var_83[var_616][10] && var_83[var_673][10] != 14) {
+                if (var_83[var_673].Var10 == var_83[var_616].Var10 && var_83[var_673].Var10 != 14) {
                     var_2770 = 1;
                     var_2768 = var_66;
                     var_2769 = var_67;
-                    var_66 = var_83[var_616][1];
-                    var_67 = var_83[var_616][2];
+                    var_66 = var_83[var_616].Var1;
+                    var_67 = var_83[var_616].Var2;
                     var_2778 = var_616;
                     break;
                 }
-                if (var_83[var_673][10] == 14 && var_83[var_616][10] != 14) {
-                    var_2779 = var_83[var_673][10];
+                if (var_83[var_673].Var10 == 14 && var_83[var_616].Var10 != 14) {
+                    var_2779 = var_83[var_673].Var10;
                     if (var_71[var_2774][var_2773] == var_2779 || var_71[var_2775][var_2773] == var_2779 || var_71[var_2772][var_2776] == var_2779 || var_71[var_2772][var_2777] == var_2779 || var_71[var_2774][var_2776] == var_2779 || var_71[var_2774][var_2777] == var_2779 || var_71[var_2775][var_2776] == var_2779 || var_71[var_2775][var_2777] == var_2779) {
                         var_2770 = 1;
                         var_2768 = var_66;
                         var_2769 = var_67;
-                        var_66 = var_83[var_616][1];
-                        var_67 = var_83[var_616][2];
+                        var_66 = var_83[var_616].Var1;
+                        var_67 = var_83[var_616].Var2;
                         var_2778 = var_616;
                         break;
                     }
@@ -27889,7 +27889,7 @@ function func576() {
         if (var_2763 > var_34) {
             var_2763 = var_34;
         }
-        if (var_83[var_673][0] == 15 || var_83[var_673][0] == 45 || var_83[var_673][0] == 158 || var_83[var_673][0] == 47 || var_83[var_673][0] == 67 || var_83[var_673][0] == 80 || var_83[var_673][0] == 132 || var_83[var_673][0] == 136 || var_83[var_673][0] == 113 || var_83[var_673][0] == 175) {
+        if (var_83[var_673].Var0 == 15 || var_83[var_673].Var0 == 45 || var_83[var_673].Var0 == 158 || var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67 || var_83[var_673].Var0 == 80 || var_83[var_673].Var0 == 132 || var_83[var_673].Var0 == 136 || var_83[var_673].Var0 == 113 || var_83[var_673].Var0 == 175) {
             if (var_2760 == var_66 && var_2759 == var_67) {
                 yield func577();
                 return;
@@ -27923,7 +27923,7 @@ function func576() {
                 return;
             }
         }
-        if (var_83[var_673][0] == 76) {
+        if (var_83[var_673].Var0 == 76) {
             var_2780 = rnd(2);
             if (var_2780 != 0) {
                 if (var_2760 == var_66 && var_2759 == var_67) {
@@ -27960,29 +27960,29 @@ function func576() {
                 }
             }
         }
-        if (var_83[var_673][0] == 45 || var_83[var_673][0] == 158 || var_83[var_673][0] == 80) {
+        if (var_83[var_673].Var0 == 45 || var_83[var_673].Var0 == 158 || var_83[var_673].Var0 == 80) {
             if (var_126 != 0) {
                 yield func577();
                 return;
             }
         }
-        if (var_83[var_673][0] == 47 || var_83[var_673][0] == 67) {
+        if (var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67) {
             if (var_146 >= 1 && var_66 == var_147 && var_67 == var_148) {
                 yield func577();
                 return;
             }
         }
         var_2781 = rnd(4);
-        if (var_83[var_673][0] == 123 || var_83[var_673][0] == 140 || var_83[var_673][0] == 168) {
+        if (var_83[var_673].Var0 == 123 || var_83[var_673].Var0 == 140 || var_83[var_673].Var0 == 168) {
             var_2781 = 1;
         }
-        if (var_83[var_673][0] == 155) {
+        if (var_83[var_673].Var0 == 155) {
             var_2781 = rnd(8);
         }
-        if (var_83[var_673][0] == 136) {
+        if (var_83[var_673].Var0 == 136) {
             var_2781 = rnd(6);
         }
-        if (var_83[var_673][0] == 113) {
+        if (var_83[var_673].Var0 == 113) {
             var_2781 = rnd(30);
         }
         if (var_2760 == var_66 && var_2759 == var_67) {
@@ -28010,61 +28010,61 @@ function func576() {
             var_2781 = 1;
         }
         if (var_62 == 99) {
-            if (var_83[var_673][0] == 93 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 93 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 7 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 7 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 141 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 141 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 56 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 56 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 136 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 136 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 48 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 48 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 95 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 95 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 15 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 15 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 80 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 80 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 21 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 21 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 121 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 121 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 155 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 155 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 151 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 151 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 126 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 126 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 40 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 40 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 41 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 41 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 42 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 42 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 47 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 47 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
-            if (var_83[var_673][0] == 67 && var_83[var_673][16] == 1) {
+            if (var_83[var_673].Var0 == 67 && var_83[var_673].Var16 == 1) {
                 var_2781 = 1;
             }
         }
@@ -28074,7 +28074,7 @@ function func576() {
             return;
         }
         if (var_62 == 0) {
-            if (var_83[var_673][0] == 76) {
+            if (var_83[var_673].Var0 == 76) {
                 var_2708 = 1;
                 yield func577();
                 return;
@@ -28087,137 +28087,137 @@ function func576() {
         var_2786 = var_424;
         var_2787 = var_424;
         var_2788 = 10;
-        if (var_83[var_673][0] == 172) {
+        if (var_83[var_673].Var0 == 172) {
             var_2788 = 3;
         }
-        if (var_83[var_673][0] == 175) {
+        if (var_83[var_673].Var0 == 175) {
             var_2788 = 3;
         }
         for (var cnt1 = 0; cnt1 < var_2788; ++cnt1) {
             if (var_2770 == 1) {
                 if (var_82[var_2784][var_2783] == var_2778) {
-                    var_83[var_673][18] = 1;
-                    var_83[var_673][5] = 6;
+                    var_83[var_673].Var18 = 1;
+                    var_83[var_673].Var5 = 6;
                     break;
                 }
                 if (var_82[var_2785][var_2783] == var_2778) {
-                    var_83[var_673][18] = 1;
-                    var_83[var_673][5] = 4;
+                    var_83[var_673].Var18 = 1;
+                    var_83[var_673].Var5 = 4;
                     break;
                 }
                 if (var_82[var_2782][var_2786] == var_2778) {
-                    var_83[var_673][18] = 1;
-                    var_83[var_673][5] = 2;
+                    var_83[var_673].Var18 = 1;
+                    var_83[var_673].Var5 = 2;
                     break;
                 }
                 if (var_82[var_2782][var_2787] == var_2778) {
-                    var_83[var_673][18] = 1;
-                    var_83[var_673][5] = 8;
+                    var_83[var_673].Var18 = 1;
+                    var_83[var_673].Var5 = 8;
                     break;
                 }
                 if (var_82[var_2785][var_2786] == var_2778) {
-                    var_83[var_673][18] = 1;
-                    var_83[var_673][5] = 1;
+                    var_83[var_673].Var18 = 1;
+                    var_83[var_673].Var5 = 1;
                     break;
                 }
                 if (var_82[var_2784][var_2786] == var_2778) {
-                    var_83[var_673][18] = 1;
-                    var_83[var_673][5] = 3;
+                    var_83[var_673].Var18 = 1;
+                    var_83[var_673].Var5 = 3;
                     break;
                 }
                 if (var_82[var_2785][var_2787] == var_2778) {
-                    var_83[var_673][18] = 1;
-                    var_83[var_673][5] = 7;
+                    var_83[var_673].Var18 = 1;
+                    var_83[var_673].Var5 = 7;
                     break;
                 }
                 if (var_82[var_2784][var_2787] == var_2778) {
-                    var_83[var_673][18] = 1;
-                    var_83[var_673][5] = 9;
+                    var_83[var_673].Var18 = 1;
+                    var_83[var_673].Var5 = 9;
                     break;
                 }
             }
-            if (var_83[var_673][18] == 0) {
+            if (var_83[var_673].Var18 == 0) {
                 if (var_123 == 0 && var_131 == 0 && var_144 == 0 && var_218 == 0 && var_2771 == 0) {
                     if (var_65[var_2784][var_2783] == 1) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 6;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 6;
                         break;
                     }
                     if (var_65[var_2785][var_2783] == 1) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 4;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 4;
                         break;
                     }
                     if (var_65[var_2782][var_2786] == 1) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 2;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 2;
                         break;
                     }
                     if (var_65[var_2782][var_2787] == 1) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 8;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 8;
                         break;
                     }
                     if (var_65[var_2785][var_2786] == 1) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 1;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 1;
                         break;
                     }
                     if (var_65[var_2784][var_2786] == 1) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 3;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 3;
                         break;
                     }
                     if (var_65[var_2785][var_2787] == 1) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 7;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 7;
                         break;
                     }
                     if (var_65[var_2784][var_2787] == 1) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 9;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 9;
                         break;
                     }
                 }
                 if (var_123 >= 1) {
                     if (var_82[var_2784][var_2783] == var_124) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 6;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 6;
                         break;
                     }
                     if (var_82[var_2785][var_2783] == var_124) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 4;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 4;
                         break;
                     }
                     if (var_82[var_2782][var_2786] == var_124) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 2;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 2;
                         break;
                     }
                     if (var_82[var_2782][var_2787] == var_124) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 8;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 8;
                         break;
                     }
                     if (var_82[var_2785][var_2786] == var_124) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 1;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 1;
                         break;
                     }
                     if (var_82[var_2784][var_2786] == var_124) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 3;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 3;
                         break;
                     }
                     if (var_82[var_2785][var_2787] == var_124) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 7;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 7;
                         break;
                     }
                     if (var_82[var_2784][var_2787] == var_124) {
-                        var_83[var_673][18] = 1;
-                        var_83[var_673][5] = 9;
+                        var_83[var_673].Var18 = 1;
+                        var_83[var_673].Var5 = 9;
                         break;
                     }
                 }
@@ -28239,7 +28239,7 @@ function func576() {
                 var_2787 = 0;
             }
         }
-        if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var18 == 1) {
             var_2782 = var_423;
             var_2783 = var_424;
             var_2784 = var_423;
@@ -28247,113 +28247,113 @@ function func576() {
             var_2786 = var_424;
             var_2787 = var_424;
             var_2788 = 10;
-            if (var_83[var_673][0] == 172) {
+            if (var_83[var_673].Var0 == 172) {
                 var_2788 = 3;
             }
-            if (var_83[var_673][0] == 175) {
+            if (var_83[var_673].Var0 == 175) {
                 var_2788 = 3;
             }
             for (var cnt2 = 0; cnt2 < var_2788; ++cnt2) {
-                if (var_83[var_673][0] != 175) {
-                    if (var_83[var_673][5] == 6 && var_71[var_2784][var_2783] == 0) {
-                        var_83[var_673][18] = 0;
+                if (var_83[var_673].Var0 != 175) {
+                    if (var_83[var_673].Var5 == 6 && var_71[var_2784][var_2783] == 0) {
+                        var_83[var_673].Var18 = 0;
                         break;
                     }
-                    if (var_83[var_673][5] == 4 && var_71[var_2785][var_2783] == 0) {
-                        var_83[var_673][18] = 0;
+                    if (var_83[var_673].Var5 == 4 && var_71[var_2785][var_2783] == 0) {
+                        var_83[var_673].Var18 = 0;
                         break;
                     }
-                    if (var_83[var_673][5] == 2 && var_71[var_2782][var_2786] == 0) {
-                        var_83[var_673][18] = 0;
+                    if (var_83[var_673].Var5 == 2 && var_71[var_2782][var_2786] == 0) {
+                        var_83[var_673].Var18 = 0;
                         break;
                     }
-                    if (var_83[var_673][5] == 8 && var_71[var_2782][var_2787] == 0) {
-                        var_83[var_673][18] = 0;
+                    if (var_83[var_673].Var5 == 8 && var_71[var_2782][var_2787] == 0) {
+                        var_83[var_673].Var18 = 0;
                         break;
                     }
-                    if (var_83[var_673][5] == 1 && var_71[var_2785][var_2786] == 0) {
-                        var_83[var_673][18] = 0;
+                    if (var_83[var_673].Var5 == 1 && var_71[var_2785][var_2786] == 0) {
+                        var_83[var_673].Var18 = 0;
                         break;
                     }
-                    if (var_83[var_673][5] == 3 && var_71[var_2784][var_2786] == 0) {
-                        var_83[var_673][18] = 0;
+                    if (var_83[var_673].Var5 == 3 && var_71[var_2784][var_2786] == 0) {
+                        var_83[var_673].Var18 = 0;
                         break;
                     }
-                    if (var_83[var_673][5] == 7 && var_71[var_2785][var_2787] == 0) {
-                        var_83[var_673][18] = 0;
+                    if (var_83[var_673].Var5 == 7 && var_71[var_2785][var_2787] == 0) {
+                        var_83[var_673].Var18 = 0;
                         break;
                     }
-                    if (var_83[var_673][5] == 9 && var_71[var_2784][var_2787] == 0) {
-                        var_83[var_673][18] = 0;
-                        break;
-                    }
-                }
-                if (var_83[var_673][0] == 175 && cnt2 == 1) {
-                    if (var_83[var_673][5] == 6 && var_71[var_2784][var_2783] != 0) {
-                        var_83[var_673][18] = 0;
-                        break;
-                    }
-                    if (var_83[var_673][5] == 4 && var_71[var_2785][var_2783] != 0) {
-                        var_83[var_673][18] = 0;
-                        break;
-                    }
-                    if (var_83[var_673][5] == 2 && var_71[var_2782][var_2786] != 0) {
-                        var_83[var_673][18] = 0;
-                        break;
-                    }
-                    if (var_83[var_673][5] == 8 && var_71[var_2782][var_2787] != 0) {
-                        var_83[var_673][18] = 0;
-                        break;
-                    }
-                    if (var_83[var_673][5] == 1 && var_71[var_2785][var_2786] != 0) {
-                        var_83[var_673][18] = 0;
-                        break;
-                    }
-                    if (var_83[var_673][5] == 3 && var_71[var_2784][var_2786] != 0) {
-                        var_83[var_673][18] = 0;
-                        break;
-                    }
-                    if (var_83[var_673][5] == 7 && var_71[var_2785][var_2787] != 0) {
-                        var_83[var_673][18] = 0;
-                        break;
-                    }
-                    if (var_83[var_673][5] == 9 && var_71[var_2784][var_2787] != 0) {
-                        var_83[var_673][18] = 0;
+                    if (var_83[var_673].Var5 == 9 && var_71[var_2784][var_2787] == 0) {
+                        var_83[var_673].Var18 = 0;
                         break;
                     }
                 }
-                if (var_83[var_673][0] == 47 || var_83[var_673][0] == 67 || var_83[var_673][0] == 45 || var_83[var_673][0] == 158 || var_83[var_673][0] == 21 || var_83[var_673][0] == 132 || var_83[var_673][0] == 113 || var_83[var_673][0] == 76) {
+                if (var_83[var_673].Var0 == 175 && cnt2 == 1) {
+                    if (var_83[var_673].Var5 == 6 && var_71[var_2784][var_2783] != 0) {
+                        var_83[var_673].Var18 = 0;
+                        break;
+                    }
+                    if (var_83[var_673].Var5 == 4 && var_71[var_2785][var_2783] != 0) {
+                        var_83[var_673].Var18 = 0;
+                        break;
+                    }
+                    if (var_83[var_673].Var5 == 2 && var_71[var_2782][var_2786] != 0) {
+                        var_83[var_673].Var18 = 0;
+                        break;
+                    }
+                    if (var_83[var_673].Var5 == 8 && var_71[var_2782][var_2787] != 0) {
+                        var_83[var_673].Var18 = 0;
+                        break;
+                    }
+                    if (var_83[var_673].Var5 == 1 && var_71[var_2785][var_2786] != 0) {
+                        var_83[var_673].Var18 = 0;
+                        break;
+                    }
+                    if (var_83[var_673].Var5 == 3 && var_71[var_2784][var_2786] != 0) {
+                        var_83[var_673].Var18 = 0;
+                        break;
+                    }
+                    if (var_83[var_673].Var5 == 7 && var_71[var_2785][var_2787] != 0) {
+                        var_83[var_673].Var18 = 0;
+                        break;
+                    }
+                    if (var_83[var_673].Var5 == 9 && var_71[var_2784][var_2787] != 0) {
+                        var_83[var_673].Var18 = 0;
+                        break;
+                    }
+                }
+                if (var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67 || var_83[var_673].Var0 == 45 || var_83[var_673].Var0 == 158 || var_83[var_673].Var0 == 21 || var_83[var_673].Var0 == 132 || var_83[var_673].Var0 == 113 || var_83[var_673].Var0 == 76) {
                     if (cnt2 != 0) {
-                        if (var_83[var_673][5] == 6 && var_82[var_2784][var_2783] != 0) {
-                            var_83[var_673][18] = 0;
+                        if (var_83[var_673].Var5 == 6 && var_82[var_2784][var_2783] != 0) {
+                            var_83[var_673].Var18 = 0;
                             break;
                         }
-                        if (var_83[var_673][5] == 4 && var_82[var_2785][var_2783] != 0) {
-                            var_83[var_673][18] = 0;
+                        if (var_83[var_673].Var5 == 4 && var_82[var_2785][var_2783] != 0) {
+                            var_83[var_673].Var18 = 0;
                             break;
                         }
-                        if (var_83[var_673][5] == 2 && var_82[var_2782][var_2786] != 0) {
-                            var_83[var_673][18] = 0;
+                        if (var_83[var_673].Var5 == 2 && var_82[var_2782][var_2786] != 0) {
+                            var_83[var_673].Var18 = 0;
                             break;
                         }
-                        if (var_83[var_673][5] == 8 && var_82[var_2782][var_2787] != 0) {
-                            var_83[var_673][18] = 0;
+                        if (var_83[var_673].Var5 == 8 && var_82[var_2782][var_2787] != 0) {
+                            var_83[var_673].Var18 = 0;
                             break;
                         }
-                        if (var_83[var_673][5] == 1 && var_82[var_2785][var_2786] != 0) {
-                            var_83[var_673][18] = 0;
+                        if (var_83[var_673].Var5 == 1 && var_82[var_2785][var_2786] != 0) {
+                            var_83[var_673].Var18 = 0;
                             break;
                         }
-                        if (var_83[var_673][5] == 3 && var_82[var_2784][var_2786] != 0) {
-                            var_83[var_673][18] = 0;
+                        if (var_83[var_673].Var5 == 3 && var_82[var_2784][var_2786] != 0) {
+                            var_83[var_673].Var18 = 0;
                             break;
                         }
-                        if (var_83[var_673][5] == 7 && var_82[var_2785][var_2787] != 0) {
-                            var_83[var_673][18] = 0;
+                        if (var_83[var_673].Var5 == 7 && var_82[var_2785][var_2787] != 0) {
+                            var_83[var_673].Var18 = 0;
                             break;
                         }
-                        if (var_83[var_673][5] == 9 && var_82[var_2784][var_2787] != 0) {
-                            var_83[var_673][18] = 0;
+                        if (var_83[var_673].Var5 == 9 && var_82[var_2784][var_2787] != 0) {
+                            var_83[var_673].Var18 = 0;
                             break;
                         }
                     }
@@ -28455,8 +28455,8 @@ function func576() {
             }
         }
         yield func577();
-        if (var_83[var_673][0] == 113 && var_83[var_673][18] == 1) {
-            var_83[var_673][18] = 2;
+        if (var_83[var_673].Var0 == 113 && var_83[var_673].Var18 == 1) {
+            var_83[var_673].Var18 = 2;
         }
         return;
     });
@@ -28478,18 +28478,18 @@ function func577() {
 function func578() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(578);
-        var_437 = var_83[var_2646][0];
+        var_437 = var_83[var_2646].Var0;
         yield func626();
         var_2792 = var_438;
-        if (var_83[var_2646][39] >= 2) {
-            var_2792 = Math.floor(var_438 * (var_83[var_2646][39] + 10) / 10);
+        if (var_83[var_2646].Var39 >= 2) {
+            var_2792 = Math.floor(var_438 * (var_83[var_2646].Var39 + 10) / 10);
             if (var_2792 >= 999) {
                 var_2792 = 999;
             }
         }
         var_2647 = 0;
-        if (var_2792 > var_83[var_2646][3]) {
-            var_2647 = var_2792 - var_83[var_2646][3];
+        if (var_2792 > var_83[var_2646].Var3) {
+            var_2647 = var_2792 - var_83[var_2646].Var3;
         }
         return;
     });
@@ -28500,28 +28500,28 @@ function func579() {
         var_673 = 1;
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
             var_743 = 0;
-            if (var_83[var_673][13] == 0) {
-                if (var_83[var_673][9] == 1) {
-                    if (var_83[var_673][27] != 0) {
-                        var_2793 = var_83[var_673][27];
-                        if (var_83[var_2793][0] == 0) {
-                            var_83[var_673][27] = 0;
-                            var_83[var_673][9] = 0;
+            if (var_83[var_673].Var13 == 0) {
+                if (var_83[var_673].Var9 == 1) {
+                    if (var_83[var_673].Var27 != 0) {
+                        var_2793 = var_83[var_673].Var27;
+                        if (var_83[var_2793].Var0 == 0) {
+                            var_83[var_673].Var27 = 0;
+                            var_83[var_673].Var9 = 0;
                         }
-                        if (var_83[var_673][0] == 0) {
-                            var_83[var_673][27] = 0;
-                            var_83[var_673][9] = 0;
+                        if (var_83[var_673].Var0 == 0) {
+                            var_83[var_673].Var27 = 0;
+                            var_83[var_673].Var9 = 0;
                         }
                     }
                     var_240 = 0;
-                    if (var_83[var_673][9] == 1) {
+                    if (var_83[var_673].Var9 == 1) {
                         var_2794 = var_66;
                         var_2795 = var_67;
                         yield func654();
                     }
-                    if (var_83[var_673][9] == 1 && var_83[var_673][27] == 0) {
-                        if (var_211 != 0 && var_83[var_673][20] == 0 && var_83[var_673][0] != 0 && var_83[var_673][3] >= 1 && var_66 == var_2794 && var_67 == var_2795 && var_83[var_673][13] == 0) {
-                            if (var_83[var_673][0] == 122 || var_83[var_673][0] == 129 || var_83[var_673][0] == 44 || var_83[var_673][0] == 110 || var_83[var_673][0] == 162 || var_83[var_673][0] == 60) {
+                    if (var_83[var_673].Var9 == 1 && var_83[var_673].Var27 == 0) {
+                        if (var_211 != 0 && var_83[var_673].Var20 == 0 && var_83[var_673].Var0 != 0 && var_83[var_673].Var3 >= 1 && var_66 == var_2794 && var_67 == var_2795 && var_83[var_673].Var13 == 0) {
+                            if (var_83[var_673].Var0 == 122 || var_83[var_673].Var0 == 129 || var_83[var_673].Var0 == 44 || var_83[var_673].Var0 == 110 || var_83[var_673].Var0 == 162 || var_83[var_673].Var0 == 60) {
                                 var_2796 = 1;
                                 var_2794 = var_66;
                                 var_2795 = var_67;
@@ -28529,12 +28529,12 @@ function func579() {
                                 var_2796 = 0;
                             }
                         }
-                        if (var_211 != 0 && var_157 == 0 && var_66 == var_2794 && var_67 == var_2795 && var_83[var_673][15] == 1 && var_83[var_673][0] != 0 && var_83[var_673][3] >= 1 && var_83[var_673][0] != 101 && var_83[var_673][0] != 102 && var_83[var_673][0] != 103 && var_83[var_673][0] != 104 && var_83[var_673][0] != 151 && var_83[var_673][13] == 0) {
+                        if (var_211 != 0 && var_157 == 0 && var_66 == var_2794 && var_67 == var_2795 && var_83[var_673].Var15 == 1 && var_83[var_673].Var0 != 0 && var_83[var_673].Var3 >= 1 && var_83[var_673].Var0 != 101 && var_83[var_673].Var0 != 102 && var_83[var_673].Var0 != 103 && var_83[var_673].Var0 != 104 && var_83[var_673].Var0 != 151 && var_83[var_673].Var13 == 0) {
                             var_2794 = var_66;
                             var_2795 = var_67;
                             yield func654();
-                            if (var_211 != 0 && var_83[var_673][20] == 0 && var_83[var_673][0] != 0 && var_83[var_673][3] >= 1 && var_66 == var_2794 && var_67 == var_2795 && var_83[var_673][13] == 0) {
-                                if (var_83[var_673][0] == 122 || var_83[var_673][0] == 129 || var_83[var_673][0] == 44 || var_83[var_673][0] == 110 || var_83[var_673][0] == 162 || var_83[var_673][0] == 60) {
+                            if (var_211 != 0 && var_83[var_673].Var20 == 0 && var_83[var_673].Var0 != 0 && var_83[var_673].Var3 >= 1 && var_66 == var_2794 && var_67 == var_2795 && var_83[var_673].Var13 == 0) {
+                                if (var_83[var_673].Var0 == 122 || var_83[var_673].Var0 == 129 || var_83[var_673].Var0 == 44 || var_83[var_673].Var0 == 110 || var_83[var_673].Var0 == 162 || var_83[var_673].Var0 == 60) {
                                     var_2796 = 1;
                                     var_2794 = var_66;
                                     var_2795 = var_67;
@@ -28544,10 +28544,10 @@ function func579() {
                             }
                         }
                     }
-                    if (var_83[var_673][9] == 1 && var_83[var_673][27] != 0) {
-                        var_2793 = var_83[var_673][27];
-                        if (var_83[var_2793][0] != 0 && var_83[var_2793][3] != 0 && var_83[var_673][20] == 0 && var_83[var_673][0] != 0 && var_83[var_673][3] >= 1 && var_83[var_673][13] == 0) {
-                            if (var_83[var_673][0] == 122 || var_83[var_673][0] == 129 || var_83[var_673][0] == 44 || var_83[var_673][0] == 110 || var_83[var_673][0] == 162 || var_83[var_673][0] == 60) {
+                    if (var_83[var_673].Var9 == 1 && var_83[var_673].Var27 != 0) {
+                        var_2793 = var_83[var_673].Var27;
+                        if (var_83[var_2793].Var0 != 0 && var_83[var_2793].Var3 != 0 && var_83[var_673].Var20 == 0 && var_83[var_673].Var0 != 0 && var_83[var_673].Var3 >= 1 && var_83[var_673].Var13 == 0) {
+                            if (var_83[var_673].Var0 == 122 || var_83[var_673].Var0 == 129 || var_83[var_673].Var0 == 44 || var_83[var_673].Var0 == 110 || var_83[var_673].Var0 == 162 || var_83[var_673].Var0 == 60) {
                                 var_2796 = 1;
                                 var_2794 = var_66;
                                 var_2795 = var_67;
@@ -28555,12 +28555,12 @@ function func579() {
                                 var_2796 = 0;
                             }
                         }
-                        if (var_83[var_2793][0] != 0 && var_83[var_2793][3] != 0 && var_83[var_2793][15] == 0 && var_83[var_673][15] == 1 && var_83[var_673][0] != 0 && var_83[var_673][3] >= 1 && var_83[var_673][0] != 101 && var_83[var_673][0] != 102 && var_83[var_673][0] != 103 && var_83[var_673][0] != 104 && var_83[var_673][0] != 151 && var_83[var_673][13] == 0) {
+                        if (var_83[var_2793].Var0 != 0 && var_83[var_2793].Var3 != 0 && var_83[var_2793].Var15 == 0 && var_83[var_673].Var15 == 1 && var_83[var_673].Var0 != 0 && var_83[var_673].Var3 >= 1 && var_83[var_673].Var0 != 101 && var_83[var_673].Var0 != 102 && var_83[var_673].Var0 != 103 && var_83[var_673].Var0 != 104 && var_83[var_673].Var0 != 151 && var_83[var_673].Var13 == 0) {
                             var_2794 = var_66;
                             var_2795 = var_67;
                             yield func654();
-                            if (var_83[var_2793][0] != 0 && var_83[var_2793][3] != 0 && var_83[var_673][20] == 0 && var_83[var_673][0] != 0 && var_83[var_673][3] >= 1 && var_83[var_673][13] == 0) {
-                                if (var_83[var_673][0] == 122 || var_83[var_673][0] == 129 || var_83[var_673][0] == 44 || var_83[var_673][0] == 110 || var_83[var_673][0] == 162 || var_83[var_673][0] == 60) {
+                            if (var_83[var_2793].Var0 != 0 && var_83[var_2793].Var3 != 0 && var_83[var_673].Var20 == 0 && var_83[var_673].Var0 != 0 && var_83[var_673].Var3 >= 1 && var_83[var_673].Var13 == 0) {
+                                if (var_83[var_673].Var0 == 122 || var_83[var_673].Var0 == 129 || var_83[var_673].Var0 == 44 || var_83[var_673].Var0 == 110 || var_83[var_673].Var0 == 162 || var_83[var_673].Var0 == 60) {
                                     var_2796 = 1;
                                     var_2794 = var_66;
                                     var_2795 = var_67;
@@ -28570,29 +28570,29 @@ function func579() {
                             }
                         }
                     }
-                    var_83[var_673][27] = 0;
+                    var_83[var_673].Var27 = 0;
                 }
-                if (var_83[var_673][18] >= 1) {
+                if (var_83[var_673].Var18 >= 1) {
                     yield func581();
                 }
-                if (var_131 == 0 && var_123 == 0 && var_83[var_673][20] == 0 && var_144 == 0) {
-                    if (var_83[var_673][0] == 19 && var_201 != 14 && var_201 == var_83[var_673][10] && var_157 != 1) {
+                if (var_131 == 0 && var_123 == 0 && var_83[var_673].Var20 == 0 && var_144 == 0) {
+                    if (var_83[var_673].Var0 == 19 && var_201 != 14 && var_201 == var_83[var_673].Var10 && var_157 != 1) {
                         yield func608();
                     }
-                    if (var_83[var_673][0] == 61 && var_201 != 14 && var_201 == var_83[var_673][10] && var_157 != 1) {
+                    if (var_83[var_673].Var0 == 61 && var_201 != 14 && var_201 == var_83[var_673].Var10 && var_157 != 1) {
                         yield func611();
                     }
                 }
-                if (var_83[var_673][0] == 91 || var_83[var_673][0] == 92) {
-                    if (var_157 != 1 && var_83[var_673][20] == 0) {
+                if (var_83[var_673].Var0 == 91 || var_83[var_673].Var0 == 92) {
+                    if (var_157 != 1 && var_83[var_673].Var20 == 0) {
                         yield func580();
                     }
                 }
             }
-            var_83[var_673][18] = 0;
-            var_83[var_673][9] = 0;
-            if (var_83[var_673][15] >= 1) {
-                var_83[var_673][15] = 1;
+            var_83[var_673].Var18 = 0;
+            var_83[var_673].Var9 = 0;
+            if (var_83[var_673].Var15 >= 1) {
+                var_83[var_673].Var15 = 1;
             }
             if (var_212 == 1 || var_211 <= 0) {
                 break;
@@ -28610,21 +28610,21 @@ function func580() {
             var_2797 = 1;
         }
         if (var_2797 == 0) {
-            if (var_83[var_673][0] == 91) {
+            if (var_83[var_673].Var0 == 91) {
                 var_2798 = 2;
             }
-            if (var_83[var_673][0] == 92) {
+            if (var_83[var_673].Var0 == 92) {
                 var_2798 = 3;
             }
             if (var_2798 == 2) {
-                var_83[var_673][0] = 76;
-                var_83[var_673][3] = 25;
-                var_83[var_673][4] = 3;
+                var_83[var_673].Var0 = 76;
+                var_83[var_673].Var3 = 25;
+                var_83[var_673].Var4 = 3;
             }
             if (var_2798 == 3) {
-                var_83[var_673][0] = 12;
-                var_83[var_673][3] = 45;
-                var_83[var_673][4] = 3;
+                var_83[var_673].Var0 = 12;
+                var_83[var_673].Var3 = 45;
+                var_83[var_673].Var4 = 3;
             }
             var_293 = "";
             var_294 = "";
@@ -28653,138 +28653,138 @@ function func580() {
 function func581() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(581);
-        if (var_83[var_673][0] == 143) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 143) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func595();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 118) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 118) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func615();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 134 || var_83[var_673][0] == 35) {
-            if (var_83[var_673][18] >= 1) {
+        if (var_83[var_673].Var0 == 134 || var_83[var_673].Var0 == 35) {
+            if (var_83[var_673].Var18 >= 1) {
                 yield func602();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 164 || var_83[var_673][0] == 165) {
-            if (var_83[var_673][18] >= 1) {
+        if (var_83[var_673].Var0 == 164 || var_83[var_673].Var0 == 165) {
+            if (var_83[var_673].Var18 >= 1) {
                 yield func603();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 123) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 123) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func598();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 140) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 140) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func599();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 168) {
-            if (var_83[var_673][18] == 2) {
+        if (var_83[var_673].Var0 == 168) {
+            if (var_83[var_673].Var18 == 2) {
                 yield func612();
                 return;
             }
-            if (var_83[var_673][18] == 1) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func600();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 157) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 157) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func605();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 46 || var_83[var_673][0] == 30) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 46 || var_83[var_673].Var0 == 30) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func604();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 99) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 99) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func606();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 106 || var_83[var_673][0] == 107) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 106 || var_83[var_673].Var0 == 107) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func616();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 124) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 124) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func607();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 125) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 125) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func609();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 98) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 98) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func610();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 84) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 84) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func589();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 154) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 154) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func594();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 159) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 159) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func591();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 145) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 145) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func592();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 150) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 150) {
+            if (var_83[var_673].Var18 == 1) {
                 var_1073 = rnd(10);
                 if (var_1073 < 3) {
                     yield func592();
@@ -28797,61 +28797,61 @@ function func581() {
             }
             return;
         }
-        if (var_83[var_673][0] == 137) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 137) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func590();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 85) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 85) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func596();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 153) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 153) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func597();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 65) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 65) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func618();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 72) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 72) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func617();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 63) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 63) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func613();
                 return;
             }
             return;
         }
-        if (var_83[var_673][0] == 113 || var_83[var_673][0] == 114 || var_83[var_673][0] == 128) {
-            if (var_83[var_673][18] == 1) {
+        if (var_83[var_673].Var0 == 113 || var_83[var_673].Var0 == 114 || var_83[var_673].Var0 == 128) {
+            if (var_83[var_673].Var18 == 1) {
                 yield func614();
                 return;
             }
-            if (var_83[var_673][18] == 2) {
-                var_83[var_673][18] = 1;
+            if (var_83[var_673].Var18 == 2) {
+                var_83[var_673].Var18 = 1;
             }
         }
         var_240 = 0;
-        if (var_83[var_673][0] == 15) {
-            var_1360 = var_83[var_673][1];
-            var_1361 = var_83[var_673][2];
+        if (var_83[var_673].Var0 == 15) {
+            var_1360 = var_83[var_673].Var1;
+            var_1361 = var_83[var_673].Var2;
             var_271 = 1;
             var_1363 = 1;
             for (var cnt2 = 0; cnt2 < 20; ++cnt2) {
@@ -28861,38 +28861,38 @@ function func581() {
             var_1363 = 0;
             var_271 = 0;
         }
-        if (var_83[var_673][5] == 4) {
+        if (var_83[var_673].Var5 == 4) {
             var_1416 = 40;
         }
-        if (var_83[var_673][5] == 6) {
+        if (var_83[var_673].Var5 == 6) {
             var_1416 = 120;
         }
-        if (var_83[var_673][5] == 8) {
+        if (var_83[var_673].Var5 == 8) {
             var_1416 = 80;
         }
-        if (var_83[var_673][5] == 2) {
+        if (var_83[var_673].Var5 == 2) {
             var_1416 = 0;
         }
-        if (var_83[var_673][5] == 1) {
+        if (var_83[var_673].Var5 == 1) {
             var_1416 = 160;
         }
-        if (var_83[var_673][5] == 3) {
+        if (var_83[var_673].Var5 == 3) {
             var_1416 = 240;
         }
-        if (var_83[var_673][5] == 7) {
+        if (var_83[var_673].Var5 == 7) {
             var_1416 = 200;
         }
-        if (var_83[var_673][5] == 9) {
+        if (var_83[var_673].Var5 == 9) {
             var_1416 = 280;
         }
-        if (var_83[var_673][0] == 47 || var_83[var_673][0] == 67) {
+        if (var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67) {
             var_2799 = 0;
-            var_2782 = var_83[var_673][1];
-            var_2783 = var_83[var_673][2];
-            var_2784 = var_83[var_673][1];
-            var_2785 = var_83[var_673][1];
-            var_2786 = var_83[var_673][2];
-            var_2787 = var_83[var_673][2];
+            var_2782 = var_83[var_673].Var1;
+            var_2783 = var_83[var_673].Var2;
+            var_2784 = var_83[var_673].Var1;
+            var_2785 = var_83[var_673].Var1;
+            var_2786 = var_83[var_673].Var2;
+            var_2787 = var_83[var_673].Var2;
             for (var cnt2 = 0; cnt2 < 10; ++cnt2) {
                 var_2784 = var_2784 + 1;
                 if (var_2784 > var_33) {
@@ -28910,35 +28910,35 @@ function func581() {
                 if (var_2787 < 0) {
                     var_2787 = 0;
                 }
-                if (var_83[var_673][5] == 6 && var_82[var_2784][var_2783] != 0) {
+                if (var_83[var_673].Var5 == 6 && var_82[var_2784][var_2783] != 0) {
                     var_2799 = 1;
                     break;
                 }
-                if (var_83[var_673][5] == 4 && var_82[var_2785][var_2783] != 0) {
+                if (var_83[var_673].Var5 == 4 && var_82[var_2785][var_2783] != 0) {
                     var_2799 = 1;
                     break;
                 }
-                if (var_83[var_673][5] == 2 && var_82[var_2782][var_2786] != 0) {
+                if (var_83[var_673].Var5 == 2 && var_82[var_2782][var_2786] != 0) {
                     var_2799 = 1;
                     break;
                 }
-                if (var_83[var_673][5] == 8 && var_82[var_2782][var_2787] != 0) {
+                if (var_83[var_673].Var5 == 8 && var_82[var_2782][var_2787] != 0) {
                     var_2799 = 1;
                     break;
                 }
-                if (var_83[var_673][5] == 1 && var_82[var_2785][var_2786] != 0) {
+                if (var_83[var_673].Var5 == 1 && var_82[var_2785][var_2786] != 0) {
                     var_2799 = 1;
                     break;
                 }
-                if (var_83[var_673][5] == 3 && var_82[var_2784][var_2786] != 0) {
+                if (var_83[var_673].Var5 == 3 && var_82[var_2784][var_2786] != 0) {
                     var_2799 = 1;
                     break;
                 }
-                if (var_83[var_673][5] == 7 && var_82[var_2785][var_2787] != 0) {
+                if (var_83[var_673].Var5 == 7 && var_82[var_2785][var_2787] != 0) {
                     var_2799 = 1;
                     break;
                 }
-                if (var_83[var_673][5] == 9 && var_82[var_2784][var_2787] != 0) {
+                if (var_83[var_673].Var5 == 9 && var_82[var_2784][var_2787] != 0) {
                     var_2799 = 1;
                     break;
                 }
@@ -28971,10 +28971,10 @@ function func581() {
                 return;
             }
             var_742 = 1;
-            var_83[var_673][7] = 1;
+            var_83[var_673].Var7 = 1;
             var_743 = 1;
-            var_748 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_749 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_748 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_749 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_271 = 1;
             var_1357 = 1;
             DSPLAY(189);
@@ -28984,15 +28984,15 @@ function func581() {
             }
             var_1357 = 0;
             var_271 = 0;
-            var_83[var_673][7] = 0;
+            var_83[var_673].Var7 = 0;
             var_743 = 0;
         }
-        var_455 = var_83[var_673][1];
-        var_456 = var_83[var_673][2];
-        var_83[var_673][7] = 1;
+        var_455 = var_83[var_673].Var1;
+        var_456 = var_83[var_673].Var2;
+        var_83[var_673].Var7 = 1;
         var_742 = 1;
-        if (var_83[var_673][0] == 121 || var_83[var_673][0] == 126 || var_83[var_673][0] == 151 || var_83[var_673][0] == 172) {
-            if (var_83[var_673][0] == 151 || var_83[var_673][0] == 172) {
+        if (var_83[var_673].Var0 == 121 || var_83[var_673].Var0 == 126 || var_83[var_673].Var0 == 151 || var_83[var_673].Var0 == 172) {
+            if (var_83[var_673].Var0 == 151 || var_83[var_673].Var0 == 172) {
                 DSPLAY(160);
             }
             var_271 = 1;
@@ -29006,7 +29006,7 @@ function func581() {
             var_271 = 0;
             var_1313 = 0;
         }
-        if (var_83[var_673][0] == 21) {
+        if (var_83[var_673].Var0 == 21) {
             DSPLAY(159);
             yield func337();
             yield func337();
@@ -29015,24 +29015,24 @@ function func581() {
                 var_742 = 3;
             }
         }
-        if (var_83[var_673][0] == 141) {
+        if (var_83[var_673].Var0 == 141) {
             for (var cnt2 = 0; cnt2 < 7; ++cnt2) {
                 yield func337();
                 var_742 = 2;
             }
         }
-        if (var_83[var_673][0] == 136) {
+        if (var_83[var_673].Var0 == 136) {
             for (var cnt2 = 0; cnt2 < 5; ++cnt2) {
                 var_1198 = 1;
                 yield func337();
                 var_742 = 2;
             }
         }
-        if (var_83[var_673][0] == 76) {
+        if (var_83[var_673].Var0 == 76) {
             var_1304 = rnd(3);
-            var_1302 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1303 = (var_83[var_673][2] - var_67 + 4) * 40 - 10;
-            var_83[var_673][21] = 1;
+            var_1302 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1303 = (var_83[var_673].Var2 - var_67 + 4) * 40 - 10;
+            var_83[var_673].Var21 = 1;
             var_411 = 2;
             for (var cnt2 = 0; cnt2 < 4; ++cnt2) {
                 yield func337();
@@ -29049,12 +29049,12 @@ function func581() {
             }
             var_271 = 0;
             var_1301 = 0;
-            var_83[var_673][21] = 0;
+            var_83[var_673].Var21 = 0;
             var_411 = 0;
         }
-        if (var_83[var_673][0] == 113) {
+        if (var_83[var_673].Var0 == 113) {
             var_742 = 1;
-            var_83[var_673][7] = 1;
+            var_83[var_673].Var7 = 1;
             var_743 = 1;
         }
         var_1192 = 1;
@@ -29064,31 +29064,31 @@ function func581() {
         for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             var_1894 = var_455;
             var_1895 = var_456;
-            if (var_83[var_673][5] == 4) {
+            if (var_83[var_673].Var5 == 4) {
                 var_455 = var_455 - 1;
             }
-            if (var_83[var_673][5] == 6) {
+            if (var_83[var_673].Var5 == 6) {
                 var_455 = var_455 + 1;
             }
-            if (var_83[var_673][5] == 8) {
+            if (var_83[var_673].Var5 == 8) {
                 var_456 = var_456 - 1;
             }
-            if (var_83[var_673][5] == 2) {
+            if (var_83[var_673].Var5 == 2) {
                 var_456 = var_456 + 1;
             }
-            if (var_83[var_673][5] == 1) {
+            if (var_83[var_673].Var5 == 1) {
                 var_455 = var_455 - 1;
                 var_456 = var_456 + 1;
             }
-            if (var_83[var_673][5] == 3) {
+            if (var_83[var_673].Var5 == 3) {
                 var_455 = var_455 + 1;
                 var_456 = var_456 + 1;
             }
-            if (var_83[var_673][5] == 7) {
+            if (var_83[var_673].Var5 == 7) {
                 var_455 = var_455 - 1;
                 var_456 = var_456 - 1;
             }
-            if (var_83[var_673][5] == 9) {
+            if (var_83[var_673].Var5 == 9) {
                 var_455 = var_455 + 1;
                 var_456 = var_456 - 1;
             }
@@ -29107,20 +29107,20 @@ function func581() {
             if (var_82[var_455][var_456] > 0 && var_82[var_455][var_456] != var_124) {
                 var_2800 = 0;
                 var_2801 = var_82[var_455][var_456];
-                if (var_83[var_673][0] == 40 || var_83[var_673][0] == 41 || var_83[var_673][0] == 42) {
-                    if (var_83[var_2801][0] == 40 || var_83[var_2801][0] == 41 || var_83[var_2801][0] == 42 || var_83[var_2801][0] == 54 || var_83[var_2801][0] == 65) {
+                if (var_83[var_673].Var0 == 40 || var_83[var_673].Var0 == 41 || var_83[var_673].Var0 == 42) {
+                    if (var_83[var_2801].Var0 == 40 || var_83[var_2801].Var0 == 41 || var_83[var_2801].Var0 == 42 || var_83[var_2801].Var0 == 54 || var_83[var_2801].Var0 == 65) {
                         var_2800 = 1;
                     }
                 }
-                if (var_83[var_673][0] == 175) {
+                if (var_83[var_673].Var0 == 175) {
                     var_2800 = 1;
                 }
-                if (var_2800 == 0 && var_83[var_673][0] != 80 && var_83[var_673][0] != 45 && var_83[var_673][0] != 158) {
+                if (var_2800 == 0 && var_83[var_673].Var0 != 80 && var_83[var_673].Var0 != 45 && var_83[var_673].Var0 != 158) {
                     yield func586();
                     break;
                 }
-                if (var_83[var_673][0] == 80 || var_83[var_673][0] == 45 || var_83[var_673][0] == 158) {
-                    var_83[var_2801][8] = 1;
+                if (var_83[var_673].Var0 == 80 || var_83[var_673].Var0 == 45 || var_83[var_673].Var0 == 158) {
+                    var_83[var_2801].Var8 = 1;
                     var_1192 = 0;
                     var_750 = 1;
                     var_1212 = 1;
@@ -29133,10 +29133,10 @@ function func581() {
                     var_750 = 0;
                     var_1212 = 0;
                     var_747 = 0;
-                    var_83[var_2801][8] = 0;
-                    var_83[var_2801][12] = 0;
-                    var_83[var_2801][13] = 0;
-                    var_83[var_2801][17] = 1;
+                    var_83[var_2801].Var8 = 0;
+                    var_83[var_2801].Var12 = 0;
+                    var_83[var_2801].Var13 = 0;
+                    var_83[var_2801].Var17 = 1;
                     break;
                 }
             }
@@ -29144,7 +29144,7 @@ function func581() {
                 yield func585();
                 break;
             }
-            if (var_71[var_455][var_456] == 0 && var_83[var_673][0] != 175) {
+            if (var_71[var_455][var_456] == 0 && var_83[var_673].Var0 != 175) {
                 break;
             }
             var_2802 = 1;
@@ -29153,7 +29153,7 @@ function func581() {
             var_1192 = 2;
             yield func337();
         }
-        var_83[var_673][7] = 0;
+        var_83[var_673].Var7 = 0;
         var_1192 = 0;
         return;
     });
@@ -29161,65 +29161,65 @@ function func581() {
 function func582() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(582);
-        if (var_83[var_673][0] == 47 || var_83[var_673][0] == 67 || var_83[var_673][0] == 80 || var_83[var_673][0] == 45 || var_83[var_673][0] == 158 || var_83[var_673][0] == 32 || var_83[var_673][0] == 106 || var_83[var_673][0] == 107 || var_83[var_673][0] == 76 || var_83[var_673][0] == 136 || var_83[var_673][0] == 175) {
+        if (var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67 || var_83[var_673].Var0 == 80 || var_83[var_673].Var0 == 45 || var_83[var_673].Var0 == 158 || var_83[var_673].Var0 == 32 || var_83[var_673].Var0 == 106 || var_83[var_673].Var0 == 107 || var_83[var_673].Var0 == 76 || var_83[var_673].Var0 == 136 || var_83[var_673].Var0 == 175) {
             return;
         }
         gmode(2);
-        var_748 = (var_83[var_673][1] - var_66 + 4) * 40;
-        var_749 = (var_83[var_673][2] - var_67 + 4) * 40 - 10;
-        if (var_83[var_673][5] == 4) {
+        var_748 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+        var_749 = (var_83[var_673].Var2 - var_67 + 4) * 40 - 10;
+        if (var_83[var_673].Var5 == 4) {
             pos(var_748 - 10, var_749);
         }
-        if (var_83[var_673][5] == 6) {
+        if (var_83[var_673].Var5 == 6) {
             pos(var_748 + 10, var_749);
         }
-        if (var_83[var_673][5] == 2) {
+        if (var_83[var_673].Var5 == 2) {
             pos(var_748, var_749 + 10);
         }
-        if (var_83[var_673][5] == 8) {
+        if (var_83[var_673].Var5 == 8) {
             pos(var_748, var_749 - 10);
         }
-        if (var_83[var_673][5] == 1) {
+        if (var_83[var_673].Var5 == 1) {
             pos(var_748 - 10, var_749 + 10);
         }
-        if (var_83[var_673][5] == 3) {
+        if (var_83[var_673].Var5 == 3) {
             pos(var_748 + 10, var_749 + 10);
         }
-        if (var_83[var_673][5] == 7) {
+        if (var_83[var_673].Var5 == 7) {
             pos(var_748 - 10, var_749 - 10);
         }
-        if (var_83[var_673][5] == 9) {
+        if (var_83[var_673].Var5 == 9) {
             pos(var_748 + 10, var_749 - 10);
         }
-        if (var_83[var_673][0] == 21) {
-            if (var_83[var_673][5] == 4) {
+        if (var_83[var_673].Var0 == 21) {
+            if (var_83[var_673].Var5 == 4) {
                 pos(var_748 - 12 - 10, var_749 - 12);
             }
-            if (var_83[var_673][5] == 6) {
+            if (var_83[var_673].Var5 == 6) {
                 pos(var_748 - 12 + 10, var_749 - 12);
             }
-            if (var_83[var_673][5] == 2) {
+            if (var_83[var_673].Var5 == 2) {
                 pos(var_748 - 12, var_749 - 12 + 10);
             }
-            if (var_83[var_673][5] == 8) {
+            if (var_83[var_673].Var5 == 8) {
                 pos(var_748 - 12, var_749 - 12 - 10);
             }
-            if (var_83[var_673][5] == 1) {
+            if (var_83[var_673].Var5 == 1) {
                 pos(var_748 - 12 - 10, var_749 - 12 + 10);
             }
-            if (var_83[var_673][5] == 3) {
+            if (var_83[var_673].Var5 == 3) {
                 pos(var_748 - 12 + 10, var_749 - 12 + 10);
             }
-            if (var_83[var_673][5] == 7) {
+            if (var_83[var_673].Var5 == 7) {
                 pos(var_748 - 12 - 10, var_749 - 12 - 10);
             }
-            if (var_83[var_673][5] == 9) {
+            if (var_83[var_673].Var5 == 9) {
                 pos(var_748 - 12 + 10, var_749 - 12 - 10);
             }
             color(0, 0, 0);
             gmode(4, null, null, 180);
         }
-        if (var_83[var_673][0] == 21) {
+        if (var_83[var_673].Var0 == 21) {
             if (var_1198 == 1) {
                 gcopy(35, 512, 768, 64, 64);
             }
@@ -29237,7 +29237,7 @@ function func582() {
             }
             return;
         }
-        if (var_83[var_673][0] == 121 || var_83[var_673][0] == 126) {
+        if (var_83[var_673].Var0 == 121 || var_83[var_673].Var0 == 126) {
             if (var_1198 == 1) {
                 gcopy(3, 360, 240, 40, 40);
             }
@@ -29249,7 +29249,7 @@ function func582() {
             }
             return;
         }
-        if (var_83[var_673][0] == 15) {
+        if (var_83[var_673].Var0 == 15) {
             if (var_1198 == 1) {
                 gcopy(3, 280, 280, 40, 40);
             }
@@ -29261,7 +29261,7 @@ function func582() {
             }
             return;
         }
-        if (var_83[var_673][0] == 141) {
+        if (var_83[var_673].Var0 == 141) {
             return;
         }
         if (var_1198 == 1) {
@@ -29282,156 +29282,156 @@ function func583() {
         gmode(2);
         pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
         if (var_1192 == 1) {
-            if (var_83[var_673][5] == 4) {
+            if (var_83[var_673].Var5 == 4) {
                 pos((var_455 - var_66 + 4) * 40 - 20, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 6) {
+            if (var_83[var_673].Var5 == 6) {
                 pos((var_455 - var_66 + 4) * 40 + 20, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 8) {
+            if (var_83[var_673].Var5 == 8) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10 - 20);
             }
-            if (var_83[var_673][5] == 2) {
+            if (var_83[var_673].Var5 == 2) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10 + 20);
             }
-            if (var_83[var_673][5] == 1) {
+            if (var_83[var_673].Var5 == 1) {
                 pos((var_455 - var_66 + 4) * 40 - 20, (var_456 - var_67 + 4) * 40 - 10 + 20);
             }
-            if (var_83[var_673][5] == 3) {
+            if (var_83[var_673].Var5 == 3) {
                 pos((var_455 - var_66 + 4) * 40 + 20, (var_456 - var_67 + 4) * 40 - 10 + 20);
             }
-            if (var_83[var_673][5] == 7) {
+            if (var_83[var_673].Var5 == 7) {
                 pos((var_455 - var_66 + 4) * 40 - 20, (var_456 - var_67 + 4) * 40 - 10 - 20);
             }
-            if (var_83[var_673][5] == 9) {
+            if (var_83[var_673].Var5 == 9) {
                 pos((var_455 - var_66 + 4) * 40 + 20, (var_456 - var_67 + 4) * 40 - 10 - 20);
             }
         }
         if (var_1192 == 2) {
-            if (var_83[var_673][5] == 4) {
+            if (var_83[var_673].Var5 == 4) {
                 pos((var_455 - var_66 + 4) * 40 - 20, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 6) {
+            if (var_83[var_673].Var5 == 6) {
                 pos((var_455 - var_66 + 4) * 40 + 20, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 8) {
+            if (var_83[var_673].Var5 == 8) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10 - 20);
             }
-            if (var_83[var_673][5] == 2) {
+            if (var_83[var_673].Var5 == 2) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10 + 20);
             }
-            if (var_83[var_673][5] == 1) {
+            if (var_83[var_673].Var5 == 1) {
                 pos((var_455 - var_66 + 4) * 40 - 20, (var_456 - var_67 + 4) * 40 - 10 + 20);
             }
-            if (var_83[var_673][5] == 3) {
+            if (var_83[var_673].Var5 == 3) {
                 pos((var_455 - var_66 + 4) * 40 + 20, (var_456 - var_67 + 4) * 40 - 10 + 20);
             }
-            if (var_83[var_673][5] == 7) {
+            if (var_83[var_673].Var5 == 7) {
                 pos((var_455 - var_66 + 4) * 40 - 20, (var_456 - var_67 + 4) * 40 - 10 - 20);
             }
-            if (var_83[var_673][5] == 9) {
+            if (var_83[var_673].Var5 == 9) {
                 pos((var_455 - var_66 + 4) * 40 + 20, (var_456 - var_67 + 4) * 40 - 10 - 20);
             }
         }
         if (var_2802 == 1) {
-            if (var_83[var_673][5] == 4) {
+            if (var_83[var_673].Var5 == 4) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 6) {
+            if (var_83[var_673].Var5 == 6) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 8) {
+            if (var_83[var_673].Var5 == 8) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 2) {
+            if (var_83[var_673].Var5 == 2) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 1) {
+            if (var_83[var_673].Var5 == 1) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 3) {
+            if (var_83[var_673].Var5 == 3) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 7) {
+            if (var_83[var_673].Var5 == 7) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
             }
-            if (var_83[var_673][5] == 9) {
+            if (var_83[var_673].Var5 == 9) {
                 pos((var_455 - var_66 + 4) * 40, (var_456 - var_67 + 4) * 40 - 10);
             }
         }
-        if (var_83[var_673][0] == 7) {
+        if (var_83[var_673].Var0 == 7) {
             gcopy(34, 320 + var_1416, 160, 40, 40);
         }
-        if (var_83[var_673][0] == 15) {
+        if (var_83[var_673].Var0 == 15) {
             gcopy(34, 320 + var_1416, 520, 40, 40);
         }
-        if (var_83[var_673][0] == 21) {
+        if (var_83[var_673].Var0 == 21) {
             color(0, 0, 0);
             gmode(4, null, null, 150);
             gcopy(34, 320 + var_1416, 680, 40, 40);
             gmode(2);
         }
-        if (var_83[var_673][0] == 45 || var_83[var_673][0] == 158) {
+        if (var_83[var_673].Var0 == 45 || var_83[var_673].Var0 == 158) {
             gcopy(34, 320 + var_1416, 760, 40, 40);
         }
-        if (var_83[var_673][0] == 47 || var_83[var_673][0] == 67) {
+        if (var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67) {
             gcopy(3, 0, 0, 1, 1);
         }
-        if (var_83[var_673][0] == 48) {
+        if (var_83[var_673].Var0 == 48) {
             gcopy(34, 320 + var_1416, 480, 40, 40);
         }
-        if (var_83[var_673][0] == 32) {
+        if (var_83[var_673].Var0 == 32) {
             gcopy(34, 320 + var_1416, 920, 40, 40);
         }
-        if (var_83[var_673][0] == 40) {
+        if (var_83[var_673].Var0 == 40) {
             gcopy(34, 320 + var_1416, 480, 40, 40);
         }
-        if (var_83[var_673][0] == 41) {
+        if (var_83[var_673].Var0 == 41) {
             gcopy(34, 320 + var_1416, 960, 40, 40);
         }
-        if (var_83[var_673][0] == 42) {
+        if (var_83[var_673].Var0 == 42) {
             gcopy(34, 320 + var_1416, 1000, 40, 40);
         }
-        if (var_83[var_673][0] == 56) {
+        if (var_83[var_673].Var0 == 56) {
             gcopy(34, 320 + var_1416, 480, 40, 40);
         }
-        if (var_83[var_673][0] == 80) {
+        if (var_83[var_673].Var0 == 80) {
             gcopy(34, 320 + var_1416, 1040, 40, 40);
         }
-        if (var_83[var_673][0] == 93) {
+        if (var_83[var_673].Var0 == 93) {
             gcopy(34, 320 + var_1416, 1280, 40, 40);
         }
-        if (var_83[var_673][0] == 95) {
+        if (var_83[var_673].Var0 == 95) {
             gcopy(34, 320 + var_1416, 240, 40, 40);
         }
-        if (var_83[var_673][0] == 121 || var_83[var_673][0] == 126) {
+        if (var_83[var_673].Var0 == 121 || var_83[var_673].Var0 == 126) {
             gcopy(34, 320 + var_1416, 400, 40, 40);
         }
-        if (var_83[var_673][0] == 151) {
+        if (var_83[var_673].Var0 == 151) {
             gcopy(34, 320 + var_1416, 1200, 40, 40);
         }
-        if (var_83[var_673][0] == 172) {
+        if (var_83[var_673].Var0 == 172) {
             gcopy(34, 320 + var_1416, 1200, 40, 40);
         }
-        if (var_83[var_673][0] == 132) {
+        if (var_83[var_673].Var0 == 132) {
             gcopy(34, 320 + var_1416, 1160, 40, 40);
         }
-        if (var_83[var_673][0] == 141) {
+        if (var_83[var_673].Var0 == 141) {
             gcopy(34, 320 + var_1416, 200, 40, 40);
         }
-        if (var_83[var_673][0] == 155) {
+        if (var_83[var_673].Var0 == 155) {
             gcopy(34, 320 + var_1416, 80, 40, 40);
         }
-        if (var_83[var_673][0] == 136) {
+        if (var_83[var_673].Var0 == 136) {
             gcopy(34, 320 + var_1416, 120, 40, 40);
         }
-        if (var_83[var_673][0] == 113) {
+        if (var_83[var_673].Var0 == 113) {
             gcopy(34, 320 + var_1416, 40, 40, 40);
         }
-        if (var_83[var_673][0] == 106 || var_83[var_673][0] == 107) {
+        if (var_83[var_673].Var0 == 106 || var_83[var_673].Var0 == 107) {
             gcopy(34, 320 + var_1416, 160, 40, 40);
         }
-        if (var_83[var_673][0] == 76) {
+        if (var_83[var_673].Var0 == 76) {
             if (var_1304 == 0) {
                 gcopy(34, 320 + var_1416, 280, 40, 40);
             }
@@ -29442,7 +29442,7 @@ function func583() {
                 gcopy(34, 320 + var_1416, 360, 40, 40);
             }
         }
-        if (var_83[var_673][0] == 175) {
+        if (var_83[var_673].Var0 == 175) {
             gcopy(34, 320 + var_1416, 1320, 40, 40);
         }
         return;
@@ -29551,7 +29551,7 @@ function func585() {
         dbgprt(585);
         var_1192 = 0;
         var_2804 = 0;
-        if (var_83[var_673][0] == 80) {
+        if (var_83[var_673].Var0 == 80) {
             DSPLAY(183);
             var_389 = 1;
             var_293 = "";
@@ -29577,7 +29577,7 @@ function func585() {
             var_126 = 1;
             return;
         }
-        if (var_83[var_673][0] == 45 || var_83[var_673][0] == 158) {
+        if (var_83[var_673].Var0 == 45 || var_83[var_673].Var0 == 158) {
             DSPLAY(193);
             var_389 = 1;
             var_293 = "";
@@ -29603,11 +29603,11 @@ function func585() {
             var_126 = 1;
             return;
         }
-        if (var_83[var_673][0] == 21) {
+        if (var_83[var_673].Var0 == 21) {
             var_2804 = 0;
             for (var cnt2 = 0; cnt2 < var_97 + 1; ++cnt2) {
                 if (var_83[cnt2][0] == 137) {
-                    if (var_83[cnt3][10] == var_83[var_673][10] && var_83[cnt3][10] != 14) {
+                    if (var_83[cnt3][10] == var_83[var_673].Var10 && var_83[cnt3][10] != 14) {
                         var_2804 = 1;
                     }
                     var_2806 = var_83[cnt3][1];
@@ -29628,16 +29628,16 @@ function func585() {
                     if (var_2811 > var_34) {
                         var_2811 = var_34;
                     }
-                    if (var_71[var_2808][var_2807] == var_83[var_673][10] && var_83[cnt3][10] != 14) {
+                    if (var_71[var_2808][var_2807] == var_83[var_673].Var10 && var_83[cnt3][10] != 14) {
                         var_2804 = 1;
                     }
-                    if (var_71[var_2809][var_2807] == var_83[var_673][10] && var_83[cnt3][10] != 14) {
+                    if (var_71[var_2809][var_2807] == var_83[var_673].Var10 && var_83[cnt3][10] != 14) {
                         var_2804 = 1;
                     }
-                    if (var_71[var_2806][var_2811] == var_83[var_673][10] && var_83[cnt3][10] != 14) {
+                    if (var_71[var_2806][var_2811] == var_83[var_673].Var10 && var_83[cnt3][10] != 14) {
                         var_2804 = 1;
                     }
-                    if (var_71[var_2806][var_2810] == var_83[var_673][10] && var_83[cnt3][10] != 14) {
+                    if (var_71[var_2806][var_2810] == var_83[var_673].Var10 && var_83[cnt3][10] != 14) {
                         var_2804 = 1;
                     }
                 }
@@ -29667,15 +29667,15 @@ function func585() {
                 var_115 = 0;
                 var_461 = var_66;
                 var_462 = var_67;
-                var_83[var_673][12] = 6;
+                var_83[var_673].Var12 = 6;
                 return;
             }
         }
-        if (var_83[var_673][0] == 47 || var_83[var_673][0] == 67) {
+        if (var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67) {
             yield func588();
             return;
         }
-        if (var_83[var_673][0] == 32) {
+        if (var_83[var_673].Var0 == 32) {
             var_1971 = var_199;
             var_199 = 2;
             var_1241 = 1;
@@ -29704,7 +29704,7 @@ function func585() {
             var_199 = var_1971;
             return;
         }
-        if (var_83[var_673][0] == 76) {
+        if (var_83[var_673].Var0 == 76) {
             if (var_1304 == 1) {
                 var_199 = 2;
                 var_389 = 2;
@@ -29760,8 +29760,8 @@ function func585() {
                 yield func499();
                 var_2392 = 1;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    var_83[var_2392][9] = 0;
-                    var_83[var_2392][18] = 0;
+                    var_83[var_2392].Var9 = 0;
+                    var_83[var_2392].Var18 = 0;
                     var_2392 = var_2392 + 1;
                 }
                 return;
@@ -29803,33 +29803,33 @@ function func585() {
                 var_2460 = 0;
                 var_2461 = 1;
                 for (var cnt3 = 0; cnt3 < var_224; ++cnt3) {
-                    if (var_233[var_2461][0] == 605 || var_233[var_2461][0] == 635 || var_233[var_2461][0] == 640) {
-                        var_2460 = var_233[var_2461][0];
-                        var_233[var_2461][0] = 641;
+                    if (var_233[var_2461].Var0 == 605 || var_233[var_2461].Var0 == 635 || var_233[var_2461].Var0 == 640) {
+                        var_2460 = var_233[var_2461].Var0;
+                        var_233[var_2461].Var0 = 641;
                         var_2812 = 641;
                         break;
                     }
-                    if (var_233[var_2461][0] >= 600 && var_233[var_2461][0] <= 604) {
-                        var_2460 = var_233[var_2461][0];
-                        var_233[var_2461][0] = 605;
+                    if (var_233[var_2461].Var0 >= 600 && var_233[var_2461].Var0 <= 604) {
+                        var_2460 = var_233[var_2461].Var0;
+                        var_233[var_2461].Var0 = 605;
                         var_2812 = 605;
                         break;
                     }
-                    if (var_233[var_2461][0] >= 630 && var_233[var_2461][0] <= 639) {
-                        var_2460 = var_233[var_2461][0];
-                        var_233[var_2461][0] = 635;
+                    if (var_233[var_2461].Var0 >= 630 && var_233[var_2461].Var0 <= 639) {
+                        var_2460 = var_233[var_2461].Var0;
+                        var_233[var_2461].Var0 = 635;
                         var_2812 = 635;
                         break;
                     }
-                    if (var_233[var_2461][0] >= 642 && var_233[var_2461][0] <= 649) {
-                        var_2460 = var_233[var_2461][0];
-                        var_233[var_2461][0] = 640;
+                    if (var_233[var_2461].Var0 >= 642 && var_233[var_2461].Var0 <= 649) {
+                        var_2460 = var_233[var_2461].Var0;
+                        var_233[var_2461].Var0 = 640;
                         var_2812 = 640;
                         break;
                     }
-                    if (var_233[var_2461][0] >= 650 && var_233[var_2461][0] <= 654) {
-                        var_2460 = var_233[var_2461][0];
-                        var_233[var_2461][0] = 639;
+                    if (var_233[var_2461].Var0 >= 650 && var_233[var_2461].Var0 <= 654) {
+                        var_2460 = var_233[var_2461].Var0;
+                        var_233[var_2461].Var0 = 639;
                         var_2812 = 639;
                         break;
                     }
@@ -29862,7 +29862,7 @@ function func585() {
                 return;
             }
         }
-        if (var_83[var_673][0] != 113 && var_83[var_673][0] != 175) {
+        if (var_83[var_673].Var0 != 113 && var_83[var_673].Var0 != 175) {
             yield func584();
         }
         if (var_2803 == 1) {
@@ -29873,114 +29873,114 @@ function func585() {
         }
         var_747 = 1;
         var_389 = 1;
-        if (var_83[var_673][0] == 7) {
+        if (var_83[var_673].Var0 == 7) {
             var_2815 = 5;
             var_2816 = "ｶﾞｿﾘﾝの弾丸";
         }
-        if (var_83[var_673][0] == 15) {
+        if (var_83[var_673].Var0 == 15) {
             var_2815 = 15;
             var_2816 = "氷のﾐｻｲﾙ";
         }
-        if (var_83[var_673][0] == 21) {
+        if (var_83[var_673].Var0 == 21) {
             var_2815 = 20;
             var_2816 = "空気弾";
         }
-        if (var_83[var_673][0] == 45) {
+        if (var_83[var_673].Var0 == 45) {
             var_2815 = 6;
             var_2816 = "由花子の髪の毛";
         }
-        if (var_83[var_673][0] == 158) {
+        if (var_83[var_673].Var0 == 158) {
             var_2815 = 6;
             var_2816 = "由花子の髪の毛";
         }
-        if (var_83[var_673][0] == 48) {
+        if (var_83[var_673].Var0 == 48) {
             var_2815 = 15;
             var_2816 = "ｴｱﾛｽﾐｽの機銃";
         }
-        if (var_83[var_673][0] == 32) {
+        if (var_83[var_673].Var0 == 32) {
             var_2815 = 20;
             var_2816 = "爆弾の100G";
         }
-        if (var_83[var_673][0] == 40) {
+        if (var_83[var_673].Var0 == 40) {
             var_2815 = 3;
             var_2816 = "ﾊﾞｯﾄﾞｶﾝﾊﾟﾆｰの弾丸";
         }
-        if (var_83[var_673][0] == 41) {
+        if (var_83[var_673].Var0 == 41) {
             var_2815 = 10;
             var_2816 = "戦車の砲弾";
         }
-        if (var_83[var_673][0] == 42) {
+        if (var_83[var_673].Var0 == 42) {
             var_2815 = 7;
             var_2816 = "ｱﾊﾟｯﾁのﾐｻｲﾙ";
         }
-        if (var_83[var_673][0] == 56) {
+        if (var_83[var_673].Var0 == 56) {
             var_2815 = 15;
             var_2816 = "ｼｭﾄﾛﾊｲﾑのﾏｼﾝｶﾞﾝ";
         }
-        if (var_83[var_673][0] == 93) {
+        if (var_83[var_673].Var0 == 93) {
             var_2815 = 2;
             var_2816 = "幽霊の弾丸";
         }
-        if (var_83[var_673][0] == 95) {
+        if (var_83[var_673].Var0 == 95) {
             var_2815 = 15;
             var_2816 = "空烈眼刺驚";
         }
-        if (var_83[var_673][0] == 121 || var_83[var_673][0] == 126) {
+        if (var_83[var_673].Var0 == 121 || var_83[var_673].Var0 == 126) {
             var_2815 = 30;
             var_2816 = "ｴﾒﾗﾙﾄﾞｽﾌﾟﾗｯｼｭ";
         }
-        if (var_83[var_673][0] == 151) {
+        if (var_83[var_673].Var0 == 151) {
             var_2815 = 14;
             var_2816 = "ﾗｯﾄの針";
         }
-        if (var_83[var_673][0] == 172) {
+        if (var_83[var_673].Var0 == 172) {
             var_2815 = 14;
             var_2816 = "ﾗｯﾄの針";
         }
-        if (var_83[var_673][0] == 132) {
+        if (var_83[var_673].Var0 == 132) {
             var_2815 = 40;
             var_2816 = "サソリ";
         }
-        if (var_83[var_673][0] == 141) {
+        if (var_83[var_673].Var0 == 141) {
             var_2815 = 20;
             var_2816 = "F・F弾";
         }
-        if (var_83[var_673][0] == 155) {
+        if (var_83[var_673].Var0 == 155) {
             var_2815 = 20;
             var_2816 = "ﾎﾞﾙﾄやﾅｯﾄ";
         }
-        if (var_83[var_673][0] == 136) {
+        if (var_83[var_673].Var0 == 136) {
             var_2815 = 20;
             var_2816 = "ｼｬﾎﾞﾝﾗﾝﾁｬｰ";
         }
-        if (var_83[var_673][0] == 113) {
+        if (var_83[var_673].Var0 == 113) {
             var_2815 = 20;
             var_2816 = "上院議員";
         }
-        if (var_83[var_673][0] == 106 || var_83[var_673][0] == 107) {
+        if (var_83[var_673].Var0 == 106 || var_83[var_673].Var0 == 107) {
             var_2815 = 10;
             var_2816 = "釣り針";
         }
-        if (var_83[var_673][0] == 76) {
+        if (var_83[var_673].Var0 == 76) {
             var_2815 = 20;
             var_2816 = "「バグォ」の文字";
         }
-        if (var_83[var_673][0] == 175) {
+        if (var_83[var_673].Var0 == 175) {
             var_2815 = 20;
             var_2816 = "ﾁｬｶの透過攻撃";
         }
-        var_674 = var_83[var_673][0];
+        var_674 = var_83[var_673].Var0;
         yield func096();
-        var_437 = var_83[var_673][0];
+        var_437 = var_83[var_673].Var0;
         yield func626();
-        if (var_83[var_673][39] >= 2) {
-            var_967 = Math.floor(var_967 * (var_83[var_673][39] * 2 + 10) / 10);
+        if (var_83[var_673].Var39 >= 2) {
+            var_967 = Math.floor(var_967 * (var_83[var_673].Var39 * 2 + 10) / 10);
         }
-        if (var_83[var_673][25] >= 1 && var_83[var_673][25] <= 50) {
-            var_967 = var_967 + var_83[var_673][25];
+        if (var_83[var_673].Var25 >= 1 && var_83[var_673].Var25 <= 50) {
+            var_967 = var_967 + var_83[var_673].Var25;
         }
-        if (var_83[var_673][25] >= 51 && var_83[var_673][25] < 99) {
-            var_967 = var_967 - (var_83[var_673][25] - 50);
+        if (var_83[var_673].Var25 >= 51 && var_83[var_673].Var25 < 99) {
+            var_967 = var_967 - (var_83[var_673].Var25 - 50);
             if (var_967 <= 1) {
                 var_967 = 1;
             }
@@ -29992,7 +29992,7 @@ function func585() {
         var_2817 = rnd(33);
         var_2817 = var_2817 + 111;
         var_209 = Math.floor(var_949 * var_2817 / 128);
-        if (var_83[var_673][0] == 155) {
+        if (var_83[var_673].Var0 == 155) {
             var_209 = var_209 * (var_140 + 1);
         }
         if (var_113 == 1) {
@@ -30010,13 +30010,13 @@ function func585() {
         if (var_209 <= 1) {
             var_209 = 1;
         }
-        if (var_83[var_673][0] == 21 && var_2804 == 1) {
+        if (var_83[var_673].Var0 == 21 && var_2804 == 1) {
             yield func701();
             var_209 = var_2818;
             var_2804 = 0;
             return;
         }
-        if (var_83[var_673][0] == 32) {
+        if (var_83[var_673].Var0 == 32) {
             var_1389 = var_66;
             var_1390 = var_67;
             var_271 = 1;
@@ -30033,76 +30033,76 @@ function func585() {
             var_208 = var_208 + var_209;
             if (var_211 <= 0) {
                 var_211 = 0;
-                if (var_83[var_673][0] == 7) {
+                if (var_83[var_673].Var0 == 7) {
                     var_356 = 205;
                 }
-                if (var_83[var_673][0] == 15) {
+                if (var_83[var_673].Var0 == 15) {
                     var_356 = 206;
                 }
-                if (var_83[var_673][0] == 21) {
+                if (var_83[var_673].Var0 == 21) {
                     var_356 = 211;
                 }
-                if (var_83[var_673][0] == 48) {
+                if (var_83[var_673].Var0 == 48) {
                     var_356 = 216;
                 }
-                if (var_83[var_673][0] == 32) {
+                if (var_83[var_673].Var0 == 32) {
                     var_356 = 217;
                 }
-                if (var_83[var_673][0] == 40) {
+                if (var_83[var_673].Var0 == 40) {
                     var_356 = 218;
                 }
-                if (var_83[var_673][0] == 41) {
+                if (var_83[var_673].Var0 == 41) {
                     var_356 = 219;
                 }
-                if (var_83[var_673][0] == 42) {
+                if (var_83[var_673].Var0 == 42) {
                     var_356 = 220;
                 }
-                if (var_83[var_673][0] == 56) {
+                if (var_83[var_673].Var0 == 56) {
                     var_356 = 221;
                 }
-                if (var_83[var_673][0] == 93) {
+                if (var_83[var_673].Var0 == 93) {
                     var_356 = 227;
                 }
-                if (var_83[var_673][0] == 95) {
+                if (var_83[var_673].Var0 == 95) {
                     var_356 = 228;
                 }
-                if (var_83[var_673][0] == 121) {
+                if (var_83[var_673].Var0 == 121) {
                     var_356 = 239;
                 }
-                if (var_83[var_673][0] == 126) {
+                if (var_83[var_673].Var0 == 126) {
                     var_356 = 274;
                 }
-                if (var_83[var_673][0] == 151) {
+                if (var_83[var_673].Var0 == 151) {
                     var_356 = 242;
                 }
-                if (var_83[var_673][0] == 172) {
+                if (var_83[var_673].Var0 == 172) {
                     var_356 = 286;
                 }
-                if (var_83[var_673][0] == 132) {
+                if (var_83[var_673].Var0 == 132) {
                     var_356 = 243;
                 }
-                if (var_83[var_673][0] == 141) {
+                if (var_83[var_673].Var0 == 141) {
                     var_356 = 244;
                 }
-                if (var_83[var_673][0] == 155) {
+                if (var_83[var_673].Var0 == 155) {
                     var_356 = 254;
                 }
-                if (var_83[var_673][0] == 136) {
+                if (var_83[var_673].Var0 == 136) {
                     var_356 = 264;
                 }
-                if (var_83[var_673][0] == 113) {
+                if (var_83[var_673].Var0 == 113) {
                     var_356 = 265;
                 }
-                if (var_83[var_673][0] == 106) {
+                if (var_83[var_673].Var0 == 106) {
                     var_356 = 265;
                 }
-                if (var_83[var_673][0] == 107) {
+                if (var_83[var_673].Var0 == 107) {
                     var_356 = 266;
                 }
-                if (var_83[var_673][0] == 76) {
+                if (var_83[var_673].Var0 == 76) {
                     var_356 = 278;
                 }
-                if (var_83[var_673][0] == 175) {
+                if (var_83[var_673].Var0 == 175) {
                     var_356 = 287;
                 }
             }
@@ -30122,7 +30122,7 @@ function func585() {
         var_198 = 1;
         var_300 = 0;
         yield func047();
-        if (var_83[var_673][0] == 136 && var_211 >= 1) {
+        if (var_83[var_673].Var0 == 136 && var_211 >= 1) {
             var_1073 = rnd(4);
             if (var_1073 == 0 && var_178 == 0 && var_215 != 116 && var_125 == 0) {
                 yield func340();
@@ -30144,10 +30144,10 @@ function func585() {
         for (var cnt1 = 0; cnt1 < 9; ++cnt1) {
             yield func337();
         }
-        if (var_83[var_673][0] == 151 && var_211 >= 1) {
+        if (var_83[var_673].Var0 == 151 && var_211 >= 1) {
             yield func587();
         }
-        if (var_83[var_673][0] == 172 && var_211 >= 1) {
+        if (var_83[var_673].Var0 == 172 && var_211 >= 1) {
             yield func587();
         }
         var_389 = 0;
@@ -30159,33 +30159,33 @@ function func586() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(586);
         var_1192 = 0;
-        if (var_83[var_673][0] == 47 || var_83[var_673][0] == 67) {
+        if (var_83[var_673].Var0 == 47 || var_83[var_673].Var0 == 67) {
             return;
         }
         var_2819 = var_673;
         var_402 = var_82[var_455][var_456];
-        var_437 = var_83[var_402][0];
+        var_437 = var_83[var_402].Var0;
         yield func626();
         var_971 = var_968;
-        var_437 = var_83[var_2819][0];
+        var_437 = var_83[var_2819].Var0;
         yield func626();
         var_2820 = var_967;
-        if (var_83[var_402][0] == 53) {
+        if (var_83[var_402].Var0 == 53) {
             var_971 = var_968;
         }
-        if (var_83[var_2819][39] >= 2) {
-            var_2820 = Math.floor(var_2820 * (var_83[var_2819][39] * 2 + 10) / 10);
+        if (var_83[var_2819].Var39 >= 2) {
+            var_2820 = Math.floor(var_2820 * (var_83[var_2819].Var39 * 2 + 10) / 10);
         }
-        if (var_83[var_402][39] >= 2) {
-            if (var_83[var_402][31] == 4 || var_83[var_402][31] == 5) {
-                var_971 = Math.floor(var_971 * (var_83[var_402][39] * 2 + 10) / 10);
+        if (var_83[var_402].Var39 >= 2) {
+            if (var_83[var_402].Var31 == 4 || var_83[var_402].Var31 == 5) {
+                var_971 = Math.floor(var_971 * (var_83[var_402].Var39 * 2 + 10) / 10);
             }
         }
-        if (var_83[var_2819][25] >= 1 && var_83[var_2819][25] <= 50) {
-            var_2820 = var_2820 + var_83[var_2819][25];
+        if (var_83[var_2819].Var25 >= 1 && var_83[var_2819].Var25 <= 50) {
+            var_2820 = var_2820 + var_83[var_2819].Var25;
         }
-        if (var_83[var_2819][25] >= 51 && var_83[var_2819][25] < 99) {
-            var_2820 = var_967 - (var_83[var_2819][25] - 50);
+        if (var_83[var_2819].Var25 >= 51 && var_83[var_2819].Var25 < 99) {
+            var_2820 = var_967 - (var_83[var_2819].Var25 - 50);
             if (var_2820 <= 1) {
                 var_2820 = 1;
             }
@@ -30197,7 +30197,7 @@ function func586() {
         var_2817 = rnd(33);
         var_2817 = var_2817 + 111;
         var_209 = Math.floor(var_949 * var_2817 / 128) + 1;
-        if (var_83[var_673][0] == 141) {
+        if (var_83[var_673].Var0 == 141) {
             var_2821 = 1;
         }
         var_402 = var_82[var_455][var_456];
@@ -30209,7 +30209,7 @@ function func586() {
         yield func705();
         var_2821 = 0;
         var_2196 = 0;
-        var_83[var_673][7] = 0;
+        var_83[var_673].Var7 = 0;
         return;
     });
 }
@@ -30220,30 +30220,30 @@ function func587() {
         var_2474 = 0;
         if (var_357 != 0 && var_358 == 0) {
             yield func426();
-            if (var_233[var_553][4] != 0) {
+            if (var_233[var_553].Var4 != 0) {
                 var_2474 = 1;
             }
         }
         if (var_357 == 0 && var_358 != 0) {
             yield func427();
-            if (var_233[var_554][4] != 0) {
+            if (var_233[var_554].Var4 != 0) {
                 var_2474 = 2;
             }
         }
         if (var_357 != 0 && var_358 != 0) {
             yield func426();
             yield func427();
-            if (var_233[var_553][4] == 0 && var_233[var_554][4] == 0) {
+            if (var_233[var_553].Var4 == 0 && var_233[var_554].Var4 == 0) {
                 var_2474 = 0;
                 var_2473 = 0;
             }
-            if (var_233[var_553][4] != 0 && var_233[var_554][4] == 0) {
+            if (var_233[var_553].Var4 != 0 && var_233[var_554].Var4 == 0) {
                 var_2474 = 1;
             }
-            if (var_233[var_553][4] == 0 && var_233[var_554][4] != 0) {
+            if (var_233[var_553].Var4 == 0 && var_233[var_554].Var4 != 0) {
                 var_2474 = 2;
             }
-            if (var_233[var_553][4] != 0 && var_233[var_554][4] != 0) {
+            if (var_233[var_553].Var4 != 0 && var_233[var_554].Var4 != 0) {
                 var_2475 = rnd(2);
                 if (var_2475 == 0) {
                     var_2474 = 1;
@@ -30257,49 +30257,49 @@ function func587() {
             var_2474 = 0;
             var_2473 = 0;
         }
-        if (var_2474 == 1 && var_233[var_553][12] == 2) {
+        if (var_2474 == 1 && var_233[var_553].Var12 == 2) {
             var_2474 = 3;
             var_2473 = 3;
         }
-        if (var_2474 == 2 && var_233[var_554][12] == 2) {
+        if (var_2474 == 2 && var_233[var_554].Var12 == 2) {
             var_2474 = 4;
             var_2473 = 3;
         }
         if (var_2474 == 1) {
             yield func426();
-            var_233[var_553][4] = var_233[var_553][4] - 1;
+            var_233[var_553].Var4 = var_233[var_553].Var4 - 1;
             var_580 = var_580 - 1;
             var_894 = var_894 - 1;
             var_2473 = 1;
             var_232 = var_357;
-            var_487 = var_233[var_553][13];
+            var_487 = var_233[var_553].Var13;
             yield func492();
             var_2822 = var_489;
         }
         if (var_2474 == 2) {
             yield func427();
-            var_233[var_554][4] = var_233[var_554][4] - 1;
+            var_233[var_554].Var4 = var_233[var_554].Var4 - 1;
             var_581 = var_581 - 1;
             var_895 = var_895 - 1;
             var_2473 = 1;
             var_232 = var_358;
-            var_487 = var_233[var_554][13];
+            var_487 = var_233[var_554].Var13;
             yield func492();
             var_2822 = var_489;
         }
         if (var_2474 == 3) {
             yield func426();
-            var_233[var_553][12] = 0;
-            var_232 = var_233[var_553][0];
-            var_487 = var_233[var_553][13];
+            var_233[var_553].Var12 = 0;
+            var_232 = var_233[var_553].Var0;
+            var_487 = var_233[var_553].Var13;
             yield func492();
             var_2822 = var_489;
         }
         if (var_2474 == 4) {
             yield func427();
-            var_233[var_554][12] = 0;
-            var_232 = var_233[var_554][0];
-            var_487 = var_233[var_554][13];
+            var_233[var_554].Var12 = 0;
+            var_232 = var_233[var_554].Var0;
+            var_487 = var_233[var_554].Var13;
             yield func492();
             var_2822 = var_489;
         }
@@ -30344,49 +30344,49 @@ function func587() {
 function func588() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(588);
-        var_2823 = var_83[var_673][1];
-        var_2824 = var_83[var_673][2];
-        if (var_83[var_673][5] == 4) {
+        var_2823 = var_83[var_673].Var1;
+        var_2824 = var_83[var_673].Var2;
+        if (var_83[var_673].Var5 == 4) {
             var_2825 = var_2823 - 1;
             var_2826 = var_2824;
         }
-        if (var_83[var_673][5] == 6) {
+        if (var_83[var_673].Var5 == 6) {
             var_2825 = var_2823 + 1;
             var_2826 = var_2824;
         }
-        if (var_83[var_673][5] == 2) {
+        if (var_83[var_673].Var5 == 2) {
             var_2825 = var_2823;
             var_2826 = var_2824 + 1;
         }
-        if (var_83[var_673][5] == 8) {
+        if (var_83[var_673].Var5 == 8) {
             var_2825 = var_2823;
             var_2826 = var_2824 - 1;
         }
-        if (var_83[var_673][5] == 1) {
+        if (var_83[var_673].Var5 == 1) {
             var_2825 = var_2823 - 1;
             var_2826 = var_2824 + 1;
         }
-        if (var_83[var_673][5] == 3) {
+        if (var_83[var_673].Var5 == 3) {
             var_2825 = var_2823 + 1;
             var_2826 = var_2824 + 1;
         }
-        if (var_83[var_673][5] == 7) {
+        if (var_83[var_673].Var5 == 7) {
             var_2825 = var_2823 - 1;
             var_2826 = var_2824 - 1;
         }
-        if (var_83[var_673][5] == 9) {
+        if (var_83[var_673].Var5 == 9) {
             var_2825 = var_2823 + 1;
             var_2826 = var_2824 - 1;
         }
         if (var_71[var_2825][var_2826] == 13) {
-            var_2827 = var_83[var_673][5];
-            var_2823 = var_83[var_673][1];
-            var_2824 = var_83[var_673][2];
+            var_2827 = var_83[var_673].Var5;
+            var_2823 = var_83[var_673].Var1;
+            var_2824 = var_83[var_673].Var2;
             var_2828 = 0;
             for (var cnt2 = 0; cnt2 < 100; ++cnt2) {
                 var_2829 = rnd(8);
                 if (var_2829 == 0) {
-                    var_83[var_673][5] = 4;
+                    var_83[var_673].Var5 = 4;
                     var_2825 = var_2823 - 1;
                     var_2826 = var_2824;
                     if (var_71[var_2825][var_2826] != 13 && var_71[var_2825][var_2826] != 0 && var_82[var_2825][var_2826] == 0) {
@@ -30395,7 +30395,7 @@ function func588() {
                     }
                 }
                 if (var_2829 == 1) {
-                    var_83[var_673][5] = 6;
+                    var_83[var_673].Var5 = 6;
                     var_2825 = var_2823 + 1;
                     var_2826 = var_2824;
                     if (var_71[var_2825][var_2826] != 13 && var_71[var_2825][var_2826] != 0 && var_82[var_2825][var_2826] == 0) {
@@ -30404,7 +30404,7 @@ function func588() {
                     }
                 }
                 if (var_2829 == 2) {
-                    var_83[var_673][5] = 2;
+                    var_83[var_673].Var5 = 2;
                     var_2825 = var_2823;
                     var_2826 = var_2824 + 1;
                     if (var_71[var_2825][var_2826] != 13 && var_71[var_2825][var_2826] != 0 && var_82[var_2825][var_2826] == 0) {
@@ -30413,7 +30413,7 @@ function func588() {
                     }
                 }
                 if (var_2829 == 3) {
-                    var_83[var_673][5] = 8;
+                    var_83[var_673].Var5 = 8;
                     var_2825 = var_2823;
                     var_2826 = var_2824 - 1;
                     if (var_71[var_2825][var_2826] != 13 && var_71[var_2825][var_2826] != 0 && var_82[var_2825][var_2826] == 0) {
@@ -30422,7 +30422,7 @@ function func588() {
                     }
                 }
                 if (var_2829 == 4) {
-                    var_83[var_673][5] = 1;
+                    var_83[var_673].Var5 = 1;
                     var_2825 = var_2823 - 1;
                     var_2826 = var_2824 + 1;
                     if (var_71[var_2825][var_2826] != 13 && var_71[var_2825][var_2826] != 0 && var_82[var_2825][var_2826] == 0) {
@@ -30431,7 +30431,7 @@ function func588() {
                     }
                 }
                 if (var_2829 == 5) {
-                    var_83[var_673][5] = 3;
+                    var_83[var_673].Var5 = 3;
                     var_2825 = var_2823 + 1;
                     var_2826 = var_2824 + 1;
                     if (var_71[var_2825][var_2826] != 13 && var_71[var_2825][var_2826] != 0 && var_82[var_2825][var_2826] == 0) {
@@ -30440,7 +30440,7 @@ function func588() {
                     }
                 }
                 if (var_2829 == 6) {
-                    var_83[var_673][5] = 7;
+                    var_83[var_673].Var5 = 7;
                     var_2825 = var_2823 - 1;
                     var_2826 = var_2824 - 1;
                     if (var_71[var_2825][var_2826] != 13 && var_71[var_2825][var_2826] != 0 && var_82[var_2825][var_2826] == 0) {
@@ -30449,7 +30449,7 @@ function func588() {
                     }
                 }
                 if (var_2829 == 7) {
-                    var_83[var_673][5] = 9;
+                    var_83[var_673].Var5 = 9;
                     var_2825 = var_2823 + 1;
                     var_2826 = var_2824 - 1;
                     if (var_71[var_2825][var_2826] != 13 && var_71[var_2825][var_2826] != 0 && var_82[var_2825][var_2826] == 0) {
@@ -30459,7 +30459,7 @@ function func588() {
                 }
             }
             if (var_2828 == 0) {
-                var_83[var_673][5] = var_2827;
+                var_83[var_673].Var5 = var_2827;
                 return;
             }
         }
@@ -30490,8 +30490,8 @@ function func588() {
         var_240 = 0;
         var_2392 = 1;
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
-            var_83[var_2392][9] = 0;
-            var_83[var_2392][18] = 0;
+            var_83[var_2392].Var9 = 0;
+            var_83[var_2392].Var18 = 0;
             var_2392 = var_2392 + 1;
         }
         return;
@@ -30559,8 +30559,8 @@ function func589() {
                 var_2197 = 1;
                 return;
             }
-            var_1584 = (var_83[var_2457][1] - var_66 + 4) * 40;
-            var_1585 = (var_83[var_2457][2] - var_67 + 4) * 40;
+            var_1584 = (var_83[var_2457].Var1 - var_66 + 4) * 40;
+            var_1585 = (var_83[var_2457].Var2 - var_67 + 4) * 40;
             var_271 = 1;
             var_1583 = 1;
             DSPLAY(168);
@@ -30593,8 +30593,8 @@ function func589() {
             var_2197 = 1;
         }
         if (var_2830 == 1 || var_2830 == 2) {
-            var_1563 = var_83[var_673][1];
-            var_1564 = var_83[var_673][2];
+            var_1563 = var_83[var_673].Var1;
+            var_1564 = var_83[var_673].Var2;
             var_2831 = var_673;
             var_2832 = var_66 - 5;
             if (var_2832 < 0) {
@@ -30616,12 +30616,12 @@ function func589() {
             var_1565 = 0;
             var_1568 = dim(30, 3);
             for (var cnt2 = 0; cnt2 < var_97; ++cnt2) {
-                if (var_83[var_2836][0] == 43 && var_83[var_2836][11] == 0 && var_83[var_2836][12] == 0 && var_83[var_2836][13] == 0) {
-                    if (var_83[var_2836][1] >= var_2832 && var_83[var_2836][1] <= var_2833 && var_83[var_2836][2] >= var_2835 && var_83[var_2836][2] <= var_2834) {
+                if (var_83[var_2836].Var0 == 43 && var_83[var_2836].Var11 == 0 && var_83[var_2836].Var12 == 0 && var_83[var_2836].Var13 == 0) {
+                    if (var_83[var_2836].Var1 >= var_2832 && var_83[var_2836].Var1 <= var_2833 && var_83[var_2836].Var2 >= var_2835 && var_83[var_2836].Var2 <= var_2834) {
                         var_1565++;
-                        var_1568[var_1565][1] = var_83[var_2836][1];
-                        var_1568[var_1565][2] = var_83[var_2836][2];
-                        var_83[var_2836][21] = 1;
+                        var_1568[var_1565][1] = var_83[var_2836].Var1;
+                        var_1568[var_1565][2] = var_83[var_2836].Var2;
+                        var_83[var_2836].Var21 = 1;
                         var_411 = 1;
                     }
                 }
@@ -30687,21 +30687,21 @@ function func589() {
                 var_2837 = 1;
                 var_1565 = 0;
                 for (var cnt3 = 0; cnt3 < var_97; ++cnt3) {
-                    if (var_83[var_2837][0] == 43 && var_83[var_2837][11] == 0 && var_83[var_2837][12] == 0 && var_83[var_2837][13] == 0) {
-                        if (var_83[var_2837][1] >= var_2832 && var_83[var_2837][1] <= var_2833 && var_83[var_2837][2] >= var_2835 && var_83[var_2837][2] <= var_2834) {
-                            if (var_83[var_2837][25] >= 50) {
-                                var_83[var_2837][25] -= 2;
-                                if (var_83[var_2837][25] < 50) {
-                                    var_83[var_2837][25] = 0;
+                    if (var_83[var_2837].Var0 == 43 && var_83[var_2837].Var11 == 0 && var_83[var_2837].Var12 == 0 && var_83[var_2837].Var13 == 0) {
+                        if (var_83[var_2837].Var1 >= var_2832 && var_83[var_2837].Var1 <= var_2833 && var_83[var_2837].Var2 >= var_2835 && var_83[var_2837].Var2 <= var_2834) {
+                            if (var_83[var_2837].Var25 >= 50) {
+                                var_83[var_2837].Var25 -= 2;
+                                if (var_83[var_2837].Var25 < 50) {
+                                    var_83[var_2837].Var25 = 0;
                                 }
                             }
-                            if (var_83[var_2837][25] < 50) {
-                                var_83[var_2837][25] += 2;
-                                if (var_83[var_2837][25] >= 50) {
-                                    var_83[var_2837][25] = 49;
+                            if (var_83[var_2837].Var25 < 50) {
+                                var_83[var_2837].Var25 += 2;
+                                if (var_83[var_2837].Var25 >= 50) {
+                                    var_83[var_2837].Var25 = 49;
                                 }
                             }
-                            var_83[var_2837][21] = 0;
+                            var_83[var_2837].Var21 = 0;
                             var_411 = 0;
                         }
                     }
@@ -30752,8 +30752,8 @@ function func590() {
             yield func337();
         }
         var_1920 = 1;
-        var_1914 = var_83[var_673][1];
-        var_1915 = var_83[var_673][2];
+        var_1914 = var_83[var_673].Var1;
+        var_1915 = var_83[var_673].Var2;
         var_1845 = 3;
         var_2353 = var_673;
         yield func556();
@@ -30764,8 +30764,8 @@ function func590() {
         if (var_2110 == 0) {
             return;
         }
-        var_1584 = (var_83[var_2457][1] - var_66 + 4) * 40;
-        var_1585 = (var_83[var_2457][2] - var_67 + 4) * 40;
+        var_1584 = (var_83[var_2457].Var1 - var_66 + 4) * 40;
+        var_1585 = (var_83[var_2457].Var2 - var_67 + 4) * 40;
         var_271 = 1;
         var_1583 = 1;
         DSPLAY(168);
@@ -30798,7 +30798,7 @@ function func591() {
             return;
         }
         var_2838 = 0;
-        var_2519 = var_83[var_673][10];
+        var_2519 = var_83[var_673].Var10;
         for (var cnt1 = 0; cnt1 < 4; ++cnt1) {
             var_2540 = 1;
             var_1845 = 5;
@@ -30809,8 +30809,8 @@ function func591() {
             var_2540 = 0;
             var_1845 = 0;
             if (var_2110 == 1) {
-                var_1584 = (var_83[var_2457][1] - var_66 + 4) * 40;
-                var_1585 = (var_83[var_2457][2] - var_67 + 4) * 40;
+                var_1584 = (var_83[var_2457].Var1 - var_66 + 4) * 40;
+                var_1585 = (var_83[var_2457].Var2 - var_67 + 4) * 40;
                 var_271 = 1;
                 var_1583 = 1;
                 DSPLAY(168);
@@ -30897,8 +30897,8 @@ function func592() {
         var_2532 = 0;
         var_1845 = 0;
         if (var_2110 == 1) {
-            var_1584 = (var_83[var_2457][1] - var_66 + 4) * 40;
-            var_1585 = (var_83[var_2457][2] - var_67 + 4) * 40;
+            var_1584 = (var_83[var_2457].Var1 - var_66 + 4) * 40;
+            var_1585 = (var_83[var_2457].Var2 - var_67 + 4) * 40;
             var_271 = 1;
             var_1583 = 1;
             DSPLAY(168);
@@ -30980,8 +30980,8 @@ function func593() {
         var_2533 = 0;
         var_1845 = 0;
         if (var_2110 == 1) {
-            var_1584 = (var_83[var_2457][1] - var_66 + 4) * 40;
-            var_1585 = (var_83[var_2457][2] - var_67 + 4) * 40;
+            var_1584 = (var_83[var_2457].Var1 - var_66 + 4) * 40;
+            var_1585 = (var_83[var_2457].Var2 - var_67 + 4) * 40;
             var_271 = 1;
             var_1583 = 1;
             DSPLAY(168);
@@ -31159,7 +31159,7 @@ function func595() {
         var_198 = 1;
         var_300 = 0;
         yield func047();
-        var_83[var_673][21] = 1;
+        var_83[var_673].Var21 = 1;
         var_411 = 1;
         var_411 = 1;
         yield func337();
@@ -31186,7 +31186,7 @@ function func595() {
         yield func337();
         yield func337();
         var_411 = 1;
-        var_83[var_673][21] = 0;
+        var_83[var_673].Var21 = 0;
         if (var_2352 == 7) {
             var_2197 = 1;
             return;
@@ -31202,8 +31202,8 @@ function func595() {
         var_2353 = var_673;
         yield func556();
         var_2354 = 0;
-        var_1584 = (var_83[var_673][1] - var_66 + 4) * 40;
-        var_1585 = (var_83[var_673][2] - var_67 + 4) * 40;
+        var_1584 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+        var_1585 = (var_83[var_673].Var2 - var_67 + 4) * 40;
         var_673 = var_2353;
         var_1845 = 0;
         if (var_2110 == 0) {
@@ -31213,8 +31213,8 @@ function func595() {
             var_2353 = var_673;
             yield func556();
             var_2354 = 0;
-            var_1587 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1588 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1587 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1588 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_673 = var_2353;
             var_1845 = 0;
             if (var_2110 != 0) {
@@ -31226,8 +31226,8 @@ function func595() {
             var_2353 = var_673;
             yield func556();
             var_2354 = 0;
-            var_1589 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1590 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1589 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1590 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_673 = var_2353;
             var_1845 = 0;
             if (var_2110 != 0) {
@@ -31260,8 +31260,8 @@ function func595() {
             var_2353 = var_673;
             yield func556();
             var_2354 = 0;
-            var_1587 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1588 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1587 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1588 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_673 = var_2353;
             var_1845 = 0;
             yield func625();
@@ -31269,8 +31269,8 @@ function func595() {
             var_2353 = var_673;
             yield func556();
             var_2354 = 0;
-            var_1589 = (var_83[var_673][1] - var_66 + 4) * 40;
-            var_1590 = (var_83[var_673][2] - var_67 + 4) * 40;
+            var_1589 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+            var_1590 = (var_83[var_673].Var2 - var_67 + 4) * 40;
             var_673 = var_2353;
             var_1845 = 0;
         }
@@ -31326,12 +31326,12 @@ function func596() {
         var_2843 = 0;
         var_2844 = 0;
         var_2845 = 0;
-        var_2782 = var_83[var_673][1];
-        var_2783 = var_83[var_673][2];
-        var_2784 = var_83[var_673][1];
-        var_2785 = var_83[var_673][1];
-        var_2786 = var_83[var_673][2];
-        var_2787 = var_83[var_673][2];
+        var_2782 = var_83[var_673].Var1;
+        var_2783 = var_83[var_673].Var2;
+        var_2784 = var_83[var_673].Var1;
+        var_2785 = var_83[var_673].Var1;
+        var_2786 = var_83[var_673].Var2;
+        var_2787 = var_83[var_673].Var2;
         for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
             if (var_65[var_2784][var_2783] == 1) {
                 var_2843 = cnt2;
@@ -31391,65 +31391,65 @@ function func596() {
             }
         }
         if (var_2843 != 0) {
-            var_2782 = var_83[var_673][1];
-            var_2783 = var_83[var_673][2];
-            var_2784 = var_83[var_673][1];
-            var_2785 = var_83[var_673][1];
-            var_2786 = var_83[var_673][2];
-            var_2787 = var_83[var_673][2];
+            var_2782 = var_83[var_673].Var1;
+            var_2783 = var_83[var_673].Var2;
+            var_2784 = var_83[var_673].Var1;
+            var_2785 = var_83[var_673].Var1;
+            var_2786 = var_83[var_673].Var2;
+            var_2787 = var_83[var_673].Var2;
             for (var cnt2 = 0; cnt2 < var_2843; ++cnt2) {
                 if (var_2845 == 6 && var_77[var_2784][var_2783] != 0 && var_82[var_2784][var_2783] == 0 && var_65[var_2784][var_2783] == 0) {
                     var_2205 = var_77[var_2784][var_2783];
-                    if (var_78[var_2205][0] == 650 || var_78[var_2205][0] == 651 || var_78[var_2205][0] == 653) {
+                    if (var_78[var_2205].Var0 == 650 || var_78[var_2205].Var0 == 651 || var_78[var_2205].Var0 == 653) {
                         var_2844 = 1;
                         break;
                     }
                 }
                 if (var_2845 == 4 && var_77[var_2785][var_2783] != 0 && var_82[var_2785][var_2783] == 0 && var_65[var_2785][var_2783] == 0) {
                     var_2205 = var_77[var_2785][var_2783];
-                    if (var_78[var_2205][0] == 650 || var_78[var_2205][0] == 651 || var_78[var_2205][0] == 653) {
+                    if (var_78[var_2205].Var0 == 650 || var_78[var_2205].Var0 == 651 || var_78[var_2205].Var0 == 653) {
                         var_2844 = 1;
                         break;
                     }
                 }
                 if (var_2845 == 2 && var_77[var_2782][var_2786] != 0 && var_82[var_2782][var_2786] == 0 && var_65[var_2782][var_2786] == 0) {
                     var_2205 = var_77[var_2782][var_2786];
-                    if (var_78[var_2205][0] == 650 || var_78[var_2205][0] == 651 || var_78[var_2205][0] == 653) {
+                    if (var_78[var_2205].Var0 == 650 || var_78[var_2205].Var0 == 651 || var_78[var_2205].Var0 == 653) {
                         var_2844 = 1;
                         break;
                     }
                 }
                 if (var_2845 == 8 && var_77[var_2782][var_2787] != 0 && var_82[var_2782][var_2787] == 0 && var_65[var_2782][var_2787] == 0) {
                     var_2205 = var_77[var_2782][var_2787];
-                    if (var_78[var_2205][0] == 650 || var_78[var_2205][0] == 651 || var_78[var_2205][0] == 653) {
+                    if (var_78[var_2205].Var0 == 650 || var_78[var_2205].Var0 == 651 || var_78[var_2205].Var0 == 653) {
                         var_2844 = 1;
                         break;
                     }
                 }
                 if (var_2845 == 1 && var_77[var_2785][var_2786] != 0 && var_82[var_2785][var_2786] == 0 && var_65[var_2785][var_2786] == 0) {
                     var_2205 = var_77[var_2785][var_2786];
-                    if (var_78[var_2205][0] == 650 || var_78[var_2205][0] == 651 || var_78[var_2205][0] == 653) {
+                    if (var_78[var_2205].Var0 == 650 || var_78[var_2205].Var0 == 651 || var_78[var_2205].Var0 == 653) {
                         var_2844 = 1;
                         break;
                     }
                 }
                 if (var_2845 == 3 && var_77[var_2784][var_2786] != 0 && var_82[var_2784][var_2786] == 0 && var_65[var_2784][var_2786] == 0) {
                     var_2205 = var_77[var_2784][var_2786];
-                    if (var_78[var_2205][0] == 650 || var_78[var_2205][0] == 651 || var_78[var_2205][0] == 653) {
+                    if (var_78[var_2205].Var0 == 650 || var_78[var_2205].Var0 == 651 || var_78[var_2205].Var0 == 653) {
                         var_2844 = 1;
                         break;
                     }
                 }
                 if (var_2845 == 7 && var_77[var_2785][var_2787] != 0 && var_82[var_2785][var_2787] == 0 && var_65[var_2785][var_2787] == 0) {
                     var_2205 = var_77[var_2785][var_2787];
-                    if (var_78[var_2205][0] == 650 || var_78[var_2205][0] == 651 || var_78[var_2205][0] == 653) {
+                    if (var_78[var_2205].Var0 == 650 || var_78[var_2205].Var0 == 651 || var_78[var_2205].Var0 == 653) {
                         var_2844 = 1;
                         break;
                     }
                 }
                 if (var_2845 == 9 && var_77[var_2784][var_2787] != 0 && var_82[var_2784][var_2787] == 0 && var_65[var_2784][var_2787] == 0) {
                     var_2205 = var_77[var_2784][var_2787];
-                    if (var_78[var_2205][0] == 650 || var_78[var_2205][0] == 651 || var_78[var_2205][0] == 653) {
+                    if (var_78[var_2205].Var0 == 650 || var_78[var_2205].Var0 == 651 || var_78[var_2205].Var0 == 653) {
                         var_2844 = 1;
                         break;
                     }
@@ -31473,15 +31473,15 @@ function func596() {
             }
         }
         if (var_2844 == 1) {
-            var_2846 = var_78[var_2205][1];
-            var_2847 = var_78[var_2205][2];
-            var_1476 = (var_78[var_2205][1] - var_66 + 4) * 40;
-            var_1477 = (var_78[var_2205][2] - var_67 + 4) * 40;
-            var_2303 = var_78[var_2205][0];
+            var_2846 = var_78[var_2205].Var1;
+            var_2847 = var_78[var_2205].Var2;
+            var_1476 = (var_78[var_2205].Var1 - var_66 + 4) * 40;
+            var_1477 = (var_78[var_2205].Var2 - var_67 + 4) * 40;
+            var_2303 = var_78[var_2205].Var0;
             var_232 = var_2303;
             yield func492();
             var_2848 = var_489;
-            var_78[var_2205][0] = 652;
+            var_78[var_2205].Var0 = 652;
             var_2849 = rnd(3);
             var_271 = 1;
             if (var_2849 == 0) {
@@ -31553,7 +31553,7 @@ function func596() {
         }
         if (var_2850 == 1) {
             var_240 = 0;
-            var_83[var_673][7] = 0;
+            var_83[var_673].Var7 = 0;
             var_293 = "";
             var_294 = "";
             var_295 = "";
@@ -31657,7 +31657,7 @@ function func596() {
         var_1472 = 0;
         var_1473 = 0;
         var_1474 = 0;
-        var_83[var_673][7] = 0;
+        var_83[var_673].Var7 = 0;
         if (var_2849 == 0) {
             var_2852 = 10;
         }
@@ -31667,8 +31667,8 @@ function func596() {
         if (var_2849 == 2) {
             var_2852 = 16;
         }
-        if (var_83[var_673][39] >= 2) {
-            var_2852 = (var_83[var_673][39] - 1) * 2 + var_2852;
+        if (var_83[var_673].Var39 >= 2) {
+            var_2852 = (var_83[var_673].Var39 - 1) * 2 + var_2852;
         }
         var_293 = "";
         var_294 = "";
@@ -31713,8 +31713,8 @@ function func596() {
 function func597() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(597);
-        var_83[var_673][7] = 0;
-        var_2853 = var_83[var_673][3];
+        var_83[var_673].Var7 = 0;
+        var_2853 = var_83[var_673].Var3;
         if (var_2853 < 4) {
             var_2853 = 4;
         }
@@ -31722,7 +31722,7 @@ function func597() {
         if (var_2852 < 1) {
             var_2852 = 1;
         }
-        var_83[var_673][21] = 1;
+        var_83[var_673].Var21 = 1;
         var_411 = rnd(8);
         var_411++;
         DSPLAY(103);
@@ -31732,9 +31732,9 @@ function func597() {
             var_2578 = 0;
             yield func337();
         }
-        var_83[var_673][3] = var_83[var_673][3] - var_2852;
-        if (var_83[var_673][3] < 1) {
-            var_83[var_673][3] = 1;
+        var_83[var_673].Var3 = var_83[var_673].Var3 - var_2852;
+        if (var_83[var_673].Var3 < 1) {
+            var_83[var_673].Var3 = 1;
         }
         var_1396 = var_66;
         var_1397 = var_67;
@@ -31777,7 +31777,7 @@ function func597() {
         for (var cnt1 = 0; cnt1 < 6; ++cnt1) {
             yield func337();
         }
-        var_83[var_673][21] = 0;
+        var_83[var_673].Var21 = 0;
         var_411 = 0;
         var_389 = 0;
         var_240 = 0;
@@ -31788,26 +31788,26 @@ function func598() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(598);
         var_742 = 1;
-        var_83[var_673][7] = 1;
-        var_1292 = var_83[var_673][5];
-        var_1293 = (var_83[var_673][1] - var_66 + 4) * 40;
-        var_1294 = (var_83[var_673][2] - var_67 + 4) * 40;
+        var_83[var_673].Var7 = 1;
+        var_1292 = var_83[var_673].Var5;
+        var_1293 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+        var_1294 = (var_83[var_673].Var2 - var_67 + 4) * 40;
         var_2854 = 0;
-        var_2806 = var_83[var_673][1];
-        var_2807 = var_83[var_673][2];
-        var_2808 = var_83[var_673][1] - 1;
+        var_2806 = var_83[var_673].Var1;
+        var_2807 = var_83[var_673].Var2;
+        var_2808 = var_83[var_673].Var1 - 1;
         if (var_2808 < 0) {
             var_2808 = 0;
         }
-        var_2809 = var_83[var_673][1] + 1;
+        var_2809 = var_83[var_673].Var1 + 1;
         if (var_2809 > var_33) {
             var_2809 = var_33;
         }
-        var_2810 = var_83[var_673][2] - 1;
+        var_2810 = var_83[var_673].Var2 - 1;
         if (var_2810 < 0) {
             var_2810 = 0;
         }
-        var_2811 = var_83[var_673][2] + 1;
+        var_2811 = var_83[var_673].Var2 + 1;
         if (var_2811 > var_34) {
             var_2811 = var_34;
         }
@@ -31867,8 +31867,8 @@ function func598() {
         var_772 = 0;
         var_1290 = 0;
         var_742 = 0;
-        var_83[var_673][7] = 0;
-        var_83[var_673][18] = 0;
+        var_83[var_673].Var7 = 0;
+        var_83[var_673].Var18 = 0;
         if (var_128 >= 1) {
             yield func023();
         }
@@ -31911,13 +31911,13 @@ function func598() {
 function func599() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(599);
-        var_1292 = var_83[var_673][5];
-        var_1293 = (var_83[var_673][1] - var_66 + 4) * 40;
-        var_1294 = (var_83[var_673][2] - var_67 + 4) * 40;
+        var_1292 = var_83[var_673].Var5;
+        var_1293 = (var_83[var_673].Var1 - var_66 + 4) * 40;
+        var_1294 = (var_83[var_673].Var2 - var_67 + 4) * 40;
         yield func601();
         var_742 = 1;
-        var_83[var_673][7] = 1;
-        var_83[var_673][18] = 0;
+        var_83[var_673].Var7 = 1;
+        var_83[var_673].Var18 = 0;
         var_772 = 1;
         var_1295 = 1;
         for (var cnt1 = 0; cnt1 < 10; ++cnt1) {
@@ -31932,8 +31932,8 @@ function func599() {
         var_772 = 0;
         var_1295 = 0;
         var_742 = 0;
-        var_83[var_673][7] = 0;
-        var_83[var_673][18] = 0;
+        var_83[var_673].Var7 = 0;
+        var_83[var_673].Var18 = 0;
         if (var_128 >= 1) {
             yield func023();
         }

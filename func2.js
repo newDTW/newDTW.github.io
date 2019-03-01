@@ -2156,25 +2156,25 @@ function func227() {
         var_979 = var_979 + "■■■攻撃ｽﾀﾝﾄﾞ■■■■■■■■■■■■■■" + "\n";
         if (var_357 != 0) {
             yield func426();
-            var_232 = var_233[var_553][0];
-            var_487 = var_233[var_553][13];
+            var_232 = var_233[var_553].Var0;
+            var_487 = var_233[var_553].Var13;
             yield func492();
-            if (var_233[var_553][4] == 0 && var_233[var_553][19] <= 1) {
+            if (var_233[var_553].Var4 == 0 && var_233[var_553].Var19 <= 1) {
                 var_981 = "" + var_489;
             }
-            if (var_233[var_553][4] == 0 && var_233[var_553][19] > 1) {
-                var_981 = "" + var_489 + " ★" + var_233[var_553][19];
+            if (var_233[var_553].Var4 == 0 && var_233[var_553].Var19 > 1) {
+                var_981 = "" + var_489 + " ★" + var_233[var_553].Var19;
             }
-            if (var_233[var_553][4] > 0 && var_233[var_553][19] <= 1) {
-                var_981 = "" + var_489 + "+" + var_233[var_553][4];
+            if (var_233[var_553].Var4 > 0 && var_233[var_553].Var19 <= 1) {
+                var_981 = "" + var_489 + "+" + var_233[var_553].Var4;
             }
-            if (var_233[var_553][4] > 0 && var_233[var_553][19] > 1) {
-                var_981 = "" + var_489 + "+" + var_233[var_553][4] + " ★" + var_233[var_553][19];
+            if (var_233[var_553].Var4 > 0 && var_233[var_553].Var19 > 1) {
+                var_981 = "" + var_489 + "+" + var_233[var_553].Var4 + " ★" + var_233[var_553].Var19;
             }
             var_979 = var_979 + "" + var_981 + "\n";
             var_982 = 20;
-            for (var cnt2 = 0; cnt2 < var_233[var_553][19]; ++cnt2) {
-                var_232 = var_233[var_553][var_982];
+            for (var cnt2 = 0; cnt2 < var_233[var_553].Var19; ++cnt2) {
+                var_232 = var_233[var_553]["Var" + var_982];
                 yield func492();
                 if (var_812 == 1) {
                     var_979 = var_979 + "　[攻]" + var_828 + "\n";
@@ -2195,25 +2195,25 @@ function func227() {
         var_979 = var_979 + "■■■防御ｽﾀﾝﾄﾞ■■■■■■■■■■■■■■" + "\n";
         if (var_358 != 0) {
             yield func427();
-            var_232 = var_233[var_554][0];
-            var_487 = var_233[var_554][13];
+            var_232 = var_233[var_554].Var0;
+            var_487 = var_233[var_554].Var13;
             yield func492();
-            if (var_233[var_554][4] == 0 && var_233[var_554][19] <= 1) {
+            if (var_233[var_554].Var4 == 0 && var_233[var_554].Var19 <= 1) {
                 var_981 = "" + var_489;
             }
-            if (var_233[var_554][4] == 0 && var_233[var_554][19] > 1) {
-                var_981 = "" + var_489 + " ★" + var_233[var_554][19];
+            if (var_233[var_554].Var4 == 0 && var_233[var_554].Var19 > 1) {
+                var_981 = "" + var_489 + " ★" + var_233[var_554].Var19;
             }
-            if (var_233[var_554][4] > 0 && var_233[var_554][19] <= 1) {
-                var_981 = "" + var_489 + "+" + var_233[var_554][4];
+            if (var_233[var_554].Var4 > 0 && var_233[var_554].Var19 <= 1) {
+                var_981 = "" + var_489 + "+" + var_233[var_554].Var4;
             }
-            if (var_233[var_554][4] > 0 && var_233[var_554][19] > 1) {
-                var_981 = "" + var_489 + "+" + var_233[var_554][4] + " ★" + var_233[var_554][19];
+            if (var_233[var_554].Var4 > 0 && var_233[var_554].Var19 > 1) {
+                var_981 = "" + var_489 + "+" + var_233[var_554].Var4 + " ★" + var_233[var_554].Var19;
             }
             var_979 = var_979 + "" + var_981 + "\n";
             var_982 = 20;
-            for (var cnt2 = 0; cnt2 < var_233[var_554][19]; ++cnt2) {
-                var_232 = var_233[var_554][var_982];
+            for (var cnt2 = 0; cnt2 < var_233[var_554].Var19; ++cnt2) {
+                var_232 = var_233[var_554]["Var" + var_982];
                 yield func492();
                 if (var_812 == 1) {
                     var_979 = var_979 + "　[攻]" + var_828 + "\n";
@@ -2234,25 +2234,25 @@ function func227() {
         var_979 = var_979 + "■■■能力ｽﾀﾝﾄﾞ■■■■■■■■■■■■■■" + "\n";
         if (var_215 != 0) {
             yield func428();
-            var_232 = var_233[var_555][0];
-            var_487 = var_233[var_555][13];
+            var_232 = var_233[var_555].Var0;
+            var_487 = var_233[var_555].Var13;
             yield func492();
-            if (var_233[var_555][4] == 0 && var_233[var_555][19] <= 1) {
+            if (var_233[var_555].Var4 == 0 && var_233[var_555].Var19 <= 1) {
                 var_981 = "" + var_489;
             }
-            if (var_233[var_555][4] == 0 && var_233[var_555][19] > 1) {
-                var_981 = "" + var_489 + " ★" + var_233[var_555][19];
+            if (var_233[var_555].Var4 == 0 && var_233[var_555].Var19 > 1) {
+                var_981 = "" + var_489 + " ★" + var_233[var_555].Var19;
             }
-            if (var_233[var_555][4] > 0 && var_233[var_555][19] <= 1) {
-                var_981 = "" + var_489 + "+" + var_233[var_555][4];
+            if (var_233[var_555].Var4 > 0 && var_233[var_555].Var19 <= 1) {
+                var_981 = "" + var_489 + "+" + var_233[var_555].Var4;
             }
-            if (var_233[var_555][4] > 0 && var_233[var_555][19] > 1) {
-                var_981 = "" + var_489 + "+" + var_233[var_555][4] + " ★" + var_233[var_555][19];
+            if (var_233[var_555].Var4 > 0 && var_233[var_555].Var19 > 1) {
+                var_981 = "" + var_489 + "+" + var_233[var_555].Var4 + " ★" + var_233[var_555].Var19;
             }
             var_979 = var_979 + "" + var_981 + "\n";
             var_982 = 20;
-            for (var cnt2 = 0; cnt2 < var_233[var_555][19]; ++cnt2) {
-                var_232 = var_233[var_555][var_982];
+            for (var cnt2 = 0; cnt2 < var_233[var_555].Var19; ++cnt2) {
+                var_232 = var_233[var_555]["Var" + var_982];
                 yield func492();
                 if (var_812 == 1) {
                     var_979 = var_979 + "　[攻]" + var_828 + "\n";
@@ -2348,7 +2348,7 @@ function func229() {
         var_169 = 0;
         var_170 = 0;
         var_172 = 0;
-        var_233 = dim(100, 30);
+        var_233 = ItemInfo.dim(100);
         var_476 = dim(40);
         var_477 = dim(40);
         var_479 = dim(40);
@@ -2370,7 +2370,13 @@ function func229() {
         var_985 = 0;
         var_704 = bload(var_735, null, var_985);
         var_985 = var_985 + 1200;
-        var_233 = bload(var_735, null, var_985);
+        {
+            var_233 = [];
+            var data = bload(var_735, null, var_985);
+            data.forEach(function (d) {
+                var_233.push(ItemInfo.Load(d));
+            });
+        }
         var_985 = var_985 + 12000;
         var_476 = bload(var_735, null, var_985);
         var_985 = var_985 + 160;
@@ -2404,13 +2410,25 @@ function func229() {
         var_985 = var_985 + 19600;
         var_77 = bload(var_735, null, var_985);
         var_985 = var_985 + 19600;
-        var_78 = bload(var_735, null, var_985);
+        {
+            var_78 = [];
+            var data = bload(var_735, null, var_985);
+            data.forEach(function (d) {
+                var_78.push(ItemInfo.Load(d));
+            });
+        }
         var_985 = var_985 + 36000;
         var_81 = bload(var_735, null, var_985);
         var_985 = var_985 + 8400;
         var_82 = bload(var_735, null, var_985);
         var_985 = var_985 + 19600;
-        var_83 = bload(var_735, null, var_985);
+        {
+            var_83 = [];
+            var data = bload(var_735, null, var_985);
+            data.forEach(function (d) {
+                var_83.push(CharactorInfo.Load(d));
+            });
+        }
         var_985 = var_985 + 48000;
         var_493 = bload(var_735, null, var_985);
         var_985 = var_985 + 80;
@@ -3091,7 +3109,11 @@ function func231() {
         var_985 = var_985 + 8400;
         bsave(var_735, var_82, null, var_985);
         var_985 = var_985 + 19600;
-        bsave(var_735, var_83, null, var_985);
+        var save_83 = Array();
+        var_83.forEach(function (save) {
+            save_83.push(save.Save());
+        });
+        bsave(var_735, save_83, null, var_985);
         var_985 = var_985 + 48000;
         bsave(var_735, var_493, null, var_985);
         var_985 = var_985 + 80;
@@ -3144,10 +3166,10 @@ function func232() {
         var_389 = 0;
         var_1051 = 1;
         for (var cnt1 = 0; cnt1 < var_97; ++cnt1) {
-            var_83[var_1051][7] = 0;
-            var_83[var_1051][8] = 0;
-            var_83[var_1051][11] = 0;
-            var_83[var_1051][21] = 0;
+            var_83[var_1051].Var7 = 0;
+            var_83[var_1051].Var8 = 0;
+            var_83[var_1051].Var11 = 0;
+            var_83[var_1051].Var21 = 0;
             var_1051 = var_1051 + 1;
         }
         return;
@@ -3163,11 +3185,11 @@ function func233() {
         var_704 = dim(300);
         var_73 = dim(70, 70);
         var_77 = dim(70, 70);
-        var_78 = dim(300, 30);
+        var_78 = ItemInfo.dim(300);
         var_80 = dim(70, 70);
         var_81 = dim(300, 7);
         var_82 = dim(70, 70);
-        var_83 = dim(300, 40);
+        var_83 = CharactorInfo.dim(300);
         var_992 = dim(30);
         var_95 = 0;
         var_994 = 0;
@@ -3330,21 +3352,21 @@ function func233() {
         var_202 = 0;
         var_862 = dim(1000, 4);
         if (var_532 == 0) {
-            var_233 = dim(100, 30);
+            var_233 = ItemInfo.dim(100);
             var_224 = 0;
             var_415 = 0;
         }
         if (var_532 == 1) {
             var_1056 = 1;
             for (var cnt2 = 0; cnt2 < 20; ++cnt2) {
-                if (var_233[var_1056][0] != 0) {
-                    var_233[var_1056][14] = 1;
-                    var_1057 = var_233[var_1056][0];
+                if (var_233[var_1056].Var0 != 0) {
+                    var_233[var_1056].Var14 = 1;
+                    var_1057 = var_233[var_1056].Var0;
                     var_862[var_1057][0] = 1;
                 }
-                if (var_233[var_1056][0] >= 800 && var_233[var_1056][0] < 900) {
+                if (var_233[var_1056].Var0 >= 800 && var_233[var_1056].Var0 < 900) {
                     var_484 = 1;
-                    var_485 = var_233[var_1056][6];
+                    var_485 = var_233[var_1056].Var6;
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         if (var_486[var_485][var_484][0] != 0) {
                             var_486[var_485][var_484][14] = 1;
@@ -3411,7 +3433,7 @@ function func234() {
 function func235() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(235);
-        var_233 = dim(100, 30);
+        var_233 = ItemInfo.dim(100);
         var_65 = dim(70, 70);
         var_862 = dim(1000, 4);
         var_494 = sdim(100, 50);
@@ -3888,7 +3910,7 @@ function func242() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(242);
         var_704 = dim(300);
-        var_233 = dim(100, 30);
+        var_233 = ItemInfo.dim(100);
         var_476 = dim(40);
         var_477 = dim(40);
         var_479 = dim(40);
@@ -3905,10 +3927,10 @@ function func242() {
         var_80 = dim(70, 70);
         var_84 = dim(70, 70);
         var_77 = dim(70, 70);
-        var_78 = dim(300, 30);
+        var_78 = ItemInfo.dim(300);
         var_81 = dim(300, 7);
         var_82 = dim(70, 70);
-        var_83 = dim(300, 40);
+        var_83 = CharactorInfo.dim(300);
         var_493 = dim(20);
         var_983 = sdim(3000);
         var_792 = dim(5, 25, 70);

@@ -2260,12 +2260,12 @@ function func150() {
         for (var cnt1 = 0; cnt1 < 3; ++cnt1) {
             yield func337();
         }
-        var_83[1][6] = 1;
-        var_83[1][1] = 29;
-        var_83[1][2] = 10;
+        var_83[1].Var6 = 1;
+        var_83[1].Var1 = 29;
+        var_83[1].Var2 = 10;
         var_82[28][10] = 0;
         var_82[29][10] = 1;
-        var_83[1][5] = 6;
+        var_83[1].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2274,11 +2274,11 @@ function func150() {
         yield func337();
         var_409 = 0;
         yield func337();
-        var_83[1][1] = 30;
-        var_83[1][2] = 10;
+        var_83[1].Var1 = 30;
+        var_83[1].Var2 = 10;
         var_82[29][10] = 0;
         var_82[30][10] = 1;
-        var_83[1][5] = 6;
+        var_83[1].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2287,11 +2287,11 @@ function func150() {
         yield func337();
         var_409 = 0;
         yield func337();
-        var_83[1][1] = 31;
-        var_83[1][2] = 10;
+        var_83[1].Var1 = 31;
+        var_83[1].Var2 = 10;
         var_82[30][10] = 0;
         var_82[31][10] = 1;
-        var_83[1][5] = 6;
+        var_83[1].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2300,9 +2300,9 @@ function func150() {
         yield func337();
         var_409 = 0;
         yield func337();
-        var_83[1][6] = 0;
+        var_83[1].Var6 = 0;
         var_742 = 1;
-        var_83[1][7] = 1;
+        var_83[1].Var7 = 1;
         var_743 = 1;
         for (var cnt1 = 0; cnt1 < 3; ++cnt1) {
             yield func337();
@@ -2320,14 +2320,14 @@ function func150() {
         var_271 = 0;
         var_531 = 0;
         var_742 = 0;
-        var_83[1][7] = 0;
+        var_83[1].Var7 = 0;
         var_743 = 0;
-        var_83[1][5] = 4;
-        var_83[5][0] = 49;
-        var_83[5][1] = 30;
-        var_83[5][2] = 10;
+        var_83[1].Var5 = 4;
+        var_83[5].Var0 = 49;
+        var_83[5].Var1 = 30;
+        var_83[5].Var2 = 10;
         var_82[30][10] = 5;
-        var_83[5][5] = 6;
+        var_83[5].Var5 = 6;
         var_271 = 1;
         var_744 = 1;
         var_745 = 5 * 40 + 20;
@@ -2343,12 +2343,12 @@ function func150() {
             var_744++;
             yield func337();
         }
-        var_83[5][5] = 4;
-        var_83[6][0] = 49;
-        var_83[6][1] = 29;
-        var_83[6][2] = 10;
+        var_83[5].Var5 = 4;
+        var_83[6].Var0 = 49;
+        var_83[6].Var1 = 29;
+        var_83[6].Var2 = 10;
         var_82[29][10] = 6;
-        var_83[6][5] = 6;
+        var_83[6].Var5 = 6;
         var_744 = 1;
         var_745 = 4 * 40 + 20;
         var_746 = 3 * 40 - 10;
@@ -2363,12 +2363,12 @@ function func150() {
             var_744++;
             yield func337();
         }
-        var_83[6][5] = 4;
-        var_83[7][0] = 49;
-        var_83[7][1] = 28;
-        var_83[7][2] = 10;
+        var_83[6].Var5 = 4;
+        var_83[7].Var0 = 49;
+        var_83[7].Var1 = 28;
+        var_83[7].Var2 = 10;
         var_82[28][10] = 7;
-        var_83[7][5] = 6;
+        var_83[7].Var5 = 6;
         var_744 = 1;
         var_745 = 3 * 40 + 20;
         var_746 = 3 * 40 - 10;
@@ -2387,23 +2387,23 @@ function func150() {
         var_744 = 0;
         var_151 = 0;
         var_152 = 0;
-        var_83[5][0] = 0;
-        var_83[5][1] = 0;
-        var_83[5][2] = 0;
+        var_83[5].Var0 = 0;
+        var_83[5].Var1 = 0;
+        var_83[5].Var2 = 0;
         var_82[28][10] = 0;
-        var_83[6][0] = 0;
-        var_83[6][1] = 0;
-        var_83[6][2] = 0;
+        var_83[6].Var0 = 0;
+        var_83[6].Var1 = 0;
+        var_83[6].Var2 = 0;
         var_82[29][10] = 0;
-        var_83[7][0] = 0;
-        var_83[7][1] = 0;
-        var_83[7][2] = 0;
+        var_83[7].Var0 = 0;
+        var_83[7].Var1 = 0;
+        var_83[7].Var2 = 0;
         var_82[30][10] = 0;
         var_82[31][10] = 0;
-        var_83[1][1] = 28;
-        var_83[1][2] = 10;
+        var_83[1].Var1 = 28;
+        var_83[1].Var2 = 10;
         var_82[28][10] = 1;
-        var_83[1][5] = 6;
+        var_83[1].Var5 = 6;
         yield func094();
         var_293 = var_296;
         var_294 = var_297;
@@ -2413,12 +2413,12 @@ function func150() {
         var_300 = 0;
         yield func050();
         yield func340();
-        var_83[2][6] = 1;
-        var_83[2][1] = 31;
-        var_83[2][2] = 10;
+        var_83[2].Var6 = 1;
+        var_83[2].Var1 = 31;
+        var_83[2].Var2 = 10;
         var_82[32][10] = 0;
         var_82[31][10] = 2;
-        var_83[2][5] = 4;
+        var_83[2].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2427,11 +2427,11 @@ function func150() {
         yield func337();
         var_409 = 0;
         yield func337();
-        var_83[2][1] = 30;
-        var_83[2][2] = 10;
+        var_83[2].Var1 = 30;
+        var_83[2].Var2 = 10;
         var_82[31][10] = 0;
         var_82[30][10] = 2;
-        var_83[2][5] = 4;
+        var_83[2].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2440,11 +2440,11 @@ function func150() {
         yield func337();
         var_409 = 0;
         yield func337();
-        var_83[2][1] = 29;
-        var_83[2][2] = 10;
+        var_83[2].Var1 = 29;
+        var_83[2].Var2 = 10;
         var_82[30][10] = 0;
         var_82[29][10] = 2;
-        var_83[2][5] = 4;
+        var_83[2].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2453,7 +2453,7 @@ function func150() {
         yield func337();
         var_409 = 0;
         yield func337();
-        var_83[2][6] = 0;
+        var_83[2].Var6 = 0;
         var_293 = "";
         var_294 = "";
         var_295 = "";
@@ -2469,7 +2469,7 @@ function func150() {
         var_26_x = var_26[1];
         var_27_x = var_27[1];
         var_742 = 1;
-        var_83[2][7] = 1;
+        var_83[2].Var7 = 1;
         var_743 = 1;
         for (var cnt1 = 0; cnt1 < 3; ++cnt1) {
             yield func337();
@@ -2486,54 +2486,54 @@ function func150() {
             yield func337();
         }
         var_742 = 0;
-        var_83[2][7] = 0;
+        var_83[2].Var7 = 0;
         var_743 = 0;
-        var_83[1][6] = 1;
-        var_83[1][1] = 27;
-        var_83[1][2] = 10;
+        var_83[1].Var6 = 1;
+        var_83[1].Var1 = 27;
+        var_83[1].Var2 = 10;
         var_82[28][10] = 0;
         var_82[27][10] = 1;
-        var_83[1][5] = 4;
+        var_83[1].Var5 = 4;
         var_409 = 2;
         yield func337();
         var_409 = 0;
-        var_83[1][5] = 6;
+        var_83[1].Var5 = 6;
         yield func337();
-        var_83[1][1] = 26;
-        var_83[1][2] = 10;
+        var_83[1].Var1 = 26;
+        var_83[1].Var2 = 10;
         var_82[27][10] = 0;
         var_82[26][10] = 1;
-        var_83[1][5] = 4;
+        var_83[1].Var5 = 4;
         var_409 = 2;
         yield func337();
         var_409 = 0;
-        var_83[1][5] = 6;
+        var_83[1].Var5 = 6;
         yield func337();
-        var_83[1][1] = 25;
-        var_83[1][2] = 10;
+        var_83[1].Var1 = 25;
+        var_83[1].Var2 = 10;
         var_82[26][10] = 0;
         var_82[25][10] = 1;
-        var_83[1][5] = 4;
+        var_83[1].Var5 = 4;
         var_409 = 2;
         yield func337();
         var_409 = 0;
-        var_83[1][5] = 6;
+        var_83[1].Var5 = 6;
         yield func337();
-        var_83[1][1] = 26;
-        var_83[1][2] = 11;
+        var_83[1].Var1 = 26;
+        var_83[1].Var2 = 11;
         var_82[25][10] = 0;
         var_82[26][11] = 1;
-        var_83[1][5] = 3;
+        var_83[1].Var5 = 3;
         var_409 = 2;
         yield func337();
         var_409 = 0;
-        var_83[1][5] = 7;
+        var_83[1].Var5 = 7;
         yield func337();
-        var_83[1][0] = 0;
-        var_83[1][1] = 0;
-        var_83[1][2] = 0;
+        var_83[1].Var0 = 0;
+        var_83[1].Var1 = 0;
+        var_83[1].Var2 = 0;
         var_82[25][10] = 0;
-        var_83[1][6] = 0;
+        var_83[1].Var6 = 0;
         DSPLAY(186);
         var_747 = 0;
         var_750 = 0;
@@ -2546,12 +2546,12 @@ function func150() {
         }
         var_271 = 0;
         var_751 = 0;
-        var_83[3][6] = 1;
-        var_83[3][1] = 29;
-        var_83[3][2] = 7;
+        var_83[3].Var6 = 1;
+        var_83[3].Var1 = 29;
+        var_83[3].Var2 = 7;
         var_82[30][7] = 0;
         var_82[29][7] = 3;
-        var_83[3][5] = 4;
+        var_83[3].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2561,11 +2561,11 @@ function func150() {
         var_409 = 0;
         yield func337();
         yield func337();
-        var_83[3][1] = 28;
-        var_83[3][2] = 8;
+        var_83[3].Var1 = 28;
+        var_83[3].Var2 = 8;
         var_82[29][7] = 0;
         var_82[28][8] = 3;
-        var_83[3][5] = 1;
+        var_83[3].Var5 = 1;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2575,11 +2575,11 @@ function func150() {
         var_409 = 0;
         yield func337();
         yield func337();
-        var_83[3][1] = 27;
-        var_83[3][2] = 9;
+        var_83[3].Var1 = 27;
+        var_83[3].Var2 = 9;
         var_82[28][8] = 0;
         var_82[27][9] = 3;
-        var_83[3][5] = 1;
+        var_83[3].Var5 = 1;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2589,7 +2589,7 @@ function func150() {
         var_409 = 0;
         yield func337();
         yield func337();
-        var_83[3][6] = 0;
+        var_83[3].Var6 = 0;
         yield func094();
         var_293 = "";
         var_294 = "";
@@ -2608,13 +2608,13 @@ function func150() {
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
             yield func337();
         }
-        var_83[2][0] = 131;
-        var_83[4][6] = 1;
-        var_83[4][1] = 30;
-        var_83[4][2] = 9;
+        var_83[2].Var0 = 131;
+        var_83[4].Var6 = 1;
+        var_83[4].Var1 = 30;
+        var_83[4].Var2 = 9;
         var_82[31][8] = 0;
         var_82[30][9] = 4;
-        var_83[4][5] = 1;
+        var_83[4].Var5 = 1;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2624,11 +2624,11 @@ function func150() {
         var_409 = 0;
         yield func337();
         yield func337();
-        var_83[4][1] = 29;
-        var_83[4][2] = 9;
+        var_83[4].Var1 = 29;
+        var_83[4].Var2 = 9;
         var_82[30][9] = 0;
         var_82[29][9] = 4;
-        var_83[4][5] = 4;
+        var_83[4].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2638,11 +2638,11 @@ function func150() {
         var_409 = 0;
         yield func337();
         yield func337();
-        var_83[4][1] = 28;
-        var_83[4][2] = 10;
+        var_83[4].Var1 = 28;
+        var_83[4].Var2 = 10;
         var_82[29][9] = 0;
         var_82[28][10] = 4;
-        var_83[4][5] = 1;
+        var_83[4].Var5 = 1;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2652,11 +2652,11 @@ function func150() {
         var_409 = 0;
         yield func337();
         yield func337();
-        var_83[4][1] = 27;
-        var_83[4][2] = 10;
+        var_83[4].Var1 = 27;
+        var_83[4].Var2 = 10;
         var_82[28][10] = 0;
         var_82[27][10] = 4;
-        var_83[4][5] = 4;
+        var_83[4].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2665,7 +2665,7 @@ function func150() {
         yield func337();
         var_409 = 0;
         yield func337();
-        var_83[4][6] = 0;
+        var_83[4].Var6 = 0;
         yield func094();
         var_293 = "";
         var_294 = "";
@@ -2691,21 +2691,21 @@ function func150() {
         var_300 = 0;
         yield func050();
         for (var cnt1 = 0; cnt1 < 2; ++cnt1) {
-            var_83[4][5] = 7;
+            var_83[4].Var5 = 7;
             yield func337();
             yield func337();
             yield func337();
             yield func337();
-            var_83[4][5] = 4;
+            var_83[4].Var5 = 4;
             yield func337();
             yield func337();
             yield func337();
-            var_83[4][5] = 1;
+            var_83[4].Var5 = 1;
             yield func337();
             yield func337();
             yield func337();
             yield func337();
-            var_83[4][5] = 4;
+            var_83[4].Var5 = 4;
             yield func337();
             yield func337();
             yield func337();
@@ -2713,12 +2713,12 @@ function func150() {
         for (var cnt1 = 0; cnt1 < 8; ++cnt1) {
             yield func337();
         }
-        var_83[2][6] = 1;
-        var_83[2][1] = 28;
-        var_83[2][2] = 11;
+        var_83[2].Var6 = 1;
+        var_83[2].Var1 = 28;
+        var_83[2].Var2 = 11;
         var_82[29][10] = 0;
         var_82[28][11] = 2;
-        var_83[2][5] = 1;
+        var_83[2].Var5 = 1;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2728,11 +2728,11 @@ function func150() {
         var_409 = 0;
         yield func337();
         yield func337();
-        var_83[2][1] = 27;
-        var_83[2][2] = 11;
+        var_83[2].Var1 = 27;
+        var_83[2].Var2 = 11;
         var_82[28][11] = 0;
         var_82[27][11] = 2;
-        var_83[2][5] = 4;
+        var_83[2].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -2742,7 +2742,7 @@ function func150() {
         var_409 = 0;
         yield func337();
         yield func337();
-        var_83[2][6] = 0;
+        var_83[2].Var6 = 0;
         yield func094();
         var_293 = "";
         var_294 = "";
@@ -3375,27 +3375,27 @@ function func155() {
         var_97 = var_97 + 1;
         var_761 = var_97;
         var_82[0][0] = var_97;
-        var_83[var_97][0] = 142;
-        var_83[var_97][1] = 0;
-        var_83[var_97][2] = 0;
-        var_83[var_97][3] = 999;
-        var_83[var_97][4] = 0;
-        var_83[var_97][5] = 2;
-        var_83[var_97][10] = 1;
-        var_83[var_97][31] = 4;
-        var_83[var_97][32] = rnd(6);
+        var_83[var_97].Var0 = 142;
+        var_83[var_97].Var1 = 0;
+        var_83[var_97].Var2 = 0;
+        var_83[var_97].Var3 = 999;
+        var_83[var_97].Var4 = 0;
+        var_83[var_97].Var5 = 2;
+        var_83[var_97].Var10 = 1;
+        var_83[var_97].Var31 = 4;
+        var_83[var_97].Var32 = rnd(6);
         var_97 = var_97 + 1;
         var_762 = var_97;
         var_82[0][1] = var_97;
-        var_83[var_97][0] = 166;
-        var_83[var_97][1] = 0;
-        var_83[var_97][2] = 1;
-        var_83[var_97][3] = 999;
-        var_83[var_97][4] = 0;
-        var_83[var_97][5] = 2;
-        var_83[var_97][10] = 1;
-        var_83[var_97][31] = 4;
-        var_83[var_97][32] = rnd(6);
+        var_83[var_97].Var0 = 166;
+        var_83[var_97].Var1 = 0;
+        var_83[var_97].Var2 = 1;
+        var_83[var_97].Var3 = 999;
+        var_83[var_97].Var4 = 0;
+        var_83[var_97].Var5 = 2;
+        var_83[var_97].Var10 = 1;
+        var_83[var_97].Var31 = 4;
+        var_83[var_97].Var32 = rnd(6);
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
             yield func337();
         }
@@ -3408,12 +3408,12 @@ function func155() {
         for (var cnt1 = 0; cnt1 < 5; ++cnt1) {
             yield func337();
         }
-        var_83[var_762][6] = 1;
-        var_83[var_762][1] = 10;
-        var_83[var_762][2] = 8;
+        var_83[var_762].Var6 = 1;
+        var_83[var_762].Var1 = 10;
+        var_83[var_762].Var2 = 8;
         var_82[0][0] = 0;
         var_82[10][8] = var_762;
-        var_83[var_762][5] = 6;
+        var_83[var_762].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3423,11 +3423,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_762][1] = 11;
-        var_83[var_762][2] = 8;
+        var_83[var_762].Var1 = 11;
+        var_83[var_762].Var2 = 8;
         var_82[10][8] = 0;
         var_82[11][8] = var_762;
-        var_83[var_762][5] = 6;
+        var_83[var_762].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3437,11 +3437,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_762][1] = 12;
-        var_83[var_762][2] = 8;
+        var_83[var_762].Var1 = 12;
+        var_83[var_762].Var2 = 8;
         var_82[11][8] = 0;
         var_82[12][8] = var_762;
-        var_83[var_762][5] = 6;
+        var_83[var_762].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3451,11 +3451,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_762][1] = 13;
-        var_83[var_762][2] = 8;
+        var_83[var_762].Var1 = 13;
+        var_83[var_762].Var2 = 8;
         var_82[12][8] = 0;
         var_82[13][8] = var_762;
-        var_83[var_762][5] = 6;
+        var_83[var_762].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3465,11 +3465,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_762][1] = 14;
-        var_83[var_762][2] = 8;
+        var_83[var_762].Var1 = 14;
+        var_83[var_762].Var2 = 8;
         var_82[13][8] = 0;
         var_82[14][8] = var_762;
-        var_83[var_762][5] = 6;
+        var_83[var_762].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3479,11 +3479,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_762][1] = 14;
-        var_83[var_762][2] = 9;
+        var_83[var_762].Var1 = 14;
+        var_83[var_762].Var2 = 9;
         var_82[14][8] = 0;
         var_82[14][9] = var_762;
-        var_83[var_762][5] = 2;
+        var_83[var_762].Var5 = 2;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3493,11 +3493,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 1;
-        var_83[var_762][1] = 15;
-        var_83[var_762][2] = 9;
+        var_83[var_762].Var1 = 15;
+        var_83[var_762].Var2 = 9;
         var_82[14][9] = 0;
         var_82[15][9] = var_762;
-        var_83[var_762][5] = 6;
+        var_83[var_762].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3507,11 +3507,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 2;
-        var_83[var_762][1] = 16;
-        var_83[var_762][2] = 9;
+        var_83[var_762].Var1 = 16;
+        var_83[var_762].Var2 = 9;
         var_82[15][9] = 0;
         var_82[16][9] = var_762;
-        var_83[var_762][5] = 6;
+        var_83[var_762].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3521,11 +3521,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 3;
-        var_83[var_762][1] = 16;
-        var_83[var_762][2] = 8;
+        var_83[var_762].Var1 = 16;
+        var_83[var_762].Var2 = 8;
         var_82[16][9] = 0;
         var_82[16][8] = var_762;
-        var_83[var_762][5] = 8;
+        var_83[var_762].Var5 = 8;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3535,11 +3535,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 6;
-        var_83[var_762][1] = 16;
-        var_83[var_762][2] = 7;
+        var_83[var_762].Var1 = 16;
+        var_83[var_762].Var2 = 7;
         var_82[16][8] = 0;
         var_82[16][7] = var_762;
-        var_83[var_762][5] = 8;
+        var_83[var_762].Var5 = 8;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3549,11 +3549,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 9;
-        var_83[var_762][1] = 15;
-        var_83[var_762][2] = 7;
+        var_83[var_762].Var1 = 15;
+        var_83[var_762].Var2 = 7;
         var_82[16][7] = 0;
         var_82[15][7] = var_762;
-        var_83[var_762][5] = 4;
+        var_83[var_762].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3563,11 +3563,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 8;
-        var_83[var_762][1] = 15;
-        var_83[var_762][2] = 6;
+        var_83[var_762].Var1 = 15;
+        var_83[var_762].Var2 = 6;
         var_82[15][7] = 0;
         var_82[15][6] = var_762;
-        var_83[var_762][5] = 8;
+        var_83[var_762].Var5 = 8;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3580,11 +3580,11 @@ function func155() {
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
             yield func337();
         }
-        var_83[var_762][1] = 15;
-        var_83[var_762][2] = 5;
+        var_83[var_762].Var1 = 15;
+        var_83[var_762].Var2 = 5;
         var_82[15][6] = 0;
         var_82[15][5] = var_762;
-        var_83[var_762][5] = 8;
+        var_83[var_762].Var5 = 8;
         var_409 = 3;
         yield func337();
         var_760 = 3;
@@ -3598,11 +3598,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_760 = 0;
-        var_83[var_762][1] = 0;
-        var_83[var_762][2] = 0;
+        var_83[var_762].Var1 = 0;
+        var_83[var_762].Var2 = 0;
         var_82[15][5] = 0;
         var_82[0][0] = var_762;
-        var_83[var_762][5] = 8;
+        var_83[var_762].Var5 = 8;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3611,7 +3611,7 @@ function func155() {
         yield func337();
         var_409 = 0;
         yield func337();
-        var_83[var_762][6] = 0;
+        var_83[var_762].Var6 = 0;
         var_293 = "";
         var_294 = "";
         var_295 = "";
@@ -3643,12 +3643,12 @@ function func155() {
         var_25_x = var_25[1];
         var_26_x = var_26[1];
         var_27_x = var_27[1];
-        var_83[var_761][6] = 1;
-        var_83[var_761][1] = 10;
-        var_83[var_761][2] = 8;
+        var_83[var_761].Var6 = 1;
+        var_83[var_761].Var1 = 10;
+        var_83[var_761].Var2 = 8;
         var_82[0][0] = 0;
         var_82[10][8] = var_761;
-        var_83[var_761][5] = 6;
+        var_83[var_761].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3658,11 +3658,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_761][1] = 11;
-        var_83[var_761][2] = 8;
+        var_83[var_761].Var1 = 11;
+        var_83[var_761].Var2 = 8;
         var_82[10][8] = 0;
         var_82[11][8] = var_761;
-        var_83[var_761][5] = 6;
+        var_83[var_761].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3672,11 +3672,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_761][1] = 12;
-        var_83[var_761][2] = 8;
+        var_83[var_761].Var1 = 12;
+        var_83[var_761].Var2 = 8;
         var_82[11][8] = 0;
         var_82[12][8] = var_761;
-        var_83[var_761][5] = 6;
+        var_83[var_761].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3686,11 +3686,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_761][1] = 13;
-        var_83[var_761][2] = 8;
+        var_83[var_761].Var1 = 13;
+        var_83[var_761].Var2 = 8;
         var_82[12][8] = 0;
         var_82[13][8] = var_761;
-        var_83[var_761][5] = 6;
+        var_83[var_761].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3700,11 +3700,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_761][1] = 14;
-        var_83[var_761][2] = 8;
+        var_83[var_761].Var1 = 14;
+        var_83[var_761].Var2 = 8;
         var_82[13][8] = 0;
         var_82[14][8] = var_761;
-        var_83[var_761][5] = 6;
+        var_83[var_761].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3714,11 +3714,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 4;
-        var_83[var_761][1] = 14;
-        var_83[var_761][2] = 9;
+        var_83[var_761].Var1 = 14;
+        var_83[var_761].Var2 = 9;
         var_82[14][8] = 0;
         var_82[14][9] = var_761;
-        var_83[var_761][5] = 2;
+        var_83[var_761].Var5 = 2;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3728,11 +3728,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 1;
-        var_83[var_761][1] = 15;
-        var_83[var_761][2] = 9;
+        var_83[var_761].Var1 = 15;
+        var_83[var_761].Var2 = 9;
         var_82[14][9] = 0;
         var_82[15][9] = var_761;
-        var_83[var_761][5] = 6;
+        var_83[var_761].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3742,11 +3742,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 2;
-        var_83[var_761][1] = 16;
-        var_83[var_761][2] = 9;
+        var_83[var_761].Var1 = 16;
+        var_83[var_761].Var2 = 9;
         var_82[15][9] = 0;
         var_82[16][9] = var_761;
-        var_83[var_761][5] = 6;
+        var_83[var_761].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3756,11 +3756,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 3;
-        var_83[var_761][1] = 16;
-        var_83[var_761][2] = 8;
+        var_83[var_761].Var1 = 16;
+        var_83[var_761].Var2 = 8;
         var_82[16][9] = 0;
         var_82[16][8] = var_761;
-        var_83[var_761][5] = 8;
+        var_83[var_761].Var5 = 8;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3770,11 +3770,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 6;
-        var_83[var_761][1] = 16;
-        var_83[var_761][2] = 7;
+        var_83[var_761].Var1 = 16;
+        var_83[var_761].Var2 = 7;
         var_82[16][8] = 0;
         var_82[16][7] = var_761;
-        var_83[var_761][5] = 8;
+        var_83[var_761].Var5 = 8;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3784,11 +3784,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 9;
-        var_83[var_761][1] = 15;
-        var_83[var_761][2] = 7;
+        var_83[var_761].Var1 = 15;
+        var_83[var_761].Var2 = 7;
         var_82[16][7] = 0;
         var_82[15][7] = var_761;
-        var_83[var_761][5] = 4;
+        var_83[var_761].Var5 = 4;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3798,11 +3798,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 8;
-        var_83[var_761][1] = 15;
-        var_83[var_761][2] = 6;
+        var_83[var_761].Var1 = 15;
+        var_83[var_761].Var2 = 6;
         var_82[15][7] = 0;
         var_82[15][6] = var_761;
-        var_83[var_761][5] = 8;
+        var_83[var_761].Var5 = 8;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3831,16 +3831,16 @@ function func155() {
             yield func337();
         }
         yield func340();
-        var_83[var_761][5] = 2;
+        var_83[var_761].Var5 = 2;
         yield func337();
         yield func337();
         yield func337();
         yield func337();
-        var_83[var_761][1] = 15;
-        var_83[var_761][2] = 7;
+        var_83[var_761].Var1 = 15;
+        var_83[var_761].Var2 = 7;
         var_82[15][6] = 0;
         var_82[15][7] = var_761;
-        var_83[var_761][5] = 2;
+        var_83[var_761].Var5 = 2;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3850,11 +3850,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 8;
-        var_83[var_761][1] = 16;
-        var_83[var_761][2] = 7;
+        var_83[var_761].Var1 = 16;
+        var_83[var_761].Var2 = 7;
         var_82[15][7] = 0;
         var_82[16][7] = var_761;
-        var_83[var_761][5] = 6;
+        var_83[var_761].Var5 = 6;
         var_409 = 3;
         yield func337();
         var_409 = 2;
@@ -3864,11 +3864,11 @@ function func155() {
         var_409 = 0;
         yield func337();
         var_199 = 9;
-        var_83[var_761][5] = 2;
+        var_83[var_761].Var5 = 2;
         for (var cnt1 = 0; cnt1 < 20; ++cnt1) {
             yield func337();
         }
-        var_83[var_761][6] = 0;
+        var_83[var_761].Var6 = 0;
         var_293 = "";
         var_294 = "";
         var_295 = "";
@@ -4046,9 +4046,9 @@ function func158() {
         var_62 = 0;
         var_532 = 0;
         var_77 = dim(70, 70);
-        var_78 = dim(300, 30);
+        var_78 = ItemInfo.dim(300);
         var_82 = dim(70, 70);
-        var_83 = dim(300, 40);
+        var_83 = CharactorInfo.dim(300);
         var_73 = dim(70, 70);
         var_65 = dim(70, 70);
         var_66 = 29;
@@ -4058,32 +4058,32 @@ function func158() {
         var_97 = 0;
         var_97 = var_97 + 1;
         var_82[28][10] = var_97;
-        var_83[var_97][0] = 49;
-        var_83[var_97][1] = 28;
-        var_83[var_97][2] = 10;
-        var_83[var_97][5] = 6;
-        var_83[var_97][32] = rnd(6);
+        var_83[var_97].Var0 = 49;
+        var_83[var_97].Var1 = 28;
+        var_83[var_97].Var2 = 10;
+        var_83[var_97].Var5 = 6;
+        var_83[var_97].Var32 = rnd(6);
         var_97 = var_97 + 1;
         var_82[32][10] = var_97;
-        var_83[var_97][0] = 132;
-        var_83[var_97][1] = 32;
-        var_83[var_97][2] = 10;
-        var_83[var_97][5] = 4;
-        var_83[var_97][32] = rnd(6);
+        var_83[var_97].Var0 = 132;
+        var_83[var_97].Var1 = 32;
+        var_83[var_97].Var2 = 10;
+        var_83[var_97].Var5 = 4;
+        var_83[var_97].Var32 = rnd(6);
         var_97 = var_97 + 1;
         var_82[30][7] = var_97;
-        var_83[var_97][0] = 124;
-        var_83[var_97][1] = 30;
-        var_83[var_97][2] = 7;
-        var_83[var_97][5] = 2;
-        var_83[var_97][32] = rnd(6);
+        var_83[var_97].Var0 = 124;
+        var_83[var_97].Var1 = 30;
+        var_83[var_97].Var2 = 7;
+        var_83[var_97].Var5 = 2;
+        var_83[var_97].Var32 = rnd(6);
         var_97 = var_97 + 1;
         var_82[31][8] = var_97;
-        var_83[var_97][0] = 152;
-        var_83[var_97][1] = 31;
-        var_83[var_97][2] = 8;
-        var_83[var_97][5] = 1;
-        var_83[var_97][32] = rnd(6);
+        var_83[var_97].Var0 = 152;
+        var_83[var_97].Var1 = 31;
+        var_83[var_97].Var2 = 8;
+        var_83[var_97].Var5 = 1;
+        var_83[var_97].Var32 = rnd(6);
         return;
     });
 }
@@ -4119,9 +4119,9 @@ function func159() {
         var_62 = 0;
         var_532 = 0;
         var_77 = dim(70, 70);
-        var_78 = dim(300, 30);
+        var_78 = ItemInfo.dim(300);
         var_82 = dim(70, 70);
-        var_83 = dim(300, 40);
+        var_83 = CharactorInfo.dim(300);
         var_73 = dim(70, 70);
         yield func160();
         if (var_66 == 13 && var_67 == 9) {
@@ -4201,42 +4201,42 @@ function func160() {
             var_97 = var_97 + 1;
             var_771 = var_97;
             var_82[13][9] = var_97;
-            var_83[var_97][0] = 55;
-            var_83[var_97][1] = 13;
-            var_83[var_97][2] = 9;
-            var_83[var_97][3] = 20;
-            var_83[var_97][4] = 1;
-            var_83[var_97][5] = 3;
-            var_83[var_97][10] = 1;
-            var_83[var_97][14] = 1;
-            var_83[var_97][31] = 4;
-            var_83[var_97][32] = rnd(6);
+            var_83[var_97].Var0 = 55;
+            var_83[var_97].Var1 = 13;
+            var_83[var_97].Var2 = 9;
+            var_83[var_97].Var3 = 20;
+            var_83[var_97].Var4 = 1;
+            var_83[var_97].Var5 = 3;
+            var_83[var_97].Var10 = 1;
+            var_83[var_97].Var14 = 1;
+            var_83[var_97].Var31 = 4;
+            var_83[var_97].Var32 = rnd(6);
         }
         if (var_759 >= 1) {
             var_97 = var_97 + 1;
             var_761 = var_97;
             var_82[16][7] = var_97;
-            var_83[var_97][0] = 142;
-            var_83[var_97][1] = 16;
-            var_83[var_97][2] = 7;
-            var_83[var_97][3] = 20;
-            var_83[var_97][4] = 0;
-            var_83[var_97][5] = 2;
-            var_83[var_97][10] = 1;
-            var_83[var_97][31] = 4;
-            var_83[var_97][32] = rnd(6);
+            var_83[var_97].Var0 = 142;
+            var_83[var_97].Var1 = 16;
+            var_83[var_97].Var2 = 7;
+            var_83[var_97].Var3 = 20;
+            var_83[var_97].Var4 = 0;
+            var_83[var_97].Var5 = 2;
+            var_83[var_97].Var10 = 1;
+            var_83[var_97].Var31 = 4;
+            var_83[var_97].Var32 = rnd(6);
             var_97 = var_97 + 1;
             var_761 = var_97;
             var_82[18][10] = var_97;
-            var_83[var_97][0] = 173;
-            var_83[var_97][1] = 18;
-            var_83[var_97][2] = 10;
-            var_83[var_97][3] = 20;
-            var_83[var_97][4] = 0;
-            var_83[var_97][5] = 2;
-            var_83[var_97][10] = 1;
-            var_83[var_97][31] = 4;
-            var_83[var_97][32] = rnd(6);
+            var_83[var_97].Var0 = 173;
+            var_83[var_97].Var1 = 18;
+            var_83[var_97].Var2 = 10;
+            var_83[var_97].Var3 = 20;
+            var_83[var_97].Var4 = 0;
+            var_83[var_97].Var5 = 2;
+            var_83[var_97].Var10 = 1;
+            var_83[var_97].Var31 = 4;
+            var_83[var_97].Var32 = rnd(6);
         }
         return;
     });
@@ -4295,12 +4295,12 @@ function func161() {
 function func162() {
     return __awaiter(this, void 0, void 0, function* () {
         dbgprt(162);
-        var_775 = var_83[var_771][1];
-        var_776 = var_83[var_771][2];
+        var_775 = var_83[var_771].Var1;
+        var_776 = var_83[var_771].Var2;
         var_82[var_775][var_776] = 0;
         var_82[13][9] = var_771;
-        var_83[var_771][1] = 13;
-        var_83[var_771][2] = 9;
+        var_83[var_771].Var1 = 13;
+        var_83[var_771].Var2 = 9;
         var_374 = 1;
         var_772 = 1;
         var_777 = 1;
@@ -5852,19 +5852,19 @@ function func174() {
         var_838 = 10;
         var_480 = 1;
         for (var cnt1 = 0; cnt1 < var_224; ++cnt1) {
-            if (var_233[var_480][11] != 1) {
-                var_232 = var_233[var_480][0];
+            if (var_233[var_480].Var11 != 1) {
+                var_232 = var_233[var_480].Var0;
                 yield func492();
                 var_482 = 0;
-                var_482 = (var_233[var_480][3] + var_233[var_480][4]) * 50;
-                if (var_233[var_480][19] > 1) {
-                    var_482 = var_233[var_480][19] * 500 + var_482;
+                var_482 = (var_233[var_480].Var3 + var_233[var_480].Var4) * 50;
+                if (var_233[var_480].Var19 > 1) {
+                    var_482 = var_233[var_480].Var19 * 500 + var_482;
                 }
                 var_838 = var_838 + var_483 + var_482;
             }
-            if (var_233[var_480][0] >= 800 && var_233[var_480][0] < 900) {
+            if (var_233[var_480].Var0 >= 800 && var_233[var_480].Var0 < 900) {
                 var_484 = 1;
-                var_485 = var_233[var_480][6];
+                var_485 = var_233[var_480].Var6;
                 for (var cnt3 = 0; cnt3 < 10; ++cnt3) {
                     if (var_486[var_485][var_484][0] > 0 && var_486[var_485][var_484][11] != 1) {
                         var_232 = var_486[var_485][var_484][0];
@@ -5924,83 +5924,83 @@ function func175() {
         if (var_357 != 0) {
             yield func426();
             var_792[var_793][0][4] = var_357;
-            if (var_233[var_553][13] == 1) {
+            if (var_233[var_553].Var13 == 1) {
                 var_792[var_793][0][4] = var_357 + 1000;
             }
-            if (var_233[var_553][13] == 2) {
+            if (var_233[var_553].Var13 == 2) {
                 var_792[var_793][0][4] = var_357 + 2000;
             }
-            if (var_233[var_553][13] == 3) {
+            if (var_233[var_553].Var13 == 3) {
                 var_792[var_793][0][4] = var_357 + 3000;
             }
-            var_792[var_793][0][5] = var_233[var_553][4];
-            var_792[var_793][0][6] = var_233[var_553][19];
-            var_792[var_793][0][20] = var_233[var_553][20];
-            var_792[var_793][0][21] = var_233[var_553][21];
-            var_792[var_793][0][22] = var_233[var_553][22];
-            var_792[var_793][0][23] = var_233[var_553][23];
-            var_792[var_793][0][24] = var_233[var_553][24];
-            var_792[var_793][0][25] = var_233[var_553][25];
-            var_792[var_793][0][26] = var_233[var_553][26];
-            var_792[var_793][0][27] = var_233[var_553][27];
-            var_792[var_793][0][28] = var_233[var_553][28];
-            var_792[var_793][0][29] = var_233[var_553][29];
-            var_792[var_793][0][53] = var_233[var_553][5];
-            var_792[var_793][0][56] = var_233[var_553][12];
+            var_792[var_793][0][5] = var_233[var_553].Var4;
+            var_792[var_793][0][6] = var_233[var_553].Var19;
+            var_792[var_793][0][20] = var_233[var_553].Var20;
+            var_792[var_793][0][21] = var_233[var_553].Var21;
+            var_792[var_793][0][22] = var_233[var_553].Var22;
+            var_792[var_793][0][23] = var_233[var_553].Var23;
+            var_792[var_793][0][24] = var_233[var_553].Var24;
+            var_792[var_793][0][25] = var_233[var_553].Var25;
+            var_792[var_793][0][26] = var_233[var_553].Var26;
+            var_792[var_793][0][27] = var_233[var_553].Var27;
+            var_792[var_793][0][28] = var_233[var_553].Var28;
+            var_792[var_793][0][29] = var_233[var_553].Var29;
+            var_792[var_793][0][53] = var_233[var_553].Var5;
+            var_792[var_793][0][56] = var_233[var_553].Var12;
         }
         if (var_358 != 0) {
             yield func427();
             var_792[var_793][0][7] = var_358;
-            if (var_233[var_554][13] == 1) {
+            if (var_233[var_554].Var13 == 1) {
                 var_792[var_793][0][7] = var_358 + 1000;
             }
-            if (var_233[var_554][13] == 2) {
+            if (var_233[var_554].Var13 == 2) {
                 var_792[var_793][0][7] = var_358 + 2000;
             }
-            if (var_233[var_554][13] == 3) {
+            if (var_233[var_554].Var13 == 3) {
                 var_792[var_793][0][7] = var_358 + 3000;
             }
-            var_792[var_793][0][8] = var_233[var_554][4];
-            var_792[var_793][0][9] = var_233[var_554][19];
-            var_792[var_793][0][30] = var_233[var_554][20];
-            var_792[var_793][0][31] = var_233[var_554][21];
-            var_792[var_793][0][32] = var_233[var_554][22];
-            var_792[var_793][0][33] = var_233[var_554][23];
-            var_792[var_793][0][34] = var_233[var_554][24];
-            var_792[var_793][0][35] = var_233[var_554][25];
-            var_792[var_793][0][36] = var_233[var_554][26];
-            var_792[var_793][0][37] = var_233[var_554][27];
-            var_792[var_793][0][38] = var_233[var_554][28];
-            var_792[var_793][0][39] = var_233[var_554][29];
-            var_792[var_793][0][54] = var_233[var_554][5];
-            var_792[var_793][0][57] = var_233[var_554][12];
+            var_792[var_793][0][8] = var_233[var_554].Var4;
+            var_792[var_793][0][9] = var_233[var_554].Var19;
+            var_792[var_793][0][30] = var_233[var_554].Var20;
+            var_792[var_793][0][31] = var_233[var_554].Var21;
+            var_792[var_793][0][32] = var_233[var_554].Var22;
+            var_792[var_793][0][33] = var_233[var_554].Var23;
+            var_792[var_793][0][34] = var_233[var_554].Var24;
+            var_792[var_793][0][35] = var_233[var_554].Var25;
+            var_792[var_793][0][36] = var_233[var_554].Var26;
+            var_792[var_793][0][37] = var_233[var_554].Var27;
+            var_792[var_793][0][38] = var_233[var_554].Var28;
+            var_792[var_793][0][39] = var_233[var_554].Var29;
+            var_792[var_793][0][54] = var_233[var_554].Var5;
+            var_792[var_793][0][57] = var_233[var_554].Var12;
         }
         if (var_215 != 0) {
             yield func428();
             var_792[var_793][0][10] = var_215;
-            if (var_233[var_555][13] == 1) {
+            if (var_233[var_555].Var13 == 1) {
                 var_792[var_793][0][10] = var_215 + 1000;
             }
-            if (var_233[var_555][13] == 2) {
+            if (var_233[var_555].Var13 == 2) {
                 var_792[var_793][0][10] = var_215 + 2000;
             }
-            if (var_233[var_555][13] == 3) {
+            if (var_233[var_555].Var13 == 3) {
                 var_792[var_793][0][10] = var_215 + 3000;
             }
-            var_792[var_793][0][11] = var_233[var_555][4];
-            var_792[var_793][0][12] = var_233[var_555][19];
-            var_792[var_793][0][40] = var_233[var_555][20];
-            var_792[var_793][0][41] = var_233[var_555][21];
-            var_792[var_793][0][42] = var_233[var_555][22];
-            var_792[var_793][0][43] = var_233[var_555][23];
-            var_792[var_793][0][44] = var_233[var_555][24];
-            var_792[var_793][0][45] = var_233[var_555][25];
-            var_792[var_793][0][46] = var_233[var_555][26];
-            var_792[var_793][0][47] = var_233[var_555][27];
-            var_792[var_793][0][48] = var_233[var_555][28];
-            var_792[var_793][0][49] = var_233[var_555][29];
-            var_792[var_793][0][55] = var_233[var_555][5];
-            var_792[var_793][0][58] = var_233[var_555][12];
+            var_792[var_793][0][11] = var_233[var_555].Var4;
+            var_792[var_793][0][12] = var_233[var_555].Var19;
+            var_792[var_793][0][40] = var_233[var_555].Var20;
+            var_792[var_793][0][41] = var_233[var_555].Var21;
+            var_792[var_793][0][42] = var_233[var_555].Var22;
+            var_792[var_793][0][43] = var_233[var_555].Var23;
+            var_792[var_793][0][44] = var_233[var_555].Var24;
+            var_792[var_793][0][45] = var_233[var_555].Var25;
+            var_792[var_793][0][46] = var_233[var_555].Var26;
+            var_792[var_793][0][47] = var_233[var_555].Var27;
+            var_792[var_793][0][48] = var_233[var_555].Var28;
+            var_792[var_793][0][49] = var_233[var_555].Var29;
+            var_792[var_793][0][55] = var_233[var_555].Var5;
+            var_792[var_793][0][58] = var_233[var_555].Var12;
         }
         return;
     });
@@ -7216,21 +7216,21 @@ function func181() {
                 var_447 = var_853[var_852][1];
                 var_449 = var_853[var_852][2];
                 var_77[var_447][var_449] = var_854;
-                var_78[var_854][0] = var_853[var_852][0];
-                var_78[var_854][1] = var_853[var_852][1];
-                var_78[var_854][2] = var_853[var_852][2];
-                var_78[var_854][3] = var_853[var_852][3];
-                var_78[var_854][4] = var_853[var_852][4];
-                var_78[var_854][5] = var_853[var_852][5];
-                var_78[var_854][6] = var_853[var_852][6];
-                var_78[var_854][7] = var_853[var_852][7];
-                var_78[var_854][8] = var_853[var_852][8];
-                if (var_78[var_854][0] >= 800 && var_78[var_854][0] < 900) {
+                var_78[var_854].Var0 = var_853[var_852][0];
+                var_78[var_854].Var1 = var_853[var_852][1];
+                var_78[var_854].Var2 = var_853[var_852][2];
+                var_78[var_854].Var3 = var_853[var_852][3];
+                var_78[var_854].Var4 = var_853[var_852][4];
+                var_78[var_854].Var5 = var_853[var_852][5];
+                var_78[var_854].Var6 = var_853[var_852][6];
+                var_78[var_854].Var7 = var_853[var_852][7];
+                var_78[var_854].Var8 = var_853[var_852][8];
+                if (var_78[var_854].Var0 >= 800 && var_78[var_854].Var0 < 900) {
                     var_855 = dim(100);
                     var_856 = 1;
                     for (var cnt4 = 0; cnt4 < var_224; ++cnt4) {
-                        if (var_233[var_856][0] >= 800 && var_233[var_856][0] < 900) {
-                            var_857 = var_233[var_856][6];
+                        if (var_233[var_856].Var0 >= 800 && var_233[var_856].Var0 < 900) {
+                            var_857 = var_233[var_856].Var6;
                             var_855[var_857]++;
                         }
                         var_856++;
@@ -7242,15 +7242,15 @@ function func181() {
                             var_855[var_857]++;
                             if (var_855[var_857] >= 2) {
                                 yield func395();
-                                var_78[var_854][6] = var_858;
-                                var_78[var_854][7] = var_853[var_852][7] + var_853[var_852][8];
-                                var_78[var_854][8] = 0;
+                                var_78[var_854].Var6 = var_858;
+                                var_78[var_854].Var7 = var_853[var_852][7] + var_853[var_852][8];
+                                var_78[var_854].Var8 = 0;
                             }
                         }
                         var_856++;
                     }
                     var_859 = 1;
-                    var_860 = var_78[var_854][6];
+                    var_860 = var_78[var_854].Var6;
                     for (var cnt4 = 0; cnt4 < 10; ++cnt4) {
                         if (var_486[var_860][var_859][0] != 0) {
                             var_486[var_860][var_859][14] = 1;
@@ -7260,28 +7260,28 @@ function func181() {
                         var_859++;
                     }
                 }
-                var_78[var_854][9] = var_853[var_852][9];
-                var_78[var_854][10] = 1;
-                var_78[var_854][11] = var_853[var_852][11];
-                var_78[var_854][12] = var_853[var_852][12];
-                var_78[var_854][13] = var_853[var_852][13];
-                var_78[var_854][14] = 1;
-                var_78[var_854][15] = var_853[var_852][15];
-                var_78[var_854][16] = var_853[var_852][16];
-                var_78[var_854][17] = var_853[var_852][17];
-                var_78[var_854][18] = var_853[var_852][18];
-                var_78[var_854][19] = var_853[var_852][19];
-                var_78[var_854][20] = var_853[var_852][20];
-                var_78[var_854][21] = var_853[var_852][21];
-                var_78[var_854][22] = var_853[var_852][22];
-                var_78[var_854][23] = var_853[var_852][23];
-                var_78[var_854][24] = var_853[var_852][24];
-                var_78[var_854][25] = var_853[var_852][25];
-                var_78[var_854][26] = var_853[var_852][26];
-                var_78[var_854][27] = var_853[var_852][27];
-                var_78[var_854][28] = var_853[var_852][28];
-                var_78[var_854][29] = var_853[var_852][29];
-                var_861 = var_78[var_854][0];
+                var_78[var_854].Var9 = var_853[var_852][9];
+                var_78[var_854].Var10 = 1;
+                var_78[var_854].Var11 = var_853[var_852][11];
+                var_78[var_854].Var12 = var_853[var_852][12];
+                var_78[var_854].Var13 = var_853[var_852][13];
+                var_78[var_854].Var14 = 1;
+                var_78[var_854].Var15 = var_853[var_852][15];
+                var_78[var_854].Var16 = var_853[var_852][16];
+                var_78[var_854].Var17 = var_853[var_852][17];
+                var_78[var_854].Var18 = var_853[var_852][18];
+                var_78[var_854].Var19 = var_853[var_852][19];
+                var_78[var_854].Var20 = var_853[var_852][20];
+                var_78[var_854].Var21 = var_853[var_852][21];
+                var_78[var_854].Var22 = var_853[var_852][22];
+                var_78[var_854].Var23 = var_853[var_852][23];
+                var_78[var_854].Var24 = var_853[var_852][24];
+                var_78[var_854].Var25 = var_853[var_852][25];
+                var_78[var_854].Var26 = var_853[var_852][26];
+                var_78[var_854].Var27 = var_853[var_852][27];
+                var_78[var_854].Var28 = var_853[var_852][28];
+                var_78[var_854].Var29 = var_853[var_852][29];
+                var_861 = var_78[var_854].Var0;
                 var_862[var_861][0] = 1;
                 var_336++;
             }
@@ -7305,36 +7305,36 @@ function func182() {
                     var_863[var_447][var_449] = var_864;
                     var_865 = var_864;
                     var_866 = var_77[var_447][var_449];
-                    var_853[var_865][0] = var_78[var_866][0];
+                    var_853[var_865][0] = var_78[var_866].Var0;
                     var_853[var_865][1] = var_447;
                     var_853[var_865][2] = var_449;
-                    var_853[var_865][3] = var_78[var_866][3];
-                    var_853[var_865][4] = var_78[var_866][4];
-                    var_853[var_865][5] = var_78[var_866][5];
-                    var_853[var_865][6] = var_78[var_866][6];
-                    var_853[var_865][7] = var_78[var_866][7];
-                    var_853[var_865][8] = var_78[var_866][8];
-                    var_853[var_865][9] = var_78[var_866][9];
-                    var_853[var_865][10] = var_78[var_866][10];
-                    var_853[var_865][11] = var_78[var_866][11];
-                    var_853[var_865][12] = var_78[var_866][12];
-                    var_853[var_865][13] = var_78[var_866][13];
-                    var_853[var_865][14] = var_78[var_866][14];
-                    var_853[var_865][15] = var_78[var_866][15];
-                    var_853[var_865][16] = var_78[var_866][16];
-                    var_853[var_865][17] = var_78[var_866][17];
-                    var_853[var_865][18] = var_78[var_866][18];
-                    var_853[var_865][19] = var_78[var_866][19];
-                    var_853[var_865][20] = var_78[var_866][20];
-                    var_853[var_865][21] = var_78[var_866][21];
-                    var_853[var_865][22] = var_78[var_866][22];
-                    var_853[var_865][23] = var_78[var_866][23];
-                    var_853[var_865][24] = var_78[var_866][24];
-                    var_853[var_865][25] = var_78[var_866][25];
-                    var_853[var_865][26] = var_78[var_866][26];
-                    var_853[var_865][27] = var_78[var_866][27];
-                    var_853[var_865][28] = var_78[var_866][28];
-                    var_853[var_865][29] = var_78[var_866][29];
+                    var_853[var_865][3] = var_78[var_866].Var3;
+                    var_853[var_865][4] = var_78[var_866].Var4;
+                    var_853[var_865][5] = var_78[var_866].Var5;
+                    var_853[var_865][6] = var_78[var_866].Var6;
+                    var_853[var_865][7] = var_78[var_866].Var7;
+                    var_853[var_865][8] = var_78[var_866].Var8;
+                    var_853[var_865][9] = var_78[var_866].Var9;
+                    var_853[var_865][10] = var_78[var_866].Var10;
+                    var_853[var_865][11] = var_78[var_866].Var11;
+                    var_853[var_865][12] = var_78[var_866].Var12;
+                    var_853[var_865][13] = var_78[var_866].Var13;
+                    var_853[var_865][14] = var_78[var_866].Var14;
+                    var_853[var_865][15] = var_78[var_866].Var15;
+                    var_853[var_865][16] = var_78[var_866].Var16;
+                    var_853[var_865][17] = var_78[var_866].Var17;
+                    var_853[var_865][18] = var_78[var_866].Var18;
+                    var_853[var_865][19] = var_78[var_866].Var19;
+                    var_853[var_865][20] = var_78[var_866].Var20;
+                    var_853[var_865][21] = var_78[var_866].Var21;
+                    var_853[var_865][22] = var_78[var_866].Var22;
+                    var_853[var_865][23] = var_78[var_866].Var23;
+                    var_853[var_865][24] = var_78[var_866].Var24;
+                    var_853[var_865][25] = var_78[var_866].Var25;
+                    var_853[var_865][26] = var_78[var_866].Var26;
+                    var_853[var_865][27] = var_78[var_866].Var27;
+                    var_853[var_865][28] = var_78[var_866].Var28;
+                    var_853[var_865][29] = var_78[var_866].Var29;
                 }
                 var_447 = var_447 + 1;
             }
@@ -7466,7 +7466,7 @@ function func187() {
         var_876 = "";
         var_883 = 1;
         for (var cnt1 = 0; cnt1 < var_224; ++cnt1) {
-            var_232 = var_233[var_883][0];
+            var_232 = var_233[var_883].Var0;
             yield func492();
             var_876 = var_876 + "\n" + var_489;
             var_883 = var_883 + 1;
@@ -7535,17 +7535,17 @@ function func191() {
             stop();
         }
         var_224 = var_224 + 1;
-        var_233[var_224][0] = var_884[var_873];
-        var_892 = var_233[var_224][0];
-        if (var_233[var_224][0] >= 100 && var_233[var_224][0] < 400) {
-            var_233[var_224][16] = 10;
-            var_233[var_224][14] = 1;
-            var_233[var_224][5] = 5;
-            var_233[var_224][19] = 1;
+        var_233[var_224].Var0 = var_884[var_873];
+        var_892 = var_233[var_224].Var0;
+        if (var_233[var_224].Var0 >= 100 && var_233[var_224].Var0 < 400) {
+            var_233[var_224].Var16 = 10;
+            var_233[var_224].Var14 = 1;
+            var_233[var_224].Var5 = 5;
+            var_233[var_224].Var19 = 1;
         }
-        var_233[var_224][20] = var_233[var_224][0];
+        var_233[var_224].Var20 = var_233[var_224].Var0;
         if (var_892 >= 400 && var_892 < 500) {
-            var_233[var_224][3] = 10;
+            var_233[var_224].Var3 = 10;
         }
         if (var_878 == 1) {
             var_862[var_892][0] = 0;
@@ -7553,37 +7553,37 @@ function func191() {
         if (var_878 == 0) {
             var_862[var_892][0] = 1;
         }
-        if (var_233[var_224][0] == 122 || var_233[var_224][0] == 200 || var_233[var_224][0] == 311 || var_233[var_224][0] == 310) {
-            var_233[var_224][12] = 1;
+        if (var_233[var_224].Var0 == 122 || var_233[var_224].Var0 == 200 || var_233[var_224].Var0 == 311 || var_233[var_224].Var0 == 310) {
+            var_233[var_224].Var12 = 1;
         }
-        if (var_233[var_224][0] >= 100 && var_233[var_224][0] < 400) {
+        if (var_233[var_224].Var0 >= 100 && var_233[var_224].Var0 < 400) {
             if (var_879 == 0) {
-                var_233[var_224][13] = 0;
+                var_233[var_224].Var13 = 0;
             }
             if (var_879 == 1) {
-                var_233[var_224][13] = 0;
+                var_233[var_224].Var13 = 0;
             }
             if (var_879 == 2) {
-                var_233[var_224][13] = 1;
+                var_233[var_224].Var13 = 1;
             }
             if (var_879 == 3) {
-                var_233[var_224][13] = 2;
+                var_233[var_224].Var13 = 2;
             }
             if (var_879 == 4) {
-                var_233[var_224][13] = 3;
+                var_233[var_224].Var13 = 3;
             }
         }
-        if (var_233[var_224][0] >= 800 && var_233[var_224][0] < 900) {
+        if (var_233[var_224].Var0 >= 800 && var_233[var_224].Var0 < 900) {
             yield func395();
-            var_233[var_224][6] = var_858;
-            var_233[var_224][7] = 6;
-            if (var_233[var_224][0] == 802) {
-                var_233[var_224][7] = 10;
+            var_233[var_224].Var6 = var_858;
+            var_233[var_224].Var7 = 6;
+            if (var_233[var_224].Var0 == 802) {
+                var_233[var_224].Var7 = 10;
             }
-            var_233[var_224][8] = 0;
-            if (var_233[var_224][0] == 851) {
-                var_233[var_224][7] = var_233[var_224][7] - 1;
-                var_233[var_224][8] = 1;
+            var_233[var_224].Var8 = 0;
+            if (var_233[var_224].Var0 == 851) {
+                var_233[var_224].Var7 = var_233[var_224].Var7 - 1;
+                var_233[var_224].Var8 = 1;
                 var_893 = rnd(2);
                 if (var_893 == 0) {
                     var_486[var_858][1][15] = 37;
@@ -7626,7 +7626,7 @@ function func192() {
         var_897 = 0;
         var_898 = 0;
         var_225 = var_875;
-        var_232 = var_233[var_875][0];
+        var_232 = var_233[var_875].Var0;
         yield func433();
         yield func494();
         var_869 = 1;
